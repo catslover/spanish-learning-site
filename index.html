@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Claire's Spanish Hub</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <header class="topbar">
+      <a class="brand" href="./" aria-label="Claire's Spanish Hub home">
+        <span class="brand-mark">ES</span>
+        <span>
+          <strong>Claire's Spanish Hub</strong>
+          <small>Weekly practice library</small>
+        </span>
+      </a>
+      <nav aria-label="Main navigation">
+        <a href="#library">Library</a>
+        <a href="#practice">Practice</a>
+        <a href="admin.html">Add Week</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="hero-copy">
+          <p class="eyebrow">Homeschool Spanish Academy</p>
+          <h1>Pick your week, practice your words, download your homework.</h1>
+          <p class="hero-text">A simple place for Claire's children to find Spanish class materials without digging through messages or folders.</p>
+          <a class="button primary" href="#library">Open the Library</a>
+        </div>
+        <div class="hero-art" aria-hidden="true">
+          <div class="sun"></div>
+          <div class="hill hill-one"></div>
+          <div class="hill hill-two"></div>
+          <div class="path"></div>
+          <span class="word word-one">hola</span>
+          <span class="word word-two">familia</span>
+          <span class="word word-three">gracias</span>
+          <span class="word word-four">escuela</span>
+        </div>
+      </section>
+
+      <section class="workspace" id="library">
+        <aside class="filters" aria-label="Library filters">
+          <h2>Find Materials</h2>
+          <label>
+            Child
+            <select id="childFilter">
+              <option value="all">All children</option>
+            </select>
+          </label>
+          <label>
+            Week
+            <select id="weekFilter">
+              <option value="all">All weeks</option>
+            </select>
+          </label>
+          <label>
+            Topic
+            <select id="topicFilter">
+              <option value="all">All topics</option>
+            </select>
+          </label>
+          <label>
+            Type
+            <select id="typeFilter">
+              <option value="all">All types</option>
+              <option value="vocabulary">Vocabulary</option>
+              <option value="grammar">Grammar</option>
+              <option value="homework">Homework</option>
+              <option value="practice">Supplemental practice</option>
+            </select>
+          </label>
+          <button class="button secondary" id="resetFilters" type="button">Reset</button>
+        </aside>
+
+        <section class="library-panel" aria-live="polite">
+          <div class="section-heading">
+            <div>
+              <p class="eyebrow">Downloads</p>
+              <h2>Weekly Library</h2>
+            </div>
+            <span id="resultCount" class="count">0 files</span>
+          </div>
+          <div id="materialsGrid" class="materials-grid"></div>
+          <p id="emptyState" class="empty" hidden>No matching materials yet.</p>
+        </section>
+      </section>
+
+      <section class="practice" id="practice">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">Quick Review</p>
+            <h2>Vocabulary Flashcards</h2>
+          </div>
+          <button class="button secondary" id="shuffleCards" type="button">Shuffle</button>
+        </div>
+        <div id="flashcardDeck" class="flashcard-deck" aria-live="polite"></div>
+      </section>
+    </main>
+
+    <footer>
+      <p>Made for weekly Spanish practice. Add new files in GitHub, then update <code>data/materials.json</code>.</p>
+    </footer>
+
+    <script src="app.js"></script>
+  </body>
+</html>

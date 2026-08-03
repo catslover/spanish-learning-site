@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Add a Week | Claire's Spanish Hub</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <header class="topbar">
+      <a class="brand" href="./" aria-label="Claire's Spanish Hub home">
+        <span class="brand-mark">ES</span>
+        <span>
+          <strong>Claire's Spanish Hub</strong>
+          <small>Parent update helper</small>
+        </span>
+      </a>
+      <nav aria-label="Main navigation">
+        <a href="./#library">Library</a>
+        <a href="./#practice">Practice</a>
+      </nav>
+    </header>
+
+    <main class="admin-main">
+      <section class="admin-intro">
+        <p class="eyebrow">Weekly Updates</p>
+        <h1>Add a new Spanish week</h1>
+        <p>This helper creates a ready-to-paste entry for <code>data/materials.json</code>. Upload the class files to the matching folder path in GitHub, then paste the entry into the list.</p>
+      </section>
+
+      <section class="admin-grid">
+        <form id="entryForm" class="entry-form">
+          <label>
+            Child name
+            <input id="childName" name="childName" value="Child 1" required>
+          </label>
+          <label>
+            Week label
+            <input id="weekLabel" name="weekLabel" value="Week 02" required>
+          </label>
+          <label>
+            Topic
+            <input id="topic" name="topic" placeholder="Greetings, colors, family..." required>
+          </label>
+          <label>
+            Material type
+            <select id="materialType" name="materialType">
+              <option value="vocabulary">Vocabulary</option>
+              <option value="grammar">Grammar</option>
+              <option value="homework">Homework</option>
+              <option value="practice">Supplemental practice</option>
+            </select>
+          </label>
+          <label>
+            File name
+            <input id="fileName" name="fileName" placeholder="week-02-homework.pdf" required>
+          </label>
+          <label>
+            Short note for kids
+            <input id="note" name="note" placeholder="Complete before next class." required>
+          </label>
+          <label>
+            Vocabulary words
+            <textarea id="words" name="words" rows="4" placeholder="hola = hello&#10;adios = goodbye"></textarea>
+          </label>
+          <button class="button primary" type="submit">Make Entry</button>
+        </form>
+
+        <section class="output-panel">
+          <h2>Generated Entry</h2>
+          <pre id="jsonOutput">Fill out the form to create an entry.</pre>
+          <h2>Folder Path</h2>
+          <pre id="folderOutput">materials/child-1/week-02/</pre>
+        </section>
+      </section>
+
+      <section class="steps">
+        <h2>Claire's weekly routine</h2>
+        <ol>
+          <li>Rename files clearly, such as <code>week-02-homework.pdf</code>.</li>
+          <li>Upload them to <code>materials/child-name/week-02/</code> in the GitHub repository.</li>
+          <li>Open <code>data/materials.json</code> in GitHub and add the generated entry inside the <code>materials</code> list.</li>
+          <li>Save the change. GitHub Pages will update the website shortly after.</li>
+        </ol>
+      </section>
+    </main>
+
+    <script src="admin.js"></script>
+  </body>
+</html>

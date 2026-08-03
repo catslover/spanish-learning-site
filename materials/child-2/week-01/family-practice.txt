@@ -1,0 +1,10 @@
+Week 01 Supplemental Practice: Family
+
+mama = mom
+papa = dad
+hermano = brother
+hermana = sister
+familia = family
+
+Practice:
+Say "mi familia" and name three family members.

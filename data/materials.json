@@ -1,0 +1,84 @@
+{
+  "children": [
+    {
+      "id": "child-1",
+      "name": "Child 1"
+    },
+    {
+      "id": "child-2",
+      "name": "Child 2"
+    }
+  ],
+  "materials": [
+    {
+      "id": "child-1-week-01-vocabulary",
+      "childId": "child-1",
+      "week": "Week 01",
+      "topic": "Greetings and introductions",
+      "type": "vocabulary",
+      "title": "Greeting Words",
+      "note": "Review these words before class.",
+      "file": "materials/child-1/week-01/greetings-vocabulary.txt",
+      "words": [
+        {
+          "spanish": "hola",
+          "english": "hello"
+        },
+        {
+          "spanish": "adios",
+          "english": "goodbye"
+        },
+        {
+          "spanish": "gracias",
+          "english": "thank you"
+        }
+      ]
+    },
+    {
+      "id": "child-1-week-01-homework",
+      "childId": "child-1",
+      "week": "Week 01",
+      "topic": "Greetings and introductions",
+      "type": "homework",
+      "title": "Week 01 Homework",
+      "note": "Complete the worksheet and bring it to the next lesson.",
+      "file": "materials/child-1/week-01/week-01-homework.txt",
+      "words": []
+    },
+    {
+      "id": "child-2-week-01-practice",
+      "childId": "child-2",
+      "week": "Week 01",
+      "topic": "Family",
+      "type": "practice",
+      "title": "Family Practice",
+      "note": "Say each sentence out loud twice.",
+      "file": "materials/child-2/week-01/family-practice.txt",
+      "words": [
+        {
+          "spanish": "mama",
+          "english": "mom"
+        },
+        {
+          "spanish": "papa",
+          "english": "dad"
+        },
+        {
+          "spanish": "hermano",
+          "english": "brother"
+        }
+      ]
+    },
+    {
+      "id": "child-2-week-01-grammar",
+      "childId": "child-2",
+      "week": "Week 01",
+      "topic": "Family",
+      "type": "grammar",
+      "title": "Using mi and mis",
+      "note": "Practice choosing singular or plural family words.",
+      "file": "materials/child-2/week-01/mi-mis-grammar.txt",
+      "words": []
+    }
+  ]
+}

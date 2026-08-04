@@ -17,20 +17,17 @@ A simple static website for organizing Homeschool Spanish Academy materials by c
 4. Paste the entry into the `materials` array in `data/materials.json`.
 5. Save and publish through GitHub Pages.
 
-## First Four Classes
+## Current Classes
 
-Starter folders are ready for:
+Current shared class packets are in:
 
-- `materials/child-1/class-01/`
-- `materials/child-1/class-02/`
-- `materials/child-1/class-03/`
-- `materials/child-1/class-04/`
-- `materials/child-2/class-01/`
-- `materials/child-2/class-02/`
-- `materials/child-2/class-03/`
-- `materials/child-2/class-04/`
+- `materials/all-kids/class-01/h1al1-alphabet.pdf`
+- `materials/all-kids/class-02/h1al2-greetings-farewells.pdf`
+- `materials/all-kids/class-03/h1al3-classroom.pdf`
+- `materials/all-kids/class-04/h1al4-subject-pronouns.pdf`
+- `materials/all-kids/class-05/h1al5-origin-nationality.pdf`
 
-When the first four class files are uploaded, add one catalog entry per download file.
+Use `all-kids` for materials both children should see. Use `child-1` or `child-2` only for child-specific homework.
 
 ## Running The Local Preview Server
 

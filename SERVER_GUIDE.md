@@ -33,15 +33,14 @@ Control-C
 
 ## Add class files
 
-Use the folders already prepared for the first four classes:
+Shared class packets are stored in:
 
-- `materials/child-1/class-01/`
-- `materials/child-1/class-02/`
-- `materials/child-1/class-03/`
-- `materials/child-1/class-04/`
-- `materials/child-2/class-01/`
-- `materials/child-2/class-02/`
-- `materials/child-2/class-03/`
-- `materials/child-2/class-04/`
+- `materials/all-kids/class-01/`
+- `materials/all-kids/class-02/`
+- `materials/all-kids/class-03/`
+- `materials/all-kids/class-04/`
+- `materials/all-kids/class-05/`
+
+Use `materials/child-1/` or `materials/child-2/` only when homework is different for each child.
 
 After files are added, open `admin.html`, create a catalog entry, and paste it into `data/materials.json`.

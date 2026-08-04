@@ -11,14 +11,14 @@
   ],
   "materials": [
     {
-      "id": "child-1-week-01-vocabulary",
+      "id": "child-1-class-01-vocabulary",
       "childId": "child-1",
-      "week": "Week 01",
+      "week": "Class 01",
       "topic": "Greetings and introductions",
       "type": "vocabulary",
       "title": "Greeting Words",
       "note": "Review these words before class.",
-      "file": "materials/child-1/week-01/greetings-vocabulary.txt",
+      "file": "materials/child-1/class-01/greetings-vocabulary.txt",
       "words": [
         {
           "spanish": "hola",
@@ -35,25 +35,25 @@
       ]
     },
     {
-      "id": "child-1-week-01-homework",
+      "id": "child-1-class-01-homework",
       "childId": "child-1",
-      "week": "Week 01",
+      "week": "Class 01",
       "topic": "Greetings and introductions",
       "type": "homework",
-      "title": "Week 01 Homework",
+      "title": "Class 01 Homework",
       "note": "Complete the worksheet and bring it to the next lesson.",
-      "file": "materials/child-1/week-01/week-01-homework.txt",
+      "file": "materials/child-1/class-01/class-01-homework.txt",
       "words": []
     },
     {
-      "id": "child-2-week-01-practice",
+      "id": "child-2-class-01-practice",
       "childId": "child-2",
-      "week": "Week 01",
+      "week": "Class 01",
       "topic": "Family",
       "type": "practice",
       "title": "Family Practice",
       "note": "Say each sentence out loud twice.",
-      "file": "materials/child-2/week-01/family-practice.txt",
+      "file": "materials/child-2/class-01/family-practice.txt",
       "words": [
         {
           "spanish": "mama",
@@ -70,14 +70,14 @@
       ]
     },
     {
-      "id": "child-2-week-01-grammar",
+      "id": "child-2-class-01-grammar",
       "childId": "child-2",
-      "week": "Week 01",
+      "week": "Class 01",
       "topic": "Family",
       "type": "grammar",
       "title": "Using mi and mis",
       "note": "Practice choosing singular or plural family words.",
-      "file": "materials/child-2/week-01/mi-mis-grammar.txt",
+      "file": "materials/child-2/class-01/mi-mis-grammar.txt",
       "words": []
     }
   ]

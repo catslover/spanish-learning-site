@@ -1,4 +1,4 @@
-Week 01 Supplemental Practice: Family
+Class 01 Supplemental Practice: Family
 
 mama = mom
 papa = dad

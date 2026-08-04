@@ -1,21 +1,52 @@
 # Claire's Spanish Hub
 
-A simple static website for organizing Homeschool Spanish Academy materials by child, week, topic, and material type.
+A simple static website for organizing Homeschool Spanish Academy materials by child, class, topic, and material type.
 
 ## What is included
 
 - `index.html` is the kids' download and flashcard page.
-- `admin.html` helps Claire create new entries for the weekly materials list.
+- `admin.html` helps Claire create new entries for the class materials list.
 - `data/materials.json` is the site catalog.
 - `materials/` stores the downloadable files.
 
-## Weekly Update Routine
+## Class Upload Routine
 
-1. Create a folder for the child and week, such as `materials/child-1/week-02/`.
-2. Add the PDFs, worksheets, audio files, or practice notes for that week.
+1. Create or open a folder for the child and class, such as `materials/child-1/class-02/`.
+2. Add the PDFs, worksheets, audio files, or practice notes for that class.
 3. Open `admin.html`, fill out the form, and copy the generated entry.
 4. Paste the entry into the `materials` array in `data/materials.json`.
 5. Save and publish through GitHub Pages.
+
+## First Four Classes
+
+Starter folders are ready for:
+
+- `materials/child-1/class-01/`
+- `materials/child-1/class-02/`
+- `materials/child-1/class-03/`
+- `materials/child-1/class-04/`
+- `materials/child-2/class-01/`
+- `materials/child-2/class-02/`
+- `materials/child-2/class-03/`
+- `materials/child-2/class-04/`
+
+When the first four class files are uploaded, add one catalog entry per download file.
+
+## Running The Local Preview Server
+
+Open a terminal in the `spanish-learning-site` folder and run:
+
+```sh
+python3 -m http.server 4173
+```
+
+Then open:
+
+```text
+http://127.0.0.1:4173/
+```
+
+Keep that terminal window open while previewing the site. To stop the server, click the terminal and press `Control-C`.
 
 ## GitHub Pages Setup
 

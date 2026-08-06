@@ -1,0 +1,198 @@
+{
+  "items": [
+    {
+      "number": 1,
+      "type": "Lesson",
+      "title": "Lesson 1: The Alphabet",
+      "description": "This lesson includes the alphabet, consonants and vowels, special combinations of syllables, and vocabulary related to the alphabet.",
+      "materialId": "lesson-01-alphabet"
+    },
+    {
+      "number": 2,
+      "type": "Lesson",
+      "title": "Lesson 2: Greetings and Farewells",
+      "description": "This lesson includes the vocabulary of greetings and farewells, and basic dialogues related to the topic.",
+      "materialId": "lesson-02-greetings"
+    },
+    {
+      "number": 3,
+      "type": "Lesson",
+      "title": "Lesson 3: The Classroom",
+      "description": "This lesson includes vocabulary and expressions used in the classroom, and information to identify people and things.",
+      "materialId": "lesson-03-classroom"
+    },
+    {
+      "number": 4,
+      "type": "Review",
+      "title": "Review: Greetings, Farewells and The Classroom",
+      "description": "Greetings, Farewells and The Classroom"
+    },
+    {
+      "number": 5,
+      "type": "Quiz",
+      "title": "Quiz: Lessons 2 and 3",
+      "description": "This quiz evaluates lesson 2 greetings and farewells, lesson 3 the classroom."
+    },
+    {
+      "number": 6,
+      "type": "Lesson",
+      "title": "Lesson 4: Subject Pronouns",
+      "description": "This lesson includes personal pronouns, the verb llamarse, general information related to possessive adjectives and family, and a reading and writing exercise.",
+      "materialId": "lesson-04-subject-pronouns"
+    },
+    {
+      "number": 7,
+      "type": "Review",
+      "title": "Review: Lessons 1-4",
+      "description": "The Alphabet, Greetings and Farewells, The Classroom and Subject Pronouns."
+    },
+    {
+      "number": 8,
+      "type": "Exam",
+      "title": "Exam: Lessons 1-4",
+      "description": "This exam evaluates lesson 1 the alphabet, lesson 2 greetings and farewells, lesson 3 the classroom, and lesson 4 subject pronouns."
+    },
+    {
+      "number": 9,
+      "type": "Lesson",
+      "title": "Lesson 5: Origin and Nationality",
+      "description": "This lesson includes the verb ser and its conjugation; vocabulary for different countries and nationalities.",
+      "materialId": "lesson-05-origin-nationality"
+    },
+    {
+      "number": 10,
+      "type": "Lesson",
+      "title": "Lesson 6: Descriptions and Colors",
+      "description": "This lesson includes the verb ser, a list of common adjectives, concordance of gender and number of adjectives in Spanish, and a list of colors.",
+      "materialId": "lesson-06-ser-descriptions-colors"
+    },
+    {
+      "number": 11,
+      "type": "Review",
+      "title": "Review: Origin, Nationalities, Descriptions and Colors",
+      "description": "Origin and Nationalities and To Be: Descriptions and Colors"
+    },
+    {
+      "number": 12,
+      "type": "Quiz",
+      "title": "Quiz: Lessons 5 and 6",
+      "description": "This quiz evaluates lesson 5 the verb ser and origin and nationalities, lesson 6 the verb ser and descriptions."
+    },
+    {
+      "number": 13,
+      "type": "Lesson",
+      "title": "Lesson 7: Professions and Occupations",
+      "description": "This lesson is about professions and occupations.",
+      "materialId": "lesson-07-professions-occupations"
+    },
+    {
+      "number": 14,
+      "type": "Lesson",
+      "title": "Lesson 8: There Is and There Are",
+      "description": "This lesson includes the impersonal form of haber, there is/there are, specific examples, and vocabulary of the parts of a house.",
+      "materialId": "lesson-08-hay-house-parts"
+    },
+    {
+      "number": 15,
+      "type": "Review",
+      "title": "Review: Lessons 5-8",
+      "description": "Origin and Nationalities, To Be: Descriptions and Colors, Professions and Occupations and There is/are (Impersonal)."
+    },
+    {
+      "number": 16,
+      "type": "Exam",
+      "title": "Exam: Lessons 5-8",
+      "description": "This exam evaluates lesson 5 the verb ser, origin and nationalities, lesson 6 the verb ser and description, lesson 7 professions and occupations, and lesson 8 there is/there are (impersonal)."
+    },
+    {
+      "number": 17,
+      "type": "Lesson",
+      "title": "Lesson 9: Cardinal Numbers",
+      "description": "This lesson includes the correct writing and pronunciation of cardinal numbers in Spanish; the verb costar used with prices, and specific examples and practice.",
+      "materialId": "lesson-09-cardinal-numbers"
+    },
+    {
+      "number": 18,
+      "type": "Lesson",
+      "title": "Lesson 10: The Time and Events",
+      "description": "This lesson includes the verb ser used to ask about the hour or the time of an event; it also includes a list of the most common events.",
+      "materialId": "lesson-10-time-events"
+    },
+    {
+      "number": 19,
+      "type": "Review",
+      "title": "Review: Cardinal Numbers, Time and Events",
+      "description": "Cardinal Numbers and The Time and Events"
+    },
+    {
+      "number": 20,
+      "type": "Quiz",
+      "title": "Quiz: Lessons 9 and 10",
+      "description": "This quiz evaluates lesson 9 cardinal numbers, and lesson 10 the time and events."
+    },
+    {
+      "number": 21,
+      "type": "Lesson",
+      "title": "Lesson 11: Date and Seasons",
+      "description": "This lesson includes the verb ser used to ask about the date; it also includes a list of days of the week, months of the year and seasons.",
+      "materialId": "lesson-11-date-seasons"
+    },
+    {
+      "number": 22,
+      "type": "Lesson",
+      "title": "Lesson 12: Conditions and States",
+      "description": "This lesson includes the verb estar and its conjugation, a list of adjectives used with this verb, and specific examples and practice.",
+      "materialId": "lesson-12-estar-conditions-states"
+    },
+    {
+      "number": 23,
+      "type": "Review",
+      "title": "Review: Lessons 9-12",
+      "description": "Cardinal Numbers, The Time and Events, The Date and Seasons and Conditions and States."
+    },
+    {
+      "number": 24,
+      "type": "Exam",
+      "title": "Exam: Lessons 9-12",
+      "description": "This exam evaluates lesson 9 cardinal numbers, lesson 10 the time and events, lesson 11 the date and seasons, and lesson 12 the verb estar, conditions and states."
+    },
+    {
+      "number": 25,
+      "type": "Lesson",
+      "title": "Lesson 13: Places and Locations",
+      "description": "This lesson includes the verb estar, a list of prepositions used with this verb and vocabulary of places; it also includes a reading and writing exercise.",
+      "materialId": "lesson-13-places-locations"
+    },
+    {
+      "number": 26,
+      "type": "Lesson",
+      "title": "Lesson 14: Verb To Want",
+      "description": "This lesson includes the verb querer, its conjugation and uses, and a list of vegetables.",
+      "materialId": "lesson-14-querer-vegetables"
+    },
+    {
+      "number": 27,
+      "type": "Review",
+      "title": "Review: Places, Querer and Vegetables",
+      "description": "Places and Locations and Verb To Want and Vegetables"
+    },
+    {
+      "number": 28,
+      "type": "Quiz",
+      "title": "Quiz: Lessons 13 and 14",
+      "description": "This quiz evaluates lesson 13 the verb estar places and location, and lesson 14 the verb querer and vegetables."
+    },
+    {
+      "number": 29,
+      "type": "Review",
+      "title": "Review: Lessons 1-14",
+      "description": "Lessons from 1 to 14"
+    },
+    {
+      "number": 30,
+      "type": "Exam",
+      "title": "Exam: Lessons 1-14",
+      "description": "This exam evaluates lessons from 1 to 14."
+    }
+  ]
+}

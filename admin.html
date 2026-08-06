@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Add a Week | Claire's Spanish Hub</title>
+    <title>Parent Tools | Claire's Spanish Hub</title>
     <link rel="stylesheet" href="styles.css">
   </head>
   <body>
@@ -16,7 +16,9 @@
         </span>
       </a>
       <nav aria-label="Main navigation">
+        <a href="./#current">Current</a>
         <a href="./#library">Library</a>
+        <a href="./#schedule">Schedule</a>
         <a href="./#practice">Practice</a>
       </nav>
     </header>
@@ -24,8 +26,22 @@
     <main class="admin-main">
       <section class="admin-intro">
         <p class="eyebrow">Weekly Updates</p>
-        <h1>Add a Spanish class</h1>
-        <p>This helper creates a ready-to-paste entry for <code>data/materials.json</code>. Upload the class file or homework to the matching folder path, then paste the entry into the list.</p>
+        <h1>Parent tools</h1>
+        <p>Use the current-week setting to move the kids through the HSA sequence. Use the entry helper only when you add child-specific homework or extra practice.</p>
+      </section>
+
+      <section class="steps">
+        <h2>Set the current week</h2>
+        <ol>
+          <li>Open <code>data/site-config.json</code>.</li>
+          <li>Change <code>currentScheduleNumber</code> to the curriculum number you want, from <code>1</code> to <code>30</code>.</li>
+          <li>Save the file and refresh the site.</li>
+        </ol>
+        <pre>{
+  "programTitle": "Homeschool Spanish Academy High School Level 1",
+  "currentScheduleNumber": 1,
+  "currentLabel": "Current Week"
+}</pre>
       </section>
 
       <section class="admin-grid">
@@ -35,8 +51,12 @@
             <input id="childName" name="childName" value="Child 1" required>
           </label>
           <label>
+            Curriculum number
+            <input id="scheduleNumber" name="scheduleNumber" value="1" type="number" min="1" max="30" required>
+          </label>
+          <label>
             Class label
-            <input id="weekLabel" name="weekLabel" value="Class 02" required>
+            <input id="weekLabel" name="weekLabel" value="Curriculum #01" required>
           </label>
           <label>
             Topic
@@ -53,7 +73,7 @@
           </label>
           <label>
             File name
-            <input id="fileName" name="fileName" placeholder="class-02-homework.pdf" required>
+            <input id="fileName" name="fileName" placeholder="homework-01.pdf" required>
           </label>
           <label>
             Short note for kids
@@ -70,15 +90,15 @@
           <h2>Generated Entry</h2>
           <pre id="jsonOutput">Fill out the form to create an entry.</pre>
           <h2>Folder Path</h2>
-          <pre id="folderOutput">materials/child-1/class-02/</pre>
+          <pre id="folderOutput">materials/child-1/curriculum-01/</pre>
         </section>
       </section>
 
       <section class="steps">
         <h2>Claire's class upload routine</h2>
         <ol>
-          <li>Rename files clearly, such as <code>class-02-homework.pdf</code>.</li>
-          <li>Upload them to <code>materials/child-name/class-02/</code> in the GitHub repository.</li>
+          <li>Rename files clearly, such as <code>homework-01.pdf</code>.</li>
+          <li>Upload child-specific files to <code>materials/child-name/curriculum-01/</code> in the GitHub repository.</li>
           <li>Open <code>data/materials.json</code> in GitHub and add the generated entry inside the <code>materials</code> list.</li>
           <li>Save the change. GitHub Pages will update the website shortly after.</li>
         </ol>

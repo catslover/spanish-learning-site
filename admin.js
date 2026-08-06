@@ -26,8 +26,8 @@ function parseWords(value) {
 
 function updateFolderPreview() {
   const child = slugify(form.childName.value || "child");
-  const week = slugify(form.weekLabel.value || "week");
-  folderOutput.textContent = `materials/${child}/${week}/`;
+  const scheduleNumber = String(form.scheduleNumber.value || "1").padStart(2, "0");
+  folderOutput.textContent = `materials/${child}/curriculum-${scheduleNumber}/`;
 }
 
 form.addEventListener("input", updateFolderPreview);
@@ -35,17 +35,19 @@ form.addEventListener("input", updateFolderPreview);
 form.addEventListener("submit", (event) => {
   event.preventDefault();
   const childId = slugify(form.childName.value);
-  const weekId = slugify(form.weekLabel.value);
+  const scheduleNumber = Number(form.scheduleNumber.value);
+  const scheduleFolder = `curriculum-${String(scheduleNumber).padStart(2, "0")}`;
   const fileName = form.fileName.value.trim();
   const entry = {
-    id: `${childId}-${weekId}-${slugify(form.materialType.value)}-${slugify(fileName.replace(/\.[^.]+$/, ""))}`,
+    id: `${childId}-${scheduleFolder}-${slugify(form.materialType.value)}-${slugify(fileName.replace(/\.[^.]+$/, ""))}`,
     childId,
+    scheduleNumber,
     week: form.weekLabel.value.trim(),
     topic: form.topic.value.trim(),
     type: form.materialType.value,
     title: fileName.replace(/\.[^.]+$/, "").replace(/[-_]+/g, " "),
     note: form.note.value.trim(),
-    file: `materials/${childId}/${weekId}/${fileName}`,
+    file: `materials/${childId}/${scheduleFolder}/${fileName}`,
     words: parseWords(form.words.value)
   };
 

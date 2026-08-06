@@ -248,9 +248,38 @@ h2 {
 
 .workspace,
 .practice,
+.current-week,
+.schedule,
 .admin-main {
   width: min(1180px, calc(100% - 2rem));
   margin: 0 auto;
+}
+
+.current-week {
+  padding: clamp(2rem, 6vw, 4rem) 0 0;
+}
+
+.current-panel {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  gap: 1rem;
+  align-items: center;
+  border: 2px solid rgba(47, 125, 89, 0.32);
+  border-radius: 8px;
+  padding: 1rem;
+  background: linear-gradient(135deg, #ffffff 0%, #edf7f0 100%);
+  box-shadow: var(--shadow);
+}
+
+.current-panel p {
+  margin: 0.8rem 0 0;
+  color: #394653;
+}
+
+.current-actions {
+  display: grid;
+  min-width: min(100%, 280px);
+  gap: 0.6rem;
 }
 
 .workspace {
@@ -383,6 +412,62 @@ textarea {
   padding: 0 0 clamp(2.5rem, 7vw, 5rem);
 }
 
+.schedule {
+  padding: 0 0 clamp(2rem, 6vw, 4rem);
+}
+
+.schedule-list {
+  display: grid;
+  gap: 0.65rem;
+}
+
+.schedule-item {
+  display: grid;
+  grid-template-columns: 70px minmax(0, 1fr) 120px;
+  gap: 1rem;
+  align-items: center;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  padding: 0.85rem;
+  background: rgba(255, 255, 255, 0.74);
+}
+
+.schedule-item.is-current,
+.material-card.is-current {
+  border-color: rgba(47, 125, 89, 0.58);
+  background: #f1fbf4;
+}
+
+.schedule-number {
+  color: var(--green);
+  font-size: 1.2rem;
+  font-weight: 950;
+}
+
+.schedule-item h3 {
+  margin: 0.35rem 0 0.25rem;
+  font-size: 1.05rem;
+}
+
+.schedule-item p {
+  margin-bottom: 0;
+  color: var(--muted);
+}
+
+.schedule-action {
+  justify-self: end;
+}
+
+.schedule-action a {
+  color: var(--green);
+  font-weight: 900;
+}
+
+.current-tag {
+  background: var(--green);
+  color: white;
+}
+
 .flashcard-deck {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(190px, 1fr));
@@ -495,6 +580,8 @@ pre {
 
   .hero,
   .workspace,
+  .current-panel,
+  .schedule-item,
   .admin-grid {
     grid-template-columns: 1fr;
   }
@@ -518,6 +605,10 @@ pre {
   .section-heading {
     align-items: start;
     flex-direction: column;
+  }
+
+  .schedule-action {
+    justify-self: start;
   }
 }
 

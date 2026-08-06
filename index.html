@@ -16,9 +16,11 @@
         </span>
       </a>
       <nav aria-label="Main navigation">
+        <a href="#current">Current</a>
         <a href="#library">Library</a>
+        <a href="#schedule">Schedule</a>
         <a href="#practice">Practice</a>
-        <a href="admin.html">Add Week</a>
+        <a href="admin.html">Parent</a>
       </nav>
     </header>
 
@@ -26,9 +28,9 @@
       <section class="hero">
         <div class="hero-copy">
           <p class="eyebrow">Homeschool Spanish Academy</p>
-          <h1>Pick your class, practice your words, download your homework.</h1>
-          <p class="hero-text">A simple place for Claire's children to find each Homeschool Spanish Academy class packet, homework, vocabulary, and extra practice. Classes 01-05 are ready to download.</p>
-          <a class="button primary" href="#library">Open the Library</a>
+          <h1>Follow the Spanish curriculum, one week at a time.</h1>
+          <p class="hero-text">A simple place for Claire's children to see the current HSA High School Level 1 week, download lesson packets, and practice vocabulary.</p>
+          <a class="button primary" href="#current">See Current Week</a>
         </div>
         <div class="hero-art" aria-hidden="true">
           <div class="sun"></div>
@@ -42,6 +44,17 @@
         </div>
       </section>
 
+      <section class="current-week" id="current" aria-live="polite">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">Current Week</p>
+            <h2 id="currentTitle">Loading...</h2>
+          </div>
+          <span id="currentBadge" class="count">Curriculum #01</span>
+        </div>
+        <div id="currentPanel" class="current-panel"></div>
+      </section>
+
       <section class="workspace" id="library">
         <aside class="filters" aria-label="Library filters">
           <h2>Find Materials</h2>
@@ -52,9 +65,9 @@
             </select>
           </label>
           <label>
-            Class / Week
+            Curriculum #
             <select id="weekFilter">
-              <option value="all">All weeks</option>
+              <option value="all">All curriculum items</option>
             </select>
           </label>
           <label>
@@ -89,6 +102,17 @@
         </section>
       </section>
 
+      <section class="schedule" id="schedule">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">Program Map</p>
+            <h2>High School Level 1 Schedule</h2>
+          </div>
+          <span id="scheduleCount" class="count">30 items</span>
+        </div>
+        <div id="scheduleList" class="schedule-list"></div>
+      </section>
+
       <section class="practice" id="practice">
         <div class="section-heading">
           <div>
@@ -102,7 +126,7 @@
     </main>
 
     <footer>
-      <p>Made for Spanish practice. Add new class files in GitHub, then update <code>data/materials.json</code>.</p>
+      <p>Made for Spanish practice. Change the current week in <code>data/site-config.json</code>.</p>
     </footer>
 
     <script src="app.js"></script>

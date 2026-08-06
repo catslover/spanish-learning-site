@@ -1,181 +1,252 @@
 {
   "children": [
-    {
-      "id": "all-kids",
-      "name": "All Kids"
-    },
-    {
-      "id": "child-1",
-      "name": "Child 1"
-    },
-    {
-      "id": "child-2",
-      "name": "Child 2"
-    }
+    { "id": "all-kids", "name": "All Kids" },
+    { "id": "child-1", "name": "Child 1" },
+    { "id": "child-2", "name": "Child 2" }
   ],
   "materials": [
     {
-      "id": "all-kids-class-01-alphabet",
+      "id": "lesson-01-alphabet",
       "childId": "all-kids",
-      "week": "Class 01",
+      "scheduleNumber": 1,
+      "week": "Curriculum #01",
       "topic": "Alphabet, vowels, and consonants",
       "type": "vocabulary",
       "title": "Lesson 1: The Alphabet",
-      "note": "Practice the Spanish alphabet and the special sounds for C, G, H, J, LL, N, Q, R, V, X, Y, and Z.",
-      "file": "materials/all-kids/class-01/h1al1-alphabet.pdf",
+      "note": "Practice the Spanish alphabet, special syllable combinations, and alphabet vocabulary.",
+      "file": "materials/all-kids/curriculum-01/h1al1-alphabet.pdf",
       "words": [
-        {
-          "spanish": "a",
-          "english": "a"
-        },
-        {
-          "spanish": "be",
-          "english": "b"
-        },
-        {
-          "spanish": "ce",
-          "english": "c"
-        },
-        {
-          "spanish": "eñe",
-          "english": "ñ"
-        },
-        {
-          "spanish": "uve",
-          "english": "v"
-        },
-        {
-          "spanish": "zeta",
-          "english": "z"
-        }
+        { "spanish": "a", "english": "a" },
+        { "spanish": "be", "english": "b" },
+        { "spanish": "ce", "english": "c" },
+        { "spanish": "eñe", "english": "ñ" },
+        { "spanish": "uve", "english": "v" },
+        { "spanish": "zeta", "english": "z" }
       ]
     },
     {
-      "id": "all-kids-class-02-greetings",
+      "id": "lesson-02-greetings",
       "childId": "all-kids",
-      "week": "Class 02",
+      "scheduleNumber": 2,
+      "week": "Curriculum #02",
       "topic": "Greetings and farewells",
       "type": "vocabulary",
-      "title": "Greetings and Farewells",
-      "note": "Review greetings, polite phrases, introductions, and ways to say goodbye.",
-      "file": "materials/all-kids/class-02/h1al2-greetings-farewells.pdf",
+      "title": "Lesson 2: Greetings and Farewells",
+      "note": "Review greetings, polite phrases, introductions, farewells, and basic dialogues.",
+      "file": "materials/all-kids/curriculum-02/h1al2-greetings-farewells.pdf",
       "words": [
-        {
-          "spanish": "buenos días",
-          "english": "good morning"
-        },
-        {
-          "spanish": "buenas tardes",
-          "english": "good afternoon"
-        },
-        {
-          "spanish": "¿Cómo estás?",
-          "english": "how are you?"
-        },
-        {
-          "spanish": "mucho gusto",
-          "english": "nice to meet you"
-        },
-        {
-          "spanish": "hasta mañana",
-          "english": "see you tomorrow"
-        }
+        { "spanish": "buenos días", "english": "good morning" },
+        { "spanish": "buenas tardes", "english": "good afternoon" },
+        { "spanish": "¿Cómo estás?", "english": "how are you?" },
+        { "spanish": "mucho gusto", "english": "nice to meet you" },
+        { "spanish": "hasta mañana", "english": "see you tomorrow" }
       ]
     },
     {
-      "id": "all-kids-class-03-classroom",
+      "id": "lesson-03-classroom",
       "childId": "all-kids",
-      "week": "Class 03",
+      "scheduleNumber": 3,
+      "week": "Curriculum #03",
       "topic": "Classroom words and expressions",
       "type": "vocabulary",
-      "title": "The Classroom",
-      "note": "Practice classroom objects plus teacher and student phrases for online lessons.",
-      "file": "materials/all-kids/class-03/h1al3-classroom.pdf",
+      "title": "Lesson 3: The Classroom",
+      "note": "Practice classroom vocabulary, class expressions, and identifying people and things.",
+      "file": "materials/all-kids/curriculum-03/h1al3-classroom.pdf",
       "words": [
-        {
-          "spanish": "la clase",
-          "english": "classroom"
-        },
-        {
-          "spanish": "la silla",
-          "english": "chair"
-        },
-        {
-          "spanish": "el cuaderno",
-          "english": "notebook"
-        },
-        {
-          "spanish": "el maestro",
-          "english": "teacher"
-        },
-        {
-          "spanish": "la tarea",
-          "english": "homework"
-        }
+        { "spanish": "la clase", "english": "classroom" },
+        { "spanish": "la silla", "english": "chair" },
+        { "spanish": "el cuaderno", "english": "notebook" },
+        { "spanish": "el maestro", "english": "teacher" },
+        { "spanish": "la tarea", "english": "homework" }
       ]
     },
     {
-      "id": "all-kids-class-04-subject-pronouns",
+      "id": "lesson-04-subject-pronouns",
       "childId": "all-kids",
-      "week": "Class 04",
-      "topic": "Subject pronouns and names",
+      "scheduleNumber": 6,
+      "week": "Curriculum #06",
+      "topic": "Subject pronouns, llamarse, possessives, and family",
       "type": "grammar",
-      "title": "Subject Pronouns",
-      "note": "Review yo, tú, usted, él, ella, nosotros, ustedes, ellos, and how to ask names.",
-      "file": "materials/all-kids/class-04/h1al4-subject-pronouns.pdf",
+      "title": "Lesson 4: Subject Pronouns",
+      "note": "Review personal pronouns, the verb llamarse, possessive adjectives, and family language.",
+      "file": "materials/all-kids/curriculum-06/h1al4-subject-pronouns.pdf",
       "words": [
-        {
-          "spanish": "yo",
-          "english": "I"
-        },
-        {
-          "spanish": "tú",
-          "english": "you, informal"
-        },
-        {
-          "spanish": "usted",
-          "english": "you, formal"
-        },
-        {
-          "spanish": "nosotros",
-          "english": "we"
-        },
-        {
-          "spanish": "ellos",
-          "english": "they"
-        }
+        { "spanish": "yo", "english": "I" },
+        { "spanish": "tú", "english": "you, informal" },
+        { "spanish": "usted", "english": "you, formal" },
+        { "spanish": "nosotros", "english": "we" },
+        { "spanish": "ellos", "english": "they" }
       ]
     },
     {
-      "id": "all-kids-class-05-origin-nationality",
+      "id": "lesson-05-origin-nationality",
       "childId": "all-kids",
-      "week": "Class 05",
-      "topic": "Origin and nationality",
+      "scheduleNumber": 9,
+      "week": "Curriculum #09",
+      "topic": "Ser, countries, and nationalities",
       "type": "vocabulary",
-      "title": "Origin and Nationality",
-      "note": "Extra uploaded packet for countries, nationalities, and where people or things are from.",
-      "file": "materials/all-kids/class-05/h1al5-origin-nationality.pdf",
+      "title": "Lesson 5: Origin and Nationality",
+      "note": "Practice the verb ser with countries, nationalities, and where people or things are from.",
+      "file": "materials/all-kids/curriculum-09/h1al5-origin-nationality.pdf",
       "words": [
-        {
-          "spanish": "estadounidense",
-          "english": "American"
-        },
-        {
-          "spanish": "guatemalteco",
-          "english": "Guatemalan"
-        },
-        {
-          "spanish": "mexicano",
-          "english": "Mexican"
-        },
-        {
-          "spanish": "canadiense",
-          "english": "Canadian"
-        },
-        {
-          "spanish": "español",
-          "english": "Spanish"
-        }
+        { "spanish": "estadounidense", "english": "American" },
+        { "spanish": "guatemalteco", "english": "Guatemalan" },
+        { "spanish": "mexicano", "english": "Mexican" },
+        { "spanish": "canadiense", "english": "Canadian" },
+        { "spanish": "español", "english": "Spanish" }
+      ]
+    },
+    {
+      "id": "lesson-06-ser-descriptions-colors",
+      "childId": "all-kids",
+      "scheduleNumber": 10,
+      "week": "Curriculum #10",
+      "topic": "Ser, descriptions, adjectives, and colors",
+      "type": "grammar",
+      "title": "Lesson 6: Descriptions and Colors",
+      "note": "Practice ser with descriptive adjectives, gender and number agreement, and colors.",
+      "file": "materials/all-kids/curriculum-10/h1al6-ser-descriptions-colors.pdf",
+      "words": [
+        { "spanish": "grande", "english": "big" },
+        { "spanish": "inteligente", "english": "intelligent" },
+        { "spanish": "bonito", "english": "pretty" },
+        { "spanish": "rojo", "english": "red" },
+        { "spanish": "azul", "english": "blue" }
+      ]
+    },
+    {
+      "id": "lesson-07-professions-occupations",
+      "childId": "all-kids",
+      "scheduleNumber": 13,
+      "week": "Curriculum #13",
+      "topic": "Professions and occupations",
+      "type": "vocabulary",
+      "title": "Lesson 7: Professions and Occupations",
+      "note": "Practice professions, occupations, and job vocabulary.",
+      "file": "materials/all-kids/curriculum-13/h1al7-professions-occupations.pdf",
+      "words": [
+        { "spanish": "abogado", "english": "lawyer" },
+        { "spanish": "veterinario", "english": "vet" },
+        { "spanish": "programador", "english": "programmer" },
+        { "spanish": "fisioterapeuta", "english": "physiotherapist" }
+      ]
+    },
+    {
+      "id": "lesson-08-hay-house-parts",
+      "childId": "all-kids",
+      "scheduleNumber": 14,
+      "week": "Curriculum #14",
+      "topic": "Hay, there is/are, and house parts",
+      "type": "grammar",
+      "title": "Lesson 8: There Is and There Are",
+      "note": "Practice the impersonal form hay and vocabulary for parts of a house.",
+      "file": "materials/all-kids/curriculum-14/h1al8-hay-house-parts.pdf",
+      "words": [
+        { "spanish": "hay", "english": "there is / there are" },
+        { "spanish": "¿Qué hay?", "english": "what is there?" },
+        { "spanish": "¿Dónde hay?", "english": "where is there?" }
+      ]
+    },
+    {
+      "id": "lesson-09-cardinal-numbers",
+      "childId": "all-kids",
+      "scheduleNumber": 17,
+      "week": "Curriculum #17",
+      "topic": "Cardinal numbers, prices, and costar",
+      "type": "vocabulary",
+      "title": "Lesson 9: Cardinal Numbers",
+      "note": "Practice cardinal numbers, pronunciation, and using costar with prices.",
+      "file": "materials/all-kids/curriculum-17/h1al9-cardinal-numbers.pdf",
+      "words": [
+        { "spanish": "cero", "english": "zero" },
+        { "spanish": "uno", "english": "one" },
+        { "spanish": "dos", "english": "two" },
+        { "spanish": "cinco", "english": "five" },
+        { "spanish": "diez", "english": "ten" }
+      ]
+    },
+    {
+      "id": "lesson-10-time-events",
+      "childId": "all-kids",
+      "scheduleNumber": 18,
+      "week": "Curriculum #18",
+      "topic": "Time and events",
+      "type": "grammar",
+      "title": "Lesson 10: Asking the Time",
+      "note": "Practice using ser to ask and answer the time, plus common event vocabulary.",
+      "file": "materials/all-kids/curriculum-18/h1al10-time-events.pdf",
+      "words": [
+        { "spanish": "¿Qué hora es?", "english": "what time is it?" },
+        { "spanish": "es la una", "english": "it is one o'clock" },
+        { "spanish": "son las dos", "english": "it is two o'clock" }
+      ]
+    },
+    {
+      "id": "lesson-11-date-seasons",
+      "childId": "all-kids",
+      "scheduleNumber": 21,
+      "week": "Curriculum #21",
+      "topic": "Date, days, months, and seasons",
+      "type": "vocabulary",
+      "title": "Lesson 11: Date and Seasons",
+      "note": "Practice dates, days of the week, months of the year, and seasons.",
+      "file": "materials/all-kids/curriculum-21/h1al11-date-seasons.pdf",
+      "words": [
+        { "spanish": "lunes", "english": "Monday" },
+        { "spanish": "martes", "english": "Tuesday" },
+        { "spanish": "miércoles", "english": "Wednesday" },
+        { "spanish": "sábado", "english": "Saturday" },
+        { "spanish": "domingo", "english": "Sunday" }
+      ]
+    },
+    {
+      "id": "lesson-12-estar-conditions-states",
+      "childId": "all-kids",
+      "scheduleNumber": 22,
+      "week": "Curriculum #22",
+      "topic": "Estar, conditions, and states",
+      "type": "grammar",
+      "title": "Lesson 12: Conditions and States",
+      "note": "Practice estar with physical, mental, and emotional conditions.",
+      "file": "materials/all-kids/curriculum-22/h1al12-estar-conditions-states.pdf",
+      "words": [
+        { "spanish": "estoy", "english": "I am" },
+        { "spanish": "feliz", "english": "happy" },
+        { "spanish": "triste", "english": "sad" },
+        { "spanish": "cansado", "english": "tired" },
+        { "spanish": "enfermo", "english": "sick" }
+      ]
+    },
+    {
+      "id": "lesson-13-places-locations",
+      "childId": "all-kids",
+      "scheduleNumber": 25,
+      "week": "Curriculum #25",
+      "topic": "Estar, places, and locations",
+      "type": "grammar",
+      "title": "Lesson 13: Places and Locations",
+      "note": "Practice estar with prepositions, places, and location vocabulary.",
+      "file": "materials/all-kids/curriculum-25/h1al13-places-locations.pdf",
+      "words": [
+        { "spanish": "lugar", "english": "place" },
+        { "spanish": "estoy", "english": "I am" },
+        { "spanish": "está", "english": "he/she/it is" }
+      ]
+    },
+    {
+      "id": "lesson-14-querer-vegetables",
+      "childId": "all-kids",
+      "scheduleNumber": 26,
+      "week": "Curriculum #26",
+      "topic": "Querer and vegetables",
+      "type": "grammar",
+      "title": "Lesson 14: Verb To Want",
+      "note": "Practice querer, its conjugation and uses, plus vegetable vocabulary.",
+      "file": "materials/all-kids/curriculum-26/h1al14-querer-vegetables.pdf",
+      "words": [
+        { "spanish": "yo quiero", "english": "I want" },
+        { "spanish": "tú quieres", "english": "you want" },
+        { "spanish": "queremos", "english": "we want" }
       ]
     }
   ]

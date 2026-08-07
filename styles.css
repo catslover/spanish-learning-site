@@ -251,6 +251,7 @@ h2 {
 .current-week,
 .progress-tools,
 .schedule,
+.reports,
 .admin-main {
   width: min(1180px, calc(100% - 2rem));
   margin: 0 auto;
@@ -419,6 +420,107 @@ textarea {
 
 .practice {
   padding: 0 0 clamp(2.5rem, 7vw, 5rem);
+}
+
+.reports {
+  padding: 0 0 clamp(2rem, 6vw, 4rem);
+}
+
+.report-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 1rem;
+}
+
+.report-card {
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  padding: 1rem;
+  background: var(--surface);
+  box-shadow: 0 10px 30px rgba(23, 33, 43, 0.08);
+}
+
+.report-card-head {
+  display: flex;
+  align-items: start;
+  justify-content: space-between;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+.report-card h3 {
+  margin: 0;
+  font-size: 1.6rem;
+}
+
+.report-summary {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 0.6rem;
+  margin-bottom: 0.85rem;
+}
+
+.report-summary span {
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  padding: 0.7rem;
+  background: #fffaf2;
+  color: var(--green);
+  font-size: 1rem;
+  font-weight: 950;
+}
+
+.report-summary strong {
+  display: block;
+  margin-bottom: 0.2rem;
+  color: var(--muted);
+  font-size: 0.72rem;
+  text-transform: uppercase;
+}
+
+.report-meta {
+  color: var(--muted);
+  font-weight: 700;
+}
+
+.report-table {
+  margin-top: 1rem;
+}
+
+.report-table h4 {
+  margin: 0 0 0.5rem;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  overflow: hidden;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  font-size: 0.9rem;
+}
+
+th,
+td {
+  border-bottom: 1px solid var(--line);
+  padding: 0.65rem;
+  text-align: left;
+  vertical-align: top;
+}
+
+th {
+  background: #f5eadc;
+  color: #44515d;
+  font-size: 0.76rem;
+  text-transform: uppercase;
+}
+
+tr:last-child td {
+  border-bottom: 0;
+}
+
+.empty.compact {
+  padding: 0.8rem;
 }
 
 .schedule {
@@ -681,6 +783,15 @@ pre {
 
   .progress-tools {
     align-items: start;
+    flex-direction: column;
+  }
+
+  .report-card-head,
+  .report-summary {
+    grid-template-columns: 1fr;
+  }
+
+  .report-card-head {
     flex-direction: column;
   }
 

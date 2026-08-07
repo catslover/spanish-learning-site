@@ -1,6 +1,7 @@
 const state = {
   data: { children: [], materials: [] },
   curriculum: { items: [] },
+  reports: { reports: [] },
   config: { currentScheduleNumber: 1, currentLabel: "Current Week" },
   filters: {
     child: "all",
@@ -27,6 +28,8 @@ const currentPanel = document.querySelector("#currentPanel");
 const scheduleList = document.querySelector("#scheduleList");
 const scheduleCount = document.querySelector("#scheduleCount");
 const resetProgress = document.querySelector("#resetProgress");
+const reportGrid = document.querySelector("#reportGrid");
+const reportCount = document.querySelector("#reportCount");
 const progressKey = "clairesSpanishHub.progress.v1";
 
 const typeLabels = {
@@ -38,19 +41,22 @@ const typeLabels = {
 
 async function loadSite() {
   try {
-    const [materialsResponse, curriculumResponse, configResponse] = await Promise.all([
+    const [materialsResponse, curriculumResponse, configResponse, reportsResponse] = await Promise.all([
       fetch("data/materials.json"),
       fetch("data/curriculum.json"),
-      fetch("data/site-config.json")
+      fetch("data/site-config.json"),
+      fetch("data/report-cards.json")
     ]);
 
     if (!materialsResponse.ok) throw new Error("Unable to load materials.");
     if (!curriculumResponse.ok) throw new Error("Unable to load curriculum.");
     if (!configResponse.ok) throw new Error("Unable to load site settings.");
+    if (!reportsResponse.ok) throw new Error("Unable to load report cards.");
 
     state.data = await materialsResponse.json();
     state.curriculum = await curriculumResponse.json();
     state.config = await configResponse.json();
+    state.reports = await reportsResponse.json();
     state.progress = loadProgress();
     populateFilters();
     render();
@@ -121,6 +127,7 @@ function render() {
   materialsGrid.innerHTML = materials.map(renderMaterial).join("");
   renderCurrentWeek();
   renderSchedule();
+  renderReports();
   renderFlashcards(materials);
 }
 
@@ -241,6 +248,86 @@ function renderMaterial(item) {
       </div>
     </article>
   `;
+}
+
+function renderReports() {
+  const reports = dedupeReports(state.reports.reports || []);
+  reportCount.textContent = `${reports.length} ${reports.length === 1 ? "report" : "reports"}`;
+  reportGrid.innerHTML = reports.map(renderReportCard).join("");
+}
+
+function dedupeReports(reports) {
+  const byStudentAndLabel = new Map();
+  reports.forEach((report) => {
+    byStudentAndLabel.set(`${report.studentId}:${report.label}`, report);
+  });
+  return [...byStudentAndLabel.values()].sort((a, b) => a.studentName.localeCompare(b.studentName));
+}
+
+function renderReportCard(report) {
+  return `
+    <article class="report-card">
+      <div class="report-card-head">
+        <div>
+          <p class="eyebrow">${escapeHtml(report.label)}</p>
+          <h3>${escapeHtml(report.studentName)}</h3>
+        </div>
+        <a class="button primary" href="${encodeURI(report.file)}" download>Download PDF</a>
+      </div>
+      <div class="report-summary">
+        <span><strong>Course</strong>${escapeHtml(report.grades.course)}</span>
+        <span><strong>Homework</strong>${escapeHtml(report.grades.homework)}</span>
+        <span><strong>Quiz</strong>${escapeHtml(report.grades.quiz)}</span>
+        <span><strong>Exam</strong>${escapeHtml(report.grades.exam)}</span>
+      </div>
+      <p class="report-meta">Run ${formatDate(report.runDate)} · Covers ${formatDate(report.startDate)} to ${formatDate(report.endDate)} · ${report.lessonsCovered} lessons · ${escapeHtml(report.creditsEarned)}</p>
+      ${renderReportTable("Homework", report.homework, ["date", "status", "grade", "title"])}
+      ${renderReportTable("Quizzes", report.quizzes, ["date", "title", "grade"])}
+      ${renderReportTable("Exams", report.exams, ["date", "title", "grade"])}
+    </article>
+  `;
+}
+
+function renderReportTable(title, rows, columns) {
+  if (!rows?.length) {
+    return `
+      <section class="report-table">
+        <h4>${escapeHtml(title)}</h4>
+        <p class="empty compact">No ${escapeHtml(title.toLowerCase())} posted yet.</p>
+      </section>
+    `;
+  }
+
+  return `
+    <section class="report-table">
+      <h4>${escapeHtml(title)}</h4>
+      <table>
+        <thead>
+          <tr>${columns.map((column) => `<th>${escapeHtml(titleCase(column))}</th>`).join("")}</tr>
+        </thead>
+        <tbody>
+          ${rows
+            .map((row) => `<tr>${columns.map((column) => `<td>${escapeHtml(formatReportValue(column, row[column]))}</td>`).join("")}</tr>`)
+            .join("")}
+        </tbody>
+      </table>
+    </section>
+  `;
+}
+
+function formatReportValue(column, value) {
+  if (column === "date") return formatDate(value);
+  return value || "";
+}
+
+function titleCase(value) {
+  return value.charAt(0).toUpperCase() + value.slice(1);
+}
+
+function formatDate(value) {
+  if (!value) return "";
+  const [year, month, day] = value.split("-");
+  return `${month}/${day}/${year}`;
 }
 
 function renderFlashcards(materials) {

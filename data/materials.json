@@ -1,8 +1,8 @@
 {
   "children": [
     { "id": "all-kids", "name": "All Kids" },
-    { "id": "child-1", "name": "Child 1" },
-    { "id": "child-2", "name": "Child 2" }
+    { "id": "spencer", "name": "Spencer" },
+    { "id": "victor", "name": "Victor" }
   ],
   "materials": [
     {

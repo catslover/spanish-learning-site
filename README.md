@@ -9,7 +9,9 @@ A simple static website for organizing Homeschool Spanish Academy High School Le
 - `data/materials.json` is the site catalog.
 - `data/curriculum.json` is the full 30-item curriculum sequence.
 - `data/site-config.json` controls the current week highlight.
+- `data/report-cards.json` stores one current report-card entry per child.
 - `materials/` stores the downloadable files.
+- `reports/` stores report-card PDFs.
 
 ## Set The Current Week
 
@@ -30,6 +32,21 @@ Use the screenshot curriculum number, not the lesson PDF number. For example, Le
 The schedule page has a `Done` button for each curriculum item and a `Next` button to move the current focus. These marks are saved in the browser on that computer. They are helpful for the kids' day-to-day progress, but they do not change the official shared site files.
 
 For the official current week shown to everyone, update `currentScheduleNumber` in `data/site-config.json`.
+
+## Report Cards
+
+Current report cards are stored as:
+
+- `reports/spencer/current-report-card.pdf`
+- `reports/victor/current-report-card.pdf`
+
+To update report cards without duplicates:
+
+1. Replace the PDF for that child using the same filename.
+2. Update that child's existing entry in `data/report-cards.json`.
+3. Keep the same report `id`, such as `spencer-current` or `victor-current`.
+
+Do not add a second "current" report card for the same child unless you want to keep history. Later, archived report cards can use labels such as `Fall 2026 Report Card`.
 
 ## Class Upload Routine
 

@@ -54,6 +54,15 @@ Use `materials/child-1/` or `materials/child-2/` only when homework is different
 
 After files are added, open `admin.html`, create a catalog entry, and paste it into `data/materials.json`.
 
+## Update report cards
+
+Use one current report card per child:
+
+- `reports/spencer/current-report-card.pdf`
+- `reports/victor/current-report-card.pdf`
+
+When a new report card is uploaded, replace the matching PDF and update the matching existing entry in `data/report-cards.json`. Keeping the same report ID prevents duplicate entries.
+
 ## Set the current week
 
 Open `data/site-config.json` and change `currentScheduleNumber`.

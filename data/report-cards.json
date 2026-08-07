@@ -7,14 +7,14 @@
       "label": "Current Report Card",
       "runDate": "2026-08-07",
       "startDate": "2026-06-11",
-      "endDate": "2026-08-03",
-      "lessonsCovered": 5,
+      "endDate": "2026-08-06",
+      "lessonsCovered": 6,
       "creditsEarned": "In Progress",
       "file": "reports/spencer/current-report-card.pdf",
       "grades": {
         "homework": "A (95%)",
         "quiz": "A (100%)",
-        "exam": "Not posted",
+        "exam": "A (99%)",
         "course": "A (99%)"
       },
       "quizzes": [
@@ -30,7 +30,13 @@
         { "date": "2026-06-24", "status": "Complete", "grade": "A (95.00%)", "title": "H1AL3" },
         { "date": "2026-08-04", "status": "Complete", "grade": "A (90.00%)", "title": "H1AL4" }
       ],
-      "exams": []
+      "exams": [
+        {
+          "date": "2026-08-07",
+          "title": "Exam 1 H1AE1",
+          "grade": "A (99.20%)"
+        }
+      ]
     },
     {
       "id": "victor-current",
@@ -39,15 +45,15 @@
       "label": "Current Report Card",
       "runDate": "2026-08-07",
       "startDate": "2026-06-11",
-      "endDate": "2026-08-03",
-      "lessonsCovered": 5,
+      "endDate": "2026-08-06",
+      "lessonsCovered": 6,
       "creditsEarned": "In Progress",
       "file": "reports/victor/current-report-card.pdf",
       "grades": {
         "homework": "A (98%)",
         "quiz": "A (94%)",
-        "exam": "Not posted",
-        "course": "A (95%)"
+        "exam": "A (100%)",
+        "course": "A (97%)"
       },
       "quizzes": [
         {
@@ -62,7 +68,13 @@
         { "date": "2026-06-24", "status": "Complete", "grade": "A (100.00%)", "title": "H1AL3" },
         { "date": "2026-08-04", "status": "Complete", "grade": "A (90.00%)", "title": "H1AL4" }
       ],
-      "exams": []
+      "exams": [
+        {
+          "date": "2026-08-07",
+          "title": "Exam 1 H1AE1",
+          "grade": "A (99.70%)"
+        }
+      ]
     }
   ]
 }

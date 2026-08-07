@@ -25,6 +25,12 @@ Open `data/site-config.json` and change one number:
 
 Use the screenshot curriculum number, not the lesson PDF number. For example, Lesson 5 is curriculum item `9`.
 
+## Done And Next Buttons
+
+The schedule page has a `Done` button for each curriculum item and a `Next` button to move the current focus. These marks are saved in the browser on that computer. They are helpful for the kids' day-to-day progress, but they do not change the official shared site files.
+
+For the official current week shown to everyone, update `currentScheduleNumber` in `data/site-config.json`.
+
 ## Class Upload Routine
 
 1. Create or open a folder for the child and curriculum item, such as `materials/child-1/curriculum-09/`.

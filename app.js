@@ -7,7 +7,8 @@ const state = {
     week: "all",
     topic: "all",
     type: "all"
-  }
+  },
+  progress: { done: [] }
 };
 
 const childFilter = document.querySelector("#childFilter");
@@ -25,6 +26,8 @@ const currentBadge = document.querySelector("#currentBadge");
 const currentPanel = document.querySelector("#currentPanel");
 const scheduleList = document.querySelector("#scheduleList");
 const scheduleCount = document.querySelector("#scheduleCount");
+const resetProgress = document.querySelector("#resetProgress");
+const progressKey = "clairesSpanishHub.progress.v1";
 
 const typeLabels = {
   vocabulary: "Vocabulary",
@@ -48,6 +51,7 @@ async function loadSite() {
     state.data = await materialsResponse.json();
     state.curriculum = await curriculumResponse.json();
     state.config = await configResponse.json();
+    state.progress = loadProgress();
     populateFilters();
     render();
   } catch (error) {
@@ -130,21 +134,35 @@ function renderCurrentWeek() {
   }
 
   const materials = getMaterialsForScheduleNumber(currentItem.number);
+  const isDone = state.progress.done.includes(currentItem.number);
+  const nextItem = getNextOpenItem(currentItem.number);
   currentTitle.textContent = currentItem.title;
-  currentBadge.textContent = `${state.config.currentLabel || "Current"} · #${padNumber(currentItem.number)}`;
+  currentBadge.textContent = `${state.config.currentLabel || "Current"} · #${padNumber(currentItem.number)}${isDone ? " · Done" : ""}`;
   currentPanel.innerHTML = `
     <div>
       <div class="material-meta">
         <span class="tag">${escapeHtml(currentItem.type)}</span>
         <span class="tag">Curriculum #${padNumber(currentItem.number)}</span>
+        ${isDone ? '<span class="tag done-tag">Done</span>' : '<span class="tag current-tag">Next</span>'}
       </div>
       <p>${escapeHtml(currentItem.description)}</p>
     </div>
     <div class="current-actions">
       ${materials.length ? materials.map(renderCompactDownload).join("") : '<span class="tag">No download for this item yet</span>'}
+      <button class="button secondary" type="button" data-mark-current="${currentItem.number}">${isDone ? "Mark Not Done" : "Mark Done"}</button>
+      ${nextItem ? `<button class="button secondary" type="button" data-go-next="${nextItem.number}">Go To Next</button>` : ""}
       <button class="button secondary" type="button" data-filter-current="${currentItem.number}">Show This Week</button>
     </div>
   `;
+
+  currentPanel.querySelector("[data-mark-current]")?.addEventListener("click", () => {
+    toggleDone(currentItem.number);
+  });
+
+  currentPanel.querySelector("[data-go-next]")?.addEventListener("click", () => {
+    setCurrentClass(nextItem.number);
+    document.querySelector("#current").scrollIntoView({ behavior: "smooth" });
+  });
 
   currentPanel.querySelector("[data-filter-current]")?.addEventListener("click", () => {
     const material = materials[0];
@@ -163,24 +181,39 @@ function renderCompactDownload(item) {
 function renderSchedule() {
   scheduleCount.textContent = `${state.curriculum.items.length} items`;
   scheduleList.innerHTML = state.curriculum.items.map(renderScheduleItem).join("");
+  scheduleList.querySelectorAll("[data-mark-done]").forEach((button) => {
+    button.addEventListener("click", () => toggleDone(Number(button.dataset.markDone)));
+  });
+  scheduleList.querySelectorAll("[data-set-current]").forEach((button) => {
+    button.addEventListener("click", () => {
+      setCurrentClass(Number(button.dataset.setCurrent));
+      document.querySelector("#current").scrollIntoView({ behavior: "smooth" });
+    });
+  });
 }
 
 function renderScheduleItem(item) {
   const material = item.materialId ? getMaterialById(item.materialId) : null;
   const isCurrent = item.number === Number(state.config.currentScheduleNumber);
+  const isDone = state.progress.done.includes(item.number);
   return `
-    <article class="schedule-item ${isCurrent ? "is-current" : ""}">
+    <article class="schedule-item ${isCurrent ? "is-current" : ""} ${isDone ? "is-done" : ""}">
       <div class="schedule-number">#${padNumber(item.number)}</div>
+      <div class="schedule-type">${escapeHtml(item.type)}</div>
       <div>
         <div class="material-meta">
-          <span class="tag">${escapeHtml(item.type)}</span>
           ${isCurrent ? '<span class="tag current-tag">Current</span>' : ""}
+          ${isDone ? '<span class="tag done-tag">Done</span>' : ""}
         </div>
         <h3>${escapeHtml(item.title)}</h3>
         <p>${escapeHtml(item.description)}</p>
       </div>
       <div class="schedule-action">
         ${material ? `<a href="${encodeURI(material.file)}" download>Download</a>` : '<span class="tag">No file</span>'}
+      </div>
+      <div class="schedule-buttons">
+        <button class="mini-button" type="button" data-mark-done="${item.number}">${isDone ? "Undo" : "Done"}</button>
+        ${isCurrent ? '<span class="tag current-tag">Next</span>' : `<button class="mini-button" type="button" data-set-current="${item.number}">Next</button>`}
       </div>
     </article>
   `;
@@ -238,6 +271,36 @@ function padNumber(value) {
   return String(value).padStart(2, "0");
 }
 
+function loadProgress() {
+  try {
+    const saved = JSON.parse(localStorage.getItem(progressKey));
+    return {
+      done: Array.isArray(saved?.done) ? saved.done.map(Number) : []
+    };
+  } catch {
+    return { done: [] };
+  }
+}
+
+function saveProgress() {
+  localStorage.setItem(progressKey, JSON.stringify(state.progress));
+}
+
+function toggleDone(scheduleNumber) {
+  const number = Number(scheduleNumber);
+  if (state.progress.done.includes(number)) {
+    state.progress.done = state.progress.done.filter((item) => item !== number);
+  } else {
+    state.progress.done = [...new Set([...state.progress.done, number])].sort((a, b) => a - b);
+  }
+  saveProgress();
+  render();
+}
+
+function getNextOpenItem(afterNumber) {
+  return state.curriculum.items.find((item) => item.number > afterNumber && !state.progress.done.includes(item.number));
+}
+
 function escapeHtml(value) {
   return String(value)
     .replaceAll("&", "&amp;")
@@ -268,6 +331,12 @@ shuffleCards.addEventListener("click", () => {
   state.data.materials.forEach((item) => {
     if (item.words) item.words.sort(() => Math.random() - 0.5);
   });
+  render();
+});
+
+resetProgress.addEventListener("click", () => {
+  state.progress = { done: [] };
+  saveProgress();
   render();
 });
 

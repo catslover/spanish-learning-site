@@ -249,6 +249,7 @@ h2 {
 .workspace,
 .practice,
 .current-week,
+.course-overview,
 .progress-tools,
 .schedule,
 .reports,
@@ -282,6 +283,105 @@ h2 {
   display: grid;
   min-width: min(100%, 280px);
   gap: 0.6rem;
+}
+
+.course-overview {
+  display: grid;
+  grid-template-columns: minmax(0, 0.95fr) minmax(340px, 1.05fr);
+  gap: clamp(1.25rem, 4vw, 3rem);
+  align-items: start;
+  padding: clamp(2rem, 6vw, 4rem) 0 0;
+}
+
+.overview-intro {
+  max-width: 640px;
+}
+
+.overview-intro h2 {
+  margin-bottom: 1rem;
+}
+
+.overview-intro p:last-child {
+  margin-bottom: 0;
+  color: #394653;
+  font-size: 1.05rem;
+}
+
+.overview-panel {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  overflow: hidden;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: var(--surface);
+  box-shadow: 0 10px 30px rgba(23, 33, 43, 0.08);
+}
+
+.overview-stat {
+  display: grid;
+  gap: 0.25rem;
+  min-height: 116px;
+  align-content: center;
+  padding: 1rem;
+  border-right: 1px solid var(--line);
+}
+
+.overview-stat:last-child {
+  border-right: 0;
+}
+
+.overview-stat strong {
+  color: var(--green);
+  font-size: clamp(2rem, 4vw, 3.25rem);
+  line-height: 1;
+}
+
+.overview-stat span {
+  color: var(--muted);
+  font-size: 0.85rem;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+
+.goal-grid {
+  grid-column: 1 / -1;
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 1px;
+  overflow: hidden;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: var(--line);
+}
+
+.goal-item {
+  display: grid;
+  align-content: start;
+  gap: 0.6rem;
+  min-height: 230px;
+  padding: 1rem;
+  background: rgba(255, 255, 255, 0.76);
+}
+
+.goal-number {
+  width: max-content;
+  border-radius: 999px;
+  padding: 0.28rem 0.55rem;
+  background: #f4efe7;
+  color: var(--coral);
+  font-size: 0.78rem;
+  font-weight: 950;
+}
+
+.goal-item h3 {
+  margin: 0;
+  font-size: 1.18rem;
+  line-height: 1.15;
+}
+
+.goal-item p {
+  margin-bottom: 0;
+  color: var(--muted);
 }
 
 .progress-tools {
@@ -776,9 +876,23 @@ pre {
 
   .hero,
   .workspace,
+  .course-overview,
   .current-panel,
   .admin-grid {
     grid-template-columns: 1fr;
+  }
+
+  .overview-panel,
+  .goal-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .overview-stat:nth-child(2) {
+    border-right: 0;
+  }
+
+  .overview-stat:nth-child(-n + 2) {
+    border-bottom: 1px solid var(--line);
   }
 
   .progress-tools {
@@ -835,6 +949,26 @@ pre {
     flex-direction: column;
   }
 
+}
+
+@media (max-width: 560px) {
+  .overview-panel,
+  .goal-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .overview-stat,
+  .overview-stat:nth-child(2) {
+    border-right: 0;
+  }
+
+  .overview-stat:nth-child(3) {
+    border-bottom: 1px solid var(--line);
+  }
+
+  .goal-item {
+    min-height: auto;
+  }
 }
 
 @media (prefers-reduced-motion: reduce) {

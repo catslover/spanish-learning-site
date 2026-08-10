@@ -10,6 +10,8 @@ A simple static website for organizing Homeschool Spanish Academy High School Le
 - `data/curriculum.json` is the full 30-item curriculum sequence.
 - `data/site-config.json` controls the current week highlight.
 - `data/report-cards.json` stores one current report-card entry per child.
+- `curriculum/` stores the persistent Spanish I source-of-truth files.
+- `lessons/` stores student-facing companion website lessons.
 - `materials/` stores the downloadable files.
 - `reports/` stores report-card PDFs.
 

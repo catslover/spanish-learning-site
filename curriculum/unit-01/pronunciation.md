@@ -1,8 +1,9 @@
 # U1.1 Pronunciation Workshop
 
-Status: implemented as curriculum source and student-facing website lesson.
+Status: approved curriculum source; student-facing website lesson and audio integration are implemented; printable PDF is planned.
 
 Website lesson: `lessons/u1-1-pronunciation.html`
+Audio specification: `curriculum/unit-01/u1-1-audio-spec.md`
 
 ## Approved Source Constraints
 
@@ -12,7 +13,8 @@ Website lesson: `lessons/u1-1-pronunciation.html`
 - Materials are learner-focused and designed for practice, not lecture.
 - Spanish examples use idiomatic, broadly understood native Spanish.
 - Meaningful regional variation is labeled.
-- Audio practice lives on the website.
+- Audio practice lives on the website as embedded learning media.
+- Website lessons should use adjacent audio controls for each listening target.
 - Printable derivatives should use Listen on Website markers rather than embedding audio.
 - Partner practice is written for Victor and Spencer, with role switching and a progression from modeled to scaffolded to unscripted.
 - Any printable packet generated later must end with exactly one Parent / Instructor / Facilitator reference page.
@@ -48,7 +50,7 @@ Spanish vowels are short and steady.
 | o | round `o` | hola, dos, profesor |
 | u | round `u` | tú, uno, mucho |
 
-Listen on Website marker: vowel set `a, e, i, o, u`.
+Website audio requirement: each vowel and each example word should have its own adjacent audio control.
 
 ### High-Value Consonants And Letter Patterns
 
@@ -63,7 +65,7 @@ Listen on Website marker: vowel set `a, e, i, o, u`.
 | gue / gui | hard `g` sound | Miguel, guitarra, guerra |
 | ce / ci / z | Latin America: `s`; much of Spain: `th` | gracias, cinco, zapato |
 
-Listen on Website marker: consonant patterns.
+Website audio requirement: each practice word should have its own adjacent audio control.
 
 ### Regional Variation To Label
 
@@ -83,6 +85,21 @@ Instructional stance: students should recognize variation and choose one clear, 
    - Scaffolded: Student A reads; Student B chooses the pattern heard.
    - Unscripted: students spell or pronounce a name, place, or family word from memory.
 5. Finish with a quick self-check.
+
+## Approved Audio Integration
+
+Audio is embedded learning media, not a separate resource. On the website lesson, every listening target should have an adjacent play control. The website lesson should not use generic "Listen on Website" placeholders; that phrasing is reserved for printable PDFs.
+
+The approved detailed audio map is stored in `curriculum/unit-01/u1-1-audio-spec.md`.
+
+### Completion Roadmap
+
+- Curriculum source: complete.
+- Student-facing website lesson: exists.
+- Integrated audio controls: implemented.
+- Recorded or generated media assets: implemented as local `.m4a` files.
+- Printable student packet PDF: planned.
+- One-page Parent / Instructor / Facilitator reference: planned as final page of the student packet.
 
 ## Partner Practice Script
 

@@ -13,7 +13,7 @@ Status: active source-of-truth tracker for Spanish I Unit 1.
 
 | Component | Status |
 | --- | --- |
-| Pronunciation Workshop | Current / designing |
+| Pronunciation Workshop | Implemented / website ready; PDF planned |
 | Numbers | Planned |
 | 5 Partner Conversations | Planned |
 | Family Expansion | Planned |

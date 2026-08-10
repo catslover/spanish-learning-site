@@ -8,62 +8,137 @@
     <link rel="stylesheet" href="lesson.css">
   </head>
   <body>
-    <header class="topbar">
+    <header class="topbar lesson-topbar">
       <a class="brand" href="../" aria-label="Claire's Spanish Hub home">
         <span class="brand-mark">ES</span>
         <span>
-          <strong>U1.1 Pronunciation Workshop</strong>
-          <small>Spanish I companion lesson</small>
+          <strong>U1.1 Pronunciation</strong>
+          <small>Unit 1: Asi Soy Yo</small>
         </span>
       </a>
       <nav aria-label="Lesson navigation">
+        <a href="../#path">Path</a>
         <a href="#vowels">Vowels</a>
         <a href="#patterns">Patterns</a>
-        <a href="#partners">Partners</a>
-        <a href="#check">Check</a>
-        <a href="../">Hub</a>
+        <a href="#partners">Practice</a>
+        <a href="../#materials">Materials</a>
       </nav>
     </header>
 
-    <main class="lesson-main">
+    <main class="lesson-main audio-lesson">
       <section class="lesson-hero">
         <div class="lesson-hero-copy">
           <p class="eyebrow">HSA Curriculum #01 Supplement</p>
-          <h1>Make Spanish sounds clear and steady.</h1>
-          <p>Practice the vowel and consonant habits that make Lesson 1 words easier to recognize, read, and say with a partner.</p>
+          <h1>U1.1 Pronunciation Workshop</h1>
+          <p>Build steady Spanish vowels and high-value sound patterns before Victor and Spencer reuse early vocabulary in family and identity work.</p>
           <div class="lesson-actions">
-            <a class="button primary" href="#vowels">Start Practice</a>
-            <button class="button secondary" type="button" data-say="a, e, i, o, u">Listen: Vowels</button>
+            <a class="button primary" href="#vowels">Start Audio Practice</a>
+            <a class="button secondary" href="#partners">Partner Ladder</a>
           </div>
         </div>
-        <div class="sound-map" aria-label="Pronunciation focus map">
-          <div class="sound-ring">
+        <div class="audio-board" aria-label="Lesson audio map">
+          <div class="audio-board-header">
+            <span>Audio Map</span>
+            <strong>45</strong>
+            <span>playable targets</span>
+          </div>
+          <div class="audio-board-vowels" aria-hidden="true">
             <span>a</span>
             <span>e</span>
             <span>i</span>
             <span>o</span>
             <span>u</span>
           </div>
-          <div class="sound-line"></div>
-          <div class="sound-chip chip-one">ñ</div>
-          <div class="sound-chip chip-two">qu</div>
-          <div class="sound-chip chip-three">rr</div>
-          <div class="sound-chip chip-four">h</div>
+          <div class="audio-board-patterns" aria-hidden="true">
+            <span>ñ</span>
+            <span>j</span>
+            <span>h</span>
+            <span>ll</span>
+            <span>rr</span>
+            <span>qu</span>
+            <span>gue</span>
+            <span>ce</span>
+          </div>
         </div>
+      </section>
+
+      <section class="lesson-band lesson-status" aria-label="Lesson package status">
+        <div>
+          <p class="eyebrow">Package Status</p>
+          <h2>Curriculum approved. Audio is now part of the lesson.</h2>
+        </div>
+        <dl class="status-strip">
+          <div>
+            <dt>Curriculum</dt>
+            <dd>Approved</dd>
+          </div>
+          <div>
+            <dt>Website</dt>
+            <dd>Built</dd>
+          </div>
+          <div>
+            <dt>Audio</dt>
+            <dd>Added</dd>
+          </div>
+          <div>
+            <dt>PDF</dt>
+            <dd>Planned</dd>
+          </div>
+        </dl>
       </section>
 
       <section class="lesson-band" id="vowels">
         <div class="lesson-heading">
           <p class="eyebrow">Step 1</p>
           <h2>Five vowels, one steady sound each</h2>
-          <p>Say each vowel short and clean. Do not stretch it into an English vowel blend.</p>
+          <p>Play the letter, then each example word. Keep the vowel short and clean instead of turning it into an English vowel blend.</p>
         </div>
-        <div class="vowel-grid">
-          <button class="sound-button" type="button" data-say="a"><strong>a</strong><span>mamá, casa, gracias</span></button>
-          <button class="sound-button" type="button" data-say="e"><strong>e</strong><span>mesa, Elena, tres</span></button>
-          <button class="sound-button" type="button" data-say="i"><strong>i</strong><span>mi, familia, sí</span></button>
-          <button class="sound-button" type="button" data-say="o"><strong>o</strong><span>hola, dos, profesor</span></button>
-          <button class="sound-button" type="button" data-say="u"><strong>u</strong><span>tú, uno, mucho</span></button>
+        <div class="vowel-practice-grid">
+          <article class="vowel-card">
+            <h3>A</h3>
+            <button class="audio-button main-sound" type="button" data-audio="../media/u1-1-pronunciation/vowels/a.m4a" data-say="a">Play a</button>
+            <ul class="audio-word-list">
+              <li>mamá <button class="play-icon" type="button" data-audio="../media/u1-1-pronunciation/vowel-words/mama.m4a" data-say="mamá" aria-label="Play mamá">Play</button></li>
+              <li>casa <button class="play-icon" type="button" data-audio="../media/u1-1-pronunciation/vowel-words/casa.m4a" data-say="casa" aria-label="Play casa">Play</button></li>
+              <li>gracias <button class="play-icon" type="button" data-audio="../media/u1-1-pronunciation/vowel-words/gracias.m4a" data-say="gracias" aria-label="Play gracias">Play</button></li>
+            </ul>
+          </article>
+          <article class="vowel-card">
+            <h3>E</h3>
+            <button class="audio-button main-sound" type="button" data-audio="../media/u1-1-pronunciation/vowels/e.m4a" data-say="e">Play e</button>
+            <ul class="audio-word-list">
+              <li>mesa <button class="play-icon" type="button" data-audio="../media/u1-1-pronunciation/vowel-words/mesa.m4a" data-say="mesa" aria-label="Play mesa">Play</button></li>
+              <li>Elena <button class="play-icon" type="button" data-audio="../media/u1-1-pronunciation/vowel-words/elena.m4a" data-say="Elena" aria-label="Play Elena">Play</button></li>
+              <li>tres <button class="play-icon" type="button" data-audio="../media/u1-1-pronunciation/vowel-words/tres.m4a" data-say="tres" aria-label="Play tres">Play</button></li>
+            </ul>
+          </article>
+          <article class="vowel-card">
+            <h3>I</h3>
+            <button class="audio-button main-sound" type="button" data-audio="../media/u1-1-pronunciation/vowels/i.m4a" data-say="i">Play i</button>
+            <ul class="audio-word-list">
+              <li>mi <button class="play-icon" type="button" data-audio="../media/u1-1-pronunciation/vowel-words/mi.m4a" data-say="mi" aria-label="Play mi">Play</button></li>
+              <li>familia <button class="play-icon" type="button" data-audio="../media/u1-1-pronunciation/vowel-words/familia.m4a" data-say="familia" aria-label="Play familia">Play</button></li>
+              <li>sí <button class="play-icon" type="button" data-audio="../media/u1-1-pronunciation/vowel-words/si.m4a" data-say="sí" aria-label="Play sí">Play</button></li>
+            </ul>
+          </article>
+          <article class="vowel-card">
+            <h3>O</h3>
+            <button class="audio-button main-sound" type="button" data-audio="../media/u1-1-pronunciation/vowels/o.m4a" data-say="o">Play o</button>
+            <ul class="audio-word-list">
+              <li>hola <button class="play-icon" type="button" data-audio="../media/u1-1-pronunciation/vowel-words/hola.m4a" data-say="hola" aria-label="Play hola">Play</button></li>
+              <li>dos <button class="play-icon" type="button" data-audio="../media/u1-1-pronunciation/vowel-words/dos.m4a" data-say="dos" aria-label="Play dos">Play</button></li>
+              <li>profesor <button class="play-icon" type="button" data-audio="../media/u1-1-pronunciation/vowel-words/profesor.m4a" data-say="profesor" aria-label="Play profesor">Play</button></li>
+            </ul>
+          </article>
+          <article class="vowel-card">
+            <h3>U</h3>
+            <button class="audio-button main-sound" type="button" data-audio="../media/u1-1-pronunciation/vowels/u.m4a" data-say="u">Play u</button>
+            <ul class="audio-word-list">
+              <li>tú <button class="play-icon" type="button" data-audio="../media/u1-1-pronunciation/vowel-words/tu.m4a" data-say="tú" aria-label="Play tú">Play</button></li>
+              <li>uno <button class="play-icon" type="button" data-audio="../media/u1-1-pronunciation/vowel-words/uno.m4a" data-say="uno" aria-label="Play uno">Play</button></li>
+              <li>mucho <button class="play-icon" type="button" data-audio="../media/u1-1-pronunciation/vowel-words/mucho.m4a" data-say="mucho" aria-label="Play mucho">Play</button></li>
+            </ul>
+          </article>
         </div>
       </section>
 
@@ -71,44 +146,74 @@
         <div class="lesson-heading">
           <p class="eyebrow">Step 2</p>
           <h2>High-value patterns from Lesson 1</h2>
-          <p>Tap a row to hear the practice words. Then read the same row aloud without audio.</p>
+          <p>Every practice word has its own audio target. Listen once, repeat once, then read the row without audio.</p>
         </div>
-        <div class="pattern-list">
-          <button class="pattern-row" type="button" data-say="niño, español, mañana">
-            <span>ñ</span>
-            <strong>niño, español, mañana</strong>
-            <em>One sound, not n plus y.</em>
-          </button>
-          <button class="pattern-row" type="button" data-say="José, gente, gigante">
-            <span>j / ge / gi</span>
-            <strong>José, gente, gigante</strong>
-            <em>A breathy sound in many native varieties.</em>
-          </button>
-          <button class="pattern-row" type="button" data-say="hola, hermano, ahora">
-            <span>h</span>
-            <strong>hola, hermano, ahora</strong>
-            <em>Silent in Spanish.</em>
-          </button>
-          <button class="pattern-row" type="button" data-say="yo, llamo, familia">
-            <span>ll / y</span>
-            <strong>yo, llamo, familia</strong>
-            <em>Often similar in many regions.</em>
-          </button>
-          <button class="pattern-row" type="button" data-say="pero, perro, gracias">
-            <span>r / rr</span>
-            <strong>pero, perro, gracias</strong>
-            <em>Tap the r; trill rr as it develops.</em>
-          </button>
-          <button class="pattern-row" type="button" data-say="que, quiero, quince">
-            <span>qu</span>
-            <strong>que, quiero, quince</strong>
-            <em>Sounds like k before e or i.</em>
-          </button>
-          <button class="pattern-row" type="button" data-say="Miguel, guitarra, guerra">
-            <span>gue / gui</span>
-            <strong>Miguel, guitarra, guerra</strong>
-            <em>Keep a hard g sound.</em>
-          </button>
+        <div class="pattern-audio-list">
+          <article class="pattern-audio-row">
+            <div><span>ñ</span><p>One sound, as in señor.</p></div>
+            <ul>
+              <li>niño <button class="play-icon" type="button" data-audio="../media/u1-1-pronunciation/patterns/n-tilde/nino.m4a" data-say="niño" aria-label="Play niño">Play</button></li>
+              <li>español <button class="play-icon" type="button" data-audio="../media/u1-1-pronunciation/patterns/n-tilde/espanol.m4a" data-say="español" aria-label="Play español">Play</button></li>
+              <li>mañana <button class="play-icon" type="button" data-audio="../media/u1-1-pronunciation/patterns/n-tilde/manana.m4a" data-say="mañana" aria-label="Play mañana">Play</button></li>
+              <li>señor <button class="play-icon" type="button" data-audio="../media/u1-1-pronunciation/patterns/n-tilde/senor.m4a" data-say="señor" aria-label="Play señor">Play</button></li>
+            </ul>
+          </article>
+          <article class="pattern-audio-row">
+            <div><span>j / ge / gi</span><p>A breathy sound in many native varieties.</p></div>
+            <ul>
+              <li>José <button class="play-icon" type="button" data-audio="../media/u1-1-pronunciation/patterns/jota/jose.m4a" data-say="José" aria-label="Play José">Play</button></li>
+              <li>gente <button class="play-icon" type="button" data-audio="../media/u1-1-pronunciation/patterns/jota/gente.m4a" data-say="gente" aria-label="Play gente">Play</button></li>
+              <li>gigante <button class="play-icon" type="button" data-audio="../media/u1-1-pronunciation/patterns/jota/gigante.m4a" data-say="gigante" aria-label="Play gigante">Play</button></li>
+            </ul>
+          </article>
+          <article class="pattern-audio-row">
+            <div><span>silent h</span><p>The h is not pronounced.</p></div>
+            <ul>
+              <li>hola <button class="play-icon" type="button" data-audio="../media/u1-1-pronunciation/patterns/silent-h/hola.m4a" data-say="hola" aria-label="Play hola">Play</button></li>
+              <li>hermano <button class="play-icon" type="button" data-audio="../media/u1-1-pronunciation/patterns/silent-h/hermano.m4a" data-say="hermano" aria-label="Play hermano">Play</button></li>
+              <li>ahora <button class="play-icon" type="button" data-audio="../media/u1-1-pronunciation/patterns/silent-h/ahora.m4a" data-say="ahora" aria-label="Play ahora">Play</button></li>
+            </ul>
+          </article>
+          <article class="pattern-audio-row">
+            <div><span>ll / y</span><p>Often similar in many regions.</p></div>
+            <ul>
+              <li>yo <button class="play-icon" type="button" data-audio="../media/u1-1-pronunciation/patterns/ll-y/yo.m4a" data-say="yo" aria-label="Play yo">Play</button></li>
+              <li>llamo <button class="play-icon" type="button" data-audio="../media/u1-1-pronunciation/patterns/ll-y/llamo.m4a" data-say="llamo" aria-label="Play llamo">Play</button></li>
+              <li>familia <button class="play-icon" type="button" data-audio="../media/u1-1-pronunciation/patterns/ll-y/familia.m4a" data-say="familia" aria-label="Play familia">Play</button></li>
+            </ul>
+          </article>
+          <article class="pattern-audio-row">
+            <div><span>r / rr</span><p>Tap r; trill rr as it develops.</p></div>
+            <ul>
+              <li>pero <button class="play-icon" type="button" data-audio="../media/u1-1-pronunciation/patterns/r-rr/pero.m4a" data-say="pero" aria-label="Play pero">Play</button></li>
+              <li>perro <button class="play-icon" type="button" data-audio="../media/u1-1-pronunciation/patterns/r-rr/perro.m4a" data-say="perro" aria-label="Play perro">Play</button></li>
+              <li>gracias <button class="play-icon" type="button" data-audio="../media/u1-1-pronunciation/patterns/r-rr/gracias.m4a" data-say="gracias" aria-label="Play gracias">Play</button></li>
+            </ul>
+          </article>
+          <article class="pattern-audio-row">
+            <div><span>qu</span><p>A k sound before e or i.</p></div>
+            <ul>
+              <li>que <button class="play-icon" type="button" data-audio="../media/u1-1-pronunciation/patterns/qu/que.m4a" data-say="que" aria-label="Play que">Play</button></li>
+              <li>quiero <button class="play-icon" type="button" data-audio="../media/u1-1-pronunciation/patterns/qu/quiero.m4a" data-say="quiero" aria-label="Play quiero">Play</button></li>
+              <li>quince <button class="play-icon" type="button" data-audio="../media/u1-1-pronunciation/patterns/qu/quince.m4a" data-say="quince" aria-label="Play quince">Play</button></li>
+            </ul>
+          </article>
+          <article class="pattern-audio-row">
+            <div><span>gue / gui</span><p>Keep a hard g sound.</p></div>
+            <ul>
+              <li>Miguel <button class="play-icon" type="button" data-audio="../media/u1-1-pronunciation/patterns/gue-gui/miguel.m4a" data-say="Miguel" aria-label="Play Miguel">Play</button></li>
+              <li>guitarra <button class="play-icon" type="button" data-audio="../media/u1-1-pronunciation/patterns/gue-gui/guitarra.m4a" data-say="guitarra" aria-label="Play guitarra">Play</button></li>
+              <li>guerra <button class="play-icon" type="button" data-audio="../media/u1-1-pronunciation/patterns/gue-gui/guerra.m4a" data-say="guerra" aria-label="Play guerra">Play</button></li>
+            </ul>
+          </article>
+          <article class="pattern-audio-row">
+            <div><span>ce / ci / z</span><p>Latin America: s; much of Spain: th.</p></div>
+            <ul>
+              <li>gracias <button class="play-icon" type="button" data-audio="../media/u1-1-pronunciation/patterns/ce-ci-z/gracias.m4a" data-say="gracias" aria-label="Play gracias">Play</button></li>
+              <li>cinco <button class="play-icon" type="button" data-audio="../media/u1-1-pronunciation/patterns/ce-ci-z/cinco.m4a" data-say="cinco" aria-label="Play cinco">Play</button></li>
+              <li>zapato <button class="play-icon" type="button" data-audio="../media/u1-1-pronunciation/patterns/ce-ci-z/zapato.m4a" data-say="zapato" aria-label="Play zapato">Play</button></li>
+            </ul>
+          </article>
         </div>
       </section>
 
@@ -172,12 +277,12 @@
           <label><input type="checkbox"> I can explain one regional pronunciation difference.</label>
           <label><input type="checkbox"> I can read a short Spanish word aloud and ask my partner to check it.</label>
         </form>
-        <p id="speechStatus" class="speech-status" role="status">Audio buttons use this browser's Spanish speech voice when available.</p>
+        <p id="speechStatus" class="speech-status" role="status">Audio files are ready. Browser speech is used only as a fallback.</p>
       </section>
     </main>
 
     <footer>
-      <p>Audio practice stays on this companion webpage. Printable pages should point here with Listen on Website markers.</p>
+      <p>Printable pages should point here with Listen on Website markers wherever audio is required.</p>
     </footer>
 
     <script src="lesson.js"></script>

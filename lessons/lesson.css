@@ -1,7 +1,7 @@
 .lesson-main {
   background:
     linear-gradient(180deg, rgba(255, 250, 242, 0) 0%, #fffaf2 520px),
-    radial-gradient(circle at 75% 8%, rgba(102, 169, 201, 0.26), transparent 34rem);
+    linear-gradient(135deg, rgba(245, 196, 81, 0.22), transparent 42rem);
 }
 
 .lesson-hero,
@@ -13,7 +13,7 @@
 
 .lesson-hero {
   display: grid;
-  grid-template-columns: minmax(0, 0.95fr) minmax(320px, 1.05fr);
+  grid-template-columns: minmax(0, 0.9fr) minmax(340px, 1.1fr);
   gap: clamp(1.5rem, 5vw, 4rem);
   align-items: center;
   min-height: calc(100svh - 74px);
@@ -25,7 +25,8 @@
 }
 
 .lesson-hero h1 {
-  font-size: clamp(2.5rem, 7vw, 6.2rem);
+  max-width: 780px;
+  font-size: clamp(2.4rem, 6.4vw, 6rem);
 }
 
 .lesson-hero p {
@@ -38,6 +39,116 @@
   display: flex;
   flex-wrap: wrap;
   gap: 0.75rem;
+}
+
+.lesson-topbar nav {
+  gap: 0.25rem;
+}
+
+.audio-board {
+  display: grid;
+  gap: 1rem;
+  align-content: center;
+  min-height: 430px;
+  padding: clamp(1rem, 3vw, 2rem);
+  border-left: 1px solid rgba(23, 33, 43, 0.12);
+}
+
+.audio-board-header {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  gap: 0.25rem 1rem;
+  align-items: end;
+  max-width: 480px;
+}
+
+.audio-board-header span {
+  color: var(--muted);
+  font-weight: 850;
+}
+
+.audio-board-header strong {
+  grid-row: span 2;
+  color: var(--coral);
+  font-size: clamp(5rem, 12vw, 9rem);
+  line-height: 0.8;
+}
+
+.audio-board-vowels,
+.audio-board-patterns {
+  display: grid;
+  gap: 1px;
+  overflow: hidden;
+  max-width: 640px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: var(--line);
+}
+
+.audio-board-vowels {
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+}
+
+.audio-board-patterns {
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+}
+
+.audio-board-vowels span,
+.audio-board-patterns span {
+  display: grid;
+  min-height: 92px;
+  place-items: center;
+  background: rgba(255, 255, 255, 0.76);
+  color: var(--green);
+  font-size: clamp(1.6rem, 4vw, 3.6rem);
+  font-weight: 950;
+}
+
+.audio-board-patterns span {
+  min-height: 72px;
+  color: var(--ink);
+  font-size: clamp(1.1rem, 2vw, 1.8rem);
+}
+
+.lesson-status {
+  display: grid;
+  grid-template-columns: minmax(0, 0.8fr) minmax(0, 1.2fr);
+  gap: 1.5rem;
+  align-items: end;
+}
+
+.status-strip {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  margin: 0;
+  overflow: hidden;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: var(--surface);
+}
+
+.status-strip div {
+  min-height: 96px;
+  padding: 1rem;
+  border-right: 1px solid var(--line);
+}
+
+.status-strip div:last-child {
+  border-right: 0;
+}
+
+.status-strip dt {
+  color: var(--muted);
+  font-size: 0.74rem;
+  font-weight: 950;
+  text-transform: uppercase;
+}
+
+.status-strip dd {
+  margin: 0.3rem 0 0;
+  color: var(--green);
+  font-size: 1.1rem;
+  font-weight: 950;
 }
 
 .sound-map {
@@ -151,6 +262,165 @@
   border-radius: 8px;
   overflow: hidden;
   background: var(--surface);
+}
+
+.vowel-practice-grid {
+  display: grid;
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+  gap: 1px;
+  overflow: hidden;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: var(--line);
+}
+
+.vowel-card {
+  display: grid;
+  gap: 0.9rem;
+  min-height: 300px;
+  align-content: start;
+  padding: 1rem;
+  background: rgba(255, 255, 255, 0.8);
+}
+
+.vowel-card h3 {
+  margin: 0;
+  color: var(--coral);
+  font-size: clamp(3rem, 7vw, 5.5rem);
+  line-height: 0.9;
+}
+
+.audio-button,
+.play-icon {
+  border: 1px solid #d9cebf;
+  border-radius: 8px;
+  background: white;
+  color: var(--ink);
+  cursor: pointer;
+  font: inherit;
+  font-weight: 900;
+  transition: transform 160ms ease, border-color 160ms ease, background 160ms ease;
+}
+
+.audio-button:hover,
+.play-icon:hover,
+.audio-button.is-playing,
+.play-icon.is-playing {
+  border-color: var(--green);
+  background: #eaf3ed;
+  color: var(--green);
+}
+
+.audio-button:active,
+.play-icon:active {
+  transform: translateY(1px);
+}
+
+.main-sound {
+  min-height: 48px;
+  width: 100%;
+  justify-content: center;
+}
+
+.play-icon {
+  display: inline-grid;
+  width: 42px;
+  height: 34px;
+  place-items: center;
+  padding: 0;
+  color: transparent;
+  font-size: 0;
+}
+
+.play-icon::before {
+  content: "";
+  width: 0;
+  height: 0;
+  margin-left: 3px;
+  border-top: 7px solid transparent;
+  border-bottom: 7px solid transparent;
+  border-left: 11px solid currentColor;
+  color: var(--green);
+}
+
+.play-icon.is-playing::before {
+  width: 11px;
+  height: 14px;
+  margin-left: 0;
+  border: 0;
+  border-inline: 4px solid var(--green);
+}
+
+.audio-word-list,
+.pattern-audio-row ul {
+  display: grid;
+  gap: 0.55rem;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.audio-word-list li,
+.pattern-audio-row li {
+  display: flex;
+  min-height: 44px;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.75rem;
+  border-top: 1px solid var(--line);
+  color: var(--ink);
+  font-size: 1.05rem;
+  font-weight: 900;
+}
+
+.pattern-audio-list {
+  display: grid;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  overflow: hidden;
+  background: var(--surface);
+}
+
+.pattern-audio-row {
+  display: grid;
+  grid-template-columns: minmax(170px, 0.35fr) minmax(0, 1fr);
+  gap: 1rem;
+  padding: 1rem;
+  border-bottom: 1px solid var(--line);
+}
+
+.pattern-audio-row:last-child {
+  border-bottom: 0;
+}
+
+.pattern-audio-row > div {
+  display: grid;
+  align-content: start;
+  gap: 0.35rem;
+}
+
+.pattern-audio-row span {
+  color: var(--green);
+  font-size: 1.25rem;
+  font-weight: 950;
+}
+
+.pattern-audio-row p {
+  margin: 0;
+  color: var(--muted);
+  font-weight: 750;
+}
+
+.pattern-audio-row ul {
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  align-content: start;
+}
+
+.pattern-audio-row li {
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  padding: 0.35rem 0.4rem 0.35rem 0.65rem;
+  background: #fffaf2;
 }
 
 .sound-button,
@@ -306,6 +576,7 @@
 
 @media (max-width: 820px) {
   .lesson-hero,
+  .lesson-status,
   .variation-band,
   .ladder,
   .variation-grid {
@@ -318,6 +589,29 @@
 
   .sound-map {
     min-height: 320px;
+  }
+
+  .audio-board {
+    min-height: auto;
+    border-left: 0;
+    padding: 0 0 1.5rem;
+  }
+
+  .audio-board-vowels,
+  .audio-board-patterns,
+  .status-strip,
+  .vowel-practice-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .status-strip div {
+    min-height: auto;
+    border-right: 0;
+    border-bottom: 1px solid var(--line);
+  }
+
+  .status-strip div:last-child {
+    border-bottom: 0;
   }
 
   .vowel-grid {
@@ -337,5 +631,9 @@
   .pattern-row {
     grid-template-columns: 1fr;
     gap: 0.35rem;
+  }
+
+  .pattern-audio-row {
+    grid-template-columns: 1fr;
   }
 }

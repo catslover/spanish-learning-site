@@ -6,6 +6,8 @@ Use this file to keep curriculum-design work connected to the website repository
 
 The curriculum design chat can be exploratory, but the repository is the durable source of truth. At the end of each useful design session, convert the decisions into files under `curriculum/`.
 
+If the curriculum design chat cannot write to the repository, use the Spanish Website Work task as the bridge. The bridge task can read the planning chat, extract approved decisions, and persist them directly into the local repository.
+
 ## Source Of Truth Files
 
 - `curriculum/SPANISH-I-BUILD-GUIDE.md` stores course-wide rules.
@@ -30,6 +32,16 @@ Update:
 
 Keep exploratory ideas separate from approved decisions.
 ```
+
+## No-Copy Bridge Routine
+
+When the planning chat has useful approved content but cannot persist it:
+
+1. Ask the Website Work task to read the named planning chat.
+2. Extract only approved decisions, not every brainstorm.
+3. Update the relevant files in `curriculum/`.
+4. Update `curriculum/PROJECT-INDEX.md`.
+5. Leave website, PDF, and audio implementation status clear.
 
 ## Module File Pattern
 

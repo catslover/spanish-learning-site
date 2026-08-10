@@ -5,21 +5,57 @@
       "type": "Lesson",
       "title": "Lesson 1: The Alphabet",
       "description": "This lesson includes the alphabet, consonants and vowels, special combinations of syllables, and vocabulary related to the alphabet.",
-      "materialId": "lesson-01-alphabet"
+      "materialId": "lesson-01-alphabet",
+      "lessonUrl": "lessons/u1-1-pronunciation.html",
+      "lessonLabel": "U1.1 Pronunciation Workshop",
+      "unit": "Unit 1: Asi Soy Yo",
+      "supplements": [
+        {
+          "id": "u1-1",
+          "title": "Pronunciation Workshop",
+          "status": "Ready",
+          "url": "lessons/u1-1-pronunciation.html",
+          "note": "Audio practice for Spanish vowels and high-value alphabet sound patterns."
+        },
+        {
+          "id": "u1-2",
+          "title": "Numbers",
+          "status": "Planned",
+          "note": "Number practice that supports early introductions and identity work."
+        }
+      ]
     },
     {
       "number": 2,
       "type": "Lesson",
       "title": "Lesson 2: Greetings and Farewells",
       "description": "This lesson includes the vocabulary of greetings and farewells, and basic dialogues related to the topic.",
-      "materialId": "lesson-02-greetings"
+      "materialId": "lesson-02-greetings",
+      "unit": "Unit 1: Asi Soy Yo",
+      "supplements": [
+        {
+          "id": "u1-3a",
+          "title": "Partner Conversations: Greetings",
+          "status": "Planned",
+          "note": "Modeled and scaffolded Victor/Spencer greeting exchanges."
+        }
+      ]
     },
     {
       "number": 3,
       "type": "Lesson",
       "title": "Lesson 3: The Classroom",
       "description": "This lesson includes vocabulary and expressions used in the classroom, and information to identify people and things.",
-      "materialId": "lesson-03-classroom"
+      "materialId": "lesson-03-classroom",
+      "unit": "Unit 1: Asi Soy Yo",
+      "supplements": [
+        {
+          "id": "u1-3b",
+          "title": "Partner Conversations: Classroom",
+          "status": "Planned",
+          "note": "Partner rounds using classroom words and simple identification patterns."
+        }
+      ]
     },
     {
       "number": 4,
@@ -38,19 +74,58 @@
       "type": "Lesson",
       "title": "Lesson 4: Subject Pronouns",
       "description": "This lesson includes personal pronouns, the verb llamarse, general information related to possessive adjectives and family, and a reading and writing exercise.",
-      "materialId": "lesson-04-subject-pronouns"
+      "materialId": "lesson-04-subject-pronouns",
+      "unit": "Unit 1: Asi Soy Yo",
+      "supplements": [
+        {
+          "id": "u1-4",
+          "title": "Family Expansion",
+          "status": "Planned",
+          "note": "Family and identity vocabulary that extends the HSA Lesson 4 family thread."
+        },
+        {
+          "id": "u1-5",
+          "title": "Writing",
+          "status": "Planned",
+          "note": "Short written self-introduction work using pronouns, names, and family."
+        }
+      ]
     },
     {
       "number": 7,
       "type": "Review",
       "title": "Review: Lessons 1-4",
-      "description": "The Alphabet, Greetings and Farewells, The Classroom and Subject Pronouns."
+      "description": "The Alphabet, Greetings and Farewells, The Classroom and Subject Pronouns.",
+      "unit": "Unit 1: Asi Soy Yo",
+      "supplements": [
+        {
+          "id": "u1-6",
+          "title": "Speaking Self-Introduction",
+          "status": "Planned",
+          "note": "Spoken self-introduction practice before the Unit 1 project."
+        },
+        {
+          "id": "u1-7",
+          "title": "Short Reading + Website Audio",
+          "status": "Planned",
+          "note": "A short identity-themed reading with companion audio."
+        }
+      ]
     },
     {
       "number": 8,
       "type": "Exam",
       "title": "Exam: Lessons 1-4",
-      "description": "This exam evaluates lesson 1 the alphabet, lesson 2 greetings and farewells, lesson 3 the classroom, and lesson 4 subject pronouns."
+      "description": "This exam evaluates lesson 1 the alphabet, lesson 2 greetings and farewells, lesson 3 the classroom, and lesson 4 subject pronouns.",
+      "unit": "Unit 1: Asi Soy Yo",
+      "supplements": [
+        {
+          "id": "u1-8",
+          "title": "Asi Soy Yo Project",
+          "status": "Planned",
+          "note": "Culminating Unit 1 identity project after HSA Lessons 1-4 are reviewed."
+        }
+      ]
     },
     {
       "number": 9,

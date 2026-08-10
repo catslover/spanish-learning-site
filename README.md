@@ -29,9 +29,9 @@ Open `data/site-config.json` and change one number:
 
 Use the screenshot curriculum number, not the lesson PDF number. For example, Lesson 5 is curriculum item `9`.
 
-## Done And Next Buttons
+## Learning Path Buttons
 
-The schedule page has a `Done` button for each curriculum item and a `Next` button to move the current focus. These marks are saved in the browser on that computer. They are helpful for the kids' day-to-day progress, but they do not change the official shared site files.
+The integrated sequence has a `Done` button for each HSA curriculum item and a `Next` button to move the current focus. Unit supplements appear under the HSA item they support. These marks are saved in the browser on that computer. They are helpful for the kids' day-to-day progress, but they do not change the official shared site files.
 
 For the official current week shown to everyone, update `currentScheduleNumber` in `data/site-config.json`.
 

@@ -155,6 +155,7 @@ function renderCurrentWeek() {
       <p>${escapeHtml(currentItem.description)}</p>
     </div>
     <div class="current-actions">
+      ${currentItem.lessonUrl ? `<a class="button primary" href="${encodeURI(currentItem.lessonUrl)}">${escapeHtml(currentItem.lessonLabel || "Open Website Lesson")}</a>` : ""}
       ${materials.length ? materials.map(renderCompactDownload).join("") : '<span class="tag">No download for this item yet</span>'}
       <button class="button secondary" type="button" data-mark-current="${currentItem.number}">${isDone ? "Mark Not Done" : "Mark Done"}</button>
       ${nextItem ? `<button class="button secondary" type="button" data-go-next="${nextItem.number}">Go To Next</button>` : ""}
@@ -177,7 +178,7 @@ function renderCurrentWeek() {
     state.filters.week = material.week;
     weekFilter.value = material.week;
     render();
-    document.querySelector("#library").scrollIntoView({ behavior: "smooth" });
+    document.querySelector("#materials").scrollIntoView({ behavior: "smooth" });
   });
 }
 
@@ -186,7 +187,7 @@ function renderCompactDownload(item) {
 }
 
 function renderSchedule() {
-  scheduleCount.textContent = `${state.curriculum.items.length} items`;
+  scheduleCount.textContent = `${state.curriculum.items.length} HSA items`;
   scheduleList.innerHTML = state.curriculum.items.map(renderScheduleItem).join("");
   scheduleList.querySelectorAll("[data-mark-done]").forEach((button) => {
     button.addEventListener("click", () => toggleDone(Number(button.dataset.markDone)));
@@ -203,6 +204,7 @@ function renderScheduleItem(item) {
   const material = item.materialId ? getMaterialById(item.materialId) : null;
   const isCurrent = item.number === Number(state.config.currentScheduleNumber);
   const isDone = state.progress.done.includes(item.number);
+  const supplements = item.supplements || [];
   return `
     <article class="schedule-item ${isCurrent ? "is-current" : ""} ${isDone ? "is-done" : ""}">
       <div class="schedule-number">#${padNumber(item.number)}</div>
@@ -211,18 +213,47 @@ function renderScheduleItem(item) {
         <div class="material-meta">
           ${isCurrent ? '<span class="tag current-tag">Current</span>' : ""}
           ${isDone ? '<span class="tag done-tag">Done</span>' : ""}
+          ${item.unit ? `<span class="tag">${escapeHtml(item.unit)}</span>` : ""}
         </div>
         <h3>${escapeHtml(item.title)}</h3>
         <p>${escapeHtml(item.description)}</p>
+        ${supplements.length ? renderSupplements(supplements) : ""}
       </div>
       <div class="schedule-action">
-        ${material ? `<a href="${encodeURI(material.file)}" download>Download</a>` : '<span class="tag">No file</span>'}
+        ${item.lessonUrl ? `<a href="${encodeURI(item.lessonUrl)}">Lesson</a>` : material ? `<a href="${encodeURI(material.file)}" download>Download</a>` : '<span class="tag">No file</span>'}
+        ${item.lessonUrl && material ? `<a href="${encodeURI(material.file)}" download>Packet</a>` : ""}
       </div>
       <div class="schedule-buttons">
         <button class="mini-button" type="button" data-mark-done="${item.number}">${isDone ? "Undo" : "Done"}</button>
         ${isCurrent ? '<span class="tag current-tag">Next</span>' : `<button class="mini-button" type="button" data-set-current="${item.number}">Next</button>`}
       </div>
     </article>
+  `;
+}
+
+function renderSupplements(supplements) {
+  return `
+    <div class="supplement-list" aria-label="Unit supplements">
+      ${supplements.map(renderSupplement).join("")}
+    </div>
+  `;
+}
+
+function renderSupplement(supplement) {
+  const statusClass = supplement.status === "Ready" ? "current-tag" : "";
+  const label = `
+    <span class="supplement-id">${escapeHtml(supplement.id.toUpperCase())}</span>
+    <strong>${escapeHtml(supplement.title)}</strong>
+    <em>${escapeHtml(supplement.status)}</em>
+  `;
+  return `
+    <div class="supplement-item">
+      <div>
+        ${supplement.url ? `<a href="${encodeURI(supplement.url)}">${label}</a>` : label}
+        <p>${escapeHtml(supplement.note || "")}</p>
+      </div>
+      <span class="tag ${statusClass}">${escapeHtml(supplement.status)}</span>
+    </div>
   `;
 }
 

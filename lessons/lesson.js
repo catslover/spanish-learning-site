@@ -1,5 +1,6 @@
 const statusEl = document.querySelector("#speechStatus");
 const utteranceOptions = { lang: "es" };
+let activeAudio = null;
 
 function getSpanishVoice() {
   const voices = window.speechSynthesis?.getVoices?.() || [];
@@ -23,8 +24,46 @@ function speak(text) {
   if (statusEl) statusEl.textContent = `Playing: ${text}`;
 }
 
-document.querySelectorAll("[data-say]").forEach((button) => {
-  button.addEventListener("click", () => speak(button.dataset.say));
+function setPlayingButton(button, isPlaying) {
+  document.querySelectorAll(".is-playing").forEach((item) => {
+    if (item !== button) item.classList.remove("is-playing");
+  });
+  button.classList.toggle("is-playing", isPlaying);
+}
+
+function playAudio(button) {
+  const audioPath = button.dataset.audio;
+  const fallbackText = button.dataset.say;
+
+  if (!audioPath) {
+    speak(fallbackText);
+    return;
+  }
+
+  if (activeAudio) {
+    activeAudio.pause();
+    activeAudio.currentTime = 0;
+  }
+  window.speechSynthesis?.cancel?.();
+
+  activeAudio = new Audio(audioPath);
+  setPlayingButton(button, true);
+  if (statusEl) statusEl.textContent = `Playing: ${fallbackText}`;
+
+  activeAudio.addEventListener("ended", () => setPlayingButton(button, false), { once: true });
+  activeAudio.addEventListener("error", () => {
+    setPlayingButton(button, false);
+    speak(fallbackText);
+  }, { once: true });
+
+  activeAudio.play().catch(() => {
+    setPlayingButton(button, false);
+    speak(fallbackText);
+  });
+}
+
+document.querySelectorAll("[data-say], [data-audio]").forEach((button) => {
+  button.addEventListener("click", () => playAudio(button));
 });
 
 window.speechSynthesis?.addEventListener?.("voiceschanged", () => {

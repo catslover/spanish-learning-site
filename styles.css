@@ -75,12 +75,15 @@ a {
 
 nav {
   display: flex;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
   gap: 0.35rem;
   justify-content: flex-end;
+  overflow-x: auto;
+  max-width: 100%;
 }
 
 nav a {
+  flex: 0 0 auto;
   border-radius: 999px;
   padding: 0.55rem 0.85rem;
   color: var(--muted);
@@ -141,6 +144,12 @@ h2 {
   max-width: 36rem;
   color: #394653;
   font-size: clamp(1rem, 2vw, 1.25rem);
+}
+
+.hero-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
 }
 
 .button {
@@ -397,26 +406,73 @@ h2 {
   padding: clamp(2rem, 6vw, 4rem) 0 0;
 }
 
-.lesson-link-panel {
+.unit-board {
+  display: grid;
+  gap: 1px;
+  overflow: hidden;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: var(--line);
+  box-shadow: 0 10px 30px rgba(23, 33, 43, 0.08);
+}
+
+.unit-feature {
   display: grid;
   grid-template-columns: minmax(0, 1fr) auto;
   gap: 1rem;
   align-items: center;
-  border: 1px solid var(--line);
-  border-radius: 8px;
   padding: 1rem;
   background: var(--surface);
-  box-shadow: 0 10px 30px rgba(23, 33, 43, 0.08);
 }
 
-.lesson-link-panel h3 {
+.unit-feature h3 {
   margin: 0.6rem 0 0.35rem;
-  font-size: 1.4rem;
+  font-size: clamp(1.7rem, 3vw, 2.5rem);
+  line-height: 1;
 }
 
-.lesson-link-panel p {
+.unit-feature p {
   margin-bottom: 0;
   color: var(--muted);
+}
+
+.unit-actions {
+  display: grid;
+  min-width: min(100%, 230px);
+  gap: 0.65rem;
+}
+
+.unit-module-list {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 1px;
+  background: var(--line);
+}
+
+.unit-module-list article {
+  display: grid;
+  gap: 0.3rem;
+  min-height: 130px;
+  align-content: start;
+  padding: 1rem;
+  background: rgba(255, 255, 255, 0.74);
+}
+
+.unit-module-list span {
+  color: var(--coral);
+  font-size: 0.78rem;
+  font-weight: 950;
+  text-transform: uppercase;
+}
+
+.unit-module-list strong {
+  font-size: 1.05rem;
+}
+
+.unit-module-list em {
+  color: var(--muted);
+  font-style: normal;
+  font-weight: 850;
 }
 
 .workspace {
@@ -750,8 +806,55 @@ tr:last-child td {
   color: var(--muted);
 }
 
+.supplement-list {
+  display: grid;
+  gap: 0.5rem;
+  margin-top: 0.8rem;
+}
+
+.supplement-item {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  gap: 0.75rem;
+  align-items: start;
+  border-left: 4px solid rgba(47, 125, 89, 0.34);
+  border-radius: 8px;
+  padding: 0.7rem;
+  background: #fffaf2;
+}
+
+.supplement-item a {
+  text-decoration: none;
+}
+
+.supplement-id {
+  display: inline-block;
+  margin-right: 0.45rem;
+  color: var(--coral);
+  font-size: 0.78rem;
+  font-weight: 950;
+  text-transform: uppercase;
+}
+
+.supplement-item strong {
+  margin-right: 0.45rem;
+}
+
+.supplement-item em {
+  color: var(--muted);
+  font-size: 0.82rem;
+  font-style: normal;
+  font-weight: 850;
+}
+
+.supplement-item p {
+  margin-top: 0.25rem;
+}
+
 .schedule-action {
   justify-content: flex-start;
+  gap: 0.5rem;
+  flex-wrap: wrap;
 }
 
 .schedule-action a {
@@ -900,19 +1003,22 @@ pre {
 
   nav {
     justify-content: flex-start;
+    width: 100%;
+    padding-bottom: 0.2rem;
   }
 
   .hero,
   .workspace,
   .course-overview,
-  .lesson-link-panel,
+  .unit-feature,
   .current-panel,
   .admin-grid {
     grid-template-columns: 1fr;
   }
 
   .overview-panel,
-  .goal-grid {
+  .goal-grid,
+  .unit-module-list {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
@@ -957,6 +1063,10 @@ pre {
     border-bottom: 1px solid var(--line);
   }
 
+  .supplement-item {
+    grid-template-columns: 1fr;
+  }
+
   .hero {
     min-height: auto;
   }
@@ -978,11 +1088,16 @@ pre {
     flex-direction: column;
   }
 
+  .unit-actions {
+    min-width: 0;
+  }
+
 }
 
 @media (max-width: 560px) {
   .overview-panel,
-  .goal-grid {
+  .goal-grid,
+  .unit-module-list {
     grid-template-columns: 1fr;
   }
 

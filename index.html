@@ -12,15 +12,13 @@
         <span class="brand-mark">ES</span>
         <span>
           <strong>Claire's Spanish Hub</strong>
-          <small>Class materials library</small>
+          <small>Spanish I curriculum workspace</small>
         </span>
       </a>
       <nav aria-label="Main navigation">
         <a href="#current">Current</a>
-        <a href="#overview">Overview</a>
-        <a href="#lessons">Lessons</a>
-        <a href="#library">Library</a>
-        <a href="#schedule">Schedule</a>
+        <a href="#path">Path</a>
+        <a href="#materials">Materials</a>
         <a href="#reports">Reports</a>
         <a href="#practice">Practice</a>
         <a href="admin.html">Parent</a>
@@ -31,9 +29,12 @@
       <section class="hero">
         <div class="hero-copy">
           <p class="eyebrow">Homeschool Spanish Academy</p>
-          <h1>Follow the Spanish curriculum, one week at a time.</h1>
-          <p class="hero-text">A simple place for Claire's children to see the current HSA High School Level 1 week, download lesson packets, and practice vocabulary.</p>
-          <a class="button primary" href="#current">See Current Week</a>
+          <h1>Spanish I, organized around the next useful lesson.</h1>
+          <p class="hero-text">A shared workspace for HSA packets, Unit 1 supplements, audio practice, downloads, and progress for Victor and Spencer.</p>
+          <div class="hero-actions">
+            <a class="button primary" href="#current">Open Current Work</a>
+            <a class="button secondary" href="#path">See Learning Path</a>
+          </div>
         </div>
         <div class="hero-art" aria-hidden="true">
           <div class="sun"></div>
@@ -114,30 +115,57 @@
         <button class="button secondary" id="resetProgress" type="button">Reset Done Marks</button>
       </section>
 
-      <section class="website-lessons" id="lessons">
+      <section class="website-lessons" id="path">
         <div class="section-heading">
           <div>
-            <p class="eyebrow">Website Lessons</p>
-            <h2>Companion practice for approved Unit 1 work</h2>
+            <p class="eyebrow">Learning Path</p>
+            <h2>HSA sequence with Unit 1 supplements in place</h2>
           </div>
-          <a class="count" href="lessons/">View All</a>
+          <a class="count" href="lessons/">Lesson Pages</a>
         </div>
-        <div class="lesson-link-panel">
-          <div>
-            <div class="material-meta">
-              <span class="tag">U1.1</span>
-              <span class="tag">HSA Curriculum #01</span>
-              <span class="tag">Audio on Website</span>
+        <div class="unit-board">
+          <article class="unit-feature">
+            <div>
+              <div class="material-meta">
+                <span class="tag current-tag">Unit 1</span>
+                <span class="tag">HSA #01-08</span>
+                <span class="tag">Lessons 1-4 + review/exam</span>
+              </div>
+              <h3>Asi Soy Yo lives inside the HSA path.</h3>
+              <p>Unit 1 supplements are attached to the HSA items they support, so the kids can move through packets, audio lessons, partner practice, and projects in one sequence.</p>
             </div>
-            <h3>Pronunciation Workshop</h3>
-            <p>Practice Spanish vowels, high-value consonant patterns, regional variation, and Victor/Spencer partner rounds.</p>
+            <div class="unit-actions">
+              <a class="button primary" href="lessons/u1-1-pronunciation.html">Open Audio Lesson</a>
+              <a class="button secondary" href="#sequence">View Sequence</a>
+            </div>
+          </article>
+          <div class="unit-module-list" aria-label="Upcoming Unit 1 modules">
+            <article>
+              <span>HSA #01</span>
+              <strong>Alphabet + U1.1/U1.2</strong>
+              <em>Pronunciation ready; numbers planned</em>
+            </article>
+            <article>
+              <span>HSA #02-03</span>
+              <strong>Greetings + classroom</strong>
+              <em>Partner conversations planned</em>
+            </article>
+            <article>
+              <span>HSA #06</span>
+              <strong>Pronouns + family</strong>
+              <em>Family expansion and writing planned</em>
+            </article>
+            <article>
+              <span>HSA #07-08</span>
+              <strong>Review + exam</strong>
+              <em>Speaking, reading, and project planned</em>
+            </article>
           </div>
-          <a class="button primary" href="lessons/u1-1-pronunciation.html">Open Lesson</a>
         </div>
       </section>
 
-      <section class="workspace" id="library">
-        <aside class="filters" aria-label="Library filters">
+      <section class="workspace" id="materials">
+        <aside class="filters" aria-label="Materials filters">
           <h2>Find Materials</h2>
           <label>
             Child
@@ -173,8 +201,8 @@
         <section class="library-panel" aria-live="polite">
           <div class="section-heading">
             <div>
-              <p class="eyebrow">Downloads</p>
-          <h2>Class Library</h2>
+              <p class="eyebrow">Materials</p>
+              <h2>Packets and downloads</h2>
             </div>
             <span id="resultCount" class="count">0 files</span>
           </div>
@@ -183,19 +211,19 @@
         </section>
       </section>
 
-      <section class="schedule" id="schedule">
+      <section class="schedule" id="sequence">
         <div class="section-heading">
           <div>
-            <p class="eyebrow">Program Map</p>
-            <h2>High School Level 1 Schedule</h2>
+            <p class="eyebrow">Integrated Sequence</p>
+            <h2>HSA curriculum with supplements</h2>
           </div>
-          <span id="scheduleCount" class="count">30 items</span>
+          <span id="scheduleCount" class="count">30 HSA items</span>
         </div>
         <div class="schedule-header" aria-hidden="true">
           <span>#</span>
           <span>Class Type</span>
-          <span>Description</span>
-          <span>Download</span>
+          <span>HSA Item + Unit Supplements</span>
+          <span>Open</span>
           <span>Status</span>
         </div>
         <div id="scheduleList" class="schedule-list"></div>

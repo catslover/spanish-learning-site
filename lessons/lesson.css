@@ -5,7 +5,8 @@
 }
 
 .lesson-hero,
-.lesson-band {
+.lesson-band,
+.lesson-index {
   width: min(1180px, calc(100% - 2rem));
   margin: 0 auto;
 }
@@ -117,6 +118,15 @@
 .lesson-band {
   padding: clamp(2rem, 6vw, 4rem) 0;
   border-top: 1px solid var(--line);
+}
+
+.lesson-index {
+  min-height: calc(100svh - 74px);
+  padding: clamp(2rem, 6vw, 5rem) 0;
+}
+
+.lesson-index h1 {
+  font-size: clamp(2.5rem, 7vw, 6rem);
 }
 
 .lesson-heading {

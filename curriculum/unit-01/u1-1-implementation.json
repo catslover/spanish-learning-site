@@ -1,0 +1,61 @@
+{
+  "id": "u1-1-pronunciation-workshop",
+  "status": "implemented",
+  "updated": "2026-08-12",
+  "sourceFiles": [
+    "curriculum/unit-01/pronunciation.md",
+    "curriculum/unit-01/u1-1-audio-spec.md",
+    "curriculum/unit-01/u1-1-flashcard-spec.md",
+    "curriculum/unit-01/u1-1-reading-project.md"
+  ],
+  "website": {
+    "lesson": "lessons/u1-1-pronunciation.html",
+    "flashcards": "lessons/u1-1-flashcards.html",
+    "audioReview": "lessons/audio-review.html",
+    "scripts": [
+      "lessons/lesson.js",
+      "lessons/u1-1.js",
+      "lessons/flashcards.js",
+      "lessons/audio-review.js"
+    ]
+  },
+  "print": {
+    "studentPacket": "materials/all-kids/curriculum-01/u1-1-pronunciation-workshop.pdf",
+    "facilitatorReference": "final page of student packet"
+  },
+  "media": {
+    "audioRoot": "media/u1-1-pronunciation/",
+    "audioManifest": "data/audio-manifest.json",
+    "audioReviewStorageKey": "u1-1-audio-review-v1",
+    "audioQaReport": "data/media-qa/u1-1-audio-qa-report.json",
+    "humanAudioReviewSubmission": "data/media-qa/u1-1-audio-review-submission.json",
+    "audioRecheckRollup": "data/media-qa/u1-1-audio-recheck-rollup.json",
+    "mediaQaTool": "tools/media_qa.py",
+    "localAudioGenerator": "tools/generate_audio.py",
+    "localTtsModel": "tools/tts-models/es/es_MX/ald/medium/es_MX-ald-medium.onnx",
+    "mediaQaRequirements": "tools/media-qa-requirements.txt",
+    "audioVoice": "Microsoft Edge TTS es-MX-DaliaNeural for standalone vowel recheck candidates; Piper es_MX ald medium and prior generated clips for other local audio.",
+    "illustrations": [
+      "media/u1-1-pronunciation/illustrations/casa.svg",
+      "media/u1-1-pronunciation/illustrations/nino-hockey.svg",
+      "media/u1-1-pronunciation/illustrations/perro.svg",
+      "media/u1-1-pronunciation/illustrations/ene.svg",
+      "media/u1-1-pronunciation/illustrations/pencil-speech.svg"
+    ],
+    "vowelAudioStatus": "Regenerated with approved external Spanish voice service on 2026-08-12; requires final human confirmation in audio review tool before marking approved."
+  },
+  "features": [
+    "adjacent audio controls for vowels and high-value pronunciation patterns",
+    "bilingual mini reading Dos hermanos, un día ocupado",
+    "three multiple-choice comprehension questions",
+    "two short-answer comprehension prompts",
+    "dynamic hockey-item interaction with el corazón de hierro",
+    "Spanish-only Mi tarjeta: Así soy yo identity-card project",
+    "live identity-card preview with four templates and constrained customization",
+    "cross-links between U1.1 lesson, flashcards, Unit 1 index, and student packet PDF",
+    "U1.1 flashcard deck with audio on every card and selective illustrations",
+    "audio review tool with clip placement metadata, reviewer status marks, notes, and JSON export",
+    "machine media QA report with audio availability, duration, and speech-to-text warning signals",
+    "reviewer-facing English meanings and listen-for notes for non-Spanish speakers"
+  ]
+}

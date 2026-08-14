@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 220" role="img" aria-labelledby="title desc">
+  <title id="title">Pencil and speech bubble</title>
+  <desc id="desc">A pencil and speech bubble for spelling conversation cards.</desc>
+  <rect width="320" height="220" rx="24" fill="#f1fbf4"/>
+  <path d="M72 53h150c24 0 43 18 43 40s-19 40-43 40h-57l-38 31 7-31H72c-24 0-43-18-43-40s19-40 43-40z" fill="#ffffff" stroke="#2f7d59" stroke-width="6"/>
+  <path d="M88 167l113-84 28 28-113 84-40 12z" fill="#f5c451"/>
+  <path d="M201 83l18-13 28 28-18 13z" fill="#e75845"/>
+  <path d="M76 207l40-12-28-28z" fill="#17212b"/>
+  <text x="147" y="105" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" font-weight="800" fill="#17212b">¿Cómo?</text>
+</svg>

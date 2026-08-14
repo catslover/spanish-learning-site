@@ -15,12 +15,16 @@
           <small>Upload helper</small>
         </span>
       </a>
-      <nav aria-label="Main navigation">
-        <a href="./#current">Current</a>
-        <a href="./#materials">Materials</a>
-        <a href="./#sequence">Sequence</a>
-        <a href="./#practice">Practice</a>
-        <a href="parent-dashboard.html">Dashboard</a>
+      <nav class="site-nav" aria-label="Parent navigation">
+        <a href="./#current">Student Hub</a>
+        <a href="parent-dashboard.html">Parent Dashboard</a>
+        <a href="admin.html" aria-current="page">Parent Tools</a>
+        <a href="#audio-review">Audio QA</a>
+      </nav>
+      <nav class="utility-nav" aria-label="Course shortcuts">
+        <a href="./#path">Course Path</a>
+        <a href="./#materials">Packets</a>
+        <a href="lessons/">Unit 1 Hub</a>
       </nav>
     </header>
 
@@ -28,36 +32,84 @@
       <section class="admin-intro">
         <p class="eyebrow">Weekly Updates</p>
         <h1>Parent tools</h1>
-        <p>Use the current-week setting to move the kids through the HSA sequence. Use the entry helper only when you add child-specific homework or extra practice.</p>
+        <p>Use the current-week publisher to update the official HSA item, then use the entry helper when you add shared student material or parent-only reference material.</p>
       </section>
 
-      <section class="steps">
-        <h2>Set the current week</h2>
-        <ol>
-          <li>Open <code>data/site-config.json</code>.</li>
-          <li>Change <code>currentScheduleNumber</code> to the curriculum number you want, from <code>1</code> to <code>30</code>.</li>
-          <li>Save the file and refresh the site.</li>
-        </ol>
-        <pre>{
-  "programTitle": "Homeschool Spanish Academy High School Level 1",
-  "currentScheduleNumber": 1,
-  "currentLabel": "Current Week"
-}</pre>
+      <section class="admin-publish-panel" id="current-week-publisher">
+        <div class="admin-tool-copy">
+          <p class="eyebrow">Official Current Week</p>
+          <h2>Publish the current HSA item</h2>
+          <p>This writes the small config file the student hub reads on load. Parent preview buttons on the course path are local only; this file is the official source.</p>
+        </div>
+        <form class="current-config-form" id="currentConfigForm">
+          <label>
+            HSA item
+            <select id="currentScheduleSelect" name="currentScheduleNumber"></select>
+          </label>
+          <label>
+            Label
+            <input id="currentLabelInput" name="currentLabel" value="Current Week">
+          </label>
+          <div class="config-actions">
+            <button class="button primary" id="saveCurrentConfig" type="button">Save site-config.json</button>
+            <button class="button secondary" id="downloadCurrentConfig" type="button">Download Backup</button>
+          </div>
+          <p class="current-source-note" id="currentConfigStatus">Loading current-week settings...</p>
+        </form>
+        <pre id="currentConfigOutput">Loading data/site-config.json...</pre>
+      </section>
+
+      <section class="admin-tool-panel" id="audio-review">
+        <div class="admin-tool-copy">
+          <p class="eyebrow">Admin Audio QA</p>
+          <h2>U1.1 audio QA tool</h2>
+          <p>Use this before a lesson day to check that every U1.1 pronunciation clip loads, matches the Spanish line, and sounds clear enough for learner imitation.</p>
+          <div class="lesson-actions">
+            <a class="button primary" href="lessons/audio-review.html">Open Audio QA</a>
+            <a class="button secondary" href="lessons/u1-1-pronunciation.html">Open Lesson</a>
+            <a class="button secondary" href="lessons/u1-1-flashcards.html">Open Flashcards</a>
+          </div>
+        </div>
+        <div class="admin-audio-status" aria-label="U1.1 audio review status">
+          <dl>
+            <div>
+              <dt>Manifest clips</dt>
+              <dd id="adminAudioManifestCount">-</dd>
+            </div>
+            <div>
+              <dt>Machine missing</dt>
+              <dd id="adminAudioMissingCount">-</dd>
+            </div>
+            <div>
+              <dt>Recheck list</dt>
+              <dd id="adminAudioRecheckCount">-</dd>
+            </div>
+          </dl>
+          <p id="adminAudioSummary">Loading audio review metadata...</p>
+          <div class="admin-link-row">
+            <a href="data/audio-manifest.json">Manifest</a>
+            <a href="data/media-qa/u1-1-audio-qa-report.json">Machine report</a>
+            <a href="data/media-qa/u1-1-audio-recheck-rollup.json">Recheck roll-up</a>
+          </div>
+        </div>
       </section>
 
       <section class="admin-grid">
         <form id="entryForm" class="entry-form">
           <label>
-            Child name
-            <input id="childName" name="childName" value="Child 1" required>
+            Audience
+            <select id="audience" name="audience">
+              <option value="student">Student materials</option>
+              <option value="parent">Parent materials</option>
+            </select>
           </label>
           <label>
-            Curriculum number
+            HSA High School Lv1 Lesson number
             <input id="scheduleNumber" name="scheduleNumber" value="1" type="number" min="1" max="30" required>
           </label>
           <label>
             Class label
-            <input id="weekLabel" name="weekLabel" value="Curriculum #01" required>
+            <input id="weekLabel" name="weekLabel" value="HSA High School Lv1 Lesson #01" required>
           </label>
           <label>
             Topic
@@ -77,7 +129,7 @@
             <input id="fileName" name="fileName" placeholder="homework-01.pdf" required>
           </label>
           <label>
-            Short note for kids
+            Short note
             <input id="note" name="note" placeholder="Complete before next class." required>
           </label>
           <label>
@@ -91,7 +143,7 @@
           <h2>Generated Entry</h2>
           <pre id="jsonOutput">Fill out the form to create an entry.</pre>
           <h2>Folder Path</h2>
-          <pre id="folderOutput">materials/child-1/curriculum-01/</pre>
+          <pre id="folderOutput">materials/all-kids/curriculum-01/</pre>
         </section>
       </section>
 
@@ -99,7 +151,7 @@
         <h2>Claire's class upload routine</h2>
         <ol>
           <li>Rename files clearly, such as <code>homework-01.pdf</code>.</li>
-          <li>Upload child-specific files to <code>materials/child-name/curriculum-01/</code> in the GitHub repository.</li>
+          <li>Upload shared student files to <code>materials/all-kids/curriculum-01/</code> or parent-only files to <code>materials/parent/curriculum-01/</code>.</li>
           <li>Open <code>data/materials.json</code> in GitHub and add the generated entry inside the <code>materials</code> list.</li>
           <li>Save the change. GitHub Pages will update the website shortly after.</li>
         </ol>

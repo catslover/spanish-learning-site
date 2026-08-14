@@ -1,5 +1,6 @@
 const statusEl = document.querySelector("#speechStatus");
 const utteranceOptions = { lang: "es" };
+const audioAssetVersion = "2026-08-11-valid-audio";
 let activeAudio = null;
 
 function getSpanishVoice() {
@@ -46,7 +47,7 @@ function playAudio(button) {
   }
   window.speechSynthesis?.cancel?.();
 
-  activeAudio = new Audio(audioPath);
+  activeAudio = new Audio(versionedAudioPath(audioPath));
   setPlayingButton(button, true);
   if (statusEl) statusEl.textContent = `Playing: ${fallbackText}`;
 
@@ -60,6 +61,21 @@ function playAudio(button) {
     setPlayingButton(button, false);
     speak(fallbackText);
   });
+}
+
+function versionedAudioPath(path) {
+  if (!path || path.startsWith("data:") || path.startsWith("blob:")) return path;
+  const separator = path.includes("?") ? "&" : "?";
+  return `${path}${separator}v=${audioAssetVersion}`;
+}
+
+function escapeHtml(value) {
+  return String(value ?? "")
+    .replaceAll("&", "&amp;")
+    .replaceAll("<", "&lt;")
+    .replaceAll(">", "&gt;")
+    .replaceAll('"', "&quot;")
+    .replaceAll("'", "&#039;");
 }
 
 document.querySelectorAll("[data-say], [data-audio]").forEach((button) => {

@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 220" role="img" aria-labelledby="title desc">
+  <title id="title">Small colorful house</title>
+  <desc id="desc">A small colorful house for the casa flashcard.</desc>
+  <rect width="320" height="220" rx="24" fill="#eaf3ed"/>
+  <path d="M72 111l88-70 88 70" fill="#e75845"/>
+  <path d="M96 105h128v80H96z" fill="#fffaf2"/>
+  <path d="M128 185v-48h38v48" fill="#2f7d59"/>
+  <rect x="177" y="126" width="32" height="28" rx="4" fill="#66a9c9"/>
+  <path d="M72 111h176" stroke="#17212b" stroke-width="8" stroke-linecap="round"/>
+  <path d="M52 188h216" stroke="#17212b" stroke-width="6" stroke-linecap="round" opacity=".18"/>
+  <circle cx="240" cy="50" r="20" fill="#f5c451"/>
+</svg>

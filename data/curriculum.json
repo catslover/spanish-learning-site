@@ -8,14 +8,22 @@
       "materialId": "lesson-01-alphabet",
       "lessonUrl": "lessons/u1-1-pronunciation.html",
       "lessonLabel": "U1.1 Pronunciation Workshop",
-      "unit": "Unit 1: Asi Soy Yo",
+      "flashcardsUrl": "lessons/u1-1-flashcards.html",
+      "unit": "Unit 1: Así soy yo",
       "supplements": [
         {
           "id": "u1-1",
           "title": "Pronunciation Workshop",
           "status": "Ready",
           "url": "lessons/u1-1-pronunciation.html",
-          "note": "Audio practice for Spanish vowels and high-value alphabet sound patterns."
+          "note": "Audio practice, supported reading, hockey interaction, and Spanish-only identity-card project."
+        },
+        {
+          "id": "u1-1-flashcards",
+          "title": "Pronunciation Flashcards",
+          "status": "Ready",
+          "url": "lessons/u1-1-flashcards.html",
+          "note": "Audio/text cards with selected illustration briefs for memory support."
         },
         {
           "id": "u1-2",
@@ -31,7 +39,7 @@
       "title": "Lesson 2: Greetings and Farewells",
       "description": "This lesson includes the vocabulary of greetings and farewells, and basic dialogues related to the topic.",
       "materialId": "lesson-02-greetings",
-      "unit": "Unit 1: Asi Soy Yo",
+      "unit": "Unit 1: Así soy yo",
       "supplements": [
         {
           "id": "u1-3a",
@@ -47,7 +55,7 @@
       "title": "Lesson 3: The Classroom",
       "description": "This lesson includes vocabulary and expressions used in the classroom, and information to identify people and things.",
       "materialId": "lesson-03-classroom",
-      "unit": "Unit 1: Asi Soy Yo",
+      "unit": "Unit 1: Así soy yo",
       "supplements": [
         {
           "id": "u1-3b",
@@ -75,7 +83,7 @@
       "title": "Lesson 4: Subject Pronouns",
       "description": "This lesson includes personal pronouns, the verb llamarse, general information related to possessive adjectives and family, and a reading and writing exercise.",
       "materialId": "lesson-04-subject-pronouns",
-      "unit": "Unit 1: Asi Soy Yo",
+      "unit": "Unit 1: Así soy yo",
       "supplements": [
         {
           "id": "u1-4",
@@ -96,7 +104,7 @@
       "type": "Review",
       "title": "Review: Lessons 1-4",
       "description": "The Alphabet, Greetings and Farewells, The Classroom and Subject Pronouns.",
-      "unit": "Unit 1: Asi Soy Yo",
+      "unit": "Unit 1: Así soy yo",
       "supplements": [
         {
           "id": "u1-6",
@@ -117,11 +125,11 @@
       "type": "Exam",
       "title": "Exam: Lessons 1-4",
       "description": "This exam evaluates lesson 1 the alphabet, lesson 2 greetings and farewells, lesson 3 the classroom, and lesson 4 subject pronouns.",
-      "unit": "Unit 1: Asi Soy Yo",
+      "unit": "Unit 1: Así soy yo",
       "supplements": [
         {
           "id": "u1-8",
-          "title": "Asi Soy Yo Project",
+          "title": "Así soy yo Project",
           "status": "Planned",
           "note": "Culminating Unit 1 identity project after HSA Lessons 1-4 are reviewed."
         }

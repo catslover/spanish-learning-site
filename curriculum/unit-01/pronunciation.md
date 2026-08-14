@@ -1,9 +1,15 @@
 # U1.1 Pronunciation Workshop
 
-Status: approved curriculum source; student-facing website lesson and audio integration are implemented; printable PDF is planned.
+Status: implemented as student website lesson, flashcard deck, audio package, interactive reading, identity-card project, and printable student packet.
 
 Website lesson: `lessons/u1-1-pronunciation.html`
 Audio specification: `curriculum/unit-01/u1-1-audio-spec.md`
+Flashcard specification: `curriculum/unit-01/u1-1-flashcard-spec.md`
+Interactive reading and project specification: `curriculum/unit-01/u1-1-reading-project.md`
+Implementation metadata: `curriculum/unit-01/u1-1-implementation.json`
+Student packet PDF: `materials/all-kids/curriculum-01/u1-1-pronunciation-workshop.pdf`
+Audio review tool: `lessons/audio-review.html`
+Audio placement manifest: `data/audio-manifest.json`
 
 ## Approved Source Constraints
 
@@ -16,13 +22,17 @@ Audio specification: `curriculum/unit-01/u1-1-audio-spec.md`
 - Audio practice lives on the website as embedded learning media.
 - Website lessons should use adjacent audio controls for each listening target.
 - Printable derivatives should use Listen on Website markers rather than embedding audio.
+- Flashcards are part of the module package, with audio on sound and word cards.
+- Use selective illustrations for flashcards where images improve memory; do not illustrate every card.
+- Audio files must be traceable through `data/audio-manifest.json`, including intended text, file path, placement, and source.
+- Audio review corrections should be exported from `lessons/audio-review.html` before replacing clips.
 - Partner practice is written for Victor and Spencer, with role switching and a progression from modeled to scaffolded to unscripted.
 - Any printable packet generated later must end with exactly one Parent / Instructor / Facilitator reference page.
 
 ## HSA Alignment
 
 - Course: HSA High School Level 1
-- HSA spine item: Curriculum #01, Lesson 1: The Alphabet
+- HSA spine item: HSA High School Lv1 Lesson #01, Lesson 1: The Alphabet
 - Unit 1 context: HSA Lessons 1-4, Quiz 1, and Exam 1 are completed; Week 6 continues with family and identity work.
 - Supplemental purpose: strengthen pronunciation habits before students reuse early vocabulary in family and identity work.
 
@@ -98,8 +108,12 @@ The approved detailed audio map is stored in `curriculum/unit-01/u1-1-audio-spec
 - Student-facing website lesson: exists.
 - Integrated audio controls: implemented.
 - Recorded or generated media assets: implemented as local `.m4a` files.
-- Printable student packet PDF: planned.
-- One-page Parent / Instructor / Facilitator reference: planned as final page of the student packet.
+- Flashcard design: approved and persisted.
+- Flashcard website deck: implemented with audio on every card and selective illustrations.
+- Interactive reading and identity-card project: implemented.
+- Printable student packet PDF: implemented.
+- One-page Parent / Instructor / Facilitator reference: included as the final page of the student packet.
+- Audio review manifest and checking tool: implemented.
 
 ## Partner Practice Script
 

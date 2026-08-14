@@ -16,10 +16,16 @@
           <small>Spanish I control panel</small>
         </span>
       </a>
-      <nav aria-label="Parent navigation">
-        <a href="./">Student Hub</a>
+      <nav class="site-nav" aria-label="Parent navigation">
+        <a href="./#current">Student Hub</a>
+        <a href="parent-dashboard.html" aria-current="page">Parent Dashboard</a>
         <a href="admin.html">Parent Tools</a>
-        <a href="lessons/">Lesson Pages</a>
+        <a href="lessons/audio-review.html">Audio QA</a>
+      </nav>
+      <nav class="utility-nav" aria-label="Course shortcuts">
+        <a href="./#path">Course Path</a>
+        <a href="./#materials">Packets</a>
+        <a href="lessons/">Unit 1 Hub</a>
       </nav>
     </header>
 
@@ -72,7 +78,7 @@
           </article>
           <article>
             <span class="status-chip status-progress">Supplement</span>
-            <h3>Unit 1: Asi Soy Yo</h3>
+            <h3>Unit 1: Así soy yo</h3>
             <p>Use focused modules for pronunciation, numbers, conversations, family, writing, speaking, reading, and the identity project.</p>
           </article>
           <article>
@@ -182,13 +188,14 @@
           <div class="dashboard-actions">
             <a class="button primary" href="lessons/u1-1-pronunciation.html">Open U1.1 Lesson</a>
             <a class="button secondary" href="lessons/u1-1-flashcards.html">Open Flashcards</a>
+            <a class="button secondary" href="lessons/audio-review.html">Open Audio QA</a>
             <a class="button secondary" href="materials/all-kids/curriculum-01/u1-1-pronunciation-workshop.pdf" download>Download PDF</a>
           </div>
         </aside>
       </section>
 
       <section class="dashboard-note">
-        <p><strong>Status discrepancy noted:</strong> the older planning-chat handoff described U1.1 as still needing final PDF, audio, flashcards, reading interaction, and identity-card implementation. Current repo files now list those items as implemented. This dashboard follows the repo and keeps verification as the active milestone.</p>
+        <p><strong>Current milestone:</strong> U1.1 is implemented in the repository and ready for parent review. After the lesson, flashcards, audio QA, and PDF pass review, the next curriculum build should return to U1.2 Numbers.</p>
       </section>
     </main>
   </body>

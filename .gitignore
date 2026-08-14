@@ -1,1 +1,5 @@
 .DS_Store
+.media-qa-cache/
+.media-qa-venv/
+tmp/
+tools/tts-models/

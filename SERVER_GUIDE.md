@@ -8,7 +8,7 @@ This site is a static website. The local server is only for previewing it on you
 2. Go to the site folder:
 
 ```sh
-cd /Users/leopardden/Documents/Codex/2026-08-02/referenced-chatgpt-conversation-this-is-an/outputs/spanish-learning-site
+cd path/to/spanish-learning-site
 ```
 
 3. Start the server:
@@ -50,7 +50,7 @@ Shared class packets are stored in:
 - `materials/all-kids/curriculum-25/`
 - `materials/all-kids/curriculum-26/`
 
-Use `materials/child-1/` or `materials/child-2/` only when homework is different for each child.
+Use `materials/all-kids/` for shared student materials. Use `materials/parent/` only for parent-facing files. Learner-specific folders are reserved for a future customization layer.
 
 After files are added, open `admin.html`, create a catalog entry, and paste it into `data/materials.json`.
 
@@ -63,11 +63,11 @@ Use one current report card per child:
 
 When a new report card is uploaded, replace the matching PDF and update the matching existing entry in `data/report-cards.json`. Keeping the same report ID prevents duplicate entries.
 
-## Set the current week
+## Publish the current HSA item
 
-Open `data/site-config.json` and change `currentScheduleNumber`.
+Open Parent Tools, choose the official HSA item, and save the generated `site-config.json` over `data/site-config.json`. You can also edit `data/site-config.json` directly and change `currentScheduleNumber`.
 
-Use the curriculum number from the schedule screenshot. For example:
+Use the sequence number from `data/curriculum.json`. For example:
 
 - `1` means Lesson 1: The Alphabet.
 - `6` means Lesson 4: Subject Pronouns.

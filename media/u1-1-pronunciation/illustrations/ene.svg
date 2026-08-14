@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 220" role="img" aria-labelledby="title desc">
+  <title id="title">Ñ character</title>
+  <desc id="desc">A memorable Ñ letter character.</desc>
+  <rect width="320" height="220" rx="24" fill="#f7efe2"/>
+  <text x="160" y="153" text-anchor="middle" font-family="Arial, sans-serif" font-size="126" font-weight="900" fill="#2f7d59">Ñ</text>
+  <path d="M111 43c20-15 32 13 52-2 9-7 18-10 31-3" fill="none" stroke="#e75845" stroke-width="10" stroke-linecap="round"/>
+  <circle cx="123" cy="105" r="7" fill="#17212b"/>
+  <circle cx="186" cy="105" r="7" fill="#17212b"/>
+  <path d="M139 133c14 12 32 12 45 0" fill="none" stroke="#17212b" stroke-width="5" stroke-linecap="round"/>
+  <path d="M84 166c35 22 117 22 152 0" fill="none" stroke="#f5c451" stroke-width="8" stroke-linecap="round"/>
+</svg>

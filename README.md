@@ -4,8 +4,8 @@ A simple static website for organizing Homeschool Spanish Academy High School Le
 
 ## What is included
 
-- `index.html` is the kids' download and flashcard page.
-- `admin.html` helps Claire create new entries for the class materials list.
+- `index.html` is the student hub for today's HSA item, the course path, packets, practice, and report cards.
+- `admin.html` holds parent tools for publishing the official current HSA item and creating new material entries.
 - `data/materials.json` is the site catalog.
 - `data/curriculum.json` is the full 30-item curriculum sequence.
 - `data/site-config.json` controls the current week highlight.
@@ -15,7 +15,7 @@ A simple static website for organizing Homeschool Spanish Academy High School Le
 - `materials/` stores the downloadable files.
 - `reports/` stores report-card PDFs.
 
-## Set The Current Week
+## Publish The Current HSA Item
 
 Open `data/site-config.json` and change one number:
 
@@ -27,11 +27,11 @@ Open `data/site-config.json` and change one number:
 }
 ```
 
-Use the screenshot curriculum number, not the lesson PDF number. For example, Lesson 5 is curriculum item `9`.
+Use the HSA sequence number from `data/curriculum.json`, not the lesson PDF number. For example, HSA Lesson 5 is sequence item `9`.
 
 ## Learning Path Buttons
 
-The integrated sequence has a `Done` button for each HSA curriculum item and a `Next` button to move the current focus. Unit supplements appear under the HSA item they support. These marks are saved in the browser on that computer. They are helpful for the kids' day-to-day progress, but they do not change the official shared site files.
+The integrated sequence has a `Done` button for each HSA curriculum item. In parent view, `Preview Today` and `Preview Next HSA Item` let Claire inspect another item locally before publishing it. Unit supplements appear under the HSA item they support. These marks are saved in the browser on that computer. They are helpful for day-to-day use, but they do not change the official shared site files.
 
 For the official current week shown to everyone, update `currentScheduleNumber` in `data/site-config.json`.
 
@@ -52,7 +52,7 @@ Do not add a second "current" report card for the same child unless you want to 
 
 ## Class Upload Routine
 
-1. Create or open a folder for the child and curriculum item, such as `materials/child-1/curriculum-09/`.
+1. Create or open a shared student folder for the HSA item, such as `materials/all-kids/curriculum-09/`.
 2. Add the PDFs, worksheets, audio files, or practice notes for that class.
 3. Open `admin.html`, fill out the form, and copy the generated entry.
 4. Paste the entry into the `materials` array in `data/materials.json`.
@@ -77,7 +77,7 @@ Current shared class packets are in:
 - `materials/all-kids/curriculum-25/h1al13-places-locations.pdf`
 - `materials/all-kids/curriculum-26/h1al14-querer-vegetables.pdf`
 
-Use `all-kids` for materials both children should see. Use `child-1` or `child-2` only for child-specific homework.
+Use `all-kids` for shared student materials. Use `parent` only for parent-facing materials; learner-specific material slots are reserved for a future customization layer.
 
 ## Running The Local Preview Server
 

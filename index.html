@@ -15,16 +15,59 @@
           <small>Spanish I curriculum workspace</small>
         </span>
       </a>
-      <nav aria-label="Main navigation">
-        <a href="#current">Current</a>
-        <a href="#path">Path</a>
-        <a href="#materials">Materials</a>
-        <a href="#reports">Reports</a>
-        <a href="#practice">Practice</a>
-        <a href="parent-dashboard.html">Dashboard</a>
-        <a href="admin.html">Parent</a>
-      </nav>
+      <div class="topbar-actions">
+        <nav class="site-nav" aria-label="Learner navigation">
+          <a href="#current">Today</a>
+          <a href="#path">Course Path</a>
+          <a href="#materials">Packets</a>
+          <a href="#practice">Practice</a>
+          <a href="#reports">Reports</a>
+        </nav>
+        <nav class="utility-nav" aria-label="Parent navigation" data-parent-only>
+          <a href="parent-dashboard.html">Parent Dashboard</a>
+          <a href="admin.html">Parent Tools</a>
+        </nav>
+        <button class="profile-toggle" id="profileToggle" type="button" aria-expanded="false" aria-controls="profilePanel">
+          <span id="profileInitial" aria-hidden="true">V</span>
+          <span id="profileName">Victor</span>
+        </button>
+      </div>
     </header>
+
+    <section class="profile-panel" id="profilePanel" hidden>
+      <div class="profile-panel-inner">
+        <div class="profile-panel-copy">
+          <p class="eyebrow">Local Profile</p>
+          <h2>Who is using the site?</h2>
+          <p>Profiles and progress are saved only on this device for now. No login, no password, and no cookies.</p>
+        </div>
+        <div class="profile-controls" aria-label="Profile settings">
+          <div>
+            <span class="control-label">Profile</span>
+            <div class="profile-options" data-profile-options>
+              <button type="button" data-profile-id="victor">Victor</button>
+              <button type="button" data-profile-id="spencer">Spencer</button>
+              <button type="button" data-profile-id="parent">Parent</button>
+            </div>
+          </div>
+          <div>
+            <span class="control-label">View</span>
+            <div class="segmented-control" data-view-options>
+              <button type="button" data-view-mode="learner">Learner</button>
+              <button type="button" data-view-mode="parent">Parent</button>
+            </div>
+          </div>
+          <div>
+            <span class="control-label">Display</span>
+            <div class="segmented-control" data-density-options>
+              <button type="button" data-density="comfortable">Comfortable</button>
+              <button type="button" data-density="compact">Compact</button>
+            </div>
+          </div>
+          <button class="button secondary" id="resetProfile" type="button">Reset This Profile</button>
+        </div>
+      </div>
+    </section>
 
     <main>
       <section class="hero">
@@ -34,7 +77,7 @@
           <p class="hero-text">A shared workspace for HSA packets, Unit 1 supplements, audio practice, downloads, and progress for Victor and Spencer.</p>
           <div class="hero-actions">
             <a class="button primary" href="#current">Open Current Work</a>
-            <a class="button secondary" href="#path">See Learning Path</a>
+            <a class="button secondary" href="#path">See Course Path</a>
           </div>
         </div>
         <div class="hero-art" aria-hidden="true">
@@ -52,10 +95,11 @@
       <section class="current-week" id="current" aria-live="polite">
         <div class="section-heading">
           <div>
-            <p class="eyebrow">Current Week</p>
+            <p class="eyebrow">Today</p>
             <h2 id="currentTitle">Loading...</h2>
+            <p class="profile-context" id="profileContext">Local profile loading...</p>
           </div>
-          <span id="currentBadge" class="count">Curriculum #01</span>
+          <span id="currentBadge" class="count">HSA High School Lv1 Lesson #01</span>
         </div>
         <div id="currentPanel" class="current-panel"></div>
       </section>
@@ -119,10 +163,10 @@
       <section class="website-lessons" id="path">
         <div class="section-heading">
           <div>
-            <p class="eyebrow">Learning Path</p>
+            <p class="eyebrow">Course Path</p>
             <h2>HSA sequence with Unit 1 supplements in place</h2>
           </div>
-          <a class="count" href="lessons/">Lesson Pages</a>
+          <a class="count" href="lessons/">Unit 1 Hub</a>
         </div>
         <div class="unit-board">
           <article class="unit-feature">
@@ -132,11 +176,13 @@
                 <span class="tag">HSA #01-08</span>
                 <span class="tag">Lessons 1-4 + review/exam</span>
               </div>
-              <h3>Asi Soy Yo lives inside the HSA path.</h3>
-              <p>Unit 1 supplements are attached to the HSA items they support, so the kids can move through packets, audio lessons, partner practice, and projects in one sequence.</p>
+              <h3>Así soy yo lives inside the HSA path.</h3>
+              <p>Unit 1 supplements are attached to the HSA items they support, so Victor and Spencer can move through packets, audio lessons, partner practice, and projects in one sequence.</p>
             </div>
             <div class="unit-actions">
-              <a class="button primary" href="lessons/u1-1-pronunciation.html">Open Audio Lesson</a>
+              <a class="button primary" href="lessons/u1-1-pronunciation.html">Open U1.1 Lesson</a>
+              <a class="button secondary" href="lessons/u1-1-flashcards.html">Review Flashcards</a>
+              <a class="button secondary" href="materials/all-kids/curriculum-01/u1-1-pronunciation-workshop.pdf" download>Download PDF</a>
               <a class="button secondary" href="#sequence">View Sequence</a>
             </div>
           </article>
@@ -144,7 +190,7 @@
             <article>
               <span>HSA #01</span>
               <strong>Alphabet + U1.1/U1.2</strong>
-              <em>Pronunciation ready; numbers planned</em>
+              <em>Pronunciation and flashcards ready; numbers planned</em>
             </article>
             <article>
               <span>HSA #02-03</span>
@@ -167,17 +213,19 @@
 
       <section class="workspace" id="materials">
         <aside class="filters" aria-label="Materials filters">
-          <h2>Find Materials</h2>
-          <label>
-            Child
+          <h2>Find Packets</h2>
+          <label class="audience-filter" id="audienceFilterGroup">
+            Audience
             <select id="childFilter">
-              <option value="all">All children</option>
+              <option value="student">Student materials</option>
+              <option value="parent">Parent materials</option>
+              <option value="all">All materials</option>
             </select>
           </label>
           <label>
-            Curriculum #
+            HSA High School Lv1 Lesson #
             <select id="weekFilter">
-              <option value="all">All curriculum items</option>
+              <option value="all">All HSA items</option>
             </select>
           </label>
           <label>
@@ -202,7 +250,7 @@
         <section class="library-panel" aria-live="polite">
           <div class="section-heading">
             <div>
-              <p class="eyebrow">Materials</p>
+              <p class="eyebrow">Packets</p>
               <h2>Packets and downloads</h2>
             </div>
             <span id="resultCount" class="count">0 files</span>
@@ -254,7 +302,7 @@
     </main>
 
     <footer>
-      <p>Made for Spanish practice. Change the current week in <code>data/site-config.json</code>.</p>
+      <p>Made for Spanish practice. Publish the current HSA item in Parent Tools.</p>
     </footer>
 
     <script src="app.js"></script>

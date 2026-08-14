@@ -1,0 +1,58 @@
+{
+  "manifestVersion": "2026-08-11.u1-1-audio-review",
+  "status": "regenerated_recheck_required",
+  "updated": "2026-08-13",
+  "summary": {
+    "totalRecheckItems": 2,
+    "wrongPronunciation": 0,
+    "unchecked": 2,
+    "regeneratedVowels": 5,
+    "approvedRegeneratedVowels": 5,
+    "regeneratedPatterns": 2
+  },
+  "note": "The two clips previously marked wrong pronunciation, niño and José, were regenerated on 2026-08-13 and reset to unchecked for human recheck.",
+  "items": [
+    {
+      "id": "nino",
+      "expectedText": "niño",
+      "expectedEnglish": "boy / child",
+      "currentStatus": "unchecked",
+      "reviewNotes": "",
+      "files": [
+        "media/u1-1-pronunciation/patterns/n-tilde/nino.wav"
+      ],
+      "placements": [
+        {
+          "id": "u1-1-pattern-nino",
+          "group": "Patterns",
+          "placement": "ñ row and Ñ flashcard front",
+          "file": "media/u1-1-pronunciation/patterns/n-tilde/nino.wav",
+          "source": "lesson+flashcards"
+        }
+      ],
+      "action": "human_recheck_required",
+      "reason": "Regenerated again on 2026-08-13 with slower timing; review ñ pronunciation in the website audio QA tool."
+    },
+    {
+      "id": "jose",
+      "expectedText": "José",
+      "expectedEnglish": "José",
+      "currentStatus": "unchecked",
+      "reviewNotes": "",
+      "files": [
+        "media/u1-1-pronunciation/patterns/jota/jose.wav"
+      ],
+      "placements": [
+        {
+          "id": "u1-1-pattern-jose",
+          "group": "Patterns",
+          "placement": "j/ge/gi row and J flashcard front",
+          "file": "media/u1-1-pronunciation/patterns/jota/jose.wav",
+          "source": "lesson+flashcards"
+        }
+      ],
+      "action": "human_recheck_required",
+      "reason": "Clip was regenerated on 2026-08-13. Review in the website audio QA tool before marking correct."
+    }
+  ]
+}

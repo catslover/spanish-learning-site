@@ -1,0 +1,129 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>U1.1 Audio QA Tool | Claire's Spanish Hub</title>
+    <link rel="stylesheet" href="../styles.css">
+    <link rel="stylesheet" href="lesson.css">
+  </head>
+  <body>
+    <header class="topbar lesson-topbar">
+      <a class="brand" href="../" aria-label="Claire's Spanish Hub home">
+        <span class="brand-mark">ES</span>
+        <span>
+          <strong>Audio QA</strong>
+          <small>U1.1 Pronunciation Workshop</small>
+        </span>
+      </a>
+      <nav class="site-nav" aria-label="Parent tool navigation">
+        <a href="../admin.html#audio-review">Parent Tools</a>
+        <a href="../parent-dashboard.html">Parent Dashboard</a>
+      </nav>
+      <nav class="utility-nav" aria-label="U1.1 resource navigation">
+        <a href="index.html">Unit 1 Hub</a>
+        <a href="u1-1-pronunciation.html">Lesson</a>
+        <a href="u1-1-flashcards.html">Flashcards</a>
+        <a href="../materials/all-kids/curriculum-01/u1-1-pronunciation-workshop.pdf" download>Student Packet</a>
+      </nav>
+    </header>
+
+    <main class="lesson-main audio-review-app">
+      <section class="lesson-hero audio-review-hero">
+        <div class="lesson-hero-copy">
+          <p class="eyebrow">Media Quality Control</p>
+          <h1>U1.1 Audio QA</h1>
+          <p>Review each unique audio phrase, save the status to the repository, and keep the unresolved queue easy to find.</p>
+          <div class="lesson-actions">
+            <button class="button primary" type="button" id="saveReviewFile">Save Review Status</button>
+            <button class="button secondary" type="button" id="playUnchecked">Find Unchecked</button>
+            <button class="button secondary" type="button" id="runBrowserCheck">Check Availability</button>
+            <button class="button secondary" type="button" id="loadRepoStatus">Load Repo Status</button>
+            <button class="button secondary quiet-action" type="button" id="exportReview">Backup JSON</button>
+            <label class="button secondary import-review-label">Import Review JSON<input id="importReview" type="file" accept="application/json"></label>
+            <button class="button secondary quiet-action" type="button" id="resetReview">Clear Page</button>
+          </div>
+        </div>
+        <div class="audio-review-summary" aria-label="Audio review summary">
+          <span>Unique checks</span>
+          <strong id="totalCount">0</strong>
+          <dl>
+            <div><dt>Correct</dt><dd id="correctCount">0</dd></div>
+            <div><dt>Needs work</dt><dd id="problemCount">0</dd></div>
+            <div><dt>Unchecked</dt><dd id="uncheckedCount">0</dd></div>
+        </dl>
+        <div class="audio-status-jump" aria-label="Review status shortcuts">
+          <button type="button" data-status-jump="correct">Correct</button>
+          <button type="button" data-status-jump="problem">Needs work</button>
+          <button type="button" data-status-jump="unchecked">Unchecked</button>
+        </div>
+          <p id="machineSummary">Machine report loading...</p>
+          <p id="submissionSummary">Submission status loading...</p>
+          <p id="saveSummary">Review marks stay in this open page until you save. Use Save Review Status to persist them to the repository JSON.</p>
+          <p id="fileSaveSummary">File save status loading...</p>
+        </div>
+      </section>
+
+      <section class="lesson-band audio-review-controls" aria-label="Audio review filters">
+        <label>
+          Search
+          <input id="audioSearch" type="search" placeholder="Search text, file, or placement">
+        </label>
+        <label>
+          Group
+          <select id="groupFilter">
+            <option value="all">All groups</option>
+          </select>
+        </label>
+        <label>
+          Status
+          <select id="statusFilter">
+            <option value="all">All statuses</option>
+            <option value="unchecked">Unchecked</option>
+            <option value="correct">Correct</option>
+            <option value="problem">Needs work</option>
+          </select>
+        </label>
+        <label>
+          Machine
+          <select id="machineFilter">
+            <option value="all">All machine checks</option>
+            <option value="flagged">Flagged</option>
+            <option value="clear">No flags</option>
+          </select>
+        </label>
+        <label>
+          Priority
+          <select id="priorityFilter">
+            <option value="all">All priorities</option>
+            <option value="recheck">Recheck roll-up</option>
+            <option value="high">High priority</option>
+            <option value="normal">Normal priority</option>
+          </select>
+        </label>
+        <button class="button secondary" type="button" id="resetFilters">Reset Filters</button>
+      </section>
+
+      <section class="lesson-band audio-review-workspace" aria-label="Audio review list">
+        <div class="lesson-heading">
+          <p class="eyebrow">Review List</p>
+          <h2>Compact phrase checks</h2>
+          <p id="reviewMeta">Loading audio metadata...</p>
+        </div>
+        <div class="audio-review-empty" id="audioReviewEmpty" hidden>
+          <h3>No checks match the current filters</h3>
+          <p>Reset the filters to show the full U1.1 audio review list.</p>
+          <button class="button secondary" type="button" id="resetFiltersEmpty">Reset Filters</button>
+        </div>
+        <div class="audio-review-list" id="audioReviewList"></div>
+      </section>
+    </main>
+
+    <footer>
+      <p>Review marks are not stored as browser data. Use Save Review Status to persist them into <code>data/media-qa/u1-1-audio-review-submission.json</code>.</p>
+    </footer>
+
+    <script src="lesson.js"></script>
+    <script src="audio-review.js?v=20260812-compact-status"></script>
+  </body>
+</html>

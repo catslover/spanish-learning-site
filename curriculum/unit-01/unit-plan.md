@@ -13,12 +13,12 @@ Status: active source-of-truth tracker for Spanish I Unit 1.
 
 | Component | Status |
 | --- | --- |
-| Pronunciation Workshop | Implemented / website ready; PDF planned |
+| Pronunciation Workshop | Implemented / website, audio, flashcards, reading, project, and student PDF complete |
 | Numbers | Planned |
 | 5 Partner Conversations | Planned |
 | Family Expansion | Planned |
 | Writing | Planned |
 | Speaking Self-Introduction | Planned |
 | Short Reading + website audio | Planned |
-| Asi Soy Yo project | Planned |
+| Así soy yo project | Planned |
 | Culture graphic novel: El Mundo Hispano | Later / requires design discussion |

@@ -36,7 +36,7 @@ Repo status says U1.1 is implemented. The older planning-chat handoff said U1.1 
 | U1.5 Writing Practice | Planned | Same task for both students; difficulty based on Spanish ability, not grade level. |
 | U1.6 Speaking Self-Introduction | Planned | Move from supported to partially supported to independent speaking. |
 | U1.7 Reading | Partially developed / Planned | U1.1 established the reading design strategy; later Unit 1 reading remains planned. |
-| U1.8 Mini Project: Asi Soy Yo | Designed / Planned | U1.1 includes the Spanish-only identity-card project; broader Unit 1 culminating project remains planned. |
+| U1.8 Mini Project: Así soy yo | Designed / Planned | U1.1 includes the Spanish-only identity-card project; broader Unit 1 culminating project remains planned. |
 | El Mundo Hispano culture strand | Later | Needs separate design discussion; enrichment strand, not a full parallel course. |
 
 ## U1.1 Implementation Checklist

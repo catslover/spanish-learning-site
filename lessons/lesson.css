@@ -41,8 +41,48 @@
   gap: 0.75rem;
 }
 
+.next-actions {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  gap: 1rem;
+  align-items: center;
+}
+
+.next-actions p {
+  max-width: 54rem;
+  color: var(--muted);
+}
+
 .lesson-topbar nav {
   gap: 0.25rem;
+}
+
+.subnav {
+  position: sticky;
+  top: 73px;
+  z-index: 8;
+  display: flex;
+  gap: 0.4rem;
+  overflow-x: auto;
+  padding: 0.55rem clamp(1rem, 4vw, 3rem);
+  border-bottom: 1px solid var(--line);
+  background: rgba(255, 250, 242, 0.94);
+  backdrop-filter: blur(14px);
+}
+
+.subnav a {
+  flex: 0 0 auto;
+  border-radius: 8px;
+  padding: 0.45rem 0.7rem;
+  color: var(--muted);
+  font-size: 0.9rem;
+  font-weight: 850;
+  text-decoration: none;
+}
+
+.subnav a:hover {
+  background: #efe6d9;
+  color: var(--ink);
 }
 
 .audio-board {
@@ -574,12 +614,922 @@
   font-weight: 800;
 }
 
+.flashcard-hero {
+  grid-template-columns: minmax(0, 1fr) minmax(300px, 0.75fr);
+}
+
+.flashcard-thesis {
+  display: grid;
+  gap: 1px;
+  overflow: hidden;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: var(--line);
+}
+
+.flashcard-thesis div,
+.flashcard-thesis p {
+  margin: 0;
+  padding: 1rem;
+  background: rgba(255, 255, 255, 0.78);
+}
+
+.flashcard-thesis strong {
+  display: block;
+  color: var(--coral);
+  font-size: clamp(2.4rem, 6vw, 4.4rem);
+  line-height: 0.95;
+}
+
+.flashcard-thesis span,
+.flashcard-thesis p {
+  color: var(--muted);
+  font-weight: 850;
+}
+
+.study-card-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 1rem;
+}
+
+.study-toolbar,
+.deck-stats {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.65rem;
+}
+
+.study-toolbar {
+  margin-top: 1rem;
+}
+
+.study-toolbar .is-active {
+  background: var(--green);
+  color: white;
+}
+
+.deck-stats {
+  margin-bottom: 1rem;
+}
+
+.deck-stats span {
+  display: inline-flex;
+  min-height: 44px;
+  align-items: center;
+  gap: 0.4rem;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  padding: 0.55rem 0.75rem;
+  background: rgba(255, 255, 255, 0.82);
+  color: var(--muted);
+  font-weight: 850;
+}
+
+.deck-stats strong {
+  color: var(--green);
+  font-size: 1.2rem;
+}
+
+.study-card {
+  position: relative;
+  min-height: 330px;
+  perspective: 1200px;
+}
+
+.study-card-face {
+  display: grid;
+  gap: 0.85rem;
+  align-content: start;
+  min-height: 330px;
+  padding: 1rem;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: var(--surface);
+  box-shadow: 0 10px 30px rgba(23, 33, 43, 0.08);
+  backface-visibility: hidden;
+  transform-style: preserve-3d;
+  transition: transform 220ms ease;
+}
+
+.study-card-front {
+  background:
+    radial-gradient(circle at top right, rgba(245, 196, 81, 0.24), transparent 38%),
+    var(--surface);
+}
+
+.study-card h3 {
+  margin: 0;
+  font-size: clamp(1.8rem, 5vw, 3.1rem);
+  line-height: 1;
+}
+
+.study-card-front {
+  position: absolute;
+  inset: 0;
+}
+
+.study-card-back {
+  transform: rotateY(180deg);
+}
+
+.study-card.is-flipped .study-card-front {
+  transform: rotateY(180deg);
+}
+
+.study-card.is-flipped .study-card-back {
+  transform: rotateY(360deg);
+}
+
+.study-card ul {
+  display: grid;
+  gap: 0.55rem;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.study-card li {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  gap: 0.15rem 0.45rem;
+  align-items: center;
+  border-top: 1px solid var(--line);
+  padding-top: 0.55rem;
+}
+
+.study-card li span,
+.study-card p {
+  grid-column: 1 / -1;
+  color: var(--muted);
+}
+
+.image-brief {
+  display: grid;
+  gap: 0.25rem;
+  border: 1px dashed #d9cebf;
+  border-radius: 8px;
+  padding: 0.75rem;
+  background: #fffaf2;
+}
+
+.image-brief strong {
+  color: var(--green);
+  font-size: 0.78rem;
+  text-transform: uppercase;
+}
+
+.card-illustration {
+  width: 100%;
+  max-height: 130px;
+  object-fit: contain;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: #fffaf2;
+}
+
+.reader-panel,
+.comprehension-panel,
+.project-workspace {
+  display: grid;
+  gap: 1rem;
+}
+
+.reader-panel {
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  overflow: hidden;
+  background: var(--surface);
+}
+
+.reader-line {
+  display: grid;
+  grid-template-columns: 54px minmax(0, 1fr);
+  gap: 0.75rem;
+  align-items: start;
+  padding: 1rem;
+  border-bottom: 1px solid var(--line);
+}
+
+.reader-line:last-child {
+  border-bottom: 0;
+}
+
+.reader-line p {
+  margin: 0;
+}
+
+.reader-line strong {
+  display: block;
+  margin-bottom: 0.3rem;
+  font-size: 1.08rem;
+}
+
+.reader-line span {
+  color: var(--muted);
+  font-weight: 750;
+}
+
+.comprehension-panel {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  margin-top: 1rem;
+}
+
+.question-card,
+.short-answer,
+.hockey-result,
+.identity-form,
+.identity-preview {
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  padding: 1rem;
+  background: var(--surface);
+}
+
+.question-card h3 {
+  display: flex;
+  gap: 0.65rem;
+  align-items: center;
+  margin: 0 0 0.5rem;
+  font-size: 1.05rem;
+  line-height: 1.2;
+}
+
+.choice-grid {
+  display: grid;
+  gap: 0.45rem;
+}
+
+.choice-grid button,
+.hockey-picker button,
+.template-controls button {
+  border: 1px solid #d9cebf;
+  border-radius: 8px;
+  padding: 0.7rem;
+  background: white;
+  color: var(--ink);
+  font: inherit;
+  font-weight: 850;
+  text-align: left;
+  cursor: pointer;
+}
+
+.choice-grid button.is-correct {
+  border-color: var(--green);
+  background: #eaf3ed;
+}
+
+.choice-grid button.is-incorrect {
+  border-color: var(--coral);
+  background: #fff1ef;
+}
+
+.feedback {
+  min-height: 1.5rem;
+  margin: 0.7rem 0 0;
+  color: var(--muted);
+  font-weight: 850;
+}
+
+.short-answer label {
+  margin: 0;
+}
+
+.short-answer span,
+.short-answer small {
+  display: block;
+}
+
+.short-answer span {
+  display: flex;
+  gap: 0.65rem;
+  align-items: center;
+}
+
+.short-answer small {
+  color: var(--muted);
+}
+
+.hockey-picker {
+  display: grid;
+  grid-template-columns: repeat(6, minmax(0, 1fr));
+  gap: 0.65rem;
+}
+
+.hockey-picker button {
+  display: grid;
+  gap: 0.3rem;
+  min-height: 96px;
+  align-content: center;
+  text-align: center;
+}
+
+.hockey-picker button span {
+  color: var(--muted);
+  font-size: 0.82rem;
+}
+
+.hockey-picker button.is-selected,
+.template-controls button.is-selected {
+  border-color: var(--green);
+  background: #eaf3ed;
+  color: var(--green);
+}
+
+.hockey-result {
+  margin-top: 1rem;
+}
+
+.hockey-result h3 {
+  margin: 0 0 0.5rem;
+  font-size: clamp(1.4rem, 3vw, 2.1rem);
+}
+
+.project-workspace {
+  grid-template-columns: minmax(280px, 0.82fr) minmax(320px, 1.18fr);
+  align-items: start;
+}
+
+.identity-form {
+  display: grid;
+  gap: 0.75rem;
+}
+
+.identity-form label {
+  margin: 0;
+}
+
+.label-audio-row {
+  display: inline-flex;
+  flex-wrap: wrap;
+  gap: 0.45rem;
+  align-items: center;
+}
+
+.template-controls {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 0.45rem;
+}
+
+.identity-preview {
+  position: relative;
+  overflow: hidden;
+  min-height: 420px;
+  padding: clamp(1.25rem, 4vw, 2rem);
+  background:
+    linear-gradient(135deg, rgba(255, 255, 255, 0.92), rgba(255, 250, 242, 0.86)),
+    #fffaf2;
+}
+
+.identity-preview h3 {
+  margin: 1rem 0;
+  font-size: clamp(2rem, 5vw, 4rem);
+  line-height: 0.95;
+}
+
+.identity-preview p {
+  margin-bottom: 0.55rem;
+  font-size: 1.05rem;
+  font-weight: 850;
+}
+
+.id-label {
+  display: inline-flex;
+  border-radius: 999px;
+  padding: 0.35rem 0.7rem;
+  background: var(--ink);
+  color: white;
+  font-size: 0.78rem;
+  font-weight: 950;
+  text-transform: uppercase;
+}
+
+.id-icon {
+  position: absolute;
+  right: 1rem;
+  top: 1rem;
+  display: grid;
+  min-width: 48px;
+  min-height: 48px;
+  place-items: center;
+  border: 2px solid currentColor;
+  border-radius: 50%;
+  padding: 0.35rem;
+  color: var(--green);
+  font-size: 0.78rem;
+  font-weight: 950;
+}
+
+.identity-preview.sports {
+  background: linear-gradient(135deg, #17212b, #2f7d59);
+  color: white;
+}
+
+.identity-preview.sports p {
+  color: rgba(255, 255, 255, 0.88);
+}
+
+.identity-preview.sports .id-icon {
+  color: white;
+}
+
+.identity-preview.notebook {
+  background:
+    linear-gradient(#ffffff 31px, rgba(102, 169, 201, 0.22) 32px),
+    #ffffff;
+  background-size: 100% 32px;
+}
+
+.identity-preview.minimal {
+  background: #ffffff;
+}
+
+.identity-preview.accent-green {
+  border-top: 10px solid var(--green);
+}
+
+.identity-preview.accent-coral {
+  border-top: 10px solid var(--coral);
+}
+
+.identity-preview.accent-sky {
+  border-top: 10px solid var(--sky);
+}
+
+.identity-preview.accent-gold {
+  border-top: 10px solid var(--gold);
+}
+
+.identity-preview.detail-stamp::after,
+.identity-preview.detail-stripe::after {
+  content: "";
+  position: absolute;
+  pointer-events: none;
+}
+
+.identity-preview.detail-stamp::after {
+  right: 1.25rem;
+  bottom: 1.25rem;
+  width: 96px;
+  aspect-ratio: 1;
+  border: 3px double currentColor;
+  border-radius: 50%;
+  opacity: 0.18;
+}
+
+.identity-preview.detail-stripe::after {
+  inset: auto 0 0;
+  height: 18px;
+  background: currentColor;
+  opacity: 0.14;
+}
+
+.audio-review-app .lesson-hero {
+  grid-template-columns: minmax(0, 1fr) minmax(260px, 0.44fr);
+}
+
+.audio-review-summary {
+  align-self: stretch;
+  display: grid;
+  align-content: center;
+  gap: 1rem;
+  border-left: 1px solid var(--line);
+  padding: clamp(1.25rem, 4vw, 2rem);
+  background: #fff;
+}
+
+.audio-review-summary > span {
+  color: var(--muted);
+  font-size: 0.8rem;
+  font-weight: 950;
+  text-transform: uppercase;
+}
+
+.audio-review-summary > strong {
+  font-size: clamp(4rem, 10vw, 7rem);
+  line-height: 0.9;
+}
+
+.audio-review-summary dl {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 0.6rem;
+  margin: 0;
+}
+
+.audio-review-summary div {
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  padding: 0.75rem;
+}
+
+.audio-review-summary dt {
+  color: var(--muted);
+  font-size: 0.72rem;
+  font-weight: 950;
+  text-transform: uppercase;
+}
+
+.audio-review-summary dd {
+  margin: 0;
+  font-size: 1.5rem;
+  font-weight: 950;
+}
+
+.audio-status-jump {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 0.45rem;
+}
+
+.audio-status-jump button {
+  min-height: 38px;
+  border: 1px solid #d9cebf;
+  border-radius: 8px;
+  background: #fffaf2;
+  color: var(--ink);
+  font: inherit;
+  font-size: 0.78rem;
+  font-weight: 950;
+  cursor: pointer;
+}
+
+.audio-review-controls {
+  display: grid;
+  grid-template-columns: minmax(240px, 1fr) repeat(4, minmax(150px, 0.3fr)) auto;
+  gap: 0.75rem;
+  align-items: end;
+  background: #fff;
+}
+
+.audio-data-status {
+  display: grid;
+  grid-template-columns: minmax(220px, 0.4fr) minmax(0, 1fr);
+  gap: 1rem;
+  background: #fff;
+}
+
+.audio-data-status dl {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1px;
+  overflow: hidden;
+  margin: 0;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: var(--line);
+}
+
+.audio-data-status div {
+  min-width: 0;
+  padding: 0.9rem;
+  background: #fffaf2;
+}
+
+.audio-data-status dt {
+  color: var(--muted);
+  font-size: 0.72rem;
+  font-weight: 950;
+  text-transform: uppercase;
+}
+
+.audio-data-status dd {
+  margin: 0.25rem 0 0;
+  overflow-wrap: anywhere;
+  color: #44515d;
+  font-weight: 850;
+}
+
+.audio-data-status a {
+  color: var(--green);
+  text-decoration-thickness: 2px;
+}
+
+.audio-review-controls label,
+.review-note {
+  display: grid;
+  gap: 0.35rem;
+  color: #44515d;
+  font-size: 0.78rem;
+  font-weight: 950;
+  text-transform: uppercase;
+}
+
+.audio-review-controls input,
+.audio-review-controls select,
+.review-note textarea {
+  width: 100%;
+  border: 1px solid #d9cebf;
+  border-radius: 8px;
+  padding: 0.75rem 0.85rem;
+  background: #fffaf2;
+  color: var(--ink);
+  font: inherit;
+  font-weight: 750;
+  text-transform: none;
+}
+
+.audio-review-list {
+  display: grid;
+  gap: 0.5rem;
+}
+
+.audio-review-empty {
+  border: 1px dashed #d9cebf;
+  border-radius: 8px;
+  padding: 1rem;
+  background: #fffaf2;
+}
+
+.audio-review-empty h3 {
+  margin: 0 0 0.45rem;
+  font-size: 1.25rem;
+}
+
+.audio-review-empty p {
+  color: var(--muted);
+  font-weight: 750;
+}
+
+.audio-review-guide {
+  display: grid;
+  grid-template-columns: minmax(220px, 0.4fr) minmax(0, 1fr);
+  gap: 1rem;
+  background: #fff;
+}
+
+.audio-review-guide ol {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 1px;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: var(--line);
+  list-style: none;
+}
+
+.audio-review-guide li {
+  min-height: 130px;
+  padding: 1rem;
+  background: #fffaf2;
+}
+
+.audio-review-item {
+  display: grid;
+  gap: 0.6rem;
+  border: 1px solid var(--line);
+  border-left: 5px solid #d8cec0;
+  border-radius: 8px;
+  padding: 0.75rem;
+  background: #fff;
+}
+
+.audio-review-item.correct {
+  border-left-color: var(--green);
+}
+
+.audio-review-item.problem {
+  border-left-color: var(--coral);
+}
+
+.audio-review-main {
+  display: grid;
+  grid-template-columns: minmax(190px, 0.9fr) minmax(260px, 1fr) auto;
+  gap: 0.65rem;
+  align-items: center;
+}
+
+.audio-review-text h3 {
+  margin: 0 0 0.15rem;
+  font-size: clamp(1.1rem, 2vw, 1.55rem);
+  line-height: 1.1;
+}
+
+.audio-review-text p {
+  margin: 0;
+  color: var(--muted);
+  font-size: 0.9rem;
+  font-weight: 750;
+}
+
+.audio-review-text code {
+  display: inline-block;
+  max-width: 100%;
+  overflow-wrap: anywhere;
+  border-radius: 6px;
+  padding: 0.25rem 0.45rem;
+  background: #f3eadf;
+  color: #44515d;
+  font-size: 0.78rem;
+}
+
+.expected-long {
+  max-height: 5.8rem;
+  overflow: auto;
+  border-left: 4px solid var(--line);
+  padding-left: 0.75rem;
+}
+
+.audio-proof-grid,
+.audio-detail-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 1px;
+  overflow: hidden;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: var(--line);
+}
+
+.audio-proof-grid > div,
+.audio-detail-grid > div {
+  padding: 0.9rem;
+  background: #fffaf2;
+}
+
+.audio-proof-grid span,
+.audio-detail-grid span {
+  display: block;
+  margin-bottom: 0.35rem;
+  color: var(--coral);
+  font-size: 0.72rem;
+  font-weight: 950;
+  text-transform: uppercase;
+}
+
+.audio-proof-grid p,
+.audio-proof-grid ul,
+.audio-detail-grid p,
+.audio-detail-grid ul {
+  margin: 0;
+  color: #44515d;
+  font-weight: 750;
+}
+
+.audio-proof-grid ul,
+.audio-detail-grid ul {
+  padding-left: 1rem;
+}
+
+.audio-proof-grid details,
+.audio-detail-grid details {
+  margin-top: 0.55rem;
+}
+
+.vowel-check-card {
+  background: #f2fbf6 !important;
+}
+
+.recheck-card {
+  background: #fff4ee !important;
+}
+
+.compare-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.45rem;
+  margin-top: 0.75rem;
+}
+
+.machine-warning {
+  color: var(--coral) !important;
+}
+
+.warning-tag {
+  background: #fff0ed;
+  color: var(--coral);
+}
+
+.audio-review-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.45rem;
+}
+
+.compact-actions {
+  padding-left: calc(190px + 0.65rem);
+}
+
+.audio-review-actions .mini-button.is-selected {
+  background: var(--ink);
+  color: white;
+}
+
+.audio-review-status-line {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35rem;
+  align-items: center;
+}
+
+.compact-status {
+  display: inline-flex;
+  min-height: 28px;
+  align-items: center;
+  border: 1px solid #d9cebf;
+  border-radius: 999px;
+  padding: 0.2rem 0.55rem;
+  background: #fffaf2;
+  color: #44515d;
+  font-size: 0.75rem;
+  font-weight: 950;
+}
+
+.compact-status.correct {
+  border-color: rgba(47, 125, 89, 0.32);
+  background: #edf7f1;
+  color: var(--green);
+}
+
+.compact-status.problem,
+.compact-status.recheck {
+  border-color: rgba(222, 99, 78, 0.28);
+  background: #fff0ed;
+  color: var(--coral);
+}
+
+.audio-review-details {
+  border-top: 1px solid var(--line);
+  padding-top: 0.55rem;
+}
+
+.audio-review-details summary {
+  width: max-content;
+  color: var(--green);
+  font-size: 0.82rem;
+  font-weight: 950;
+  cursor: pointer;
+}
+
+.compact-note {
+  grid-template-columns: minmax(140px, 0.18fr) minmax(0, 1fr);
+  align-items: start;
+  text-transform: none;
+}
+
+.compact-note textarea {
+  min-height: 46px;
+}
+
+.import-review-label {
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.import-review-label input {
+  position: absolute;
+  inset: 0;
+  opacity: 0;
+  cursor: pointer;
+}
+
+.review-note textarea {
+  min-height: 74px;
+  resize: vertical;
+}
+
+@media print {
+  body * {
+    visibility: hidden;
+  }
+
+  #identityPreview,
+  #identityPreview * {
+    visibility: visible;
+  }
+
+  #identityPreview {
+    position: absolute;
+    inset: 0 auto auto 0;
+    width: min(7in, 100%);
+    box-shadow: none;
+  }
+}
+
 @media (max-width: 820px) {
   .lesson-hero,
+  .flashcard-hero,
   .lesson-status,
+  .next-actions,
+  .comprehension-panel,
+  .project-workspace,
   .variation-band,
   .ladder,
-  .variation-grid {
+  .variation-grid,
+  .audio-review-guide,
+  .audio-review-guide ol,
+  .audio-data-status,
+  .audio-data-status dl,
+  .audio-proof-grid,
+  .audio-detail-grid,
+  .audio-review-app .lesson-hero,
+  .audio-review-controls,
+  .audio-review-main {
     grid-template-columns: 1fr;
   }
 
@@ -595,6 +1545,23 @@
     min-height: auto;
     border-left: 0;
     padding: 0 0 1.5rem;
+  }
+
+  .audio-review-summary {
+    border-left: 0;
+    border-top: 1px solid var(--line);
+  }
+
+  .compact-actions {
+    padding-left: 0;
+  }
+
+  .compact-note {
+    grid-template-columns: 1fr;
+  }
+
+  .subnav {
+    position: static;
   }
 
   .audio-board-vowels,
@@ -634,6 +1601,21 @@
   }
 
   .pattern-audio-row {
+    grid-template-columns: 1fr;
+  }
+
+  .hockey-picker {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 560px) {
+  .hockey-picker,
+  .template-controls {
+    grid-template-columns: 1fr;
+  }
+
+  .reader-line {
     grid-template-columns: 1fr;
   }
 }

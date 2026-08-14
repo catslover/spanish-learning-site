@@ -1,3 +1,3 @@
-# Asi Soy Yo Project
+# Así soy yo Project
 
 Status: planned.

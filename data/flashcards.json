@@ -1,0 +1,291 @@
+{
+  "decks": [
+    {
+      "id": "u1-1-pronunciation",
+      "unit": "Unit 1",
+      "module": "U1.1",
+      "title": "Pronunciation Workshop Flashcards",
+      "source": "curriculum/unit-01/u1-1-flashcard-spec.md",
+      "cards": [
+        {
+          "id": "u1-1-vowel-a",
+          "type": "sound-recognition",
+          "front": {
+            "spanish": "A",
+            "audio": "media/u1-1-pronunciation/vowels/a.mp3"
+          },
+          "back": {
+            "english": "Open, clear Spanish vowel sound.",
+            "examples": [
+              {
+                "spanish": "casa",
+                "english": "house",
+                "audio": "media/u1-1-pronunciation/vowel-words/casa.m4a"
+              },
+              {
+                "spanish": "mamá",
+                "english": "mom",
+                "audio": "media/u1-1-pronunciation/vowel-words/mama.m4a"
+              }
+            ],
+            "note": "Keep the sound short and steady."
+          },
+          "image": {
+            "src": "media/u1-1-pronunciation/illustrations/casa.svg",
+            "alt": "Small colorful house illustration for casa."
+          }
+        },
+        {
+          "id": "u1-1-vowel-e",
+          "type": "sound-recognition",
+          "front": {
+            "spanish": "E",
+            "audio": "media/u1-1-pronunciation/vowels/e.mp3"
+          },
+          "back": {
+            "english": "Clear Spanish e sound.",
+            "examples": [
+              {
+                "spanish": "mesa",
+                "english": "table",
+                "audio": "media/u1-1-pronunciation/vowel-words/mesa.m4a"
+              },
+              {
+                "spanish": "tres",
+                "english": "three",
+                "audio": "media/u1-1-pronunciation/vowel-words/tres.m4a"
+              }
+            ],
+            "note": "Do not stretch it into an English long-a sound."
+          },
+          "image": null
+        },
+        {
+          "id": "u1-1-vowel-i",
+          "type": "sound-recognition",
+          "front": {
+            "spanish": "I",
+            "audio": "media/u1-1-pronunciation/vowels/i.mp3"
+          },
+          "back": {
+            "english": "Clear Spanish i sound.",
+            "examples": [
+              {
+                "spanish": "mi",
+                "english": "my",
+                "audio": "media/u1-1-pronunciation/vowel-words/mi.m4a"
+              },
+              {
+                "spanish": "sí",
+                "english": "yes",
+                "audio": "media/u1-1-pronunciation/vowel-words/si.m4a"
+              }
+            ],
+            "note": "Keep it short and bright."
+          },
+          "image": null
+        },
+        {
+          "id": "u1-1-vowel-o",
+          "type": "sound-recognition",
+          "front": {
+            "spanish": "O",
+            "audio": "media/u1-1-pronunciation/vowels/o.mp3"
+          },
+          "back": {
+            "english": "Round Spanish o sound.",
+            "examples": [
+              {
+                "spanish": "hola",
+                "english": "hello",
+                "audio": "media/u1-1-pronunciation/vowel-words/hola.m4a"
+              },
+              {
+                "spanish": "dos",
+                "english": "two",
+                "audio": "media/u1-1-pronunciation/vowel-words/dos.m4a"
+              }
+            ],
+            "note": "Do not turn it into an English ow sound."
+          },
+          "image": null
+        },
+        {
+          "id": "u1-1-vowel-u",
+          "type": "sound-recognition",
+          "front": {
+            "spanish": "U",
+            "audio": "media/u1-1-pronunciation/vowels/u.mp3"
+          },
+          "back": {
+            "english": "Round Spanish u sound.",
+            "examples": [
+              {
+                "spanish": "tú",
+                "english": "you",
+                "audio": "media/u1-1-pronunciation/vowel-words/tu.m4a"
+              },
+              {
+                "spanish": "uno",
+                "english": "one",
+                "audio": "media/u1-1-pronunciation/vowel-words/uno.m4a"
+              }
+            ],
+            "note": "Keep the sound pure and steady."
+          },
+          "image": null
+        },
+        {
+          "id": "u1-1-pattern-n-tilde",
+          "type": "pronunciation-pattern",
+          "front": {
+            "spanish": "Ñ / niño",
+            "audio": "media/u1-1-pronunciation/patterns/n-tilde/nino.wav",
+            "audioText": "niño"
+          },
+    "back": {
+      "english": "boy / child",
+      "example": {
+        "spanish": "El niño juega hockey.",
+        "english": "The boy plays hockey."
+      },
+      "exampleAudio": "media/u1-1-pronunciation/flashcards/nino-example.m4a",
+      "note": "ñ is one special Spanish sound."
+    },
+          "image": {
+            "src": "media/u1-1-pronunciation/illustrations/nino-hockey.svg",
+            "alt": "Child wearing hockey gear for niño."
+          }
+        },
+        {
+          "id": "u1-1-silent-h",
+          "type": "pronunciation-pattern",
+          "front": {
+            "spanish": "H / hola",
+            "audio": "media/u1-1-pronunciation/patterns/silent-h/hola.m4a",
+            "audioText": "hola"
+          },
+    "back": {
+      "english": "hello",
+      "example": {
+        "spanish": "Hola, Victor.",
+        "english": "Hello, Victor."
+      },
+      "exampleAudio": "media/u1-1-pronunciation/flashcards/hola-victor-example.m4a",
+      "note": "The h is silent in Spanish."
+    },
+          "image": null
+        },
+        {
+          "id": "u1-1-jota",
+          "type": "tricky-alphabet",
+          "front": {
+            "spanish": "J / José",
+            "audio": "media/u1-1-pronunciation/patterns/jota/jose.wav",
+            "audioText": "José"
+          },
+    "back": {
+      "english": "Joseph",
+      "example": {
+        "spanish": "José habla español.",
+        "english": "José speaks Spanish."
+      },
+      "exampleAudio": "media/u1-1-pronunciation/flashcards/jose-example.m4a",
+      "note": "J often has a breathy sound."
+    },
+          "image": {
+            "src": "media/u1-1-pronunciation/illustrations/ene.svg",
+            "alt": "Friendly Spanish letter illustration."
+          }
+        },
+        {
+          "id": "u1-1-qu",
+          "type": "pronunciation-pattern",
+          "front": {
+            "spanish": "QU / que",
+            "audio": "media/u1-1-pronunciation/patterns/qu/que.m4a",
+            "audioText": "que"
+          },
+    "back": {
+      "english": "that / which",
+      "example": {
+        "spanish": "Quiero practicar.",
+        "english": "I want to practice."
+      },
+      "exampleAudio": "media/u1-1-pronunciation/flashcards/quiero-practicar-example.m4a",
+      "note": "qu sounds like k before e or i."
+    },
+          "image": null
+        },
+        {
+          "id": "u1-1-pero",
+          "type": "minimal-pair",
+          "front": {
+            "spanish": "pero",
+            "audio": "media/u1-1-pronunciation/patterns/r-rr/pero.m4a"
+          },
+          "back": {
+            "english": "but",
+            "note": "Single tap r."
+          },
+          "image": null
+        },
+        {
+          "id": "u1-1-perro",
+          "type": "minimal-pair",
+          "front": {
+            "spanish": "perro",
+            "audio": "media/u1-1-pronunciation/patterns/r-rr/perro.m4a"
+          },
+          "back": {
+            "english": "dog",
+            "note": "Rolled rr."
+          },
+          "image": {
+            "src": "media/u1-1-pronunciation/illustrations/perro.svg",
+            "alt": "Cute dog illustration for perro."
+          }
+        },
+        {
+          "id": "u1-1-como-te-llamas",
+          "type": "conversation-chunk",
+          "front": {
+            "spanish": "¿Cómo te llamas?",
+            "audio": "media/u1-1-pronunciation/flashcards/como-te-llamas.m4a"
+          },
+          "back": {
+            "english": "What is your name?",
+            "example": {
+              "spanish": "¿Cómo te llamas? Me llamo Spencer.",
+              "english": "What is your name? My name is Spencer."
+            },
+            "note": "Use this to begin a simple introduction.",
+            "exampleAudio": "media/u1-1-pronunciation/flashcards/como-te-llamas-example.m4a"
+          },
+          "image": null
+        },
+        {
+          "id": "u1-1-como-se-escribe",
+          "type": "conversation-chunk",
+          "front": {
+            "spanish": "¿Cómo se escribe?",
+            "audio": "media/u1-1-pronunciation/flashcards/como-se-escribe.m4a"
+          },
+          "back": {
+            "english": "How do you spell it?",
+            "example": {
+              "spanish": "¿Cómo se escribe tu nombre?",
+              "english": "How do you spell your name?"
+            },
+            "note": "Use this when spelling a name or word.",
+            "exampleAudio": "media/u1-1-pronunciation/flashcards/como-se-escribe-example.m4a"
+          },
+          "image": {
+            "src": "media/u1-1-pronunciation/illustrations/pencil-speech.svg",
+            "alt": "Pencil and speech bubble for spelling."
+          }
+        }
+      ]
+    }
+  ]
+}

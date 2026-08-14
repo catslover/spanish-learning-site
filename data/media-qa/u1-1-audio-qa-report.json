@@ -1,0 +1,1724 @@
+{
+  "summary": {
+    "manifestVersion": "2026-08-11.u1-1-audio-review",
+    "checkedAt": "2026-08-13T21:09:05.530986+00:00",
+    "itemsChecked": 95,
+    "totalManifestItems": 95,
+    "missingFiles": 0,
+    "durationWarnings": 0,
+    "transcriptionEnabled": false,
+    "transcriptionWarnings": 0
+  },
+  "items": [
+    {
+      "id": "u1-1-vowel-a",
+      "group": "Vowels",
+      "file": "media/u1-1-pronunciation/vowels/a.mp3",
+      "placement": "Lesson vowels and flashcard front",
+      "expectedText": "a",
+      "expectedEnglish": "Spanish vowel a",
+      "reviewPriority": "high",
+      "metadata": {
+        "exists": true,
+        "durationSeconds": 1.776,
+        "mimeType": null,
+        "sizeBytes": 10656,
+        "metadataOk": true,
+        "metadataError": null
+      },
+      "flags": []
+    },
+    {
+      "id": "u1-1-vowel-e",
+      "group": "Vowels",
+      "file": "media/u1-1-pronunciation/vowels/e.mp3",
+      "placement": "Lesson vowels and flashcard front",
+      "expectedText": "e",
+      "expectedEnglish": "Spanish vowel e",
+      "reviewPriority": "high",
+      "metadata": {
+        "exists": true,
+        "durationSeconds": 1.776,
+        "mimeType": null,
+        "sizeBytes": 10656,
+        "metadataOk": true,
+        "metadataError": null
+      },
+      "flags": []
+    },
+    {
+      "id": "u1-1-vowel-i",
+      "group": "Vowels",
+      "file": "media/u1-1-pronunciation/vowels/i.mp3",
+      "placement": "Lesson vowels and flashcard front",
+      "expectedText": "i",
+      "expectedEnglish": "Spanish vowel i",
+      "reviewPriority": "high",
+      "metadata": {
+        "exists": true,
+        "durationSeconds": 1.776,
+        "mimeType": null,
+        "sizeBytes": 10656,
+        "metadataOk": true,
+        "metadataError": null
+      },
+      "flags": []
+    },
+    {
+      "id": "u1-1-vowel-o",
+      "group": "Vowels",
+      "file": "media/u1-1-pronunciation/vowels/o.mp3",
+      "placement": "Lesson vowels and flashcard front",
+      "expectedText": "o",
+      "expectedEnglish": "Spanish vowel o",
+      "reviewPriority": "high",
+      "metadata": {
+        "exists": true,
+        "durationSeconds": 1.776,
+        "mimeType": null,
+        "sizeBytes": 10656,
+        "metadataOk": true,
+        "metadataError": null
+      },
+      "flags": []
+    },
+    {
+      "id": "u1-1-vowel-u",
+      "group": "Vowels",
+      "file": "media/u1-1-pronunciation/vowels/u.mp3",
+      "placement": "Lesson vowels and flashcard front",
+      "expectedText": "u",
+      "expectedEnglish": "Spanish vowel u",
+      "reviewPriority": "high",
+      "metadata": {
+        "exists": true,
+        "durationSeconds": 1.776,
+        "mimeType": null,
+        "sizeBytes": 10656,
+        "metadataOk": true,
+        "metadataError": null
+      },
+      "flags": []
+    },
+    {
+      "id": "u1-1-word-mama",
+      "group": "Vowel Words",
+      "file": "media/u1-1-pronunciation/vowel-words/mama.m4a",
+      "placement": "Vowel A example",
+      "expectedText": "mamá",
+      "expectedEnglish": "mom",
+      "reviewPriority": "normal",
+      "metadata": {
+        "exists": true,
+        "durationSeconds": 0.459,
+        "mimeType": null,
+        "sizeBytes": 6423,
+        "metadataOk": true,
+        "metadataError": null
+      },
+      "flags": []
+    },
+    {
+      "id": "u1-1-word-casa",
+      "group": "Vowel Words",
+      "file": "media/u1-1-pronunciation/vowel-words/casa.m4a",
+      "placement": "Vowel A example and flashcard example",
+      "expectedText": "casa",
+      "expectedEnglish": "house",
+      "reviewPriority": "normal",
+      "metadata": {
+        "exists": true,
+        "durationSeconds": 0.488,
+        "mimeType": null,
+        "sizeBytes": 6641,
+        "metadataOk": true,
+        "metadataError": null
+      },
+      "flags": []
+    },
+    {
+      "id": "u1-1-word-gracias",
+      "group": "Vowel Words",
+      "file": "media/u1-1-pronunciation/vowel-words/gracias.m4a",
+      "placement": "Vowel A example",
+      "expectedText": "gracias",
+      "expectedEnglish": "thank you / thanks",
+      "reviewPriority": "normal",
+      "metadata": {
+        "exists": true,
+        "durationSeconds": 0.728,
+        "mimeType": null,
+        "sizeBytes": 8205,
+        "metadataOk": true,
+        "metadataError": null
+      },
+      "flags": []
+    },
+    {
+      "id": "u1-1-word-mesa",
+      "group": "Vowel Words",
+      "file": "media/u1-1-pronunciation/vowel-words/mesa.m4a",
+      "placement": "Vowel E example and flashcard example",
+      "expectedText": "mesa",
+      "expectedEnglish": "table",
+      "reviewPriority": "normal",
+      "metadata": {
+        "exists": true,
+        "durationSeconds": 0.518,
+        "mimeType": null,
+        "sizeBytes": 7243,
+        "metadataOk": true,
+        "metadataError": null
+      },
+      "flags": []
+    },
+    {
+      "id": "u1-1-word-elena",
+      "group": "Vowel Words",
+      "file": "media/u1-1-pronunciation/vowel-words/elena.m4a",
+      "placement": "Vowel E example",
+      "expectedText": "Elena",
+      "expectedEnglish": "Elena",
+      "reviewPriority": "normal",
+      "metadata": {
+        "exists": true,
+        "durationSeconds": 0.508,
+        "mimeType": null,
+        "sizeBytes": 6475,
+        "metadataOk": true,
+        "metadataError": null
+      },
+      "flags": []
+    },
+    {
+      "id": "u1-1-word-tres",
+      "group": "Vowel Words",
+      "file": "media/u1-1-pronunciation/vowel-words/tres.m4a",
+      "placement": "Vowel E example and flashcard example",
+      "expectedText": "tres",
+      "expectedEnglish": "three",
+      "reviewPriority": "normal",
+      "metadata": {
+        "exists": true,
+        "durationSeconds": 0.464,
+        "mimeType": null,
+        "sizeBytes": 6457,
+        "metadataOk": true,
+        "metadataError": null
+      },
+      "flags": []
+    },
+    {
+      "id": "u1-1-word-mi",
+      "group": "Vowel Words",
+      "file": "media/u1-1-pronunciation/vowel-words/mi.m4a",
+      "placement": "Vowel I example and flashcard example",
+      "expectedText": "mi",
+      "expectedEnglish": "my",
+      "reviewPriority": "normal",
+      "metadata": {
+        "exists": true,
+        "durationSeconds": 0.332,
+        "mimeType": null,
+        "sizeBytes": 6335,
+        "metadataOk": true,
+        "metadataError": null
+      },
+      "flags": []
+    },
+    {
+      "id": "u1-1-word-familia",
+      "group": "Vowel Words",
+      "file": "media/u1-1-pronunciation/vowel-words/familia.m4a",
+      "placement": "Vowel I example",
+      "expectedText": "familia",
+      "expectedEnglish": "family",
+      "reviewPriority": "normal",
+      "metadata": {
+        "exists": true,
+        "durationSeconds": 0.653,
+        "mimeType": null,
+        "sizeBytes": 7482,
+        "metadataOk": true,
+        "metadataError": null
+      },
+      "flags": []
+    },
+    {
+      "id": "u1-1-word-si",
+      "group": "Vowel Words",
+      "file": "media/u1-1-pronunciation/vowel-words/si.m4a",
+      "placement": "Vowel I example and flashcard example",
+      "expectedText": "sí",
+      "expectedEnglish": "yes",
+      "reviewPriority": "normal",
+      "metadata": {
+        "exists": true,
+        "durationSeconds": 0.392,
+        "mimeType": null,
+        "sizeBytes": 6044,
+        "metadataOk": true,
+        "metadataError": null
+      },
+      "flags": []
+    },
+    {
+      "id": "u1-1-word-hola",
+      "group": "Vowel Words",
+      "file": "media/u1-1-pronunciation/vowel-words/hola.m4a",
+      "placement": "Vowel O example and flashcard example",
+      "expectedText": "hola",
+      "expectedEnglish": "hello",
+      "reviewPriority": "normal",
+      "metadata": {
+        "exists": true,
+        "durationSeconds": 0.404,
+        "mimeType": null,
+        "sizeBytes": 5948,
+        "metadataOk": true,
+        "metadataError": null
+      },
+      "flags": []
+    },
+    {
+      "id": "u1-1-word-dos",
+      "group": "Vowel Words",
+      "file": "media/u1-1-pronunciation/vowel-words/dos.m4a",
+      "placement": "Vowel O example and flashcard example",
+      "expectedText": "dos",
+      "expectedEnglish": "two",
+      "reviewPriority": "normal",
+      "metadata": {
+        "exists": true,
+        "durationSeconds": 0.438,
+        "mimeType": null,
+        "sizeBytes": 6588,
+        "metadataOk": true,
+        "metadataError": null
+      },
+      "flags": []
+    },
+    {
+      "id": "u1-1-word-profesor",
+      "group": "Vowel Words",
+      "file": "media/u1-1-pronunciation/vowel-words/profesor.m4a",
+      "placement": "Vowel O example",
+      "expectedText": "profesor",
+      "expectedEnglish": "teacher",
+      "reviewPriority": "normal",
+      "metadata": {
+        "exists": true,
+        "durationSeconds": 0.766,
+        "mimeType": null,
+        "sizeBytes": 7926,
+        "metadataOk": true,
+        "metadataError": null
+      },
+      "flags": []
+    },
+    {
+      "id": "u1-1-word-tu",
+      "group": "Vowel Words",
+      "file": "media/u1-1-pronunciation/vowel-words/tu.m4a",
+      "placement": "Vowel U example and flashcard example",
+      "expectedText": "tú",
+      "expectedEnglish": "you",
+      "reviewPriority": "normal",
+      "metadata": {
+        "exists": true,
+        "durationSeconds": 0.348,
+        "mimeType": null,
+        "sizeBytes": 5573,
+        "metadataOk": true,
+        "metadataError": null
+      },
+      "flags": []
+    },
+    {
+      "id": "u1-1-word-uno",
+      "group": "Vowel Words",
+      "file": "media/u1-1-pronunciation/vowel-words/uno.m4a",
+      "placement": "Vowel U example and flashcard example",
+      "expectedText": "uno",
+      "expectedEnglish": "one",
+      "reviewPriority": "normal",
+      "metadata": {
+        "exists": true,
+        "durationSeconds": 0.413,
+        "mimeType": null,
+        "sizeBytes": 5956,
+        "metadataOk": true,
+        "metadataError": null
+      },
+      "flags": []
+    },
+    {
+      "id": "u1-1-word-mucho",
+      "group": "Vowel Words",
+      "file": "media/u1-1-pronunciation/vowel-words/mucho.m4a",
+      "placement": "Vowel U example",
+      "expectedText": "mucho",
+      "expectedEnglish": "a lot / much",
+      "reviewPriority": "normal",
+      "metadata": {
+        "exists": true,
+        "durationSeconds": 0.529,
+        "mimeType": null,
+        "sizeBytes": 7141,
+        "metadataOk": true,
+        "metadataError": null
+      },
+      "flags": []
+    },
+    {
+      "id": "u1-1-pattern-nino",
+      "group": "Patterns",
+      "file": "media/u1-1-pronunciation/patterns/n-tilde/nino.wav",
+      "placement": "ñ row and Ñ flashcard front",
+      "expectedText": "niño",
+      "expectedEnglish": "boy / child",
+      "reviewPriority": "normal",
+      "metadata": {
+        "exists": true,
+        "durationSeconds": 1.207,
+        "mimeType": null,
+        "sizeBytes": 53292,
+        "metadataOk": true,
+        "metadataError": null
+      },
+      "flags": []
+    },
+    {
+      "id": "u1-1-pattern-espanol",
+      "group": "Patterns",
+      "file": "media/u1-1-pronunciation/patterns/n-tilde/espanol.m4a",
+      "placement": "ñ row",
+      "expectedText": "español",
+      "expectedEnglish": "Spanish",
+      "reviewPriority": "normal",
+      "metadata": {
+        "exists": true,
+        "durationSeconds": 0.694,
+        "mimeType": null,
+        "sizeBytes": 7430,
+        "metadataOk": true,
+        "metadataError": null
+      },
+      "flags": []
+    },
+    {
+      "id": "u1-1-pattern-manana",
+      "group": "Patterns",
+      "file": "media/u1-1-pronunciation/patterns/n-tilde/manana.m4a",
+      "placement": "ñ row",
+      "expectedText": "mañana",
+      "expectedEnglish": "tomorrow / morning",
+      "reviewPriority": "normal",
+      "metadata": {
+        "exists": true,
+        "durationSeconds": 0.634,
+        "mimeType": null,
+        "sizeBytes": 7624,
+        "metadataOk": true,
+        "metadataError": null
+      },
+      "flags": []
+    },
+    {
+      "id": "u1-1-pattern-senor",
+      "group": "Patterns",
+      "file": "media/u1-1-pronunciation/patterns/n-tilde/senor.m4a",
+      "placement": "ñ row",
+      "expectedText": "señor",
+      "expectedEnglish": "mister / sir",
+      "reviewPriority": "normal",
+      "metadata": {
+        "exists": true,
+        "durationSeconds": 0.601,
+        "mimeType": null,
+        "sizeBytes": 7104,
+        "metadataOk": true,
+        "metadataError": null
+      },
+      "flags": []
+    },
+    {
+      "id": "u1-1-pattern-jose",
+      "group": "Patterns",
+      "file": "media/u1-1-pronunciation/patterns/jota/jose.wav",
+      "placement": "j/ge/gi row and J flashcard front",
+      "expectedText": "José",
+      "expectedEnglish": "José",
+      "reviewPriority": "normal",
+      "metadata": {
+        "exists": true,
+        "durationSeconds": 1.219,
+        "mimeType": null,
+        "sizeBytes": 53804,
+        "metadataOk": true,
+        "metadataError": null
+      },
+      "flags": []
+    },
+    {
+      "id": "u1-1-pattern-gente",
+      "group": "Patterns",
+      "file": "media/u1-1-pronunciation/patterns/jota/gente.m4a",
+      "placement": "j/ge/gi row",
+      "expectedText": "gente",
+      "expectedEnglish": "people",
+      "reviewPriority": "normal",
+      "metadata": {
+        "exists": true,
+        "durationSeconds": 0.543,
+        "mimeType": null,
+        "sizeBytes": 7031,
+        "metadataOk": true,
+        "metadataError": null
+      },
+      "flags": []
+    },
+    {
+      "id": "u1-1-pattern-gigante",
+      "group": "Patterns",
+      "file": "media/u1-1-pronunciation/patterns/jota/gigante.m4a",
+      "placement": "j/ge/gi row",
+      "expectedText": "gigante",
+      "expectedEnglish": "giant",
+      "reviewPriority": "normal",
+      "metadata": {
+        "exists": true,
+        "durationSeconds": 0.682,
+        "mimeType": null,
+        "sizeBytes": 7616,
+        "metadataOk": true,
+        "metadataError": null
+      },
+      "flags": []
+    },
+    {
+      "id": "u1-1-pattern-hola",
+      "group": "Patterns",
+      "file": "media/u1-1-pronunciation/patterns/silent-h/hola.m4a",
+      "placement": "silent h row and H flashcard front",
+      "expectedText": "hola",
+      "expectedEnglish": "hello",
+      "reviewPriority": "normal",
+      "metadata": {
+        "exists": true,
+        "durationSeconds": 0.717,
+        "mimeType": null,
+        "sizeBytes": 7545,
+        "metadataOk": true,
+        "metadataError": null
+      },
+      "flags": []
+    },
+    {
+      "id": "u1-1-pattern-hermano",
+      "group": "Patterns",
+      "file": "media/u1-1-pronunciation/patterns/silent-h/hermano.m4a",
+      "placement": "silent h row",
+      "expectedText": "hermano",
+      "expectedEnglish": "brother",
+      "reviewPriority": "normal",
+      "metadata": {
+        "exists": true,
+        "durationSeconds": 0.59,
+        "mimeType": null,
+        "sizeBytes": 6829,
+        "metadataOk": true,
+        "metadataError": null
+      },
+      "flags": []
+    },
+    {
+      "id": "u1-1-pattern-ahora",
+      "group": "Patterns",
+      "file": "media/u1-1-pronunciation/patterns/silent-h/ahora.m4a",
+      "placement": "silent h row",
+      "expectedText": "ahora",
+      "expectedEnglish": "now",
+      "reviewPriority": "normal",
+      "metadata": {
+        "exists": true,
+        "durationSeconds": 0.473,
+        "mimeType": null,
+        "sizeBytes": 6301,
+        "metadataOk": true,
+        "metadataError": null
+      },
+      "flags": []
+    },
+    {
+      "id": "u1-1-pattern-yo",
+      "group": "Patterns",
+      "file": "media/u1-1-pronunciation/patterns/ll-y/yo.m4a",
+      "placement": "ll/y row",
+      "expectedText": "yo",
+      "expectedEnglish": "I",
+      "reviewPriority": "normal",
+      "metadata": {
+        "exists": true,
+        "durationSeconds": 0.334,
+        "mimeType": null,
+        "sizeBytes": 5716,
+        "metadataOk": true,
+        "metadataError": null
+      },
+      "flags": []
+    },
+    {
+      "id": "u1-1-pattern-llamo",
+      "group": "Patterns",
+      "file": "media/u1-1-pronunciation/patterns/ll-y/llamo.m4a",
+      "placement": "ll/y row",
+      "expectedText": "llamo",
+      "expectedEnglish": "I call / name phrase part",
+      "reviewPriority": "normal",
+      "metadata": {
+        "exists": true,
+        "durationSeconds": 0.473,
+        "mimeType": null,
+        "sizeBytes": 6338,
+        "metadataOk": true,
+        "metadataError": null
+      },
+      "flags": []
+    },
+    {
+      "id": "u1-1-pattern-familia",
+      "group": "Patterns",
+      "file": "media/u1-1-pronunciation/patterns/ll-y/familia.m4a",
+      "placement": "ll/y row",
+      "expectedText": "familia",
+      "expectedEnglish": "family",
+      "reviewPriority": "normal",
+      "metadata": {
+        "exists": true,
+        "durationSeconds": 0.653,
+        "mimeType": null,
+        "sizeBytes": 7482,
+        "metadataOk": true,
+        "metadataError": null
+      },
+      "flags": []
+    },
+    {
+      "id": "u1-1-pattern-pero",
+      "group": "Patterns",
+      "file": "media/u1-1-pronunciation/patterns/r-rr/pero.m4a",
+      "placement": "r/rr row and pero flashcard front",
+      "expectedText": "pero",
+      "expectedEnglish": "but",
+      "reviewPriority": "normal",
+      "metadata": {
+        "exists": true,
+        "durationSeconds": 0.395,
+        "mimeType": null,
+        "sizeBytes": 5893,
+        "metadataOk": true,
+        "metadataError": null
+      },
+      "flags": []
+    },
+    {
+      "id": "u1-1-pattern-perro",
+      "group": "Patterns",
+      "file": "media/u1-1-pronunciation/patterns/r-rr/perro.m4a",
+      "placement": "r/rr row and perro flashcard front",
+      "expectedText": "perro",
+      "expectedEnglish": "dog",
+      "reviewPriority": "normal",
+      "metadata": {
+        "exists": true,
+        "durationSeconds": 0.476,
+        "mimeType": null,
+        "sizeBytes": 6073,
+        "metadataOk": true,
+        "metadataError": null
+      },
+      "flags": []
+    },
+    {
+      "id": "u1-1-pattern-gracias-r",
+      "group": "Patterns",
+      "file": "media/u1-1-pronunciation/patterns/r-rr/gracias.m4a",
+      "placement": "r/rr row",
+      "expectedText": "gracias",
+      "expectedEnglish": "thank you / thanks",
+      "reviewPriority": "normal",
+      "metadata": {
+        "exists": true,
+        "durationSeconds": 0.728,
+        "mimeType": null,
+        "sizeBytes": 8205,
+        "metadataOk": true,
+        "metadataError": null
+      },
+      "flags": []
+    },
+    {
+      "id": "u1-1-pattern-que",
+      "group": "Patterns",
+      "file": "media/u1-1-pronunciation/patterns/qu/que.m4a",
+      "placement": "qu row and QU flashcard front",
+      "expectedText": "que",
+      "expectedEnglish": "that / which",
+      "reviewPriority": "normal",
+      "metadata": {
+        "exists": true,
+        "durationSeconds": 0.541,
+        "mimeType": null,
+        "sizeBytes": 6797,
+        "metadataOk": true,
+        "metadataError": null
+      },
+      "flags": []
+    },
+    {
+      "id": "u1-1-pattern-quiero",
+      "group": "Patterns",
+      "file": "media/u1-1-pronunciation/patterns/qu/quiero.m4a",
+      "placement": "qu row",
+      "expectedText": "quiero",
+      "expectedEnglish": "I want",
+      "reviewPriority": "normal",
+      "metadata": {
+        "exists": true,
+        "durationSeconds": 0.383,
+        "mimeType": null,
+        "sizeBytes": 5912,
+        "metadataOk": true,
+        "metadataError": null
+      },
+      "flags": []
+    },
+    {
+      "id": "u1-1-pattern-quince",
+      "group": "Patterns",
+      "file": "media/u1-1-pronunciation/patterns/qu/quince.m4a",
+      "placement": "qu row",
+      "expectedText": "quince",
+      "expectedEnglish": "fifteen",
+      "reviewPriority": "normal",
+      "metadata": {
+        "exists": true,
+        "durationSeconds": 0.516,
+        "mimeType": null,
+        "sizeBytes": 6912,
+        "metadataOk": true,
+        "metadataError": null
+      },
+      "flags": []
+    },
+    {
+      "id": "u1-1-pattern-miguel",
+      "group": "Patterns",
+      "file": "media/u1-1-pronunciation/patterns/gue-gui/miguel.m4a",
+      "placement": "gue/gui row",
+      "expectedText": "Miguel",
+      "expectedEnglish": "Miguel",
+      "reviewPriority": "normal",
+      "metadata": {
+        "exists": true,
+        "durationSeconds": 0.506,
+        "mimeType": null,
+        "sizeBytes": 7037,
+        "metadataOk": true,
+        "metadataError": null
+      },
+      "flags": []
+    },
+    {
+      "id": "u1-1-pattern-guitarra",
+      "group": "Patterns",
+      "file": "media/u1-1-pronunciation/patterns/gue-gui/guitarra.m4a",
+      "placement": "gue/gui row",
+      "expectedText": "guitarra",
+      "expectedEnglish": "guitar",
+      "reviewPriority": "normal",
+      "metadata": {
+        "exists": true,
+        "durationSeconds": 0.659,
+        "mimeType": null,
+        "sizeBytes": 7783,
+        "metadataOk": true,
+        "metadataError": null
+      },
+      "flags": []
+    },
+    {
+      "id": "u1-1-pattern-guerra",
+      "group": "Patterns",
+      "file": "media/u1-1-pronunciation/patterns/gue-gui/guerra.m4a",
+      "placement": "gue/gui row",
+      "expectedText": "guerra",
+      "expectedEnglish": "war",
+      "reviewPriority": "normal",
+      "metadata": {
+        "exists": true,
+        "durationSeconds": 0.496,
+        "mimeType": null,
+        "sizeBytes": 6697,
+        "metadataOk": true,
+        "metadataError": null
+      },
+      "flags": []
+    },
+    {
+      "id": "u1-1-pattern-gracias-ce",
+      "group": "Patterns",
+      "file": "media/u1-1-pronunciation/patterns/ce-ci-z/gracias.m4a",
+      "placement": "ce/ci/z row",
+      "expectedText": "gracias",
+      "expectedEnglish": "thank you / thanks",
+      "reviewPriority": "normal",
+      "metadata": {
+        "exists": true,
+        "durationSeconds": 0.728,
+        "mimeType": null,
+        "sizeBytes": 8205,
+        "metadataOk": true,
+        "metadataError": null
+      },
+      "flags": []
+    },
+    {
+      "id": "u1-1-pattern-cinco",
+      "group": "Patterns",
+      "file": "media/u1-1-pronunciation/patterns/ce-ci-z/cinco.m4a",
+      "placement": "ce/ci/z row",
+      "expectedText": "cinco",
+      "expectedEnglish": "five",
+      "reviewPriority": "normal",
+      "metadata": {
+        "exists": true,
+        "durationSeconds": 0.578,
+        "mimeType": null,
+        "sizeBytes": 6935,
+        "metadataOk": true,
+        "metadataError": null
+      },
+      "flags": []
+    },
+    {
+      "id": "u1-1-pattern-zapato",
+      "group": "Patterns",
+      "file": "media/u1-1-pronunciation/patterns/ce-ci-z/zapato.m4a",
+      "placement": "ce/ci/z row",
+      "expectedText": "zapato",
+      "expectedEnglish": "shoe",
+      "reviewPriority": "normal",
+      "metadata": {
+        "exists": true,
+        "durationSeconds": 0.694,
+        "mimeType": null,
+        "sizeBytes": 7551,
+        "metadataOk": true,
+        "metadataError": null
+      },
+      "flags": []
+    },
+    {
+      "id": "u1-1-reading-full",
+      "group": "Reading",
+      "file": "media/u1-1-pronunciation/reading/full.m4a",
+      "placement": "Reading full audio",
+      "expectedText": "Hola. Somos dos hermanos y vivimos en Washington. Nos llamamos Victor y Spencer. Estudiamos en casa y también jugamos al hockey. Hoy tenemos un día ocupado. Por la mañana estudiamos matemáticas y español. Por la tarde vamos a la pista de hielo. Victor lleva el número trece y Spencer practica con su equipo. Antes de salir, nuestra mamá pregunta: ¿Tienen todo? Victor dice: Sí. Tengo mis patines. Spencer mira su bolsa y dice: Un momento... ¿dónde están mis guantes? Después de buscar un poco, los encuentra debajo de una silla. ¡Ahora sí!, dice Spencer. Y todos salen de casa.",
+      "expectedEnglish": "Hello. We are two brothers, and we live in Washington. Our names are Victor and Spencer. We study at home, and we also play hockey. Today we have a busy day. In the morning, we study math and Spanish. In the afternoon, we go to the ice rink. Victor wears number thirteen, and Spencer practices with his team. Before leaving, our mom asks: Do you have everything? Victor says: Yes. I have my skates. Spencer looks in his bag and says: One moment... where are my gloves? After looking for a little while, he finds them under a chair. Now yes! says Spencer. And everyone leaves the house.",
+      "reviewPriority": "high",
+      "metadata": {
+        "exists": true,
+        "durationSeconds": 39.959,
+        "mimeType": null,
+        "sizeBytes": 171263,
+        "metadataOk": true,
+        "metadataError": null
+      },
+      "flags": []
+    },
+    {
+      "id": "u1-1-reading-full-slow",
+      "group": "Reading",
+      "file": "media/u1-1-pronunciation/reading/full-slow.m4a",
+      "placement": "Reading slow practice audio",
+      "expectedText": "Hola. Somos dos hermanos y vivimos en Washington. Nos llamamos Victor y Spencer. Estudiamos en casa y también jugamos al hockey. Hoy tenemos un día ocupado. Por la mañana estudiamos matemáticas y español. Por la tarde vamos a la pista de hielo. Victor lleva el número trece y Spencer practica con su equipo. Antes de salir, nuestra mamá pregunta: ¿Tienen todo? Victor dice: Sí. Tengo mis patines. Spencer mira su bolsa y dice: Un momento... ¿dónde están mis guantes? Después de buscar un poco, los encuentra debajo de una silla. ¡Ahora sí!, dice Spencer. Y todos salen de casa.",
+      "expectedEnglish": "Hello. We are two brothers, and we live in Washington. Our names are Victor and Spencer. We study at home, and we also play hockey. Today we have a busy day. In the morning, we study math and Spanish. In the afternoon, we go to the ice rink. Victor wears number thirteen, and Spencer practices with his team. Before leaving, our mom asks: Do you have everything? Victor says: Yes. I have my skates. Spencer looks in his bag and says: One moment... where are my gloves? After looking for a little while, he finds them under a chair. Now yes! says Spencer. And everyone leaves the house.",
+      "reviewPriority": "high",
+      "metadata": {
+        "exists": true,
+        "durationSeconds": 39.959,
+        "mimeType": null,
+        "sizeBytes": 171263,
+        "metadataOk": true,
+        "metadataError": null
+      },
+      "flags": []
+    },
+    {
+      "id": "u1-1-reading-s01",
+      "group": "Reading",
+      "file": "media/u1-1-pronunciation/reading/sentences/s01.m4a",
+      "placement": "Reading sentence 1",
+      "expectedText": "Hola. Somos dos hermanos y vivimos en Washington.",
+      "expectedEnglish": "Hello. We are two brothers, and we live in Washington.",
+      "reviewPriority": "high",
+      "metadata": {
+        "exists": true,
+        "durationSeconds": 3.318,
+        "mimeType": null,
+        "sizeBytes": 18865,
+        "metadataOk": true,
+        "metadataError": null
+      },
+      "flags": []
+    },
+    {
+      "id": "u1-1-reading-s02",
+      "group": "Reading",
+      "file": "media/u1-1-pronunciation/reading/sentences/s02.m4a",
+      "placement": "Reading sentence 2",
+      "expectedText": "Nos llamamos Victor y Spencer. Estudiamos en casa y también jugamos al hockey.",
+      "expectedEnglish": "Our names are Victor and Spencer. We study at home, and we also play hockey.",
+      "reviewPriority": "high",
+      "metadata": {
+        "exists": true,
+        "durationSeconds": 5.14,
+        "mimeType": null,
+        "sizeBytes": 25712,
+        "metadataOk": true,
+        "metadataError": null
+      },
+      "flags": []
+    },
+    {
+      "id": "u1-1-reading-s03",
+      "group": "Reading",
+      "file": "media/u1-1-pronunciation/reading/sentences/s03.m4a",
+      "placement": "Reading sentence 3",
+      "expectedText": "Hoy tenemos un día ocupado. Por la mañana estudiamos matemáticas y español.",
+      "expectedEnglish": "Today we have a busy day. In the morning, we study math and Spanish.",
+      "reviewPriority": "high",
+      "metadata": {
+        "exists": true,
+        "durationSeconds": 5.199,
+        "mimeType": null,
+        "sizeBytes": 25586,
+        "metadataOk": true,
+        "metadataError": null
+      },
+      "flags": []
+    },
+    {
+      "id": "u1-1-reading-s04",
+      "group": "Reading",
+      "file": "media/u1-1-pronunciation/reading/sentences/s04.m4a",
+      "placement": "Reading sentence 4",
+      "expectedText": "Por la tarde vamos a la pista de hielo. Victor lleva el número trece y Spencer practica con su equipo.",
+      "expectedEnglish": "In the afternoon, we go to the ice rink. Victor wears number thirteen, and Spencer practices with his team.",
+      "reviewPriority": "high",
+      "metadata": {
+        "exists": true,
+        "durationSeconds": 6.188,
+        "mimeType": null,
+        "sizeBytes": 31064,
+        "metadataOk": true,
+        "metadataError": null
+      },
+      "flags": []
+    },
+    {
+      "id": "u1-1-reading-s05",
+      "group": "Reading",
+      "file": "media/u1-1-pronunciation/reading/sentences/s05.m4a",
+      "placement": "Reading sentence 5",
+      "expectedText": "Antes de salir, nuestra mamá pregunta: ¿Tienen todo?",
+      "expectedEnglish": "Before leaving, our mom asks: Do you have everything?",
+      "reviewPriority": "normal",
+      "metadata": {
+        "exists": true,
+        "durationSeconds": 3.643,
+        "mimeType": null,
+        "sizeBytes": 19463,
+        "metadataOk": true,
+        "metadataError": null
+      },
+      "flags": []
+    },
+    {
+      "id": "u1-1-reading-s06",
+      "group": "Reading",
+      "file": "media/u1-1-pronunciation/reading/sentences/s06.m4a",
+      "placement": "Reading sentence 6",
+      "expectedText": "Victor dice: Sí. Tengo mis patines. Spencer mira su bolsa y dice: Un momento... ¿dónde están mis guantes?",
+      "expectedEnglish": "Victor says: Yes. I have my skates. Spencer looks in his bag and says: One moment... where are my gloves?",
+      "reviewPriority": "high",
+      "metadata": {
+        "exists": true,
+        "durationSeconds": 7.961,
+        "mimeType": null,
+        "sizeBytes": 37964,
+        "metadataOk": true,
+        "metadataError": null
+      },
+      "flags": []
+    },
+    {
+      "id": "u1-1-reading-s07",
+      "group": "Reading",
+      "file": "media/u1-1-pronunciation/reading/sentences/s07.m4a",
+      "placement": "Reading sentence 7",
+      "expectedText": "Después de buscar un poco, los encuentra debajo de una silla.",
+      "expectedEnglish": "After looking for a little while, he finds them under a chair.",
+      "reviewPriority": "high",
+      "metadata": {
+        "exists": true,
+        "durationSeconds": 3.817,
+        "mimeType": null,
+        "sizeBytes": 20135,
+        "metadataOk": true,
+        "metadataError": null
+      },
+      "flags": []
+    },
+    {
+      "id": "u1-1-reading-s08",
+      "group": "Reading",
+      "file": "media/u1-1-pronunciation/reading/sentences/s08.m4a",
+      "placement": "Reading sentence 8",
+      "expectedText": "¡Ahora sí!, dice Spencer. Y todos salen de casa.",
+      "expectedEnglish": "Now yes! says Spencer. And everyone leaves the house.",
+      "reviewPriority": "high",
+      "metadata": {
+        "exists": true,
+        "durationSeconds": 3.248,
+        "mimeType": null,
+        "sizeBytes": 18645,
+        "metadataOk": true,
+        "metadataError": null
+      },
+      "flags": []
+    },
+    {
+      "id": "u1-1-reading-q1",
+      "group": "Comprehension",
+      "file": "media/u1-1-pronunciation/reading/questions/q1.m4a",
+      "placement": "Question 1 prompt",
+      "expectedText": "¿Adónde van Victor y Spencer por la tarde?",
+      "expectedEnglish": "Where do Victor and Spencer go in the afternoon?",
+      "reviewPriority": "high",
+      "metadata": {
+        "exists": true,
+        "durationSeconds": 2.494,
+        "mimeType": null,
+        "sizeBytes": 15819,
+        "metadataOk": true,
+        "metadataError": null
+      },
+      "flags": []
+    },
+    {
+      "id": "u1-1-reading-q1-a",
+      "group": "Comprehension",
+      "file": "media/u1-1-pronunciation/reading/questions/q1-a.m4a",
+      "placement": "Question 1 option A",
+      "expectedText": "A la biblioteca.",
+      "expectedEnglish": "To the library.",
+      "reviewPriority": "normal",
+      "metadata": {
+        "exists": true,
+        "durationSeconds": 1.065,
+        "mimeType": null,
+        "sizeBytes": 9357,
+        "metadataOk": true,
+        "metadataError": null
+      },
+      "flags": []
+    },
+    {
+      "id": "u1-1-reading-q1-b",
+      "group": "Comprehension",
+      "file": "media/u1-1-pronunciation/reading/questions/q1-b.m4a",
+      "placement": "Question 1 option B",
+      "expectedText": "A la pista de hielo.",
+      "expectedEnglish": "To the ice rink.",
+      "reviewPriority": "normal",
+      "metadata": {
+        "exists": true,
+        "durationSeconds": 1.135,
+        "mimeType": null,
+        "sizeBytes": 9587,
+        "metadataOk": true,
+        "metadataError": null
+      },
+      "flags": []
+    },
+    {
+      "id": "u1-1-reading-q1-c",
+      "group": "Comprehension",
+      "file": "media/u1-1-pronunciation/reading/questions/q1-c.m4a",
+      "placement": "Question 1 option C",
+      "expectedText": "Al supermercado.",
+      "expectedEnglish": "To the supermarket.",
+      "reviewPriority": "normal",
+      "metadata": {
+        "exists": true,
+        "durationSeconds": 1.147,
+        "mimeType": null,
+        "sizeBytes": 9823,
+        "metadataOk": true,
+        "metadataError": null
+      },
+      "flags": []
+    },
+    {
+      "id": "u1-1-reading-q1-d",
+      "group": "Comprehension",
+      "file": "media/u1-1-pronunciation/reading/questions/q1-d.m4a",
+      "placement": "Question 1 option D",
+      "expectedText": "Al parque.",
+      "expectedEnglish": "To the park.",
+      "reviewPriority": "normal",
+      "metadata": {
+        "exists": true,
+        "durationSeconds": 0.694,
+        "mimeType": null,
+        "sizeBytes": 7439,
+        "metadataOk": true,
+        "metadataError": null
+      },
+      "flags": []
+    },
+    {
+      "id": "u1-1-reading-q2",
+      "group": "Comprehension",
+      "file": "media/u1-1-pronunciation/reading/questions/q2.m4a",
+      "placement": "Question 2 prompt",
+      "expectedText": "¿Qué no encuentra Spencer al principio?",
+      "expectedEnglish": "What can Spencer not find at first?",
+      "reviewPriority": "high",
+      "metadata": {
+        "exists": true,
+        "durationSeconds": 2.317,
+        "mimeType": null,
+        "sizeBytes": 14881,
+        "metadataOk": true,
+        "metadataError": null
+      },
+      "flags": []
+    },
+    {
+      "id": "u1-1-reading-q2-a",
+      "group": "Comprehension",
+      "file": "media/u1-1-pronunciation/reading/questions/q2-a.m4a",
+      "placement": "Question 2 option A",
+      "expectedText": "Sus patines.",
+      "expectedEnglish": "His skates.",
+      "reviewPriority": "normal",
+      "metadata": {
+        "exists": true,
+        "durationSeconds": 1.007,
+        "mimeType": null,
+        "sizeBytes": 9421,
+        "metadataOk": true,
+        "metadataError": null
+      },
+      "flags": []
+    },
+    {
+      "id": "u1-1-reading-q2-b",
+      "group": "Comprehension",
+      "file": "media/u1-1-pronunciation/reading/questions/q2-b.m4a",
+      "placement": "Question 2 option B",
+      "expectedText": "Su casco.",
+      "expectedEnglish": "His helmet.",
+      "reviewPriority": "normal",
+      "metadata": {
+        "exists": true,
+        "durationSeconds": 0.798,
+        "mimeType": null,
+        "sizeBytes": 7916,
+        "metadataOk": true,
+        "metadataError": null
+      },
+      "flags": []
+    },
+    {
+      "id": "u1-1-reading-q2-c",
+      "group": "Comprehension",
+      "file": "media/u1-1-pronunciation/reading/questions/q2-c.m4a",
+      "placement": "Question 2 option C",
+      "expectedText": "Sus guantes.",
+      "expectedEnglish": "His gloves.",
+      "reviewPriority": "normal",
+      "metadata": {
+        "exists": true,
+        "durationSeconds": 0.972,
+        "mimeType": null,
+        "sizeBytes": 9161,
+        "metadataOk": true,
+        "metadataError": null
+      },
+      "flags": []
+    },
+    {
+      "id": "u1-1-reading-q2-d",
+      "group": "Comprehension",
+      "file": "media/u1-1-pronunciation/reading/questions/q2-d.m4a",
+      "placement": "Question 2 option D",
+      "expectedText": "Su botella de agua.",
+      "expectedEnglish": "His water bottle.",
+      "reviewPriority": "normal",
+      "metadata": {
+        "exists": true,
+        "durationSeconds": 1.17,
+        "mimeType": null,
+        "sizeBytes": 9814,
+        "metadataOk": true,
+        "metadataError": null
+      },
+      "flags": []
+    },
+    {
+      "id": "u1-1-reading-q3",
+      "group": "Comprehension",
+      "file": "media/u1-1-pronunciation/reading/questions/q3.m4a",
+      "placement": "Question 3 prompt",
+      "expectedText": "¿Dónde están los guantes?",
+      "expectedEnglish": "Where are the gloves?",
+      "reviewPriority": "normal",
+      "metadata": {
+        "exists": true,
+        "durationSeconds": 1.599,
+        "mimeType": null,
+        "sizeBytes": 12056,
+        "metadataOk": true,
+        "metadataError": null
+      },
+      "flags": []
+    },
+    {
+      "id": "u1-1-reading-q3-a",
+      "group": "Comprehension",
+      "file": "media/u1-1-pronunciation/reading/questions/q3-a.m4a",
+      "placement": "Question 3 option A",
+      "expectedText": "Dentro de la bolsa.",
+      "expectedEnglish": "Inside the bag.",
+      "reviewPriority": "normal",
+      "metadata": {
+        "exists": true,
+        "durationSeconds": 1.147,
+        "mimeType": null,
+        "sizeBytes": 9709,
+        "metadataOk": true,
+        "metadataError": null
+      },
+      "flags": []
+    },
+    {
+      "id": "u1-1-reading-q3-b",
+      "group": "Comprehension",
+      "file": "media/u1-1-pronunciation/reading/questions/q3-b.m4a",
+      "placement": "Question 3 option B",
+      "expectedText": "Debajo de una silla.",
+      "expectedEnglish": "Under a chair.",
+      "reviewPriority": "normal",
+      "metadata": {
+        "exists": true,
+        "durationSeconds": 1.321,
+        "mimeType": null,
+        "sizeBytes": 10360,
+        "metadataOk": true,
+        "metadataError": null
+      },
+      "flags": []
+    },
+    {
+      "id": "u1-1-reading-q3-c",
+      "group": "Comprehension",
+      "file": "media/u1-1-pronunciation/reading/questions/q3-c.m4a",
+      "placement": "Question 3 option C",
+      "expectedText": "En el carro.",
+      "expectedEnglish": "In the car.",
+      "reviewPriority": "normal",
+      "metadata": {
+        "exists": true,
+        "durationSeconds": 0.787,
+        "mimeType": null,
+        "sizeBytes": 7697,
+        "metadataOk": true,
+        "metadataError": null
+      },
+      "flags": []
+    },
+    {
+      "id": "u1-1-reading-q3-d",
+      "group": "Comprehension",
+      "file": "media/u1-1-pronunciation/reading/questions/q3-d.m4a",
+      "placement": "Question 3 option D",
+      "expectedText": "Cerca de la puerta.",
+      "expectedEnglish": "Near the door.",
+      "reviewPriority": "normal",
+      "metadata": {
+        "exists": true,
+        "durationSeconds": 1.228,
+        "mimeType": null,
+        "sizeBytes": 10582,
+        "metadataOk": true,
+        "metadataError": null
+      },
+      "flags": []
+    },
+    {
+      "id": "u1-1-reading-q4",
+      "group": "Comprehension",
+      "file": "media/u1-1-pronunciation/reading/questions/q4.m4a",
+      "placement": "Short answer question 4",
+      "expectedText": "¿Dónde viven Victor y Spencer?",
+      "expectedEnglish": "Where do Victor and Spencer live?",
+      "reviewPriority": "high",
+      "metadata": {
+        "exists": true,
+        "durationSeconds": 1.889,
+        "mimeType": null,
+        "sizeBytes": 12785,
+        "metadataOk": true,
+        "metadataError": null
+      },
+      "flags": []
+    },
+    {
+      "id": "u1-1-reading-q5",
+      "group": "Comprehension",
+      "file": "media/u1-1-pronunciation/reading/questions/q5.m4a",
+      "placement": "Short answer question 5",
+      "expectedText": "¿Qué estudian por la mañana?",
+      "expectedEnglish": "What do they study in the morning?",
+      "reviewPriority": "normal",
+      "metadata": {
+        "exists": true,
+        "durationSeconds": 1.609,
+        "mimeType": null,
+        "sizeBytes": 11652,
+        "metadataOk": true,
+        "metadataError": null
+      },
+      "flags": []
+    },
+    {
+      "id": "u1-1-hockey-casco",
+      "group": "Hockey Interaction",
+      "file": "media/u1-1-pronunciation/hockey/casco.m4a",
+      "placement": "Hockey choice: el casco",
+      "expectedText": "Oye, bro, ¿trajiste tu casco hoy?",
+      "expectedEnglish": "Hey bro, did you bring your helmet today?",
+      "reviewPriority": "high",
+      "metadata": {
+        "exists": true,
+        "durationSeconds": 2.738,
+        "mimeType": null,
+        "sizeBytes": 16401,
+        "metadataOk": true,
+        "metadataError": null
+      },
+      "flags": []
+    },
+    {
+      "id": "u1-1-hockey-guantes",
+      "group": "Hockey Interaction",
+      "file": "media/u1-1-pronunciation/hockey/guantes.m4a",
+      "placement": "Hockey choice: los guantes",
+      "expectedText": "Oye, bro, ¿trajiste tus guantes hoy?",
+      "expectedEnglish": "Hey bro, did you bring your gloves today?",
+      "reviewPriority": "high",
+      "metadata": {
+        "exists": true,
+        "durationSeconds": 2.854,
+        "mimeType": null,
+        "sizeBytes": 16970,
+        "metadataOk": true,
+        "metadataError": null
+      },
+      "flags": []
+    },
+    {
+      "id": "u1-1-hockey-botella",
+      "group": "Hockey Interaction",
+      "file": "media/u1-1-pronunciation/hockey/botella-agua.m4a",
+      "placement": "Hockey choice: la botella de agua",
+      "expectedText": "Oye, bro, ¿trajiste tu botella de agua hoy?",
+      "expectedEnglish": "Hey bro, did you bring your water bottle today?",
+      "reviewPriority": "high",
+      "metadata": {
+        "exists": true,
+        "durationSeconds": 3.132,
+        "mimeType": null,
+        "sizeBytes": 18096,
+        "metadataOk": true,
+        "metadataError": null
+      },
+      "flags": []
+    },
+    {
+      "id": "u1-1-hockey-ropa",
+      "group": "Hockey Interaction",
+      "file": "media/u1-1-pronunciation/hockey/ropa-termica.m4a",
+      "placement": "Hockey choice: la ropa térmica",
+      "expectedText": "Oye, bro, ¿trajiste tu ropa térmica hoy?",
+      "expectedEnglish": "Hey bro, did you bring your base layers today?",
+      "reviewPriority": "high",
+      "metadata": {
+        "exists": true,
+        "durationSeconds": 3.179,
+        "mimeType": null,
+        "sizeBytes": 18040,
+        "metadataOk": true,
+        "metadataError": null
+      },
+      "flags": []
+    },
+    {
+      "id": "u1-1-hockey-patines",
+      "group": "Hockey Interaction",
+      "file": "media/u1-1-pronunciation/hockey/patines.m4a",
+      "placement": "Hockey choice: los patines",
+      "expectedText": "Oye, bro, ¿trajiste tus patines hoy?",
+      "expectedEnglish": "Hey bro, did you bring your skates today?",
+      "reviewPriority": "high",
+      "metadata": {
+        "exists": true,
+        "durationSeconds": 2.912,
+        "mimeType": null,
+        "sizeBytes": 17709,
+        "metadataOk": true,
+        "metadataError": null
+      },
+      "flags": []
+    },
+    {
+      "id": "u1-1-hockey-corazon",
+      "group": "Hockey Interaction",
+      "file": "media/u1-1-pronunciation/hockey/corazon-hierro.m4a",
+      "placement": "Hockey choice: el corazón de hierro",
+      "expectedText": "Oye, bro, ¿trajiste hoy tu corazón de hierro?",
+      "expectedEnglish": "Hey bro, did you bring your iron heart today?",
+      "reviewPriority": "high",
+      "metadata": {
+        "exists": true,
+        "durationSeconds": 3.225,
+        "mimeType": null,
+        "sizeBytes": 18507,
+        "metadataOk": true,
+        "metadataError": null
+      },
+      "flags": []
+    },
+    {
+      "id": "u1-1-hockey-listo",
+      "group": "Hockey Interaction",
+      "file": "media/u1-1-pronunciation/hockey/listo-competir.m4a",
+      "placement": "Hockey follow-up after corazón de hierro",
+      "expectedText": "¿Estás listo para competir?",
+      "expectedEnglish": "Are you ready to compete?",
+      "reviewPriority": "normal",
+      "metadata": {
+        "exists": true,
+        "durationSeconds": 1.82,
+        "mimeType": null,
+        "sizeBytes": 12746,
+        "metadataOk": true,
+        "metadataError": null
+      },
+      "flags": []
+    },
+    {
+      "id": "u1-1-hockey-corazon-def",
+      "group": "Hockey Interaction",
+      "file": "media/u1-1-pronunciation/hockey/corazon-definicion.m4a",
+      "placement": "Optional heart definition audio",
+      "expectedText": "El corazón de hierro significa tener fortaleza mental, resiliencia y estar listo para competir.",
+      "expectedEnglish": "The iron heart means having mental toughness, resilience, and being ready to compete.",
+      "reviewPriority": "high",
+      "metadata": {
+        "exists": true,
+        "durationSeconds": 6.325,
+        "mimeType": null,
+        "sizeBytes": 31348,
+        "metadataOk": true,
+        "metadataError": null
+      },
+      "flags": []
+    },
+    {
+      "id": "u1-1-flash-nino-example",
+      "group": "Flashcards",
+      "file": "media/u1-1-pronunciation/flashcards/nino-example.m4a",
+      "placement": "Ñ flashcard example sentence",
+      "expectedText": "El niño juega hockey.",
+      "expectedEnglish": "The boy plays hockey.",
+      "reviewPriority": "high",
+      "metadata": {
+        "exists": true,
+        "durationSeconds": 1.379,
+        "mimeType": null,
+        "sizeBytes": 10978,
+        "metadataOk": true,
+        "metadataError": null
+      },
+      "flags": []
+    },
+    {
+      "id": "u1-1-flash-hola-victor",
+      "group": "Flashcards",
+      "file": "media/u1-1-pronunciation/flashcards/hola-victor-example.m4a",
+      "placement": "Silent H flashcard example sentence",
+      "expectedText": "Hola, Victor.",
+      "expectedEnglish": "Hello, Victor.",
+      "reviewPriority": "high",
+      "metadata": {
+        "exists": true,
+        "durationSeconds": 0.822,
+        "mimeType": null,
+        "sizeBytes": 7980,
+        "metadataOk": true,
+        "metadataError": null
+      },
+      "flags": []
+    },
+    {
+      "id": "u1-1-flash-jose-example",
+      "group": "Flashcards",
+      "file": "media/u1-1-pronunciation/flashcards/jose-example.m4a",
+      "placement": "J flashcard example sentence",
+      "expectedText": "José habla español.",
+      "expectedEnglish": "José speaks Spanish.",
+      "reviewPriority": "normal",
+      "metadata": {
+        "exists": true,
+        "durationSeconds": 1.41,
+        "mimeType": null,
+        "sizeBytes": 10475,
+        "metadataOk": true,
+        "metadataError": null
+      },
+      "flags": []
+    },
+    {
+      "id": "u1-1-flash-quiero-example",
+      "group": "Flashcards",
+      "file": "media/u1-1-pronunciation/flashcards/quiero-practicar-example.m4a",
+      "placement": "QU flashcard example sentence",
+      "expectedText": "Quiero practicar.",
+      "expectedEnglish": "I want to practice.",
+      "reviewPriority": "normal",
+      "metadata": {
+        "exists": true,
+        "durationSeconds": 1.08,
+        "mimeType": null,
+        "sizeBytes": 9075,
+        "metadataOk": true,
+        "metadataError": null
+      },
+      "flags": []
+    },
+    {
+      "id": "u1-1-flash-como-te-llamas",
+      "group": "Flashcards",
+      "file": "media/u1-1-pronunciation/flashcards/como-te-llamas.m4a",
+      "placement": "Conversation flashcard front",
+      "expectedText": "¿Cómo te llamas?",
+      "expectedEnglish": "What is your name?",
+      "reviewPriority": "normal",
+      "metadata": {
+        "exists": true,
+        "durationSeconds": 1.017,
+        "mimeType": null,
+        "sizeBytes": 9474,
+        "metadataOk": true,
+        "metadataError": null
+      },
+      "flags": []
+    },
+    {
+      "id": "u1-1-flash-como-te-llamas-example",
+      "group": "Flashcards",
+      "file": "media/u1-1-pronunciation/flashcards/como-te-llamas-example.m4a",
+      "placement": "Conversation flashcard example sentence",
+      "expectedText": "¿Cómo te llamas? Me llamo Spencer.",
+      "expectedEnglish": "What is your name? My name is Spencer.",
+      "reviewPriority": "high",
+      "metadata": {
+        "exists": true,
+        "durationSeconds": 2.387,
+        "mimeType": null,
+        "sizeBytes": 15342,
+        "metadataOk": true,
+        "metadataError": null
+      },
+      "flags": []
+    },
+    {
+      "id": "u1-1-flash-como-se-escribe",
+      "group": "Flashcards",
+      "file": "media/u1-1-pronunciation/flashcards/como-se-escribe.m4a",
+      "placement": "Spelling flashcard front",
+      "expectedText": "¿Cómo se escribe?",
+      "expectedEnglish": "How do you spell it?",
+      "reviewPriority": "normal",
+      "metadata": {
+        "exists": true,
+        "durationSeconds": 1.099,
+        "mimeType": null,
+        "sizeBytes": 9502,
+        "metadataOk": true,
+        "metadataError": null
+      },
+      "flags": []
+    },
+    {
+      "id": "u1-1-flash-como-se-escribe-example",
+      "group": "Flashcards",
+      "file": "media/u1-1-pronunciation/flashcards/como-se-escribe-example.m4a",
+      "placement": "Spelling flashcard example sentence",
+      "expectedText": "¿Cómo se escribe tu nombre?",
+      "expectedEnglish": "How do you spell your name?",
+      "reviewPriority": "normal",
+      "metadata": {
+        "exists": true,
+        "durationSeconds": 1.621,
+        "mimeType": null,
+        "sizeBytes": 11730,
+        "metadataOk": true,
+        "metadataError": null
+      },
+      "flags": []
+    },
+    {
+      "id": "u1-1-project-me-llamo",
+      "group": "Identity Project",
+      "file": "media/u1-1-pronunciation/project/me-llamo.m4a",
+      "placement": "Project phrase: Me llamo",
+      "expectedText": "Me llamo",
+      "expectedEnglish": "My name is / I call myself",
+      "reviewPriority": "normal",
+      "metadata": {
+        "exists": true,
+        "durationSeconds": 0.587,
+        "mimeType": null,
+        "sizeBytes": 7334,
+        "metadataOk": true,
+        "metadataError": null
+      },
+      "flags": []
+    },
+    {
+      "id": "u1-1-project-nombre-escribe",
+      "group": "Identity Project",
+      "file": "media/u1-1-pronunciation/project/mi-nombre-se-escribe.m4a",
+      "placement": "Project phrase: Mi nombre se escribe",
+      "expectedText": "Mi nombre se escribe",
+      "expectedEnglish": "My name is spelled",
+      "reviewPriority": "normal",
+      "metadata": {
+        "exists": true,
+        "durationSeconds": 1.33,
+        "mimeType": null,
+        "sizeBytes": 10385,
+        "metadataOk": true,
+        "metadataError": null
+      },
+      "flags": []
+    },
+    {
+      "id": "u1-1-project-tengo-anos",
+      "group": "Identity Project",
+      "file": "media/u1-1-pronunciation/project/tengo-anos.m4a",
+      "placement": "Project phrase: Tengo ... años",
+      "expectedText": "Tengo años",
+      "expectedEnglish": "I am ... years old phrase frame",
+      "reviewPriority": "normal",
+      "metadata": {
+        "exists": true,
+        "durationSeconds": 0.929,
+        "mimeType": null,
+        "sizeBytes": 8508,
+        "metadataOk": true,
+        "metadataError": null
+      },
+      "flags": []
+    },
+    {
+      "id": "u1-1-project-vivo-en",
+      "group": "Identity Project",
+      "file": "media/u1-1-pronunciation/project/vivo-en.m4a",
+      "placement": "Project phrase: Vivo en",
+      "expectedText": "Vivo en",
+      "expectedEnglish": "I live in",
+      "reviewPriority": "normal",
+      "metadata": {
+        "exists": true,
+        "durationSeconds": 0.577,
+        "mimeType": null,
+        "sizeBytes": 7024,
+        "metadataOk": true,
+        "metadataError": null
+      },
+      "flags": []
+    },
+    {
+      "id": "u1-1-project-me-gusta",
+      "group": "Identity Project",
+      "file": "media/u1-1-pronunciation/project/me-gusta.m4a",
+      "placement": "Project phrase: Me gusta",
+      "expectedText": "Me gusta",
+      "expectedEnglish": "I like",
+      "reviewPriority": "normal",
+      "metadata": {
+        "exists": true,
+        "durationSeconds": 0.692,
+        "mimeType": null,
+        "sizeBytes": 8029,
+        "metadataOk": true,
+        "metadataError": null
+      },
+      "flags": []
+    },
+    {
+      "id": "u1-1-project-numero",
+      "group": "Identity Project",
+      "file": "media/u1-1-pronunciation/project/mi-numero-favorito-es.m4a",
+      "placement": "Project phrase: Mi número favorito es",
+      "expectedText": "Mi número favorito es",
+      "expectedEnglish": "My favorite number is",
+      "reviewPriority": "normal",
+      "metadata": {
+        "exists": true,
+        "durationSeconds": 1.516,
+        "mimeType": null,
+        "sizeBytes": 11266,
+        "metadataOk": true,
+        "metadataError": null
+      },
+      "flags": []
+    },
+    {
+      "id": "u1-1-project-deporte",
+      "group": "Identity Project",
+      "file": "media/u1-1-pronunciation/project/mi-deporte-favorito-es.m4a",
+      "placement": "Project phrase: Mi deporte favorito es",
+      "expectedText": "Mi deporte favorito es",
+      "expectedEnglish": "My favorite sport is",
+      "reviewPriority": "normal",
+      "metadata": {
+        "exists": true,
+        "durationSeconds": 1.609,
+        "mimeType": null,
+        "sizeBytes": 11489,
+        "metadataOk": true,
+        "metadataError": null
+      },
+      "flags": []
+    }
+  ]
+}

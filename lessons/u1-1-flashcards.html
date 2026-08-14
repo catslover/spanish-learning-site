@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>U1.1 Flashcards</title>
+    <link rel="stylesheet" href="../styles.css">
+    <link rel="stylesheet" href="lesson.css">
+  </head>
+  <body>
+    <header class="topbar lesson-topbar">
+      <a class="brand" href="../" aria-label="Claire's Spanish Hub home">
+        <span class="brand-mark">ES</span>
+        <span>
+          <strong>U1.1 Flashcards</strong>
+          <small>Audio + memory support</small>
+        </span>
+      </a>
+      <nav class="site-nav" aria-label="U1.1 package navigation">
+        <a href="index.html">Unit 1 Hub</a>
+        <a href="u1-1-pronunciation.html">Lesson</a>
+        <a href="u1-1-flashcards.html" aria-current="page">Flashcards</a>
+        <a href="../materials/all-kids/curriculum-01/u1-1-pronunciation-workshop.pdf" download>Student Packet</a>
+      </nav>
+    </header>
+
+    <nav class="subnav lesson-outline" aria-label="Flashcard page outline">
+      <a href="#deck">Deck</a>
+      <a href="#next">Next Steps</a>
+    </nav>
+
+    <main class="lesson-main flashcard-main">
+      <section class="lesson-hero flashcard-hero">
+        <div class="lesson-hero-copy">
+          <p class="eyebrow">U1.1 Review Layer</p>
+          <h1>Pronunciation Flashcards</h1>
+          <p>Review sound recognition, tricky letters, minimal pairs, and conversation chunks. Audio and English meanings stay connected so practice does not become guessing.</p>
+          <div class="lesson-actions">
+            <a class="button secondary" href="index.html">Unit 1 Hub</a>
+            <a class="button primary" href="#deck">Start Review</a>
+            <a class="button secondary" href="u1-1-pronunciation.html">Open Lesson</a>
+            <a class="button secondary" href="../materials/all-kids/curriculum-01/u1-1-pronunciation-workshop.pdf" download>Download PDF</a>
+          </div>
+        </div>
+        <div class="flashcard-thesis" aria-label="Flashcard design mix">
+          <div>
+            <strong>60-70%</strong>
+            <span>clean audio/text cards</span>
+          </div>
+          <div>
+            <strong>30-40%</strong>
+            <span>selected illustrated cards</span>
+          </div>
+          <p>Images are used when they improve memory, not as decoration.</p>
+        </div>
+      </section>
+
+      <section class="lesson-band" id="deck">
+        <div class="lesson-heading">
+          <p class="eyebrow">Deck</p>
+          <h2 id="deckTitle">Loading flashcards...</h2>
+          <p id="deckSummary">Audio buttons use local lesson audio when available.</p>
+          <div class="study-toolbar" aria-label="Flashcard study controls">
+            <button class="button secondary" id="shuffleDeck" type="button">Shuffle</button>
+            <button class="button secondary" id="showIllustrated" type="button" aria-pressed="false">Illustrated Only</button>
+            <button class="button secondary" id="resetDeck" type="button">Show All</button>
+          </div>
+        </div>
+        <div id="deckStats" class="deck-stats" aria-live="polite"></div>
+        <div id="flashcardStudyGrid" class="study-card-grid" aria-live="polite"></div>
+      </section>
+
+      <section class="lesson-band next-actions" id="next" aria-label="U1.1 next actions">
+        <div>
+          <p class="eyebrow">Keep Studying</p>
+          <h2>Move between the three U1.1 pieces</h2>
+          <p>Use the lesson for careful listening, the cards for quick review, and the PDF packet for printable practice.</p>
+        </div>
+        <div class="lesson-actions">
+          <a class="button secondary" href="index.html">Unit 1 Hub</a>
+          <a class="button primary" href="u1-1-pronunciation.html">Open Lesson</a>
+          <a class="button secondary" href="../materials/all-kids/curriculum-01/u1-1-pronunciation-workshop.pdf" download>Download PDF</a>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <p>Flashcard source: <code>data/flashcards.json</code>.</p>
+    </footer>
+
+    <script src="lesson.js"></script>
+    <script src="flashcards.js"></script>
+  </body>
+</html>

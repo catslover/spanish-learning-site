@@ -1,0 +1,5070 @@
+{
+  "manifestVersion": "2026-08-11.u1-1-audio-review",
+  "status": "submitted",
+  "updated": "2026-08-13",
+  "source": "website audio review tool",
+  "note": "Human review status after regenerating niño and José audio. Regenerated clips are unchecked until reviewed again in the website audio QA tool.",
+  "summary": {
+    "totalUniqueChecks": 90,
+    "totalPlacements": 95,
+    "correct": 88,
+    "needsWork": 0,
+    "unchecked": 2
+  },
+  "statusCounts": {
+    "correct": 88,
+    "unchecked": 2
+  },
+  "items": [
+    {
+      "id": "a",
+      "group": "Vowels",
+      "placement": "Lesson vowels and flashcard front",
+      "file": "media/u1-1-pronunciation/vowels/a.mp3",
+      "expectedText": "a",
+      "language": "es-MX",
+      "source": "lesson+flashcards",
+      "expectedEnglish": "Spanish vowel a",
+      "reviewPrompt": "Mark Correct only if the audio says the expected Spanish text, belongs in this placement, and is easy enough for a learner to imitate.",
+      "listenFor": [
+        "The clip should be one short, steady Spanish vowel, not an English letter name."
+      ],
+      "reviewPriority": "high",
+      "reviewId": "a",
+      "primaryId": "u1-1-vowel-a",
+      "groups": [
+        "Vowels"
+      ],
+      "files": [
+        "media/u1-1-pronunciation/vowels/a.mp3"
+      ],
+      "placements": [
+        {
+          "id": "u1-1-vowel-a",
+          "group": "Vowels",
+          "placement": "Lesson vowels and flashcard front",
+          "file": "media/u1-1-pronunciation/vowels/a.mp3",
+          "source": "lesson+flashcards"
+        }
+      ],
+      "machineQa": {
+        "id": "u1-1-vowel-a",
+        "group": "Vowels",
+        "file": "media/u1-1-pronunciation/vowels/a.mp3",
+        "placement": "Lesson vowels and flashcard front",
+        "expectedText": "a",
+        "expectedEnglish": "Spanish vowel a",
+        "reviewPriority": "high",
+        "metadata": {
+          "exists": true,
+          "durationSeconds": 1.776,
+          "mimeType": null,
+          "sizeBytes": 10656,
+          "metadataOk": true,
+          "metadataError": null
+        },
+        "flags": []
+      },
+      "browserAvailability": null,
+      "review": {
+        "status": "correct",
+        "approvedAt": "2026-08-12T21:23:44.372Z"
+      }
+    },
+    {
+      "id": "e",
+      "group": "Vowels",
+      "placement": "Lesson vowels and flashcard front",
+      "file": "media/u1-1-pronunciation/vowels/e.mp3",
+      "expectedText": "e",
+      "language": "es-MX",
+      "source": "lesson+flashcards",
+      "expectedEnglish": "Spanish vowel e",
+      "reviewPrompt": "Mark Correct only if the audio says the expected Spanish text, belongs in this placement, and is easy enough for a learner to imitate.",
+      "listenFor": [
+        "The clip should be one short, steady Spanish vowel, not an English letter name."
+      ],
+      "reviewPriority": "high",
+      "reviewId": "e",
+      "primaryId": "u1-1-vowel-e",
+      "groups": [
+        "Vowels"
+      ],
+      "files": [
+        "media/u1-1-pronunciation/vowels/e.mp3"
+      ],
+      "placements": [
+        {
+          "id": "u1-1-vowel-e",
+          "group": "Vowels",
+          "placement": "Lesson vowels and flashcard front",
+          "file": "media/u1-1-pronunciation/vowels/e.mp3",
+          "source": "lesson+flashcards"
+        }
+      ],
+      "machineQa": {
+        "id": "u1-1-vowel-e",
+        "group": "Vowels",
+        "file": "media/u1-1-pronunciation/vowels/e.mp3",
+        "placement": "Lesson vowels and flashcard front",
+        "expectedText": "e",
+        "expectedEnglish": "Spanish vowel e",
+        "reviewPriority": "high",
+        "metadata": {
+          "exists": true,
+          "durationSeconds": 1.776,
+          "mimeType": null,
+          "sizeBytes": 10656,
+          "metadataOk": true,
+          "metadataError": null
+        },
+        "flags": []
+      },
+      "browserAvailability": null,
+      "review": {
+        "status": "correct",
+        "approvedAt": "2026-08-12T21:23:50.871Z"
+      }
+    },
+    {
+      "id": "i",
+      "group": "Vowels",
+      "placement": "Lesson vowels and flashcard front",
+      "file": "media/u1-1-pronunciation/vowels/i.mp3",
+      "expectedText": "i",
+      "language": "es-MX",
+      "source": "lesson+flashcards",
+      "expectedEnglish": "Spanish vowel i",
+      "reviewPrompt": "Mark Correct only if the audio says the expected Spanish text, belongs in this placement, and is easy enough for a learner to imitate.",
+      "listenFor": [
+        "The clip should be one short, steady Spanish vowel, not an English letter name."
+      ],
+      "reviewPriority": "high",
+      "reviewId": "i",
+      "primaryId": "u1-1-vowel-i",
+      "groups": [
+        "Vowels"
+      ],
+      "files": [
+        "media/u1-1-pronunciation/vowels/i.mp3"
+      ],
+      "placements": [
+        {
+          "id": "u1-1-vowel-i",
+          "group": "Vowels",
+          "placement": "Lesson vowels and flashcard front",
+          "file": "media/u1-1-pronunciation/vowels/i.mp3",
+          "source": "lesson+flashcards"
+        }
+      ],
+      "machineQa": {
+        "id": "u1-1-vowel-i",
+        "group": "Vowels",
+        "file": "media/u1-1-pronunciation/vowels/i.mp3",
+        "placement": "Lesson vowels and flashcard front",
+        "expectedText": "i",
+        "expectedEnglish": "Spanish vowel i",
+        "reviewPriority": "high",
+        "metadata": {
+          "exists": true,
+          "durationSeconds": 1.776,
+          "mimeType": null,
+          "sizeBytes": 10656,
+          "metadataOk": true,
+          "metadataError": null
+        },
+        "flags": []
+      },
+      "browserAvailability": null,
+      "review": {
+        "status": "correct",
+        "approvedAt": "2026-08-12T21:24:04.504Z"
+      }
+    },
+    {
+      "id": "o",
+      "group": "Vowels",
+      "placement": "Lesson vowels and flashcard front",
+      "file": "media/u1-1-pronunciation/vowels/o.mp3",
+      "expectedText": "o",
+      "language": "es-MX",
+      "source": "lesson+flashcards",
+      "expectedEnglish": "Spanish vowel o",
+      "reviewPrompt": "Mark Correct only if the audio says the expected Spanish text, belongs in this placement, and is easy enough for a learner to imitate.",
+      "listenFor": [
+        "The clip should be one short, steady Spanish vowel, not an English letter name."
+      ],
+      "reviewPriority": "high",
+      "reviewId": "o",
+      "primaryId": "u1-1-vowel-o",
+      "groups": [
+        "Vowels"
+      ],
+      "files": [
+        "media/u1-1-pronunciation/vowels/o.mp3"
+      ],
+      "placements": [
+        {
+          "id": "u1-1-vowel-o",
+          "group": "Vowels",
+          "placement": "Lesson vowels and flashcard front",
+          "file": "media/u1-1-pronunciation/vowels/o.mp3",
+          "source": "lesson+flashcards"
+        }
+      ],
+      "machineQa": {
+        "id": "u1-1-vowel-o",
+        "group": "Vowels",
+        "file": "media/u1-1-pronunciation/vowels/o.mp3",
+        "placement": "Lesson vowels and flashcard front",
+        "expectedText": "o",
+        "expectedEnglish": "Spanish vowel o",
+        "reviewPriority": "high",
+        "metadata": {
+          "exists": true,
+          "durationSeconds": 1.776,
+          "mimeType": null,
+          "sizeBytes": 10656,
+          "metadataOk": true,
+          "metadataError": null
+        },
+        "flags": []
+      },
+      "browserAvailability": null,
+      "review": {
+        "status": "correct",
+        "approvedAt": "2026-08-12T21:24:08.588Z"
+      }
+    },
+    {
+      "id": "u",
+      "group": "Vowels",
+      "placement": "Lesson vowels and flashcard front",
+      "file": "media/u1-1-pronunciation/vowels/u.mp3",
+      "expectedText": "u",
+      "language": "es-MX",
+      "source": "lesson+flashcards",
+      "expectedEnglish": "Spanish vowel u",
+      "reviewPrompt": "Mark Correct only if the audio says the expected Spanish text, belongs in this placement, and is easy enough for a learner to imitate.",
+      "listenFor": [
+        "The clip should be one short, steady Spanish vowel, not an English letter name."
+      ],
+      "reviewPriority": "high",
+      "reviewId": "u",
+      "primaryId": "u1-1-vowel-u",
+      "groups": [
+        "Vowels"
+      ],
+      "files": [
+        "media/u1-1-pronunciation/vowels/u.mp3"
+      ],
+      "placements": [
+        {
+          "id": "u1-1-vowel-u",
+          "group": "Vowels",
+          "placement": "Lesson vowels and flashcard front",
+          "file": "media/u1-1-pronunciation/vowels/u.mp3",
+          "source": "lesson+flashcards"
+        }
+      ],
+      "machineQa": {
+        "id": "u1-1-vowel-u",
+        "group": "Vowels",
+        "file": "media/u1-1-pronunciation/vowels/u.mp3",
+        "placement": "Lesson vowels and flashcard front",
+        "expectedText": "u",
+        "expectedEnglish": "Spanish vowel u",
+        "reviewPriority": "high",
+        "metadata": {
+          "exists": true,
+          "durationSeconds": 1.776,
+          "mimeType": null,
+          "sizeBytes": 10656,
+          "metadataOk": true,
+          "metadataError": null
+        },
+        "flags": []
+      },
+      "browserAvailability": null,
+      "review": {
+        "status": "correct",
+        "approvedAt": "2026-08-12T21:24:13.588Z"
+      }
+    },
+    {
+      "id": "mama",
+      "group": "Vowel Words",
+      "placement": "Vowel A example",
+      "file": "media/u1-1-pronunciation/vowel-words/mama.m4a",
+      "expectedText": "mamá",
+      "language": "es-MX",
+      "source": "lesson",
+      "expectedEnglish": "mom",
+      "reviewPrompt": "Mark Correct only if the audio says the expected Spanish text, belongs in this placement, and is easy enough for a learner to imitate.",
+      "listenFor": [
+        "Accent mark means the stressed syllable should be clear."
+      ],
+      "reviewPriority": "normal",
+      "reviewId": "mama",
+      "primaryId": "u1-1-word-mama",
+      "groups": [
+        "Vowel Words"
+      ],
+      "files": [
+        "media/u1-1-pronunciation/vowel-words/mama.m4a"
+      ],
+      "placements": [
+        {
+          "id": "u1-1-word-mama",
+          "group": "Vowel Words",
+          "placement": "Vowel A example",
+          "file": "media/u1-1-pronunciation/vowel-words/mama.m4a",
+          "source": "lesson"
+        }
+      ],
+      "machineQa": {
+        "id": "u1-1-word-mama",
+        "group": "Vowel Words",
+        "file": "media/u1-1-pronunciation/vowel-words/mama.m4a",
+        "placement": "Vowel A example",
+        "expectedText": "mamá",
+        "expectedEnglish": "mom",
+        "reviewPriority": "normal",
+        "metadata": {
+          "exists": true,
+          "durationSeconds": 0.459,
+          "mimeType": null,
+          "sizeBytes": 6423,
+          "metadataOk": true,
+          "metadataError": null
+        },
+        "flags": []
+      },
+      "browserAvailability": null,
+      "review": {
+        "status": "correct",
+        "approvedAt": "2026-08-12T19:32:18.933Z"
+      }
+    },
+    {
+      "id": "casa",
+      "group": "Vowel Words",
+      "placement": "Vowel A example and flashcard example",
+      "file": "media/u1-1-pronunciation/vowel-words/casa.m4a",
+      "expectedText": "casa",
+      "language": "es-MX",
+      "source": "lesson+flashcards",
+      "expectedEnglish": "house",
+      "reviewPrompt": "Mark Correct only if the audio says the expected Spanish text, belongs in this placement, and is easy enough for a learner to imitate.",
+      "listenFor": [
+        "Confirm the clip says the expected Spanish text exactly and is placed with the matching lesson item."
+      ],
+      "reviewPriority": "normal",
+      "reviewId": "casa",
+      "primaryId": "u1-1-word-casa",
+      "groups": [
+        "Vowel Words"
+      ],
+      "files": [
+        "media/u1-1-pronunciation/vowel-words/casa.m4a"
+      ],
+      "placements": [
+        {
+          "id": "u1-1-word-casa",
+          "group": "Vowel Words",
+          "placement": "Vowel A example and flashcard example",
+          "file": "media/u1-1-pronunciation/vowel-words/casa.m4a",
+          "source": "lesson+flashcards"
+        }
+      ],
+      "machineQa": {
+        "id": "u1-1-word-casa",
+        "group": "Vowel Words",
+        "file": "media/u1-1-pronunciation/vowel-words/casa.m4a",
+        "placement": "Vowel A example and flashcard example",
+        "expectedText": "casa",
+        "expectedEnglish": "house",
+        "reviewPriority": "normal",
+        "metadata": {
+          "exists": true,
+          "durationSeconds": 0.488,
+          "mimeType": null,
+          "sizeBytes": 6641,
+          "metadataOk": true,
+          "metadataError": null
+        },
+        "flags": []
+      },
+      "browserAvailability": null,
+      "review": {
+        "status": "correct",
+        "approvedAt": "2026-08-12T19:32:56.382Z"
+      }
+    },
+    {
+      "id": "gracias",
+      "group": "Vowel Words",
+      "placement": "Vowel A example",
+      "file": "media/u1-1-pronunciation/vowel-words/gracias.m4a",
+      "expectedText": "gracias",
+      "language": "es-MX",
+      "source": "lesson",
+      "expectedEnglish": "thank you / thanks",
+      "reviewPrompt": "Mark Correct only if the audio says the expected Spanish text, belongs in this placement, and is easy enough for a learner to imitate.",
+      "listenFor": [
+        "Confirm the clip says the expected Spanish text exactly and is placed with the matching lesson item."
+      ],
+      "reviewPriority": "normal",
+      "reviewId": "gracias",
+      "primaryId": "u1-1-word-gracias",
+      "groups": [
+        "Vowel Words",
+        "Patterns"
+      ],
+      "files": [
+        "media/u1-1-pronunciation/vowel-words/gracias.m4a",
+        "media/u1-1-pronunciation/patterns/r-rr/gracias.m4a",
+        "media/u1-1-pronunciation/patterns/ce-ci-z/gracias.m4a"
+      ],
+      "placements": [
+        {
+          "id": "u1-1-word-gracias",
+          "group": "Vowel Words",
+          "placement": "Vowel A example",
+          "file": "media/u1-1-pronunciation/vowel-words/gracias.m4a",
+          "source": "lesson"
+        },
+        {
+          "id": "u1-1-pattern-gracias-r",
+          "group": "Patterns",
+          "placement": "r/rr row",
+          "file": "media/u1-1-pronunciation/patterns/r-rr/gracias.m4a",
+          "source": "lesson"
+        },
+        {
+          "id": "u1-1-pattern-gracias-ce",
+          "group": "Patterns",
+          "placement": "ce/ci/z row",
+          "file": "media/u1-1-pronunciation/patterns/ce-ci-z/gracias.m4a",
+          "source": "lesson"
+        }
+      ],
+      "machineQa": {
+        "id": "u1-1-word-gracias",
+        "group": "Vowel Words",
+        "file": "media/u1-1-pronunciation/vowel-words/gracias.m4a",
+        "placement": "Vowel A example",
+        "expectedText": "gracias",
+        "expectedEnglish": "thank you / thanks",
+        "reviewPriority": "normal",
+        "metadata": {
+          "exists": true,
+          "durationSeconds": 0.728,
+          "mimeType": null,
+          "sizeBytes": 8205,
+          "metadataOk": true,
+          "metadataError": null
+        },
+        "flags": []
+      },
+      "browserAvailability": null,
+      "review": {
+        "status": "correct",
+        "approvedAt": "2026-08-12T19:33:04.333Z"
+      }
+    },
+    {
+      "id": "mesa",
+      "group": "Vowel Words",
+      "placement": "Vowel E example and flashcard example",
+      "file": "media/u1-1-pronunciation/vowel-words/mesa.m4a",
+      "expectedText": "mesa",
+      "language": "es-MX",
+      "source": "lesson+flashcards",
+      "expectedEnglish": "table",
+      "reviewPrompt": "Mark Correct only if the audio says the expected Spanish text, belongs in this placement, and is easy enough for a learner to imitate.",
+      "listenFor": [
+        "Confirm the clip says the expected Spanish text exactly and is placed with the matching lesson item."
+      ],
+      "reviewPriority": "normal",
+      "reviewId": "mesa",
+      "primaryId": "u1-1-word-mesa",
+      "groups": [
+        "Vowel Words"
+      ],
+      "files": [
+        "media/u1-1-pronunciation/vowel-words/mesa.m4a"
+      ],
+      "placements": [
+        {
+          "id": "u1-1-word-mesa",
+          "group": "Vowel Words",
+          "placement": "Vowel E example and flashcard example",
+          "file": "media/u1-1-pronunciation/vowel-words/mesa.m4a",
+          "source": "lesson+flashcards"
+        }
+      ],
+      "machineQa": {
+        "id": "u1-1-word-mesa",
+        "group": "Vowel Words",
+        "file": "media/u1-1-pronunciation/vowel-words/mesa.m4a",
+        "placement": "Vowel E example and flashcard example",
+        "expectedText": "mesa",
+        "expectedEnglish": "table",
+        "reviewPriority": "normal",
+        "metadata": {
+          "exists": true,
+          "durationSeconds": 0.518,
+          "mimeType": null,
+          "sizeBytes": 7243,
+          "metadataOk": true,
+          "metadataError": null
+        },
+        "flags": []
+      },
+      "browserAvailability": null,
+      "review": {
+        "status": "correct",
+        "approvedAt": "2026-08-12T19:33:26.083Z"
+      }
+    },
+    {
+      "id": "elena",
+      "group": "Vowel Words",
+      "placement": "Vowel E example",
+      "file": "media/u1-1-pronunciation/vowel-words/elena.m4a",
+      "expectedText": "Elena",
+      "language": "es-MX",
+      "source": "lesson",
+      "expectedEnglish": "Elena",
+      "reviewPrompt": "Mark Correct only if the audio says the expected Spanish text, belongs in this placement, and is easy enough for a learner to imitate.",
+      "listenFor": [
+        "Confirm the clip says the expected Spanish text exactly and is placed with the matching lesson item."
+      ],
+      "reviewPriority": "normal",
+      "reviewId": "elena",
+      "primaryId": "u1-1-word-elena",
+      "groups": [
+        "Vowel Words"
+      ],
+      "files": [
+        "media/u1-1-pronunciation/vowel-words/elena.m4a"
+      ],
+      "placements": [
+        {
+          "id": "u1-1-word-elena",
+          "group": "Vowel Words",
+          "placement": "Vowel E example",
+          "file": "media/u1-1-pronunciation/vowel-words/elena.m4a",
+          "source": "lesson"
+        }
+      ],
+      "machineQa": {
+        "id": "u1-1-word-elena",
+        "group": "Vowel Words",
+        "file": "media/u1-1-pronunciation/vowel-words/elena.m4a",
+        "placement": "Vowel E example",
+        "expectedText": "Elena",
+        "expectedEnglish": "Elena",
+        "reviewPriority": "normal",
+        "metadata": {
+          "exists": true,
+          "durationSeconds": 0.508,
+          "mimeType": null,
+          "sizeBytes": 6475,
+          "metadataOk": true,
+          "metadataError": null
+        },
+        "flags": []
+      },
+      "browserAvailability": null,
+      "review": {
+        "status": "correct",
+        "approvedAt": "2026-08-12T19:33:31.065Z"
+      }
+    },
+    {
+      "id": "tres",
+      "group": "Vowel Words",
+      "placement": "Vowel E example and flashcard example",
+      "file": "media/u1-1-pronunciation/vowel-words/tres.m4a",
+      "expectedText": "tres",
+      "language": "es-MX",
+      "source": "lesson+flashcards",
+      "expectedEnglish": "three",
+      "reviewPrompt": "Mark Correct only if the audio says the expected Spanish text, belongs in this placement, and is easy enough for a learner to imitate.",
+      "listenFor": [
+        "Confirm the clip says the expected Spanish text exactly and is placed with the matching lesson item."
+      ],
+      "reviewPriority": "normal",
+      "reviewId": "tres",
+      "primaryId": "u1-1-word-tres",
+      "groups": [
+        "Vowel Words"
+      ],
+      "files": [
+        "media/u1-1-pronunciation/vowel-words/tres.m4a"
+      ],
+      "placements": [
+        {
+          "id": "u1-1-word-tres",
+          "group": "Vowel Words",
+          "placement": "Vowel E example and flashcard example",
+          "file": "media/u1-1-pronunciation/vowel-words/tres.m4a",
+          "source": "lesson+flashcards"
+        }
+      ],
+      "machineQa": {
+        "id": "u1-1-word-tres",
+        "group": "Vowel Words",
+        "file": "media/u1-1-pronunciation/vowel-words/tres.m4a",
+        "placement": "Vowel E example and flashcard example",
+        "expectedText": "tres",
+        "expectedEnglish": "three",
+        "reviewPriority": "normal",
+        "metadata": {
+          "exists": true,
+          "durationSeconds": 0.464,
+          "mimeType": null,
+          "sizeBytes": 6457,
+          "metadataOk": true,
+          "metadataError": null
+        },
+        "flags": []
+      },
+      "browserAvailability": null,
+      "review": {
+        "status": "correct",
+        "approvedAt": "2026-08-12T19:33:42.033Z"
+      }
+    },
+    {
+      "id": "mi",
+      "group": "Vowel Words",
+      "placement": "Vowel I example and flashcard example",
+      "file": "media/u1-1-pronunciation/vowel-words/mi.m4a",
+      "expectedText": "mi",
+      "language": "es-MX",
+      "source": "lesson+flashcards",
+      "expectedEnglish": "my",
+      "reviewPrompt": "Mark Correct only if the audio says the expected Spanish text, belongs in this placement, and is easy enough for a learner to imitate.",
+      "listenFor": [
+        "Confirm the clip says the expected Spanish text exactly and is placed with the matching lesson item."
+      ],
+      "reviewPriority": "normal",
+      "reviewId": "mi",
+      "primaryId": "u1-1-word-mi",
+      "groups": [
+        "Vowel Words"
+      ],
+      "files": [
+        "media/u1-1-pronunciation/vowel-words/mi.m4a"
+      ],
+      "placements": [
+        {
+          "id": "u1-1-word-mi",
+          "group": "Vowel Words",
+          "placement": "Vowel I example and flashcard example",
+          "file": "media/u1-1-pronunciation/vowel-words/mi.m4a",
+          "source": "lesson+flashcards"
+        }
+      ],
+      "machineQa": {
+        "id": "u1-1-word-mi",
+        "group": "Vowel Words",
+        "file": "media/u1-1-pronunciation/vowel-words/mi.m4a",
+        "placement": "Vowel I example and flashcard example",
+        "expectedText": "mi",
+        "expectedEnglish": "my",
+        "reviewPriority": "normal",
+        "metadata": {
+          "exists": true,
+          "durationSeconds": 0.332,
+          "mimeType": null,
+          "sizeBytes": 6335,
+          "metadataOk": true,
+          "metadataError": null
+        },
+        "flags": []
+      },
+      "browserAvailability": null,
+      "review": {
+        "status": "correct",
+        "approvedAt": "2026-08-12T19:33:56.233Z"
+      }
+    },
+    {
+      "id": "familia",
+      "group": "Vowel Words",
+      "placement": "Vowel I example",
+      "file": "media/u1-1-pronunciation/vowel-words/familia.m4a",
+      "expectedText": "familia",
+      "language": "es-MX",
+      "source": "lesson",
+      "expectedEnglish": "family",
+      "reviewPrompt": "Mark Correct only if the audio says the expected Spanish text, belongs in this placement, and is easy enough for a learner to imitate.",
+      "listenFor": [
+        "Confirm the clip says the expected Spanish text exactly and is placed with the matching lesson item."
+      ],
+      "reviewPriority": "normal",
+      "reviewId": "familia",
+      "primaryId": "u1-1-word-familia",
+      "groups": [
+        "Vowel Words",
+        "Patterns"
+      ],
+      "files": [
+        "media/u1-1-pronunciation/vowel-words/familia.m4a",
+        "media/u1-1-pronunciation/patterns/ll-y/familia.m4a"
+      ],
+      "placements": [
+        {
+          "id": "u1-1-word-familia",
+          "group": "Vowel Words",
+          "placement": "Vowel I example",
+          "file": "media/u1-1-pronunciation/vowel-words/familia.m4a",
+          "source": "lesson"
+        },
+        {
+          "id": "u1-1-pattern-familia",
+          "group": "Patterns",
+          "placement": "ll/y row",
+          "file": "media/u1-1-pronunciation/patterns/ll-y/familia.m4a",
+          "source": "lesson"
+        }
+      ],
+      "machineQa": {
+        "id": "u1-1-word-familia",
+        "group": "Vowel Words",
+        "file": "media/u1-1-pronunciation/vowel-words/familia.m4a",
+        "placement": "Vowel I example",
+        "expectedText": "familia",
+        "expectedEnglish": "family",
+        "reviewPriority": "normal",
+        "metadata": {
+          "exists": true,
+          "durationSeconds": 0.653,
+          "mimeType": null,
+          "sizeBytes": 7482,
+          "metadataOk": true,
+          "metadataError": null
+        },
+        "flags": []
+      },
+      "browserAvailability": null,
+      "review": {
+        "status": "correct",
+        "approvedAt": "2026-08-12T19:34:01.567Z"
+      }
+    },
+    {
+      "id": "si",
+      "group": "Vowel Words",
+      "placement": "Vowel I example and flashcard example",
+      "file": "media/u1-1-pronunciation/vowel-words/si.m4a",
+      "expectedText": "sí",
+      "language": "es-MX",
+      "source": "lesson+flashcards",
+      "expectedEnglish": "yes",
+      "reviewPrompt": "Mark Correct only if the audio says the expected Spanish text, belongs in this placement, and is easy enough for a learner to imitate.",
+      "listenFor": [
+        "Accent mark means the stressed syllable should be clear."
+      ],
+      "reviewPriority": "normal",
+      "reviewId": "si",
+      "primaryId": "u1-1-word-si",
+      "groups": [
+        "Vowel Words"
+      ],
+      "files": [
+        "media/u1-1-pronunciation/vowel-words/si.m4a"
+      ],
+      "placements": [
+        {
+          "id": "u1-1-word-si",
+          "group": "Vowel Words",
+          "placement": "Vowel I example and flashcard example",
+          "file": "media/u1-1-pronunciation/vowel-words/si.m4a",
+          "source": "lesson+flashcards"
+        }
+      ],
+      "machineQa": {
+        "id": "u1-1-word-si",
+        "group": "Vowel Words",
+        "file": "media/u1-1-pronunciation/vowel-words/si.m4a",
+        "placement": "Vowel I example and flashcard example",
+        "expectedText": "sí",
+        "expectedEnglish": "yes",
+        "reviewPriority": "normal",
+        "metadata": {
+          "exists": true,
+          "durationSeconds": 0.392,
+          "mimeType": null,
+          "sizeBytes": 6044,
+          "metadataOk": true,
+          "metadataError": null
+        },
+        "flags": []
+      },
+      "browserAvailability": null,
+      "review": {
+        "status": "correct",
+        "approvedAt": "2026-08-12T19:34:06.016Z"
+      }
+    },
+    {
+      "id": "hola",
+      "group": "Vowel Words",
+      "placement": "Vowel O example and flashcard example",
+      "file": "media/u1-1-pronunciation/vowel-words/hola.m4a",
+      "expectedText": "hola",
+      "language": "es-MX",
+      "source": "lesson+flashcards",
+      "expectedEnglish": "hello",
+      "reviewPrompt": "Mark Correct only if the audio says the expected Spanish text, belongs in this placement, and is easy enough for a learner to imitate.",
+      "listenFor": [
+        "Spanish h is silent in Spanish words such as hola, hielo, and hierro; hockey is a borrowed word."
+      ],
+      "reviewPriority": "normal",
+      "reviewId": "hola",
+      "primaryId": "u1-1-word-hola",
+      "groups": [
+        "Vowel Words",
+        "Patterns"
+      ],
+      "files": [
+        "media/u1-1-pronunciation/vowel-words/hola.m4a",
+        "media/u1-1-pronunciation/patterns/silent-h/hola.m4a"
+      ],
+      "placements": [
+        {
+          "id": "u1-1-word-hola",
+          "group": "Vowel Words",
+          "placement": "Vowel O example and flashcard example",
+          "file": "media/u1-1-pronunciation/vowel-words/hola.m4a",
+          "source": "lesson+flashcards"
+        },
+        {
+          "id": "u1-1-pattern-hola",
+          "group": "Patterns",
+          "placement": "silent h row and H flashcard front",
+          "file": "media/u1-1-pronunciation/patterns/silent-h/hola.m4a",
+          "source": "lesson+flashcards"
+        }
+      ],
+      "machineQa": {
+        "id": "u1-1-word-hola",
+        "group": "Vowel Words",
+        "file": "media/u1-1-pronunciation/vowel-words/hola.m4a",
+        "placement": "Vowel O example and flashcard example",
+        "expectedText": "hola",
+        "expectedEnglish": "hello",
+        "reviewPriority": "normal",
+        "metadata": {
+          "exists": true,
+          "durationSeconds": 0.404,
+          "mimeType": null,
+          "sizeBytes": 5948,
+          "metadataOk": true,
+          "metadataError": null
+        },
+        "flags": []
+      },
+      "browserAvailability": null,
+      "review": {
+        "status": "correct",
+        "approvedAt": "2026-08-12T19:34:12.935Z"
+      }
+    },
+    {
+      "id": "dos",
+      "group": "Vowel Words",
+      "placement": "Vowel O example and flashcard example",
+      "file": "media/u1-1-pronunciation/vowel-words/dos.m4a",
+      "expectedText": "dos",
+      "language": "es-MX",
+      "source": "lesson+flashcards",
+      "expectedEnglish": "two",
+      "reviewPrompt": "Mark Correct only if the audio says the expected Spanish text, belongs in this placement, and is easy enough for a learner to imitate.",
+      "listenFor": [
+        "Confirm the clip says the expected Spanish text exactly and is placed with the matching lesson item."
+      ],
+      "reviewPriority": "normal",
+      "reviewId": "dos",
+      "primaryId": "u1-1-word-dos",
+      "groups": [
+        "Vowel Words"
+      ],
+      "files": [
+        "media/u1-1-pronunciation/vowel-words/dos.m4a"
+      ],
+      "placements": [
+        {
+          "id": "u1-1-word-dos",
+          "group": "Vowel Words",
+          "placement": "Vowel O example and flashcard example",
+          "file": "media/u1-1-pronunciation/vowel-words/dos.m4a",
+          "source": "lesson+flashcards"
+        }
+      ],
+      "machineQa": {
+        "id": "u1-1-word-dos",
+        "group": "Vowel Words",
+        "file": "media/u1-1-pronunciation/vowel-words/dos.m4a",
+        "placement": "Vowel O example and flashcard example",
+        "expectedText": "dos",
+        "expectedEnglish": "two",
+        "reviewPriority": "normal",
+        "metadata": {
+          "exists": true,
+          "durationSeconds": 0.438,
+          "mimeType": null,
+          "sizeBytes": 6588,
+          "metadataOk": true,
+          "metadataError": null
+        },
+        "flags": []
+      },
+      "browserAvailability": null,
+      "review": {
+        "status": "correct",
+        "approvedAt": "2026-08-12T19:34:22.751Z"
+      }
+    },
+    {
+      "id": "profesor",
+      "group": "Vowel Words",
+      "placement": "Vowel O example",
+      "file": "media/u1-1-pronunciation/vowel-words/profesor.m4a",
+      "expectedText": "profesor",
+      "language": "es-MX",
+      "source": "lesson",
+      "expectedEnglish": "teacher",
+      "reviewPrompt": "Mark Correct only if the audio says the expected Spanish text, belongs in this placement, and is easy enough for a learner to imitate.",
+      "listenFor": [
+        "Confirm the clip says the expected Spanish text exactly and is placed with the matching lesson item."
+      ],
+      "reviewPriority": "normal",
+      "reviewId": "profesor",
+      "primaryId": "u1-1-word-profesor",
+      "groups": [
+        "Vowel Words"
+      ],
+      "files": [
+        "media/u1-1-pronunciation/vowel-words/profesor.m4a"
+      ],
+      "placements": [
+        {
+          "id": "u1-1-word-profesor",
+          "group": "Vowel Words",
+          "placement": "Vowel O example",
+          "file": "media/u1-1-pronunciation/vowel-words/profesor.m4a",
+          "source": "lesson"
+        }
+      ],
+      "machineQa": {
+        "id": "u1-1-word-profesor",
+        "group": "Vowel Words",
+        "file": "media/u1-1-pronunciation/vowel-words/profesor.m4a",
+        "placement": "Vowel O example",
+        "expectedText": "profesor",
+        "expectedEnglish": "teacher",
+        "reviewPriority": "normal",
+        "metadata": {
+          "exists": true,
+          "durationSeconds": 0.766,
+          "mimeType": null,
+          "sizeBytes": 7926,
+          "metadataOk": true,
+          "metadataError": null
+        },
+        "flags": []
+      },
+      "browserAvailability": null,
+      "review": {
+        "status": "correct",
+        "approvedAt": "2026-08-12T19:34:29.349Z"
+      }
+    },
+    {
+      "id": "tu",
+      "group": "Vowel Words",
+      "placement": "Vowel U example and flashcard example",
+      "file": "media/u1-1-pronunciation/vowel-words/tu.m4a",
+      "expectedText": "tú",
+      "language": "es-MX",
+      "source": "lesson+flashcards",
+      "expectedEnglish": "you",
+      "reviewPrompt": "Mark Correct only if the audio says the expected Spanish text, belongs in this placement, and is easy enough for a learner to imitate.",
+      "listenFor": [
+        "Accent mark means the stressed syllable should be clear."
+      ],
+      "reviewPriority": "normal",
+      "reviewId": "tu",
+      "primaryId": "u1-1-word-tu",
+      "groups": [
+        "Vowel Words"
+      ],
+      "files": [
+        "media/u1-1-pronunciation/vowel-words/tu.m4a"
+      ],
+      "placements": [
+        {
+          "id": "u1-1-word-tu",
+          "group": "Vowel Words",
+          "placement": "Vowel U example and flashcard example",
+          "file": "media/u1-1-pronunciation/vowel-words/tu.m4a",
+          "source": "lesson+flashcards"
+        }
+      ],
+      "machineQa": {
+        "id": "u1-1-word-tu",
+        "group": "Vowel Words",
+        "file": "media/u1-1-pronunciation/vowel-words/tu.m4a",
+        "placement": "Vowel U example and flashcard example",
+        "expectedText": "tú",
+        "expectedEnglish": "you",
+        "reviewPriority": "normal",
+        "metadata": {
+          "exists": true,
+          "durationSeconds": 0.348,
+          "mimeType": null,
+          "sizeBytes": 5573,
+          "metadataOk": true,
+          "metadataError": null
+        },
+        "flags": []
+      },
+      "browserAvailability": null,
+      "review": {
+        "status": "correct",
+        "approvedAt": "2026-08-12T19:34:33.951Z"
+      }
+    },
+    {
+      "id": "uno",
+      "group": "Vowel Words",
+      "placement": "Vowel U example and flashcard example",
+      "file": "media/u1-1-pronunciation/vowel-words/uno.m4a",
+      "expectedText": "uno",
+      "language": "es-MX",
+      "source": "lesson+flashcards",
+      "expectedEnglish": "one",
+      "reviewPrompt": "Mark Correct only if the audio says the expected Spanish text, belongs in this placement, and is easy enough for a learner to imitate.",
+      "listenFor": [
+        "Confirm the clip says the expected Spanish text exactly and is placed with the matching lesson item."
+      ],
+      "reviewPriority": "normal",
+      "reviewId": "uno",
+      "primaryId": "u1-1-word-uno",
+      "groups": [
+        "Vowel Words"
+      ],
+      "files": [
+        "media/u1-1-pronunciation/vowel-words/uno.m4a"
+      ],
+      "placements": [
+        {
+          "id": "u1-1-word-uno",
+          "group": "Vowel Words",
+          "placement": "Vowel U example and flashcard example",
+          "file": "media/u1-1-pronunciation/vowel-words/uno.m4a",
+          "source": "lesson+flashcards"
+        }
+      ],
+      "machineQa": {
+        "id": "u1-1-word-uno",
+        "group": "Vowel Words",
+        "file": "media/u1-1-pronunciation/vowel-words/uno.m4a",
+        "placement": "Vowel U example and flashcard example",
+        "expectedText": "uno",
+        "expectedEnglish": "one",
+        "reviewPriority": "normal",
+        "metadata": {
+          "exists": true,
+          "durationSeconds": 0.413,
+          "mimeType": null,
+          "sizeBytes": 5956,
+          "metadataOk": true,
+          "metadataError": null
+        },
+        "flags": []
+      },
+      "browserAvailability": null,
+      "review": {
+        "status": "correct",
+        "approvedAt": "2026-08-12T19:34:38.701Z"
+      }
+    },
+    {
+      "id": "mucho",
+      "group": "Vowel Words",
+      "placement": "Vowel U example",
+      "file": "media/u1-1-pronunciation/vowel-words/mucho.m4a",
+      "expectedText": "mucho",
+      "language": "es-MX",
+      "source": "lesson",
+      "expectedEnglish": "a lot / much",
+      "reviewPrompt": "Mark Correct only if the audio says the expected Spanish text, belongs in this placement, and is easy enough for a learner to imitate.",
+      "listenFor": [
+        "Confirm the clip says the expected Spanish text exactly and is placed with the matching lesson item."
+      ],
+      "reviewPriority": "normal",
+      "reviewId": "mucho",
+      "primaryId": "u1-1-word-mucho",
+      "groups": [
+        "Vowel Words"
+      ],
+      "files": [
+        "media/u1-1-pronunciation/vowel-words/mucho.m4a"
+      ],
+      "placements": [
+        {
+          "id": "u1-1-word-mucho",
+          "group": "Vowel Words",
+          "placement": "Vowel U example",
+          "file": "media/u1-1-pronunciation/vowel-words/mucho.m4a",
+          "source": "lesson"
+        }
+      ],
+      "machineQa": {
+        "id": "u1-1-word-mucho",
+        "group": "Vowel Words",
+        "file": "media/u1-1-pronunciation/vowel-words/mucho.m4a",
+        "placement": "Vowel U example",
+        "expectedText": "mucho",
+        "expectedEnglish": "a lot / much",
+        "reviewPriority": "normal",
+        "metadata": {
+          "exists": true,
+          "durationSeconds": 0.529,
+          "mimeType": null,
+          "sizeBytes": 7141,
+          "metadataOk": true,
+          "metadataError": null
+        },
+        "flags": []
+      },
+      "browserAvailability": null,
+      "review": {
+        "status": "correct",
+        "approvedAt": "2026-08-12T19:34:44.751Z"
+      }
+    },
+    {
+      "id": "nino",
+      "group": "Patterns",
+      "placement": "ñ row and Ñ flashcard front",
+      "file": "media/u1-1-pronunciation/patterns/n-tilde/nino.wav",
+      "expectedText": "niño",
+      "language": "es-MX",
+      "source": "lesson+flashcards",
+      "expectedEnglish": "boy / child",
+      "reviewPrompt": "Mark Correct only if the audio says the expected Spanish text, belongs in this placement, and is easy enough for a learner to imitate.",
+      "listenFor": [
+        "Listen for ñ as one sound, like the ny in canyon."
+      ],
+      "reviewPriority": "normal",
+      "reviewId": "nino",
+      "primaryId": "u1-1-pattern-nino",
+      "groups": [
+        "Patterns"
+      ],
+      "files": [
+        "media/u1-1-pronunciation/patterns/n-tilde/nino.wav"
+      ],
+      "placements": [
+        {
+          "id": "u1-1-pattern-nino",
+          "group": "Patterns",
+          "placement": "ñ row and Ñ flashcard front",
+          "file": "media/u1-1-pronunciation/patterns/n-tilde/nino.wav",
+          "source": "lesson+flashcards"
+        }
+      ],
+      "machineQa": {
+        "id": "u1-1-pattern-nino",
+        "group": "Patterns",
+        "file": "media/u1-1-pronunciation/patterns/n-tilde/nino.wav",
+        "placement": "ñ row and Ñ flashcard front",
+        "expectedText": "niño",
+        "expectedEnglish": "boy / child",
+        "reviewPriority": "normal",
+        "metadata": {
+          "exists": true,
+          "durationSeconds": 0.787,
+          "mimeType": null,
+          "sizeBytes": 7665,
+          "metadataOk": true,
+          "metadataError": null
+        },
+        "flags": []
+      },
+      "browserAvailability": null,
+      "review": {
+        "status": "unchecked",
+        "notes": "Regenerated again on 2026-08-13 using a slower clearer niño candidate; needs human recheck for ñ pronunciation.",
+        "approvedAt": null,
+        "regeneratedAt": "2026-08-13"
+      }
+    },
+    {
+      "id": "espanol",
+      "group": "Patterns",
+      "placement": "ñ row",
+      "file": "media/u1-1-pronunciation/patterns/n-tilde/espanol.m4a",
+      "expectedText": "español",
+      "language": "es-MX",
+      "source": "lesson",
+      "expectedEnglish": "Spanish",
+      "reviewPrompt": "Mark Correct only if the audio says the expected Spanish text, belongs in this placement, and is easy enough for a learner to imitate.",
+      "listenFor": [
+        "Listen for ñ as one sound, like the ny in canyon."
+      ],
+      "reviewPriority": "normal",
+      "reviewId": "espanol",
+      "primaryId": "u1-1-pattern-espanol",
+      "groups": [
+        "Patterns"
+      ],
+      "files": [
+        "media/u1-1-pronunciation/patterns/n-tilde/espanol.m4a"
+      ],
+      "placements": [
+        {
+          "id": "u1-1-pattern-espanol",
+          "group": "Patterns",
+          "placement": "ñ row",
+          "file": "media/u1-1-pronunciation/patterns/n-tilde/espanol.m4a",
+          "source": "lesson"
+        }
+      ],
+      "machineQa": {
+        "id": "u1-1-pattern-espanol",
+        "group": "Patterns",
+        "file": "media/u1-1-pronunciation/patterns/n-tilde/espanol.m4a",
+        "placement": "ñ row",
+        "expectedText": "español",
+        "expectedEnglish": "Spanish",
+        "reviewPriority": "normal",
+        "metadata": {
+          "exists": true,
+          "durationSeconds": 0.694,
+          "mimeType": null,
+          "sizeBytes": 7430,
+          "metadataOk": true,
+          "metadataError": null
+        },
+        "flags": []
+      },
+      "browserAvailability": null,
+      "review": {
+        "status": "correct",
+        "approvedAt": "2026-08-12T19:35:04.016Z"
+      }
+    },
+    {
+      "id": "manana",
+      "group": "Patterns",
+      "placement": "ñ row",
+      "file": "media/u1-1-pronunciation/patterns/n-tilde/manana.m4a",
+      "expectedText": "mañana",
+      "language": "es-MX",
+      "source": "lesson",
+      "expectedEnglish": "tomorrow / morning",
+      "reviewPrompt": "Mark Correct only if the audio says the expected Spanish text, belongs in this placement, and is easy enough for a learner to imitate.",
+      "listenFor": [
+        "Listen for ñ as one sound, like the ny in canyon."
+      ],
+      "reviewPriority": "normal",
+      "reviewId": "manana",
+      "primaryId": "u1-1-pattern-manana",
+      "groups": [
+        "Patterns"
+      ],
+      "files": [
+        "media/u1-1-pronunciation/patterns/n-tilde/manana.m4a"
+      ],
+      "placements": [
+        {
+          "id": "u1-1-pattern-manana",
+          "group": "Patterns",
+          "placement": "ñ row",
+          "file": "media/u1-1-pronunciation/patterns/n-tilde/manana.m4a",
+          "source": "lesson"
+        }
+      ],
+      "machineQa": {
+        "id": "u1-1-pattern-manana",
+        "group": "Patterns",
+        "file": "media/u1-1-pronunciation/patterns/n-tilde/manana.m4a",
+        "placement": "ñ row",
+        "expectedText": "mañana",
+        "expectedEnglish": "tomorrow / morning",
+        "reviewPriority": "normal",
+        "metadata": {
+          "exists": true,
+          "durationSeconds": 0.634,
+          "mimeType": null,
+          "sizeBytes": 7624,
+          "metadataOk": true,
+          "metadataError": null
+        },
+        "flags": []
+      },
+      "browserAvailability": null,
+      "review": {
+        "status": "correct",
+        "approvedAt": "2026-08-12T19:35:15.450Z"
+      }
+    },
+    {
+      "id": "senor",
+      "group": "Patterns",
+      "placement": "ñ row",
+      "file": "media/u1-1-pronunciation/patterns/n-tilde/senor.m4a",
+      "expectedText": "señor",
+      "language": "es-MX",
+      "source": "lesson",
+      "expectedEnglish": "mister / sir",
+      "reviewPrompt": "Mark Correct only if the audio says the expected Spanish text, belongs in this placement, and is easy enough for a learner to imitate.",
+      "listenFor": [
+        "Listen for ñ as one sound, like the ny in canyon."
+      ],
+      "reviewPriority": "normal",
+      "reviewId": "senor",
+      "primaryId": "u1-1-pattern-senor",
+      "groups": [
+        "Patterns"
+      ],
+      "files": [
+        "media/u1-1-pronunciation/patterns/n-tilde/senor.m4a"
+      ],
+      "placements": [
+        {
+          "id": "u1-1-pattern-senor",
+          "group": "Patterns",
+          "placement": "ñ row",
+          "file": "media/u1-1-pronunciation/patterns/n-tilde/senor.m4a",
+          "source": "lesson"
+        }
+      ],
+      "machineQa": {
+        "id": "u1-1-pattern-senor",
+        "group": "Patterns",
+        "file": "media/u1-1-pronunciation/patterns/n-tilde/senor.m4a",
+        "placement": "ñ row",
+        "expectedText": "señor",
+        "expectedEnglish": "mister / sir",
+        "reviewPriority": "normal",
+        "metadata": {
+          "exists": true,
+          "durationSeconds": 0.601,
+          "mimeType": null,
+          "sizeBytes": 7104,
+          "metadataOk": true,
+          "metadataError": null
+        },
+        "flags": []
+      },
+      "browserAvailability": null,
+      "review": {
+        "status": "correct",
+        "approvedAt": "2026-08-12T19:35:21.201Z"
+      }
+    },
+    {
+      "id": "jose",
+      "group": "Patterns",
+      "placement": "j/ge/gi row and J flashcard front",
+      "file": "media/u1-1-pronunciation/patterns/jota/jose.wav",
+      "expectedText": "José",
+      "language": "es-MX",
+      "source": "lesson+flashcards",
+      "expectedEnglish": "José",
+      "reviewPrompt": "Mark Correct only if the audio says the expected Spanish text, belongs in this placement, and is easy enough for a learner to imitate.",
+      "listenFor": [
+        "Spanish j/ge/gi should have a breathy h-like sound, not an English j sound.",
+        "Accent mark means the stressed syllable should be clear."
+      ],
+      "reviewPriority": "normal",
+      "reviewId": "jose",
+      "primaryId": "u1-1-pattern-jose",
+      "groups": [
+        "Patterns"
+      ],
+      "files": [
+        "media/u1-1-pronunciation/patterns/jota/jose.wav"
+      ],
+      "placements": [
+        {
+          "id": "u1-1-pattern-jose",
+          "group": "Patterns",
+          "placement": "j/ge/gi row and J flashcard front",
+          "file": "media/u1-1-pronunciation/patterns/jota/jose.wav",
+          "source": "lesson+flashcards"
+        }
+      ],
+      "machineQa": {
+        "id": "u1-1-pattern-jose",
+        "group": "Patterns",
+        "file": "media/u1-1-pronunciation/patterns/jota/jose.wav",
+        "placement": "j/ge/gi row and J flashcard front",
+        "expectedText": "José",
+        "expectedEnglish": "José",
+        "reviewPriority": "normal",
+        "metadata": {
+          "exists": true,
+          "durationSeconds": 0.859,
+          "mimeType": null,
+          "sizeBytes": 8942,
+          "metadataOk": true,
+          "metadataError": null
+        },
+        "flags": []
+      },
+      "browserAvailability": null,
+      "review": {
+        "status": "unchecked",
+        "notes": "Regenerated on 2026-08-13; needs human recheck.",
+        "approvedAt": null,
+        "regeneratedAt": "2026-08-13"
+      }
+    },
+    {
+      "id": "gente",
+      "group": "Patterns",
+      "placement": "j/ge/gi row",
+      "file": "media/u1-1-pronunciation/patterns/jota/gente.m4a",
+      "expectedText": "gente",
+      "language": "es-MX",
+      "source": "lesson",
+      "expectedEnglish": "people",
+      "reviewPrompt": "Mark Correct only if the audio says the expected Spanish text, belongs in this placement, and is easy enough for a learner to imitate.",
+      "listenFor": [
+        "Spanish j/ge/gi should have a breathy h-like sound, not an English j sound."
+      ],
+      "reviewPriority": "normal",
+      "reviewId": "gente",
+      "primaryId": "u1-1-pattern-gente",
+      "groups": [
+        "Patterns"
+      ],
+      "files": [
+        "media/u1-1-pronunciation/patterns/jota/gente.m4a"
+      ],
+      "placements": [
+        {
+          "id": "u1-1-pattern-gente",
+          "group": "Patterns",
+          "placement": "j/ge/gi row",
+          "file": "media/u1-1-pronunciation/patterns/jota/gente.m4a",
+          "source": "lesson"
+        }
+      ],
+      "machineQa": {
+        "id": "u1-1-pattern-gente",
+        "group": "Patterns",
+        "file": "media/u1-1-pronunciation/patterns/jota/gente.m4a",
+        "placement": "j/ge/gi row",
+        "expectedText": "gente",
+        "expectedEnglish": "people",
+        "reviewPriority": "normal",
+        "metadata": {
+          "exists": true,
+          "durationSeconds": 0.543,
+          "mimeType": null,
+          "sizeBytes": 7031,
+          "metadataOk": true,
+          "metadataError": null
+        },
+        "flags": []
+      },
+      "browserAvailability": null,
+      "review": {
+        "status": "correct",
+        "approvedAt": "2026-08-12T19:36:00.367Z"
+      }
+    },
+    {
+      "id": "gigante",
+      "group": "Patterns",
+      "placement": "j/ge/gi row",
+      "file": "media/u1-1-pronunciation/patterns/jota/gigante.m4a",
+      "expectedText": "gigante",
+      "language": "es-MX",
+      "source": "lesson",
+      "expectedEnglish": "giant",
+      "reviewPrompt": "Mark Correct only if the audio says the expected Spanish text, belongs in this placement, and is easy enough for a learner to imitate.",
+      "listenFor": [
+        "Spanish j/ge/gi should have a breathy h-like sound, not an English j sound."
+      ],
+      "reviewPriority": "normal",
+      "reviewId": "gigante",
+      "primaryId": "u1-1-pattern-gigante",
+      "groups": [
+        "Patterns"
+      ],
+      "files": [
+        "media/u1-1-pronunciation/patterns/jota/gigante.m4a"
+      ],
+      "placements": [
+        {
+          "id": "u1-1-pattern-gigante",
+          "group": "Patterns",
+          "placement": "j/ge/gi row",
+          "file": "media/u1-1-pronunciation/patterns/jota/gigante.m4a",
+          "source": "lesson"
+        }
+      ],
+      "machineQa": {
+        "id": "u1-1-pattern-gigante",
+        "group": "Patterns",
+        "file": "media/u1-1-pronunciation/patterns/jota/gigante.m4a",
+        "placement": "j/ge/gi row",
+        "expectedText": "gigante",
+        "expectedEnglish": "giant",
+        "reviewPriority": "normal",
+        "metadata": {
+          "exists": true,
+          "durationSeconds": 0.682,
+          "mimeType": null,
+          "sizeBytes": 7616,
+          "metadataOk": true,
+          "metadataError": null
+        },
+        "flags": []
+      },
+      "browserAvailability": null,
+      "review": {
+        "status": "correct",
+        "approvedAt": "2026-08-12T19:36:05.899Z"
+      }
+    },
+    {
+      "id": "hermano",
+      "group": "Patterns",
+      "placement": "silent h row",
+      "file": "media/u1-1-pronunciation/patterns/silent-h/hermano.m4a",
+      "expectedText": "hermano",
+      "language": "es-MX",
+      "source": "lesson",
+      "expectedEnglish": "brother",
+      "reviewPrompt": "Mark Correct only if the audio says the expected Spanish text, belongs in this placement, and is easy enough for a learner to imitate.",
+      "listenFor": [
+        "Spanish h is silent in Spanish words such as hola, hielo, and hierro; hockey is a borrowed word."
+      ],
+      "reviewPriority": "normal",
+      "reviewId": "hermano",
+      "primaryId": "u1-1-pattern-hermano",
+      "groups": [
+        "Patterns"
+      ],
+      "files": [
+        "media/u1-1-pronunciation/patterns/silent-h/hermano.m4a"
+      ],
+      "placements": [
+        {
+          "id": "u1-1-pattern-hermano",
+          "group": "Patterns",
+          "placement": "silent h row",
+          "file": "media/u1-1-pronunciation/patterns/silent-h/hermano.m4a",
+          "source": "lesson"
+        }
+      ],
+      "machineQa": {
+        "id": "u1-1-pattern-hermano",
+        "group": "Patterns",
+        "file": "media/u1-1-pronunciation/patterns/silent-h/hermano.m4a",
+        "placement": "silent h row",
+        "expectedText": "hermano",
+        "expectedEnglish": "brother",
+        "reviewPriority": "normal",
+        "metadata": {
+          "exists": true,
+          "durationSeconds": 0.59,
+          "mimeType": null,
+          "sizeBytes": 6829,
+          "metadataOk": true,
+          "metadataError": null
+        },
+        "flags": []
+      },
+      "browserAvailability": null,
+      "review": {
+        "status": "correct",
+        "approvedAt": "2026-08-12T19:36:24.900Z"
+      }
+    },
+    {
+      "id": "ahora",
+      "group": "Patterns",
+      "placement": "silent h row",
+      "file": "media/u1-1-pronunciation/patterns/silent-h/ahora.m4a",
+      "expectedText": "ahora",
+      "language": "es-MX",
+      "source": "lesson",
+      "expectedEnglish": "now",
+      "reviewPrompt": "Mark Correct only if the audio says the expected Spanish text, belongs in this placement, and is easy enough for a learner to imitate.",
+      "listenFor": [
+        "Spanish h is silent in Spanish words such as hola, hielo, and hierro; hockey is a borrowed word."
+      ],
+      "reviewPriority": "normal",
+      "reviewId": "ahora",
+      "primaryId": "u1-1-pattern-ahora",
+      "groups": [
+        "Patterns"
+      ],
+      "files": [
+        "media/u1-1-pronunciation/patterns/silent-h/ahora.m4a"
+      ],
+      "placements": [
+        {
+          "id": "u1-1-pattern-ahora",
+          "group": "Patterns",
+          "placement": "silent h row",
+          "file": "media/u1-1-pronunciation/patterns/silent-h/ahora.m4a",
+          "source": "lesson"
+        }
+      ],
+      "machineQa": {
+        "id": "u1-1-pattern-ahora",
+        "group": "Patterns",
+        "file": "media/u1-1-pronunciation/patterns/silent-h/ahora.m4a",
+        "placement": "silent h row",
+        "expectedText": "ahora",
+        "expectedEnglish": "now",
+        "reviewPriority": "normal",
+        "metadata": {
+          "exists": true,
+          "durationSeconds": 0.473,
+          "mimeType": null,
+          "sizeBytes": 6301,
+          "metadataOk": true,
+          "metadataError": null
+        },
+        "flags": []
+      },
+      "browserAvailability": null,
+      "review": {
+        "status": "correct",
+        "approvedAt": "2026-08-12T19:36:30.000Z"
+      }
+    },
+    {
+      "id": "yo",
+      "group": "Patterns",
+      "placement": "ll/y row",
+      "file": "media/u1-1-pronunciation/patterns/ll-y/yo.m4a",
+      "expectedText": "yo",
+      "language": "es-MX",
+      "source": "lesson",
+      "expectedEnglish": "I",
+      "reviewPrompt": "Mark Correct only if the audio says the expected Spanish text, belongs in this placement, and is easy enough for a learner to imitate.",
+      "listenFor": [
+        "Confirm the clip says the expected Spanish text exactly and is placed with the matching lesson item."
+      ],
+      "reviewPriority": "normal",
+      "reviewId": "yo",
+      "primaryId": "u1-1-pattern-yo",
+      "groups": [
+        "Patterns"
+      ],
+      "files": [
+        "media/u1-1-pronunciation/patterns/ll-y/yo.m4a"
+      ],
+      "placements": [
+        {
+          "id": "u1-1-pattern-yo",
+          "group": "Patterns",
+          "placement": "ll/y row",
+          "file": "media/u1-1-pronunciation/patterns/ll-y/yo.m4a",
+          "source": "lesson"
+        }
+      ],
+      "machineQa": {
+        "id": "u1-1-pattern-yo",
+        "group": "Patterns",
+        "file": "media/u1-1-pronunciation/patterns/ll-y/yo.m4a",
+        "placement": "ll/y row",
+        "expectedText": "yo",
+        "expectedEnglish": "I",
+        "reviewPriority": "normal",
+        "metadata": {
+          "exists": true,
+          "durationSeconds": 0.334,
+          "mimeType": null,
+          "sizeBytes": 5716,
+          "metadataOk": true,
+          "metadataError": null
+        },
+        "flags": []
+      },
+      "browserAvailability": null,
+      "review": {
+        "status": "correct",
+        "approvedAt": "2026-08-12T19:36:34.632Z"
+      }
+    },
+    {
+      "id": "llamo",
+      "group": "Patterns",
+      "placement": "ll/y row",
+      "file": "media/u1-1-pronunciation/patterns/ll-y/llamo.m4a",
+      "expectedText": "llamo",
+      "language": "es-MX",
+      "source": "lesson",
+      "expectedEnglish": "I call / name phrase part",
+      "reviewPrompt": "Mark Correct only if the audio says the expected Spanish text, belongs in this placement, and is easy enough for a learner to imitate.",
+      "listenFor": [
+        "Confirm the clip says the expected Spanish text exactly and is placed with the matching lesson item."
+      ],
+      "reviewPriority": "normal",
+      "reviewId": "llamo",
+      "primaryId": "u1-1-pattern-llamo",
+      "groups": [
+        "Patterns"
+      ],
+      "files": [
+        "media/u1-1-pronunciation/patterns/ll-y/llamo.m4a"
+      ],
+      "placements": [
+        {
+          "id": "u1-1-pattern-llamo",
+          "group": "Patterns",
+          "placement": "ll/y row",
+          "file": "media/u1-1-pronunciation/patterns/ll-y/llamo.m4a",
+          "source": "lesson"
+        }
+      ],
+      "machineQa": {
+        "id": "u1-1-pattern-llamo",
+        "group": "Patterns",
+        "file": "media/u1-1-pronunciation/patterns/ll-y/llamo.m4a",
+        "placement": "ll/y row",
+        "expectedText": "llamo",
+        "expectedEnglish": "I call / name phrase part",
+        "reviewPriority": "normal",
+        "metadata": {
+          "exists": true,
+          "durationSeconds": 0.473,
+          "mimeType": null,
+          "sizeBytes": 6338,
+          "metadataOk": true,
+          "metadataError": null
+        },
+        "flags": []
+      },
+      "browserAvailability": null,
+      "review": {
+        "status": "correct",
+        "approvedAt": "2026-08-12T19:37:16.483Z",
+        "notes": "not sure about this one"
+      }
+    },
+    {
+      "id": "pero",
+      "group": "Patterns",
+      "placement": "r/rr row and pero flashcard front",
+      "file": "media/u1-1-pronunciation/patterns/r-rr/pero.m4a",
+      "expectedText": "pero",
+      "language": "es-MX",
+      "source": "lesson+flashcards",
+      "expectedEnglish": "but",
+      "reviewPrompt": "Mark Correct only if the audio says the expected Spanish text, belongs in this placement, and is easy enough for a learner to imitate.",
+      "listenFor": [
+        "Confirm the clip says the expected Spanish text exactly and is placed with the matching lesson item."
+      ],
+      "reviewPriority": "normal",
+      "reviewId": "pero",
+      "primaryId": "u1-1-pattern-pero",
+      "groups": [
+        "Patterns"
+      ],
+      "files": [
+        "media/u1-1-pronunciation/patterns/r-rr/pero.m4a"
+      ],
+      "placements": [
+        {
+          "id": "u1-1-pattern-pero",
+          "group": "Patterns",
+          "placement": "r/rr row and pero flashcard front",
+          "file": "media/u1-1-pronunciation/patterns/r-rr/pero.m4a",
+          "source": "lesson+flashcards"
+        }
+      ],
+      "machineQa": {
+        "id": "u1-1-pattern-pero",
+        "group": "Patterns",
+        "file": "media/u1-1-pronunciation/patterns/r-rr/pero.m4a",
+        "placement": "r/rr row and pero flashcard front",
+        "expectedText": "pero",
+        "expectedEnglish": "but",
+        "reviewPriority": "normal",
+        "metadata": {
+          "exists": true,
+          "durationSeconds": 0.395,
+          "mimeType": null,
+          "sizeBytes": 5893,
+          "metadataOk": true,
+          "metadataError": null
+        },
+        "flags": []
+      },
+      "browserAvailability": null,
+      "review": {
+        "status": "correct",
+        "approvedAt": "2026-08-12T19:37:47.133Z"
+      }
+    },
+    {
+      "id": "perro",
+      "group": "Patterns",
+      "placement": "r/rr row and perro flashcard front",
+      "file": "media/u1-1-pronunciation/patterns/r-rr/perro.m4a",
+      "expectedText": "perro",
+      "language": "es-MX",
+      "source": "lesson+flashcards",
+      "expectedEnglish": "dog",
+      "reviewPrompt": "Mark Correct only if the audio says the expected Spanish text, belongs in this placement, and is easy enough for a learner to imitate.",
+      "listenFor": [
+        "rr should be stronger or rolled; a learner may accept approximation, but the model audio should distinguish perro from pero."
+      ],
+      "reviewPriority": "normal",
+      "reviewId": "perro",
+      "primaryId": "u1-1-pattern-perro",
+      "groups": [
+        "Patterns"
+      ],
+      "files": [
+        "media/u1-1-pronunciation/patterns/r-rr/perro.m4a"
+      ],
+      "placements": [
+        {
+          "id": "u1-1-pattern-perro",
+          "group": "Patterns",
+          "placement": "r/rr row and perro flashcard front",
+          "file": "media/u1-1-pronunciation/patterns/r-rr/perro.m4a",
+          "source": "lesson+flashcards"
+        }
+      ],
+      "machineQa": {
+        "id": "u1-1-pattern-perro",
+        "group": "Patterns",
+        "file": "media/u1-1-pronunciation/patterns/r-rr/perro.m4a",
+        "placement": "r/rr row and perro flashcard front",
+        "expectedText": "perro",
+        "expectedEnglish": "dog",
+        "reviewPriority": "normal",
+        "metadata": {
+          "exists": true,
+          "durationSeconds": 0.476,
+          "mimeType": null,
+          "sizeBytes": 6073,
+          "metadataOk": true,
+          "metadataError": null
+        },
+        "flags": []
+      },
+      "browserAvailability": null,
+      "review": {
+        "status": "correct",
+        "approvedAt": "2026-08-12T19:39:37.780Z"
+      }
+    },
+    {
+      "id": "que",
+      "group": "Patterns",
+      "placement": "qu row and QU flashcard front",
+      "file": "media/u1-1-pronunciation/patterns/qu/que.m4a",
+      "expectedText": "que",
+      "language": "es-MX",
+      "source": "lesson+flashcards",
+      "expectedEnglish": "that / which",
+      "reviewPrompt": "Mark Correct only if the audio says the expected Spanish text, belongs in this placement, and is easy enough for a learner to imitate.",
+      "listenFor": [
+        "qu before e or i sounds like k, not English kw."
+      ],
+      "reviewPriority": "normal",
+      "reviewId": "que",
+      "primaryId": "u1-1-pattern-que",
+      "groups": [
+        "Patterns"
+      ],
+      "files": [
+        "media/u1-1-pronunciation/patterns/qu/que.m4a"
+      ],
+      "placements": [
+        {
+          "id": "u1-1-pattern-que",
+          "group": "Patterns",
+          "placement": "qu row and QU flashcard front",
+          "file": "media/u1-1-pronunciation/patterns/qu/que.m4a",
+          "source": "lesson+flashcards"
+        }
+      ],
+      "machineQa": {
+        "id": "u1-1-pattern-que",
+        "group": "Patterns",
+        "file": "media/u1-1-pronunciation/patterns/qu/que.m4a",
+        "placement": "qu row and QU flashcard front",
+        "expectedText": "que",
+        "expectedEnglish": "that / which",
+        "reviewPriority": "normal",
+        "metadata": {
+          "exists": true,
+          "durationSeconds": 0.541,
+          "mimeType": null,
+          "sizeBytes": 6797,
+          "metadataOk": true,
+          "metadataError": null
+        },
+        "flags": []
+      },
+      "browserAvailability": null,
+      "review": {
+        "status": "correct",
+        "notes": "not sure",
+        "approvedAt": "2026-08-12T21:38:29.235Z"
+      }
+    },
+    {
+      "id": "quiero",
+      "group": "Patterns",
+      "placement": "qu row",
+      "file": "media/u1-1-pronunciation/patterns/qu/quiero.m4a",
+      "expectedText": "quiero",
+      "language": "es-MX",
+      "source": "lesson",
+      "expectedEnglish": "I want",
+      "reviewPrompt": "Mark Correct only if the audio says the expected Spanish text, belongs in this placement, and is easy enough for a learner to imitate.",
+      "listenFor": [
+        "qu before e or i sounds like k, not English kw."
+      ],
+      "reviewPriority": "normal",
+      "reviewId": "quiero",
+      "primaryId": "u1-1-pattern-quiero",
+      "groups": [
+        "Patterns"
+      ],
+      "files": [
+        "media/u1-1-pronunciation/patterns/qu/quiero.m4a"
+      ],
+      "placements": [
+        {
+          "id": "u1-1-pattern-quiero",
+          "group": "Patterns",
+          "placement": "qu row",
+          "file": "media/u1-1-pronunciation/patterns/qu/quiero.m4a",
+          "source": "lesson"
+        }
+      ],
+      "machineQa": {
+        "id": "u1-1-pattern-quiero",
+        "group": "Patterns",
+        "file": "media/u1-1-pronunciation/patterns/qu/quiero.m4a",
+        "placement": "qu row",
+        "expectedText": "quiero",
+        "expectedEnglish": "I want",
+        "reviewPriority": "normal",
+        "metadata": {
+          "exists": true,
+          "durationSeconds": 0.383,
+          "mimeType": null,
+          "sizeBytes": 5912,
+          "metadataOk": true,
+          "metadataError": null
+        },
+        "flags": []
+      },
+      "browserAvailability": null,
+      "review": {
+        "status": "correct",
+        "approvedAt": "2026-08-12T19:40:19.530Z"
+      }
+    },
+    {
+      "id": "quince",
+      "group": "Patterns",
+      "placement": "qu row",
+      "file": "media/u1-1-pronunciation/patterns/qu/quince.m4a",
+      "expectedText": "quince",
+      "language": "es-MX",
+      "source": "lesson",
+      "expectedEnglish": "fifteen",
+      "reviewPrompt": "Mark Correct only if the audio says the expected Spanish text, belongs in this placement, and is easy enough for a learner to imitate.",
+      "listenFor": [
+        "qu before e or i sounds like k, not English kw."
+      ],
+      "reviewPriority": "normal",
+      "reviewId": "quince",
+      "primaryId": "u1-1-pattern-quince",
+      "groups": [
+        "Patterns"
+      ],
+      "files": [
+        "media/u1-1-pronunciation/patterns/qu/quince.m4a"
+      ],
+      "placements": [
+        {
+          "id": "u1-1-pattern-quince",
+          "group": "Patterns",
+          "placement": "qu row",
+          "file": "media/u1-1-pronunciation/patterns/qu/quince.m4a",
+          "source": "lesson"
+        }
+      ],
+      "machineQa": {
+        "id": "u1-1-pattern-quince",
+        "group": "Patterns",
+        "file": "media/u1-1-pronunciation/patterns/qu/quince.m4a",
+        "placement": "qu row",
+        "expectedText": "quince",
+        "expectedEnglish": "fifteen",
+        "reviewPriority": "normal",
+        "metadata": {
+          "exists": true,
+          "durationSeconds": 0.516,
+          "mimeType": null,
+          "sizeBytes": 6912,
+          "metadataOk": true,
+          "metadataError": null
+        },
+        "flags": []
+      },
+      "browserAvailability": null,
+      "review": {
+        "status": "correct",
+        "approvedAt": "2026-08-12T19:40:23.315Z"
+      }
+    },
+    {
+      "id": "miguel",
+      "group": "Patterns",
+      "placement": "gue/gui row",
+      "file": "media/u1-1-pronunciation/patterns/gue-gui/miguel.m4a",
+      "expectedText": "Miguel",
+      "language": "es-MX",
+      "source": "lesson",
+      "expectedEnglish": "Miguel",
+      "reviewPrompt": "Mark Correct only if the audio says the expected Spanish text, belongs in this placement, and is easy enough for a learner to imitate.",
+      "listenFor": [
+        "gue/gui keep a hard g sound."
+      ],
+      "reviewPriority": "normal",
+      "reviewId": "miguel",
+      "primaryId": "u1-1-pattern-miguel",
+      "groups": [
+        "Patterns"
+      ],
+      "files": [
+        "media/u1-1-pronunciation/patterns/gue-gui/miguel.m4a"
+      ],
+      "placements": [
+        {
+          "id": "u1-1-pattern-miguel",
+          "group": "Patterns",
+          "placement": "gue/gui row",
+          "file": "media/u1-1-pronunciation/patterns/gue-gui/miguel.m4a",
+          "source": "lesson"
+        }
+      ],
+      "machineQa": {
+        "id": "u1-1-pattern-miguel",
+        "group": "Patterns",
+        "file": "media/u1-1-pronunciation/patterns/gue-gui/miguel.m4a",
+        "placement": "gue/gui row",
+        "expectedText": "Miguel",
+        "expectedEnglish": "Miguel",
+        "reviewPriority": "normal",
+        "metadata": {
+          "exists": true,
+          "durationSeconds": 0.506,
+          "mimeType": null,
+          "sizeBytes": 7037,
+          "metadataOk": true,
+          "metadataError": null
+        },
+        "flags": []
+      },
+      "browserAvailability": null,
+      "review": {
+        "status": "correct",
+        "approvedAt": "2026-08-12T19:40:27.463Z"
+      }
+    },
+    {
+      "id": "guitarra",
+      "group": "Patterns",
+      "placement": "gue/gui row",
+      "file": "media/u1-1-pronunciation/patterns/gue-gui/guitarra.m4a",
+      "expectedText": "guitarra",
+      "language": "es-MX",
+      "source": "lesson",
+      "expectedEnglish": "guitar",
+      "reviewPrompt": "Mark Correct only if the audio says the expected Spanish text, belongs in this placement, and is easy enough for a learner to imitate.",
+      "listenFor": [
+        "gue/gui keep a hard g sound.",
+        "rr should be stronger or rolled; a learner may accept approximation, but the model audio should distinguish perro from pero."
+      ],
+      "reviewPriority": "normal",
+      "reviewId": "guitarra",
+      "primaryId": "u1-1-pattern-guitarra",
+      "groups": [
+        "Patterns"
+      ],
+      "files": [
+        "media/u1-1-pronunciation/patterns/gue-gui/guitarra.m4a"
+      ],
+      "placements": [
+        {
+          "id": "u1-1-pattern-guitarra",
+          "group": "Patterns",
+          "placement": "gue/gui row",
+          "file": "media/u1-1-pronunciation/patterns/gue-gui/guitarra.m4a",
+          "source": "lesson"
+        }
+      ],
+      "machineQa": {
+        "id": "u1-1-pattern-guitarra",
+        "group": "Patterns",
+        "file": "media/u1-1-pronunciation/patterns/gue-gui/guitarra.m4a",
+        "placement": "gue/gui row",
+        "expectedText": "guitarra",
+        "expectedEnglish": "guitar",
+        "reviewPriority": "normal",
+        "metadata": {
+          "exists": true,
+          "durationSeconds": 0.659,
+          "mimeType": null,
+          "sizeBytes": 7783,
+          "metadataOk": true,
+          "metadataError": null
+        },
+        "flags": []
+      },
+      "browserAvailability": null,
+      "review": {
+        "status": "correct",
+        "approvedAt": "2026-08-12T19:40:31.798Z"
+      }
+    },
+    {
+      "id": "guerra",
+      "group": "Patterns",
+      "placement": "gue/gui row",
+      "file": "media/u1-1-pronunciation/patterns/gue-gui/guerra.m4a",
+      "expectedText": "guerra",
+      "language": "es-MX",
+      "source": "lesson",
+      "expectedEnglish": "war",
+      "reviewPrompt": "Mark Correct only if the audio says the expected Spanish text, belongs in this placement, and is easy enough for a learner to imitate.",
+      "listenFor": [
+        "gue/gui keep a hard g sound.",
+        "rr should be stronger or rolled; a learner may accept approximation, but the model audio should distinguish perro from pero."
+      ],
+      "reviewPriority": "normal",
+      "reviewId": "guerra",
+      "primaryId": "u1-1-pattern-guerra",
+      "groups": [
+        "Patterns"
+      ],
+      "files": [
+        "media/u1-1-pronunciation/patterns/gue-gui/guerra.m4a"
+      ],
+      "placements": [
+        {
+          "id": "u1-1-pattern-guerra",
+          "group": "Patterns",
+          "placement": "gue/gui row",
+          "file": "media/u1-1-pronunciation/patterns/gue-gui/guerra.m4a",
+          "source": "lesson"
+        }
+      ],
+      "machineQa": {
+        "id": "u1-1-pattern-guerra",
+        "group": "Patterns",
+        "file": "media/u1-1-pronunciation/patterns/gue-gui/guerra.m4a",
+        "placement": "gue/gui row",
+        "expectedText": "guerra",
+        "expectedEnglish": "war",
+        "reviewPriority": "normal",
+        "metadata": {
+          "exists": true,
+          "durationSeconds": 0.496,
+          "mimeType": null,
+          "sizeBytes": 6697,
+          "metadataOk": true,
+          "metadataError": null
+        },
+        "flags": []
+      },
+      "browserAvailability": null,
+      "review": {
+        "status": "correct",
+        "approvedAt": "2026-08-12T19:40:44.863Z"
+      }
+    },
+    {
+      "id": "cinco",
+      "group": "Patterns",
+      "placement": "ce/ci/z row",
+      "file": "media/u1-1-pronunciation/patterns/ce-ci-z/cinco.m4a",
+      "expectedText": "cinco",
+      "language": "es-MX",
+      "source": "lesson",
+      "expectedEnglish": "five",
+      "reviewPrompt": "Mark Correct only if the audio says the expected Spanish text, belongs in this placement, and is easy enough for a learner to imitate.",
+      "listenFor": [
+        "Confirm the clip says the expected Spanish text exactly and is placed with the matching lesson item."
+      ],
+      "reviewPriority": "normal",
+      "reviewId": "cinco",
+      "primaryId": "u1-1-pattern-cinco",
+      "groups": [
+        "Patterns"
+      ],
+      "files": [
+        "media/u1-1-pronunciation/patterns/ce-ci-z/cinco.m4a"
+      ],
+      "placements": [
+        {
+          "id": "u1-1-pattern-cinco",
+          "group": "Patterns",
+          "placement": "ce/ci/z row",
+          "file": "media/u1-1-pronunciation/patterns/ce-ci-z/cinco.m4a",
+          "source": "lesson"
+        }
+      ],
+      "machineQa": {
+        "id": "u1-1-pattern-cinco",
+        "group": "Patterns",
+        "file": "media/u1-1-pronunciation/patterns/ce-ci-z/cinco.m4a",
+        "placement": "ce/ci/z row",
+        "expectedText": "cinco",
+        "expectedEnglish": "five",
+        "reviewPriority": "normal",
+        "metadata": {
+          "exists": true,
+          "durationSeconds": 0.578,
+          "mimeType": null,
+          "sizeBytes": 6935,
+          "metadataOk": true,
+          "metadataError": null
+        },
+        "flags": []
+      },
+      "browserAvailability": null,
+      "review": {
+        "status": "correct",
+        "approvedAt": "2026-08-12T19:40:53.963Z"
+      }
+    },
+    {
+      "id": "zapato",
+      "group": "Patterns",
+      "placement": "ce/ci/z row",
+      "file": "media/u1-1-pronunciation/patterns/ce-ci-z/zapato.m4a",
+      "expectedText": "zapato",
+      "language": "es-MX",
+      "source": "lesson",
+      "expectedEnglish": "shoe",
+      "reviewPrompt": "Mark Correct only if the audio says the expected Spanish text, belongs in this placement, and is easy enough for a learner to imitate.",
+      "listenFor": [
+        "Confirm the clip says the expected Spanish text exactly and is placed with the matching lesson item."
+      ],
+      "reviewPriority": "normal",
+      "reviewId": "zapato",
+      "primaryId": "u1-1-pattern-zapato",
+      "groups": [
+        "Patterns"
+      ],
+      "files": [
+        "media/u1-1-pronunciation/patterns/ce-ci-z/zapato.m4a"
+      ],
+      "placements": [
+        {
+          "id": "u1-1-pattern-zapato",
+          "group": "Patterns",
+          "placement": "ce/ci/z row",
+          "file": "media/u1-1-pronunciation/patterns/ce-ci-z/zapato.m4a",
+          "source": "lesson"
+        }
+      ],
+      "machineQa": {
+        "id": "u1-1-pattern-zapato",
+        "group": "Patterns",
+        "file": "media/u1-1-pronunciation/patterns/ce-ci-z/zapato.m4a",
+        "placement": "ce/ci/z row",
+        "expectedText": "zapato",
+        "expectedEnglish": "shoe",
+        "reviewPriority": "normal",
+        "metadata": {
+          "exists": true,
+          "durationSeconds": 0.694,
+          "mimeType": null,
+          "sizeBytes": 7551,
+          "metadataOk": true,
+          "metadataError": null
+        },
+        "flags": []
+      },
+      "browserAvailability": null,
+      "review": {
+        "status": "correct",
+        "approvedAt": "2026-08-12T19:40:58.763Z"
+      }
+    },
+    {
+      "id": "hola somos dos hermanos y vivimos en washington nos llamamos victor y spencer estudiamos en casa y tambien jugamos al hockey hoy tenemos un dia ocupado por la manana estudiamos matematicas y espanol por la tarde vamos a la pista de hielo victor lleva el numero trece y spencer practica con su equipo antes de salir nuestra mama pregunta tienen todo victor dice si tengo mis patines spencer mira su bolsa y dice un momento donde estan mis guantes despues de buscar un poco los encuentra debajo de una silla ahora si dice spencer y todos salen de casa",
+      "group": "Reading",
+      "placement": "Reading full audio",
+      "file": "media/u1-1-pronunciation/reading/full.m4a",
+      "expectedText": "Hola. Somos dos hermanos y vivimos en Washington. Nos llamamos Victor y Spencer. Estudiamos en casa y también jugamos al hockey. Hoy tenemos un día ocupado. Por la mañana estudiamos matemáticas y español. Por la tarde vamos a la pista de hielo. Victor lleva el número trece y Spencer practica con su equipo. Antes de salir, nuestra mamá pregunta: ¿Tienen todo? Victor dice: Sí. Tengo mis patines. Spencer mira su bolsa y dice: Un momento... ¿dónde están mis guantes? Después de buscar un poco, los encuentra debajo de una silla. ¡Ahora sí!, dice Spencer. Y todos salen de casa.",
+      "language": "es-MX",
+      "source": "lesson",
+      "expectedEnglish": "Hello. We are two brothers, and we live in Washington. Our names are Victor and Spencer. We study at home, and we also play hockey. Today we have a busy day. In the morning, we study math and Spanish. In the afternoon, we go to the ice rink. Victor wears number thirteen, and Spencer practices with his team. Before leaving, our mom asks: Do you have everything? Victor says: Yes. I have my skates. Spencer looks in his bag and says: One moment... where are my gloves? After looking for a little while, he finds them under a chair. Now yes! says Spencer. And everyone leaves the house.",
+      "reviewPrompt": "Mark Correct only if the audio says the expected Spanish text, belongs in this placement, and is easy enough for a learner to imitate.",
+      "listenFor": [
+        "Confirm the full passage is present in order. Pay special attention to Victor, Spencer, Washington, hockey, número trece, and guantes.",
+        "The slow version should use the same words as the full audio, only paced more slowly."
+      ],
+      "reviewPriority": "high",
+      "displayText": "Dos hermanos, un día ocupado",
+      "reviewId": "hola somos dos hermanos y vivimos en washington nos llamamos victor y spencer estudiamos en casa y tambien jugamos al hockey hoy tenemos un dia ocupado por la manana estudiamos matematicas y espanol por la tarde vamos a la pista de hielo victor lleva el numero trece y spencer practica con su equipo antes de salir nuestra mama pregunta tienen todo victor dice si tengo mis patines spencer mira su bolsa y dice un momento donde estan mis guantes despues de buscar un poco los encuentra debajo de una silla ahora si dice spencer y todos salen de casa",
+      "primaryId": "u1-1-reading-full",
+      "groups": [
+        "Reading"
+      ],
+      "files": [
+        "media/u1-1-pronunciation/reading/full.m4a",
+        "media/u1-1-pronunciation/reading/full-slow.m4a"
+      ],
+      "placements": [
+        {
+          "id": "u1-1-reading-full",
+          "group": "Reading",
+          "placement": "Reading full audio",
+          "file": "media/u1-1-pronunciation/reading/full.m4a",
+          "source": "lesson"
+        },
+        {
+          "id": "u1-1-reading-full-slow",
+          "group": "Reading",
+          "placement": "Reading slow practice audio",
+          "file": "media/u1-1-pronunciation/reading/full-slow.m4a",
+          "source": "lesson"
+        }
+      ],
+      "machineQa": {
+        "id": "u1-1-reading-full",
+        "group": "Reading",
+        "file": "media/u1-1-pronunciation/reading/full.m4a",
+        "placement": "Reading full audio",
+        "expectedText": "Hola. Somos dos hermanos y vivimos en Washington. Nos llamamos Victor y Spencer. Estudiamos en casa y también jugamos al hockey. Hoy tenemos un día ocupado. Por la mañana estudiamos matemáticas y español. Por la tarde vamos a la pista de hielo. Victor lleva el número trece y Spencer practica con su equipo. Antes de salir, nuestra mamá pregunta: ¿Tienen todo? Victor dice: Sí. Tengo mis patines. Spencer mira su bolsa y dice: Un momento... ¿dónde están mis guantes? Después de buscar un poco, los encuentra debajo de una silla. ¡Ahora sí!, dice Spencer. Y todos salen de casa.",
+        "expectedEnglish": "Hello. We are two brothers, and we live in Washington. Our names are Victor and Spencer. We study at home, and we also play hockey. Today we have a busy day. In the morning, we study math and Spanish. In the afternoon, we go to the ice rink. Victor wears number thirteen, and Spencer practices with his team. Before leaving, our mom asks: Do you have everything? Victor says: Yes. I have my skates. Spencer looks in his bag and says: One moment... where are my gloves? After looking for a little while, he finds them under a chair. Now yes! says Spencer. And everyone leaves the house.",
+        "reviewPriority": "high",
+        "metadata": {
+          "exists": true,
+          "durationSeconds": 39.959,
+          "mimeType": null,
+          "sizeBytes": 171263,
+          "metadataOk": true,
+          "metadataError": null
+        },
+        "flags": []
+      },
+      "browserAvailability": null,
+      "review": {
+        "status": "correct",
+        "approvedAt": "2026-08-12T19:41:49.262Z"
+      }
+    },
+    {
+      "id": "hola somos dos hermanos y vivimos en washington",
+      "group": "Reading",
+      "placement": "Reading sentence 1",
+      "file": "media/u1-1-pronunciation/reading/sentences/s01.m4a",
+      "expectedText": "Hola. Somos dos hermanos y vivimos en Washington.",
+      "language": "es-MX",
+      "source": "lesson",
+      "expectedEnglish": "Hello. We are two brothers, and we live in Washington.",
+      "reviewPrompt": "Mark Correct only if the audio says the expected Spanish text, belongs in this placement, and is easy enough for a learner to imitate.",
+      "listenFor": [
+        "Spanish h is silent in Spanish words such as hola, hielo, and hierro; hockey is a borrowed word.",
+        "Proper names or borrowed words may sound less Spanish; confirm the sentence still matches the written text exactly."
+      ],
+      "reviewPriority": "high",
+      "reviewId": "hola somos dos hermanos y vivimos en washington",
+      "primaryId": "u1-1-reading-s01",
+      "groups": [
+        "Reading"
+      ],
+      "files": [
+        "media/u1-1-pronunciation/reading/sentences/s01.m4a"
+      ],
+      "placements": [
+        {
+          "id": "u1-1-reading-s01",
+          "group": "Reading",
+          "placement": "Reading sentence 1",
+          "file": "media/u1-1-pronunciation/reading/sentences/s01.m4a",
+          "source": "lesson"
+        }
+      ],
+      "machineQa": {
+        "id": "u1-1-reading-s01",
+        "group": "Reading",
+        "file": "media/u1-1-pronunciation/reading/sentences/s01.m4a",
+        "placement": "Reading sentence 1",
+        "expectedText": "Hola. Somos dos hermanos y vivimos en Washington.",
+        "expectedEnglish": "Hello. We are two brothers, and we live in Washington.",
+        "reviewPriority": "high",
+        "metadata": {
+          "exists": true,
+          "durationSeconds": 3.318,
+          "mimeType": null,
+          "sizeBytes": 18865,
+          "metadataOk": true,
+          "metadataError": null
+        },
+        "flags": []
+      },
+      "browserAvailability": null,
+      "review": {
+        "status": "correct",
+        "approvedAt": "2026-08-12T19:42:30.247Z"
+      }
+    },
+    {
+      "id": "nos llamamos victor y spencer estudiamos en casa y tambien jugamos al hockey",
+      "group": "Reading",
+      "placement": "Reading sentence 2",
+      "file": "media/u1-1-pronunciation/reading/sentences/s02.m4a",
+      "expectedText": "Nos llamamos Victor y Spencer. Estudiamos en casa y también jugamos al hockey.",
+      "language": "es-MX",
+      "source": "lesson",
+      "expectedEnglish": "Our names are Victor and Spencer. We study at home, and we also play hockey.",
+      "reviewPrompt": "Mark Correct only if the audio says the expected Spanish text, belongs in this placement, and is easy enough for a learner to imitate.",
+      "listenFor": [
+        "Spanish h is silent in Spanish words such as hola, hielo, and hierro; hockey is a borrowed word.",
+        "Spanish j/ge/gi should have a breathy h-like sound, not an English j sound.",
+        "Accent mark means the stressed syllable should be clear.",
+        "Proper names or borrowed words may sound less Spanish; confirm the sentence still matches the written text exactly."
+      ],
+      "reviewPriority": "high",
+      "reviewId": "nos llamamos victor y spencer estudiamos en casa y tambien jugamos al hockey",
+      "primaryId": "u1-1-reading-s02",
+      "groups": [
+        "Reading"
+      ],
+      "files": [
+        "media/u1-1-pronunciation/reading/sentences/s02.m4a"
+      ],
+      "placements": [
+        {
+          "id": "u1-1-reading-s02",
+          "group": "Reading",
+          "placement": "Reading sentence 2",
+          "file": "media/u1-1-pronunciation/reading/sentences/s02.m4a",
+          "source": "lesson"
+        }
+      ],
+      "machineQa": {
+        "id": "u1-1-reading-s02",
+        "group": "Reading",
+        "file": "media/u1-1-pronunciation/reading/sentences/s02.m4a",
+        "placement": "Reading sentence 2",
+        "expectedText": "Nos llamamos Victor y Spencer. Estudiamos en casa y también jugamos al hockey.",
+        "expectedEnglish": "Our names are Victor and Spencer. We study at home, and we also play hockey.",
+        "reviewPriority": "high",
+        "metadata": {
+          "exists": true,
+          "durationSeconds": 5.14,
+          "mimeType": null,
+          "sizeBytes": 25712,
+          "metadataOk": true,
+          "metadataError": null
+        },
+        "flags": []
+      },
+      "browserAvailability": null,
+      "review": {
+        "status": "correct",
+        "approvedAt": "2026-08-12T19:42:46.561Z"
+      }
+    },
+    {
+      "id": "hoy tenemos un dia ocupado por la manana estudiamos matematicas y espanol",
+      "group": "Reading",
+      "placement": "Reading sentence 3",
+      "file": "media/u1-1-pronunciation/reading/sentences/s03.m4a",
+      "expectedText": "Hoy tenemos un día ocupado. Por la mañana estudiamos matemáticas y español.",
+      "language": "es-MX",
+      "source": "lesson",
+      "expectedEnglish": "Today we have a busy day. In the morning, we study math and Spanish.",
+      "reviewPrompt": "Mark Correct only if the audio says the expected Spanish text, belongs in this placement, and is easy enough for a learner to imitate.",
+      "listenFor": [
+        "Listen for ñ as one sound, like the ny in canyon.",
+        "Accent mark means the stressed syllable should be clear."
+      ],
+      "reviewPriority": "high",
+      "reviewId": "hoy tenemos un dia ocupado por la manana estudiamos matematicas y espanol",
+      "primaryId": "u1-1-reading-s03",
+      "groups": [
+        "Reading"
+      ],
+      "files": [
+        "media/u1-1-pronunciation/reading/sentences/s03.m4a"
+      ],
+      "placements": [
+        {
+          "id": "u1-1-reading-s03",
+          "group": "Reading",
+          "placement": "Reading sentence 3",
+          "file": "media/u1-1-pronunciation/reading/sentences/s03.m4a",
+          "source": "lesson"
+        }
+      ],
+      "machineQa": {
+        "id": "u1-1-reading-s03",
+        "group": "Reading",
+        "file": "media/u1-1-pronunciation/reading/sentences/s03.m4a",
+        "placement": "Reading sentence 3",
+        "expectedText": "Hoy tenemos un día ocupado. Por la mañana estudiamos matemáticas y español.",
+        "expectedEnglish": "Today we have a busy day. In the morning, we study math and Spanish.",
+        "reviewPriority": "high",
+        "metadata": {
+          "exists": true,
+          "durationSeconds": 5.199,
+          "mimeType": null,
+          "sizeBytes": 25586,
+          "metadataOk": true,
+          "metadataError": null
+        },
+        "flags": []
+      },
+      "browserAvailability": null,
+      "review": {
+        "status": "correct",
+        "approvedAt": "2026-08-12T19:42:56.480Z"
+      }
+    },
+    {
+      "id": "por la tarde vamos a la pista de hielo victor lleva el numero trece y spencer practica con su equipo",
+      "group": "Reading",
+      "placement": "Reading sentence 4",
+      "file": "media/u1-1-pronunciation/reading/sentences/s04.m4a",
+      "expectedText": "Por la tarde vamos a la pista de hielo. Victor lleva el número trece y Spencer practica con su equipo.",
+      "language": "es-MX",
+      "source": "lesson",
+      "expectedEnglish": "In the afternoon, we go to the ice rink. Victor wears number thirteen, and Spencer practices with his team.",
+      "reviewPrompt": "Mark Correct only if the audio says the expected Spanish text, belongs in this placement, and is easy enough for a learner to imitate.",
+      "listenFor": [
+        "Spanish h is silent in Spanish words such as hola, hielo, and hierro; hockey is a borrowed word.",
+        "qu before e or i sounds like k, not English kw.",
+        "Accent mark means the stressed syllable should be clear.",
+        "Proper names or borrowed words may sound less Spanish; confirm the sentence still matches the written text exactly."
+      ],
+      "reviewPriority": "high",
+      "reviewId": "por la tarde vamos a la pista de hielo victor lleva el numero trece y spencer practica con su equipo",
+      "primaryId": "u1-1-reading-s04",
+      "groups": [
+        "Reading"
+      ],
+      "files": [
+        "media/u1-1-pronunciation/reading/sentences/s04.m4a"
+      ],
+      "placements": [
+        {
+          "id": "u1-1-reading-s04",
+          "group": "Reading",
+          "placement": "Reading sentence 4",
+          "file": "media/u1-1-pronunciation/reading/sentences/s04.m4a",
+          "source": "lesson"
+        }
+      ],
+      "machineQa": {
+        "id": "u1-1-reading-s04",
+        "group": "Reading",
+        "file": "media/u1-1-pronunciation/reading/sentences/s04.m4a",
+        "placement": "Reading sentence 4",
+        "expectedText": "Por la tarde vamos a la pista de hielo. Victor lleva el número trece y Spencer practica con su equipo.",
+        "expectedEnglish": "In the afternoon, we go to the ice rink. Victor wears number thirteen, and Spencer practices with his team.",
+        "reviewPriority": "high",
+        "metadata": {
+          "exists": true,
+          "durationSeconds": 6.188,
+          "mimeType": null,
+          "sizeBytes": 31064,
+          "metadataOk": true,
+          "metadataError": null
+        },
+        "flags": []
+      },
+      "browserAvailability": null,
+      "review": {
+        "status": "correct",
+        "approvedAt": "2026-08-12T19:43:10.395Z"
+      }
+    },
+    {
+      "id": "antes de salir nuestra mama pregunta tienen todo",
+      "group": "Reading",
+      "placement": "Reading sentence 5",
+      "file": "media/u1-1-pronunciation/reading/sentences/s05.m4a",
+      "expectedText": "Antes de salir, nuestra mamá pregunta: ¿Tienen todo?",
+      "language": "es-MX",
+      "source": "lesson",
+      "expectedEnglish": "Before leaving, our mom asks: Do you have everything?",
+      "reviewPrompt": "Mark Correct only if the audio says the expected Spanish text, belongs in this placement, and is easy enough for a learner to imitate.",
+      "listenFor": [
+        "Accent mark means the stressed syllable should be clear."
+      ],
+      "reviewPriority": "normal",
+      "reviewId": "antes de salir nuestra mama pregunta tienen todo",
+      "primaryId": "u1-1-reading-s05",
+      "groups": [
+        "Reading"
+      ],
+      "files": [
+        "media/u1-1-pronunciation/reading/sentences/s05.m4a"
+      ],
+      "placements": [
+        {
+          "id": "u1-1-reading-s05",
+          "group": "Reading",
+          "placement": "Reading sentence 5",
+          "file": "media/u1-1-pronunciation/reading/sentences/s05.m4a",
+          "source": "lesson"
+        }
+      ],
+      "machineQa": {
+        "id": "u1-1-reading-s05",
+        "group": "Reading",
+        "file": "media/u1-1-pronunciation/reading/sentences/s05.m4a",
+        "placement": "Reading sentence 5",
+        "expectedText": "Antes de salir, nuestra mamá pregunta: ¿Tienen todo?",
+        "expectedEnglish": "Before leaving, our mom asks: Do you have everything?",
+        "reviewPriority": "normal",
+        "metadata": {
+          "exists": true,
+          "durationSeconds": 3.643,
+          "mimeType": null,
+          "sizeBytes": 19463,
+          "metadataOk": true,
+          "metadataError": null
+        },
+        "flags": []
+      },
+      "browserAvailability": null,
+      "review": {
+        "status": "correct",
+        "approvedAt": "2026-08-12T19:43:22.878Z"
+      }
+    },
+    {
+      "id": "victor dice si tengo mis patines spencer mira su bolsa y dice un momento donde estan mis guantes",
+      "group": "Reading",
+      "placement": "Reading sentence 6",
+      "file": "media/u1-1-pronunciation/reading/sentences/s06.m4a",
+      "expectedText": "Victor dice: Sí. Tengo mis patines. Spencer mira su bolsa y dice: Un momento... ¿dónde están mis guantes?",
+      "language": "es-MX",
+      "source": "lesson",
+      "expectedEnglish": "Victor says: Yes. I have my skates. Spencer looks in his bag and says: One moment... where are my gloves?",
+      "reviewPrompt": "Mark Correct only if the audio says the expected Spanish text, belongs in this placement, and is easy enough for a learner to imitate.",
+      "listenFor": [
+        "Accent mark means the stressed syllable should be clear.",
+        "Proper names or borrowed words may sound less Spanish; confirm the sentence still matches the written text exactly."
+      ],
+      "reviewPriority": "high",
+      "reviewId": "victor dice si tengo mis patines spencer mira su bolsa y dice un momento donde estan mis guantes",
+      "primaryId": "u1-1-reading-s06",
+      "groups": [
+        "Reading"
+      ],
+      "files": [
+        "media/u1-1-pronunciation/reading/sentences/s06.m4a"
+      ],
+      "placements": [
+        {
+          "id": "u1-1-reading-s06",
+          "group": "Reading",
+          "placement": "Reading sentence 6",
+          "file": "media/u1-1-pronunciation/reading/sentences/s06.m4a",
+          "source": "lesson"
+        }
+      ],
+      "machineQa": {
+        "id": "u1-1-reading-s06",
+        "group": "Reading",
+        "file": "media/u1-1-pronunciation/reading/sentences/s06.m4a",
+        "placement": "Reading sentence 6",
+        "expectedText": "Victor dice: Sí. Tengo mis patines. Spencer mira su bolsa y dice: Un momento... ¿dónde están mis guantes?",
+        "expectedEnglish": "Victor says: Yes. I have my skates. Spencer looks in his bag and says: One moment... where are my gloves?",
+        "reviewPriority": "high",
+        "metadata": {
+          "exists": true,
+          "durationSeconds": 7.961,
+          "mimeType": null,
+          "sizeBytes": 37964,
+          "metadataOk": true,
+          "metadataError": null
+        },
+        "flags": []
+      },
+      "browserAvailability": null,
+      "review": {
+        "status": "correct",
+        "approvedAt": "2026-08-12T19:43:36.561Z"
+      }
+    },
+    {
+      "id": "despues de buscar un poco los encuentra debajo de una silla",
+      "group": "Reading",
+      "placement": "Reading sentence 7",
+      "file": "media/u1-1-pronunciation/reading/sentences/s07.m4a",
+      "expectedText": "Después de buscar un poco, los encuentra debajo de una silla.",
+      "language": "es-MX",
+      "source": "lesson",
+      "expectedEnglish": "After looking for a little while, he finds them under a chair.",
+      "reviewPrompt": "Mark Correct only if the audio says the expected Spanish text, belongs in this placement, and is easy enough for a learner to imitate.",
+      "listenFor": [
+        "Spanish j/ge/gi should have a breathy h-like sound, not an English j sound.",
+        "Accent mark means the stressed syllable should be clear."
+      ],
+      "reviewPriority": "high",
+      "reviewId": "despues de buscar un poco los encuentra debajo de una silla",
+      "primaryId": "u1-1-reading-s07",
+      "groups": [
+        "Reading"
+      ],
+      "files": [
+        "media/u1-1-pronunciation/reading/sentences/s07.m4a"
+      ],
+      "placements": [
+        {
+          "id": "u1-1-reading-s07",
+          "group": "Reading",
+          "placement": "Reading sentence 7",
+          "file": "media/u1-1-pronunciation/reading/sentences/s07.m4a",
+          "source": "lesson"
+        }
+      ],
+      "machineQa": {
+        "id": "u1-1-reading-s07",
+        "group": "Reading",
+        "file": "media/u1-1-pronunciation/reading/sentences/s07.m4a",
+        "placement": "Reading sentence 7",
+        "expectedText": "Después de buscar un poco, los encuentra debajo de una silla.",
+        "expectedEnglish": "After looking for a little while, he finds them under a chair.",
+        "reviewPriority": "high",
+        "metadata": {
+          "exists": true,
+          "durationSeconds": 3.817,
+          "mimeType": null,
+          "sizeBytes": 20135,
+          "metadataOk": true,
+          "metadataError": null
+        },
+        "flags": []
+      },
+      "browserAvailability": null,
+      "review": {
+        "status": "correct",
+        "approvedAt": "2026-08-12T19:43:44.227Z"
+      }
+    },
+    {
+      "id": "ahora si dice spencer y todos salen de casa",
+      "group": "Reading",
+      "placement": "Reading sentence 8",
+      "file": "media/u1-1-pronunciation/reading/sentences/s08.m4a",
+      "expectedText": "¡Ahora sí!, dice Spencer. Y todos salen de casa.",
+      "language": "es-MX",
+      "source": "lesson",
+      "expectedEnglish": "Now yes! says Spencer. And everyone leaves the house.",
+      "reviewPrompt": "Mark Correct only if the audio says the expected Spanish text, belongs in this placement, and is easy enough for a learner to imitate.",
+      "listenFor": [
+        "Spanish h is silent in Spanish words such as hola, hielo, and hierro; hockey is a borrowed word.",
+        "Accent mark means the stressed syllable should be clear.",
+        "Proper names or borrowed words may sound less Spanish; confirm the sentence still matches the written text exactly."
+      ],
+      "reviewPriority": "high",
+      "reviewId": "ahora si dice spencer y todos salen de casa",
+      "primaryId": "u1-1-reading-s08",
+      "groups": [
+        "Reading"
+      ],
+      "files": [
+        "media/u1-1-pronunciation/reading/sentences/s08.m4a"
+      ],
+      "placements": [
+        {
+          "id": "u1-1-reading-s08",
+          "group": "Reading",
+          "placement": "Reading sentence 8",
+          "file": "media/u1-1-pronunciation/reading/sentences/s08.m4a",
+          "source": "lesson"
+        }
+      ],
+      "machineQa": {
+        "id": "u1-1-reading-s08",
+        "group": "Reading",
+        "file": "media/u1-1-pronunciation/reading/sentences/s08.m4a",
+        "placement": "Reading sentence 8",
+        "expectedText": "¡Ahora sí!, dice Spencer. Y todos salen de casa.",
+        "expectedEnglish": "Now yes! says Spencer. And everyone leaves the house.",
+        "reviewPriority": "high",
+        "metadata": {
+          "exists": true,
+          "durationSeconds": 3.248,
+          "mimeType": null,
+          "sizeBytes": 18645,
+          "metadataOk": true,
+          "metadataError": null
+        },
+        "flags": []
+      },
+      "browserAvailability": null,
+      "review": {
+        "status": "correct",
+        "approvedAt": "2026-08-12T19:43:52.879Z"
+      }
+    },
+    {
+      "id": "adonde van victor y spencer por la tarde",
+      "group": "Comprehension",
+      "placement": "Question 1 prompt",
+      "file": "media/u1-1-pronunciation/reading/questions/q1.m4a",
+      "expectedText": "¿Adónde van Victor y Spencer por la tarde?",
+      "language": "es-MX",
+      "source": "lesson",
+      "expectedEnglish": "Where do Victor and Spencer go in the afternoon?",
+      "reviewPrompt": "Mark Correct only if the audio says the expected Spanish text, belongs in this placement, and is easy enough for a learner to imitate.",
+      "listenFor": [
+        "Accent mark means the stressed syllable should be clear.",
+        "Proper names or borrowed words may sound less Spanish; confirm the sentence still matches the written text exactly.",
+        "For answer choices, confirm the whole short phrase is present, including singular/plural endings such as su/sus and patín/patines."
+      ],
+      "reviewPriority": "high",
+      "reviewId": "adonde van victor y spencer por la tarde",
+      "primaryId": "u1-1-reading-q1",
+      "groups": [
+        "Comprehension"
+      ],
+      "files": [
+        "media/u1-1-pronunciation/reading/questions/q1.m4a"
+      ],
+      "placements": [
+        {
+          "id": "u1-1-reading-q1",
+          "group": "Comprehension",
+          "placement": "Question 1 prompt",
+          "file": "media/u1-1-pronunciation/reading/questions/q1.m4a",
+          "source": "lesson"
+        }
+      ],
+      "machineQa": {
+        "id": "u1-1-reading-q1",
+        "group": "Comprehension",
+        "file": "media/u1-1-pronunciation/reading/questions/q1.m4a",
+        "placement": "Question 1 prompt",
+        "expectedText": "¿Adónde van Victor y Spencer por la tarde?",
+        "expectedEnglish": "Where do Victor and Spencer go in the afternoon?",
+        "reviewPriority": "high",
+        "metadata": {
+          "exists": true,
+          "durationSeconds": 2.494,
+          "mimeType": null,
+          "sizeBytes": 15819,
+          "metadataOk": true,
+          "metadataError": null
+        },
+        "flags": []
+      },
+      "browserAvailability": null,
+      "review": {
+        "status": "correct",
+        "approvedAt": "2026-08-12T19:44:00.194Z"
+      }
+    },
+    {
+      "id": "a la biblioteca",
+      "group": "Comprehension",
+      "placement": "Question 1 option A",
+      "file": "media/u1-1-pronunciation/reading/questions/q1-a.m4a",
+      "expectedText": "A la biblioteca.",
+      "language": "es-MX",
+      "source": "lesson",
+      "expectedEnglish": "To the library.",
+      "reviewPrompt": "Mark Correct only if the audio says the expected Spanish text, belongs in this placement, and is easy enough for a learner to imitate.",
+      "listenFor": [
+        "For answer choices, confirm the whole short phrase is present, including singular/plural endings such as su/sus and patín/patines."
+      ],
+      "reviewPriority": "normal",
+      "reviewId": "a la biblioteca",
+      "primaryId": "u1-1-reading-q1-a",
+      "groups": [
+        "Comprehension"
+      ],
+      "files": [
+        "media/u1-1-pronunciation/reading/questions/q1-a.m4a"
+      ],
+      "placements": [
+        {
+          "id": "u1-1-reading-q1-a",
+          "group": "Comprehension",
+          "placement": "Question 1 option A",
+          "file": "media/u1-1-pronunciation/reading/questions/q1-a.m4a",
+          "source": "lesson"
+        }
+      ],
+      "machineQa": {
+        "id": "u1-1-reading-q1-a",
+        "group": "Comprehension",
+        "file": "media/u1-1-pronunciation/reading/questions/q1-a.m4a",
+        "placement": "Question 1 option A",
+        "expectedText": "A la biblioteca.",
+        "expectedEnglish": "To the library.",
+        "reviewPriority": "normal",
+        "metadata": {
+          "exists": true,
+          "durationSeconds": 1.065,
+          "mimeType": null,
+          "sizeBytes": 9357,
+          "metadataOk": true,
+          "metadataError": null
+        },
+        "flags": []
+      },
+      "browserAvailability": null,
+      "review": {
+        "status": "correct",
+        "approvedAt": "2026-08-12T19:44:06.412Z"
+      }
+    },
+    {
+      "id": "a la pista de hielo",
+      "group": "Comprehension",
+      "placement": "Question 1 option B",
+      "file": "media/u1-1-pronunciation/reading/questions/q1-b.m4a",
+      "expectedText": "A la pista de hielo.",
+      "language": "es-MX",
+      "source": "lesson",
+      "expectedEnglish": "To the ice rink.",
+      "reviewPrompt": "Mark Correct only if the audio says the expected Spanish text, belongs in this placement, and is easy enough for a learner to imitate.",
+      "listenFor": [
+        "Spanish h is silent in Spanish words such as hola, hielo, and hierro; hockey is a borrowed word.",
+        "For answer choices, confirm the whole short phrase is present, including singular/plural endings such as su/sus and patín/patines."
+      ],
+      "reviewPriority": "normal",
+      "reviewId": "a la pista de hielo",
+      "primaryId": "u1-1-reading-q1-b",
+      "groups": [
+        "Comprehension"
+      ],
+      "files": [
+        "media/u1-1-pronunciation/reading/questions/q1-b.m4a"
+      ],
+      "placements": [
+        {
+          "id": "u1-1-reading-q1-b",
+          "group": "Comprehension",
+          "placement": "Question 1 option B",
+          "file": "media/u1-1-pronunciation/reading/questions/q1-b.m4a",
+          "source": "lesson"
+        }
+      ],
+      "machineQa": {
+        "id": "u1-1-reading-q1-b",
+        "group": "Comprehension",
+        "file": "media/u1-1-pronunciation/reading/questions/q1-b.m4a",
+        "placement": "Question 1 option B",
+        "expectedText": "A la pista de hielo.",
+        "expectedEnglish": "To the ice rink.",
+        "reviewPriority": "normal",
+        "metadata": {
+          "exists": true,
+          "durationSeconds": 1.135,
+          "mimeType": null,
+          "sizeBytes": 9587,
+          "metadataOk": true,
+          "metadataError": null
+        },
+        "flags": []
+      },
+      "browserAvailability": null,
+      "review": {
+        "status": "correct",
+        "approvedAt": "2026-08-12T19:44:13.061Z"
+      }
+    },
+    {
+      "id": "al supermercado",
+      "group": "Comprehension",
+      "placement": "Question 1 option C",
+      "file": "media/u1-1-pronunciation/reading/questions/q1-c.m4a",
+      "expectedText": "Al supermercado.",
+      "language": "es-MX",
+      "source": "lesson",
+      "expectedEnglish": "To the supermarket.",
+      "reviewPrompt": "Mark Correct only if the audio says the expected Spanish text, belongs in this placement, and is easy enough for a learner to imitate.",
+      "listenFor": [
+        "For answer choices, confirm the whole short phrase is present, including singular/plural endings such as su/sus and patín/patines."
+      ],
+      "reviewPriority": "normal",
+      "reviewId": "al supermercado",
+      "primaryId": "u1-1-reading-q1-c",
+      "groups": [
+        "Comprehension"
+      ],
+      "files": [
+        "media/u1-1-pronunciation/reading/questions/q1-c.m4a"
+      ],
+      "placements": [
+        {
+          "id": "u1-1-reading-q1-c",
+          "group": "Comprehension",
+          "placement": "Question 1 option C",
+          "file": "media/u1-1-pronunciation/reading/questions/q1-c.m4a",
+          "source": "lesson"
+        }
+      ],
+      "machineQa": {
+        "id": "u1-1-reading-q1-c",
+        "group": "Comprehension",
+        "file": "media/u1-1-pronunciation/reading/questions/q1-c.m4a",
+        "placement": "Question 1 option C",
+        "expectedText": "Al supermercado.",
+        "expectedEnglish": "To the supermarket.",
+        "reviewPriority": "normal",
+        "metadata": {
+          "exists": true,
+          "durationSeconds": 1.147,
+          "mimeType": null,
+          "sizeBytes": 9823,
+          "metadataOk": true,
+          "metadataError": null
+        },
+        "flags": []
+      },
+      "browserAvailability": null,
+      "review": {
+        "status": "correct",
+        "approvedAt": "2026-08-12T19:44:18.911Z"
+      }
+    },
+    {
+      "id": "al parque",
+      "group": "Comprehension",
+      "placement": "Question 1 option D",
+      "file": "media/u1-1-pronunciation/reading/questions/q1-d.m4a",
+      "expectedText": "Al parque.",
+      "language": "es-MX",
+      "source": "lesson",
+      "expectedEnglish": "To the park.",
+      "reviewPrompt": "Mark Correct only if the audio says the expected Spanish text, belongs in this placement, and is easy enough for a learner to imitate.",
+      "listenFor": [
+        "qu before e or i sounds like k, not English kw.",
+        "For answer choices, confirm the whole short phrase is present, including singular/plural endings such as su/sus and patín/patines."
+      ],
+      "reviewPriority": "normal",
+      "reviewId": "al parque",
+      "primaryId": "u1-1-reading-q1-d",
+      "groups": [
+        "Comprehension"
+      ],
+      "files": [
+        "media/u1-1-pronunciation/reading/questions/q1-d.m4a"
+      ],
+      "placements": [
+        {
+          "id": "u1-1-reading-q1-d",
+          "group": "Comprehension",
+          "placement": "Question 1 option D",
+          "file": "media/u1-1-pronunciation/reading/questions/q1-d.m4a",
+          "source": "lesson"
+        }
+      ],
+      "machineQa": {
+        "id": "u1-1-reading-q1-d",
+        "group": "Comprehension",
+        "file": "media/u1-1-pronunciation/reading/questions/q1-d.m4a",
+        "placement": "Question 1 option D",
+        "expectedText": "Al parque.",
+        "expectedEnglish": "To the park.",
+        "reviewPriority": "normal",
+        "metadata": {
+          "exists": true,
+          "durationSeconds": 0.694,
+          "mimeType": null,
+          "sizeBytes": 7439,
+          "metadataOk": true,
+          "metadataError": null
+        },
+        "flags": []
+      },
+      "browserAvailability": null,
+      "review": {
+        "status": "correct",
+        "approvedAt": "2026-08-12T19:44:24.895Z"
+      }
+    },
+    {
+      "id": "que no encuentra spencer al principio",
+      "group": "Comprehension",
+      "placement": "Question 2 prompt",
+      "file": "media/u1-1-pronunciation/reading/questions/q2.m4a",
+      "expectedText": "¿Qué no encuentra Spencer al principio?",
+      "language": "es-MX",
+      "source": "lesson",
+      "expectedEnglish": "What can Spencer not find at first?",
+      "reviewPrompt": "Mark Correct only if the audio says the expected Spanish text, belongs in this placement, and is easy enough for a learner to imitate.",
+      "listenFor": [
+        "qu before e or i sounds like k, not English kw.",
+        "Accent mark means the stressed syllable should be clear.",
+        "Proper names or borrowed words may sound less Spanish; confirm the sentence still matches the written text exactly.",
+        "For answer choices, confirm the whole short phrase is present, including singular/plural endings such as su/sus and patín/patines."
+      ],
+      "reviewPriority": "high",
+      "reviewId": "que no encuentra spencer al principio",
+      "primaryId": "u1-1-reading-q2",
+      "groups": [
+        "Comprehension"
+      ],
+      "files": [
+        "media/u1-1-pronunciation/reading/questions/q2.m4a"
+      ],
+      "placements": [
+        {
+          "id": "u1-1-reading-q2",
+          "group": "Comprehension",
+          "placement": "Question 2 prompt",
+          "file": "media/u1-1-pronunciation/reading/questions/q2.m4a",
+          "source": "lesson"
+        }
+      ],
+      "machineQa": {
+        "id": "u1-1-reading-q2",
+        "group": "Comprehension",
+        "file": "media/u1-1-pronunciation/reading/questions/q2.m4a",
+        "placement": "Question 2 prompt",
+        "expectedText": "¿Qué no encuentra Spencer al principio?",
+        "expectedEnglish": "What can Spencer not find at first?",
+        "reviewPriority": "high",
+        "metadata": {
+          "exists": true,
+          "durationSeconds": 2.317,
+          "mimeType": null,
+          "sizeBytes": 14881,
+          "metadataOk": true,
+          "metadataError": null
+        },
+        "flags": []
+      },
+      "browserAvailability": null,
+      "review": {
+        "status": "correct",
+        "approvedAt": "2026-08-12T19:44:34.195Z"
+      }
+    },
+    {
+      "id": "sus patines",
+      "group": "Comprehension",
+      "placement": "Question 2 option A",
+      "file": "media/u1-1-pronunciation/reading/questions/q2-a.m4a",
+      "expectedText": "Sus patines.",
+      "language": "es-MX",
+      "source": "lesson",
+      "expectedEnglish": "His skates.",
+      "reviewPrompt": "Mark Correct only if the audio says the expected Spanish text, belongs in this placement, and is easy enough for a learner to imitate.",
+      "listenFor": [
+        "For answer choices, confirm the whole short phrase is present, including singular/plural endings such as su/sus and patín/patines."
+      ],
+      "reviewPriority": "normal",
+      "reviewId": "sus patines",
+      "primaryId": "u1-1-reading-q2-a",
+      "groups": [
+        "Comprehension"
+      ],
+      "files": [
+        "media/u1-1-pronunciation/reading/questions/q2-a.m4a"
+      ],
+      "placements": [
+        {
+          "id": "u1-1-reading-q2-a",
+          "group": "Comprehension",
+          "placement": "Question 2 option A",
+          "file": "media/u1-1-pronunciation/reading/questions/q2-a.m4a",
+          "source": "lesson"
+        }
+      ],
+      "machineQa": {
+        "id": "u1-1-reading-q2-a",
+        "group": "Comprehension",
+        "file": "media/u1-1-pronunciation/reading/questions/q2-a.m4a",
+        "placement": "Question 2 option A",
+        "expectedText": "Sus patines.",
+        "expectedEnglish": "His skates.",
+        "reviewPriority": "normal",
+        "metadata": {
+          "exists": true,
+          "durationSeconds": 1.007,
+          "mimeType": null,
+          "sizeBytes": 9421,
+          "metadataOk": true,
+          "metadataError": null
+        },
+        "flags": []
+      },
+      "browserAvailability": null,
+      "review": {
+        "status": "correct",
+        "approvedAt": "2026-08-12T19:44:39.177Z"
+      }
+    },
+    {
+      "id": "su casco",
+      "group": "Comprehension",
+      "placement": "Question 2 option B",
+      "file": "media/u1-1-pronunciation/reading/questions/q2-b.m4a",
+      "expectedText": "Su casco.",
+      "language": "es-MX",
+      "source": "lesson",
+      "expectedEnglish": "His helmet.",
+      "reviewPrompt": "Mark Correct only if the audio says the expected Spanish text, belongs in this placement, and is easy enough for a learner to imitate.",
+      "listenFor": [
+        "For answer choices, confirm the whole short phrase is present, including singular/plural endings such as su/sus and patín/patines."
+      ],
+      "reviewPriority": "normal",
+      "reviewId": "su casco",
+      "primaryId": "u1-1-reading-q2-b",
+      "groups": [
+        "Comprehension"
+      ],
+      "files": [
+        "media/u1-1-pronunciation/reading/questions/q2-b.m4a"
+      ],
+      "placements": [
+        {
+          "id": "u1-1-reading-q2-b",
+          "group": "Comprehension",
+          "placement": "Question 2 option B",
+          "file": "media/u1-1-pronunciation/reading/questions/q2-b.m4a",
+          "source": "lesson"
+        }
+      ],
+      "machineQa": {
+        "id": "u1-1-reading-q2-b",
+        "group": "Comprehension",
+        "file": "media/u1-1-pronunciation/reading/questions/q2-b.m4a",
+        "placement": "Question 2 option B",
+        "expectedText": "Su casco.",
+        "expectedEnglish": "His helmet.",
+        "reviewPriority": "normal",
+        "metadata": {
+          "exists": true,
+          "durationSeconds": 0.798,
+          "mimeType": null,
+          "sizeBytes": 7916,
+          "metadataOk": true,
+          "metadataError": null
+        },
+        "flags": []
+      },
+      "browserAvailability": null,
+      "review": {
+        "status": "correct",
+        "approvedAt": "2026-08-12T19:44:43.595Z"
+      }
+    },
+    {
+      "id": "sus guantes",
+      "group": "Comprehension",
+      "placement": "Question 2 option C",
+      "file": "media/u1-1-pronunciation/reading/questions/q2-c.m4a",
+      "expectedText": "Sus guantes.",
+      "language": "es-MX",
+      "source": "lesson",
+      "expectedEnglish": "His gloves.",
+      "reviewPrompt": "Mark Correct only if the audio says the expected Spanish text, belongs in this placement, and is easy enough for a learner to imitate.",
+      "listenFor": [
+        "For answer choices, confirm the whole short phrase is present, including singular/plural endings such as su/sus and patín/patines."
+      ],
+      "reviewPriority": "normal",
+      "reviewId": "sus guantes",
+      "primaryId": "u1-1-reading-q2-c",
+      "groups": [
+        "Comprehension"
+      ],
+      "files": [
+        "media/u1-1-pronunciation/reading/questions/q2-c.m4a"
+      ],
+      "placements": [
+        {
+          "id": "u1-1-reading-q2-c",
+          "group": "Comprehension",
+          "placement": "Question 2 option C",
+          "file": "media/u1-1-pronunciation/reading/questions/q2-c.m4a",
+          "source": "lesson"
+        }
+      ],
+      "machineQa": {
+        "id": "u1-1-reading-q2-c",
+        "group": "Comprehension",
+        "file": "media/u1-1-pronunciation/reading/questions/q2-c.m4a",
+        "placement": "Question 2 option C",
+        "expectedText": "Sus guantes.",
+        "expectedEnglish": "His gloves.",
+        "reviewPriority": "normal",
+        "metadata": {
+          "exists": true,
+          "durationSeconds": 0.972,
+          "mimeType": null,
+          "sizeBytes": 9161,
+          "metadataOk": true,
+          "metadataError": null
+        },
+        "flags": []
+      },
+      "browserAvailability": null,
+      "review": {
+        "status": "correct",
+        "approvedAt": "2026-08-12T19:44:48.493Z"
+      }
+    },
+    {
+      "id": "su botella de agua",
+      "group": "Comprehension",
+      "placement": "Question 2 option D",
+      "file": "media/u1-1-pronunciation/reading/questions/q2-d.m4a",
+      "expectedText": "Su botella de agua.",
+      "language": "es-MX",
+      "source": "lesson",
+      "expectedEnglish": "His water bottle.",
+      "reviewPrompt": "Mark Correct only if the audio says the expected Spanish text, belongs in this placement, and is easy enough for a learner to imitate.",
+      "listenFor": [
+        "For answer choices, confirm the whole short phrase is present, including singular/plural endings such as su/sus and patín/patines."
+      ],
+      "reviewPriority": "normal",
+      "reviewId": "su botella de agua",
+      "primaryId": "u1-1-reading-q2-d",
+      "groups": [
+        "Comprehension"
+      ],
+      "files": [
+        "media/u1-1-pronunciation/reading/questions/q2-d.m4a"
+      ],
+      "placements": [
+        {
+          "id": "u1-1-reading-q2-d",
+          "group": "Comprehension",
+          "placement": "Question 2 option D",
+          "file": "media/u1-1-pronunciation/reading/questions/q2-d.m4a",
+          "source": "lesson"
+        }
+      ],
+      "machineQa": {
+        "id": "u1-1-reading-q2-d",
+        "group": "Comprehension",
+        "file": "media/u1-1-pronunciation/reading/questions/q2-d.m4a",
+        "placement": "Question 2 option D",
+        "expectedText": "Su botella de agua.",
+        "expectedEnglish": "His water bottle.",
+        "reviewPriority": "normal",
+        "metadata": {
+          "exists": true,
+          "durationSeconds": 1.17,
+          "mimeType": null,
+          "sizeBytes": 9814,
+          "metadataOk": true,
+          "metadataError": null
+        },
+        "flags": []
+      },
+      "browserAvailability": null,
+      "review": {
+        "status": "correct",
+        "approvedAt": "2026-08-12T19:44:53.993Z"
+      }
+    },
+    {
+      "id": "donde estan los guantes",
+      "group": "Comprehension",
+      "placement": "Question 3 prompt",
+      "file": "media/u1-1-pronunciation/reading/questions/q3.m4a",
+      "expectedText": "¿Dónde están los guantes?",
+      "language": "es-MX",
+      "source": "lesson",
+      "expectedEnglish": "Where are the gloves?",
+      "reviewPrompt": "Mark Correct only if the audio says the expected Spanish text, belongs in this placement, and is easy enough for a learner to imitate.",
+      "listenFor": [
+        "Accent mark means the stressed syllable should be clear.",
+        "For answer choices, confirm the whole short phrase is present, including singular/plural endings such as su/sus and patín/patines."
+      ],
+      "reviewPriority": "normal",
+      "reviewId": "donde estan los guantes",
+      "primaryId": "u1-1-reading-q3",
+      "groups": [
+        "Comprehension"
+      ],
+      "files": [
+        "media/u1-1-pronunciation/reading/questions/q3.m4a"
+      ],
+      "placements": [
+        {
+          "id": "u1-1-reading-q3",
+          "group": "Comprehension",
+          "placement": "Question 3 prompt",
+          "file": "media/u1-1-pronunciation/reading/questions/q3.m4a",
+          "source": "lesson"
+        }
+      ],
+      "machineQa": {
+        "id": "u1-1-reading-q3",
+        "group": "Comprehension",
+        "file": "media/u1-1-pronunciation/reading/questions/q3.m4a",
+        "placement": "Question 3 prompt",
+        "expectedText": "¿Dónde están los guantes?",
+        "expectedEnglish": "Where are the gloves?",
+        "reviewPriority": "normal",
+        "metadata": {
+          "exists": true,
+          "durationSeconds": 1.599,
+          "mimeType": null,
+          "sizeBytes": 12056,
+          "metadataOk": true,
+          "metadataError": null
+        },
+        "flags": []
+      },
+      "browserAvailability": null,
+      "review": {
+        "status": "correct",
+        "approvedAt": "2026-08-12T19:45:02.960Z"
+      }
+    },
+    {
+      "id": "dentro de la bolsa",
+      "group": "Comprehension",
+      "placement": "Question 3 option A",
+      "file": "media/u1-1-pronunciation/reading/questions/q3-a.m4a",
+      "expectedText": "Dentro de la bolsa.",
+      "language": "es-MX",
+      "source": "lesson",
+      "expectedEnglish": "Inside the bag.",
+      "reviewPrompt": "Mark Correct only if the audio says the expected Spanish text, belongs in this placement, and is easy enough for a learner to imitate.",
+      "listenFor": [
+        "For answer choices, confirm the whole short phrase is present, including singular/plural endings such as su/sus and patín/patines."
+      ],
+      "reviewPriority": "normal",
+      "reviewId": "dentro de la bolsa",
+      "primaryId": "u1-1-reading-q3-a",
+      "groups": [
+        "Comprehension"
+      ],
+      "files": [
+        "media/u1-1-pronunciation/reading/questions/q3-a.m4a"
+      ],
+      "placements": [
+        {
+          "id": "u1-1-reading-q3-a",
+          "group": "Comprehension",
+          "placement": "Question 3 option A",
+          "file": "media/u1-1-pronunciation/reading/questions/q3-a.m4a",
+          "source": "lesson"
+        }
+      ],
+      "machineQa": {
+        "id": "u1-1-reading-q3-a",
+        "group": "Comprehension",
+        "file": "media/u1-1-pronunciation/reading/questions/q3-a.m4a",
+        "placement": "Question 3 option A",
+        "expectedText": "Dentro de la bolsa.",
+        "expectedEnglish": "Inside the bag.",
+        "reviewPriority": "normal",
+        "metadata": {
+          "exists": true,
+          "durationSeconds": 1.147,
+          "mimeType": null,
+          "sizeBytes": 9709,
+          "metadataOk": true,
+          "metadataError": null
+        },
+        "flags": []
+      },
+      "browserAvailability": null,
+      "review": {
+        "status": "correct",
+        "approvedAt": "2026-08-12T19:45:09.643Z"
+      }
+    },
+    {
+      "id": "debajo de una silla",
+      "group": "Comprehension",
+      "placement": "Question 3 option B",
+      "file": "media/u1-1-pronunciation/reading/questions/q3-b.m4a",
+      "expectedText": "Debajo de una silla.",
+      "language": "es-MX",
+      "source": "lesson",
+      "expectedEnglish": "Under a chair.",
+      "reviewPrompt": "Mark Correct only if the audio says the expected Spanish text, belongs in this placement, and is easy enough for a learner to imitate.",
+      "listenFor": [
+        "Spanish j/ge/gi should have a breathy h-like sound, not an English j sound.",
+        "For answer choices, confirm the whole short phrase is present, including singular/plural endings such as su/sus and patín/patines."
+      ],
+      "reviewPriority": "normal",
+      "reviewId": "debajo de una silla",
+      "primaryId": "u1-1-reading-q3-b",
+      "groups": [
+        "Comprehension"
+      ],
+      "files": [
+        "media/u1-1-pronunciation/reading/questions/q3-b.m4a"
+      ],
+      "placements": [
+        {
+          "id": "u1-1-reading-q3-b",
+          "group": "Comprehension",
+          "placement": "Question 3 option B",
+          "file": "media/u1-1-pronunciation/reading/questions/q3-b.m4a",
+          "source": "lesson"
+        }
+      ],
+      "machineQa": {
+        "id": "u1-1-reading-q3-b",
+        "group": "Comprehension",
+        "file": "media/u1-1-pronunciation/reading/questions/q3-b.m4a",
+        "placement": "Question 3 option B",
+        "expectedText": "Debajo de una silla.",
+        "expectedEnglish": "Under a chair.",
+        "reviewPriority": "normal",
+        "metadata": {
+          "exists": true,
+          "durationSeconds": 1.321,
+          "mimeType": null,
+          "sizeBytes": 10360,
+          "metadataOk": true,
+          "metadataError": null
+        },
+        "flags": []
+      },
+      "browserAvailability": null,
+      "review": {
+        "status": "correct",
+        "approvedAt": "2026-08-12T19:45:14.309Z"
+      }
+    },
+    {
+      "id": "en el carro",
+      "group": "Comprehension",
+      "placement": "Question 3 option C",
+      "file": "media/u1-1-pronunciation/reading/questions/q3-c.m4a",
+      "expectedText": "En el carro.",
+      "language": "es-MX",
+      "source": "lesson",
+      "expectedEnglish": "In the car.",
+      "reviewPrompt": "Mark Correct only if the audio says the expected Spanish text, belongs in this placement, and is easy enough for a learner to imitate.",
+      "listenFor": [
+        "rr should be stronger or rolled; a learner may accept approximation, but the model audio should distinguish perro from pero.",
+        "For answer choices, confirm the whole short phrase is present, including singular/plural endings such as su/sus and patín/patines."
+      ],
+      "reviewPriority": "normal",
+      "reviewId": "en el carro",
+      "primaryId": "u1-1-reading-q3-c",
+      "groups": [
+        "Comprehension"
+      ],
+      "files": [
+        "media/u1-1-pronunciation/reading/questions/q3-c.m4a"
+      ],
+      "placements": [
+        {
+          "id": "u1-1-reading-q3-c",
+          "group": "Comprehension",
+          "placement": "Question 3 option C",
+          "file": "media/u1-1-pronunciation/reading/questions/q3-c.m4a",
+          "source": "lesson"
+        }
+      ],
+      "machineQa": {
+        "id": "u1-1-reading-q3-c",
+        "group": "Comprehension",
+        "file": "media/u1-1-pronunciation/reading/questions/q3-c.m4a",
+        "placement": "Question 3 option C",
+        "expectedText": "En el carro.",
+        "expectedEnglish": "In the car.",
+        "reviewPriority": "normal",
+        "metadata": {
+          "exists": true,
+          "durationSeconds": 0.787,
+          "mimeType": null,
+          "sizeBytes": 7697,
+          "metadataOk": true,
+          "metadataError": null
+        },
+        "flags": []
+      },
+      "browserAvailability": null,
+      "review": {
+        "status": "correct",
+        "approvedAt": "2026-08-12T19:45:19.794Z"
+      }
+    },
+    {
+      "id": "cerca de la puerta",
+      "group": "Comprehension",
+      "placement": "Question 3 option D",
+      "file": "media/u1-1-pronunciation/reading/questions/q3-d.m4a",
+      "expectedText": "Cerca de la puerta.",
+      "language": "es-MX",
+      "source": "lesson",
+      "expectedEnglish": "Near the door.",
+      "reviewPrompt": "Mark Correct only if the audio says the expected Spanish text, belongs in this placement, and is easy enough for a learner to imitate.",
+      "listenFor": [
+        "For answer choices, confirm the whole short phrase is present, including singular/plural endings such as su/sus and patín/patines."
+      ],
+      "reviewPriority": "normal",
+      "reviewId": "cerca de la puerta",
+      "primaryId": "u1-1-reading-q3-d",
+      "groups": [
+        "Comprehension"
+      ],
+      "files": [
+        "media/u1-1-pronunciation/reading/questions/q3-d.m4a"
+      ],
+      "placements": [
+        {
+          "id": "u1-1-reading-q3-d",
+          "group": "Comprehension",
+          "placement": "Question 3 option D",
+          "file": "media/u1-1-pronunciation/reading/questions/q3-d.m4a",
+          "source": "lesson"
+        }
+      ],
+      "machineQa": {
+        "id": "u1-1-reading-q3-d",
+        "group": "Comprehension",
+        "file": "media/u1-1-pronunciation/reading/questions/q3-d.m4a",
+        "placement": "Question 3 option D",
+        "expectedText": "Cerca de la puerta.",
+        "expectedEnglish": "Near the door.",
+        "reviewPriority": "normal",
+        "metadata": {
+          "exists": true,
+          "durationSeconds": 1.228,
+          "mimeType": null,
+          "sizeBytes": 10582,
+          "metadataOk": true,
+          "metadataError": null
+        },
+        "flags": []
+      },
+      "browserAvailability": null,
+      "review": {
+        "status": "correct",
+        "approvedAt": "2026-08-12T19:45:25.825Z"
+      }
+    },
+    {
+      "id": "donde viven victor y spencer",
+      "group": "Comprehension",
+      "placement": "Short answer question 4",
+      "file": "media/u1-1-pronunciation/reading/questions/q4.m4a",
+      "expectedText": "¿Dónde viven Victor y Spencer?",
+      "language": "es-MX",
+      "source": "lesson",
+      "expectedEnglish": "Where do Victor and Spencer live?",
+      "reviewPrompt": "Mark Correct only if the audio says the expected Spanish text, belongs in this placement, and is easy enough for a learner to imitate.",
+      "listenFor": [
+        "Accent mark means the stressed syllable should be clear.",
+        "Proper names or borrowed words may sound less Spanish; confirm the sentence still matches the written text exactly.",
+        "For answer choices, confirm the whole short phrase is present, including singular/plural endings such as su/sus and patín/patines."
+      ],
+      "reviewPriority": "high",
+      "reviewId": "donde viven victor y spencer",
+      "primaryId": "u1-1-reading-q4",
+      "groups": [
+        "Comprehension"
+      ],
+      "files": [
+        "media/u1-1-pronunciation/reading/questions/q4.m4a"
+      ],
+      "placements": [
+        {
+          "id": "u1-1-reading-q4",
+          "group": "Comprehension",
+          "placement": "Short answer question 4",
+          "file": "media/u1-1-pronunciation/reading/questions/q4.m4a",
+          "source": "lesson"
+        }
+      ],
+      "machineQa": {
+        "id": "u1-1-reading-q4",
+        "group": "Comprehension",
+        "file": "media/u1-1-pronunciation/reading/questions/q4.m4a",
+        "placement": "Short answer question 4",
+        "expectedText": "¿Dónde viven Victor y Spencer?",
+        "expectedEnglish": "Where do Victor and Spencer live?",
+        "reviewPriority": "high",
+        "metadata": {
+          "exists": true,
+          "durationSeconds": 1.889,
+          "mimeType": null,
+          "sizeBytes": 12785,
+          "metadataOk": true,
+          "metadataError": null
+        },
+        "flags": []
+      },
+      "browserAvailability": null,
+      "review": {
+        "status": "correct",
+        "approvedAt": "2026-08-12T19:45:33.026Z"
+      }
+    },
+    {
+      "id": "que estudian por la manana",
+      "group": "Comprehension",
+      "placement": "Short answer question 5",
+      "file": "media/u1-1-pronunciation/reading/questions/q5.m4a",
+      "expectedText": "¿Qué estudian por la mañana?",
+      "language": "es-MX",
+      "source": "lesson",
+      "expectedEnglish": "What do they study in the morning?",
+      "reviewPrompt": "Mark Correct only if the audio says the expected Spanish text, belongs in this placement, and is easy enough for a learner to imitate.",
+      "listenFor": [
+        "Listen for ñ as one sound, like the ny in canyon.",
+        "qu before e or i sounds like k, not English kw.",
+        "Accent mark means the stressed syllable should be clear.",
+        "For answer choices, confirm the whole short phrase is present, including singular/plural endings such as su/sus and patín/patines."
+      ],
+      "reviewPriority": "normal",
+      "reviewId": "que estudian por la manana",
+      "primaryId": "u1-1-reading-q5",
+      "groups": [
+        "Comprehension"
+      ],
+      "files": [
+        "media/u1-1-pronunciation/reading/questions/q5.m4a"
+      ],
+      "placements": [
+        {
+          "id": "u1-1-reading-q5",
+          "group": "Comprehension",
+          "placement": "Short answer question 5",
+          "file": "media/u1-1-pronunciation/reading/questions/q5.m4a",
+          "source": "lesson"
+        }
+      ],
+      "machineQa": {
+        "id": "u1-1-reading-q5",
+        "group": "Comprehension",
+        "file": "media/u1-1-pronunciation/reading/questions/q5.m4a",
+        "placement": "Short answer question 5",
+        "expectedText": "¿Qué estudian por la mañana?",
+        "expectedEnglish": "What do they study in the morning?",
+        "reviewPriority": "normal",
+        "metadata": {
+          "exists": true,
+          "durationSeconds": 1.609,
+          "mimeType": null,
+          "sizeBytes": 11652,
+          "metadataOk": true,
+          "metadataError": null
+        },
+        "flags": []
+      },
+      "browserAvailability": null,
+      "review": {
+        "status": "correct",
+        "approvedAt": "2026-08-12T19:45:38.342Z"
+      }
+    },
+    {
+      "id": "oye bro trajiste tu casco hoy",
+      "group": "Hockey Interaction",
+      "placement": "Hockey choice: el casco",
+      "file": "media/u1-1-pronunciation/hockey/casco.m4a",
+      "expectedText": "Oye, bro, ¿trajiste tu casco hoy?",
+      "language": "es-MX",
+      "source": "lesson-js",
+      "expectedEnglish": "Hey bro, did you bring your helmet today?",
+      "reviewPrompt": "Mark Correct only if the audio says the expected Spanish text, belongs in this placement, and is easy enough for a learner to imitate.",
+      "listenFor": [
+        "Spanish j/ge/gi should have a breathy h-like sound, not an English j sound.",
+        "Proper names or borrowed words may sound less Spanish; confirm the sentence still matches the written text exactly."
+      ],
+      "reviewPriority": "high",
+      "reviewId": "oye bro trajiste tu casco hoy",
+      "primaryId": "u1-1-hockey-casco",
+      "groups": [
+        "Hockey Interaction"
+      ],
+      "files": [
+        "media/u1-1-pronunciation/hockey/casco.m4a"
+      ],
+      "placements": [
+        {
+          "id": "u1-1-hockey-casco",
+          "group": "Hockey Interaction",
+          "placement": "Hockey choice: el casco",
+          "file": "media/u1-1-pronunciation/hockey/casco.m4a",
+          "source": "lesson-js"
+        }
+      ],
+      "machineQa": {
+        "id": "u1-1-hockey-casco",
+        "group": "Hockey Interaction",
+        "file": "media/u1-1-pronunciation/hockey/casco.m4a",
+        "placement": "Hockey choice: el casco",
+        "expectedText": "Oye, bro, ¿trajiste tu casco hoy?",
+        "expectedEnglish": "Hey bro, did you bring your helmet today?",
+        "reviewPriority": "high",
+        "metadata": {
+          "exists": true,
+          "durationSeconds": 2.738,
+          "mimeType": null,
+          "sizeBytes": 16401,
+          "metadataOk": true,
+          "metadataError": null
+        },
+        "flags": []
+      },
+      "browserAvailability": null,
+      "review": {
+        "status": "correct",
+        "approvedAt": "2026-08-12T19:45:45.859Z"
+      }
+    },
+    {
+      "id": "oye bro trajiste tus guantes hoy",
+      "group": "Hockey Interaction",
+      "placement": "Hockey choice: los guantes",
+      "file": "media/u1-1-pronunciation/hockey/guantes.m4a",
+      "expectedText": "Oye, bro, ¿trajiste tus guantes hoy?",
+      "language": "es-MX",
+      "source": "lesson-js",
+      "expectedEnglish": "Hey bro, did you bring your gloves today?",
+      "reviewPrompt": "Mark Correct only if the audio says the expected Spanish text, belongs in this placement, and is easy enough for a learner to imitate.",
+      "listenFor": [
+        "Spanish j/ge/gi should have a breathy h-like sound, not an English j sound.",
+        "Proper names or borrowed words may sound less Spanish; confirm the sentence still matches the written text exactly."
+      ],
+      "reviewPriority": "high",
+      "reviewId": "oye bro trajiste tus guantes hoy",
+      "primaryId": "u1-1-hockey-guantes",
+      "groups": [
+        "Hockey Interaction"
+      ],
+      "files": [
+        "media/u1-1-pronunciation/hockey/guantes.m4a"
+      ],
+      "placements": [
+        {
+          "id": "u1-1-hockey-guantes",
+          "group": "Hockey Interaction",
+          "placement": "Hockey choice: los guantes",
+          "file": "media/u1-1-pronunciation/hockey/guantes.m4a",
+          "source": "lesson-js"
+        }
+      ],
+      "machineQa": {
+        "id": "u1-1-hockey-guantes",
+        "group": "Hockey Interaction",
+        "file": "media/u1-1-pronunciation/hockey/guantes.m4a",
+        "placement": "Hockey choice: los guantes",
+        "expectedText": "Oye, bro, ¿trajiste tus guantes hoy?",
+        "expectedEnglish": "Hey bro, did you bring your gloves today?",
+        "reviewPriority": "high",
+        "metadata": {
+          "exists": true,
+          "durationSeconds": 2.854,
+          "mimeType": null,
+          "sizeBytes": 16970,
+          "metadataOk": true,
+          "metadataError": null
+        },
+        "flags": []
+      },
+      "browserAvailability": null,
+      "review": {
+        "status": "correct",
+        "approvedAt": "2026-08-12T19:45:51.725Z"
+      }
+    },
+    {
+      "id": "oye bro trajiste tu botella de agua hoy",
+      "group": "Hockey Interaction",
+      "placement": "Hockey choice: la botella de agua",
+      "file": "media/u1-1-pronunciation/hockey/botella-agua.m4a",
+      "expectedText": "Oye, bro, ¿trajiste tu botella de agua hoy?",
+      "language": "es-MX",
+      "source": "lesson-js",
+      "expectedEnglish": "Hey bro, did you bring your water bottle today?",
+      "reviewPrompt": "Mark Correct only if the audio says the expected Spanish text, belongs in this placement, and is easy enough for a learner to imitate.",
+      "listenFor": [
+        "Spanish j/ge/gi should have a breathy h-like sound, not an English j sound.",
+        "Proper names or borrowed words may sound less Spanish; confirm the sentence still matches the written text exactly."
+      ],
+      "reviewPriority": "high",
+      "reviewId": "oye bro trajiste tu botella de agua hoy",
+      "primaryId": "u1-1-hockey-botella",
+      "groups": [
+        "Hockey Interaction"
+      ],
+      "files": [
+        "media/u1-1-pronunciation/hockey/botella-agua.m4a"
+      ],
+      "placements": [
+        {
+          "id": "u1-1-hockey-botella",
+          "group": "Hockey Interaction",
+          "placement": "Hockey choice: la botella de agua",
+          "file": "media/u1-1-pronunciation/hockey/botella-agua.m4a",
+          "source": "lesson-js"
+        }
+      ],
+      "machineQa": {
+        "id": "u1-1-hockey-botella",
+        "group": "Hockey Interaction",
+        "file": "media/u1-1-pronunciation/hockey/botella-agua.m4a",
+        "placement": "Hockey choice: la botella de agua",
+        "expectedText": "Oye, bro, ¿trajiste tu botella de agua hoy?",
+        "expectedEnglish": "Hey bro, did you bring your water bottle today?",
+        "reviewPriority": "high",
+        "metadata": {
+          "exists": true,
+          "durationSeconds": 3.132,
+          "mimeType": null,
+          "sizeBytes": 18096,
+          "metadataOk": true,
+          "metadataError": null
+        },
+        "flags": []
+      },
+      "browserAvailability": null,
+      "review": {
+        "status": "correct",
+        "approvedAt": "2026-08-12T19:45:58.194Z"
+      }
+    },
+    {
+      "id": "oye bro trajiste tu ropa termica hoy",
+      "group": "Hockey Interaction",
+      "placement": "Hockey choice: la ropa térmica",
+      "file": "media/u1-1-pronunciation/hockey/ropa-termica.m4a",
+      "expectedText": "Oye, bro, ¿trajiste tu ropa térmica hoy?",
+      "language": "es-MX",
+      "source": "lesson-js",
+      "expectedEnglish": "Hey bro, did you bring your base layers today?",
+      "reviewPrompt": "Mark Correct only if the audio says the expected Spanish text, belongs in this placement, and is easy enough for a learner to imitate.",
+      "listenFor": [
+        "Spanish j/ge/gi should have a breathy h-like sound, not an English j sound.",
+        "Accent mark means the stressed syllable should be clear.",
+        "Proper names or borrowed words may sound less Spanish; confirm the sentence still matches the written text exactly."
+      ],
+      "reviewPriority": "high",
+      "reviewId": "oye bro trajiste tu ropa termica hoy",
+      "primaryId": "u1-1-hockey-ropa",
+      "groups": [
+        "Hockey Interaction"
+      ],
+      "files": [
+        "media/u1-1-pronunciation/hockey/ropa-termica.m4a"
+      ],
+      "placements": [
+        {
+          "id": "u1-1-hockey-ropa",
+          "group": "Hockey Interaction",
+          "placement": "Hockey choice: la ropa térmica",
+          "file": "media/u1-1-pronunciation/hockey/ropa-termica.m4a",
+          "source": "lesson-js"
+        }
+      ],
+      "machineQa": {
+        "id": "u1-1-hockey-ropa",
+        "group": "Hockey Interaction",
+        "file": "media/u1-1-pronunciation/hockey/ropa-termica.m4a",
+        "placement": "Hockey choice: la ropa térmica",
+        "expectedText": "Oye, bro, ¿trajiste tu ropa térmica hoy?",
+        "expectedEnglish": "Hey bro, did you bring your base layers today?",
+        "reviewPriority": "high",
+        "metadata": {
+          "exists": true,
+          "durationSeconds": 3.179,
+          "mimeType": null,
+          "sizeBytes": 18040,
+          "metadataOk": true,
+          "metadataError": null
+        },
+        "flags": []
+      },
+      "browserAvailability": null,
+      "review": {
+        "status": "correct",
+        "approvedAt": "2026-08-12T19:46:03.559Z"
+      }
+    },
+    {
+      "id": "oye bro trajiste tus patines hoy",
+      "group": "Hockey Interaction",
+      "placement": "Hockey choice: los patines",
+      "file": "media/u1-1-pronunciation/hockey/patines.m4a",
+      "expectedText": "Oye, bro, ¿trajiste tus patines hoy?",
+      "language": "es-MX",
+      "source": "lesson-js",
+      "expectedEnglish": "Hey bro, did you bring your skates today?",
+      "reviewPrompt": "Mark Correct only if the audio says the expected Spanish text, belongs in this placement, and is easy enough for a learner to imitate.",
+      "listenFor": [
+        "Spanish j/ge/gi should have a breathy h-like sound, not an English j sound.",
+        "Proper names or borrowed words may sound less Spanish; confirm the sentence still matches the written text exactly."
+      ],
+      "reviewPriority": "high",
+      "reviewId": "oye bro trajiste tus patines hoy",
+      "primaryId": "u1-1-hockey-patines",
+      "groups": [
+        "Hockey Interaction"
+      ],
+      "files": [
+        "media/u1-1-pronunciation/hockey/patines.m4a"
+      ],
+      "placements": [
+        {
+          "id": "u1-1-hockey-patines",
+          "group": "Hockey Interaction",
+          "placement": "Hockey choice: los patines",
+          "file": "media/u1-1-pronunciation/hockey/patines.m4a",
+          "source": "lesson-js"
+        }
+      ],
+      "machineQa": {
+        "id": "u1-1-hockey-patines",
+        "group": "Hockey Interaction",
+        "file": "media/u1-1-pronunciation/hockey/patines.m4a",
+        "placement": "Hockey choice: los patines",
+        "expectedText": "Oye, bro, ¿trajiste tus patines hoy?",
+        "expectedEnglish": "Hey bro, did you bring your skates today?",
+        "reviewPriority": "high",
+        "metadata": {
+          "exists": true,
+          "durationSeconds": 2.912,
+          "mimeType": null,
+          "sizeBytes": 17709,
+          "metadataOk": true,
+          "metadataError": null
+        },
+        "flags": []
+      },
+      "browserAvailability": null,
+      "review": {
+        "status": "correct",
+        "approvedAt": "2026-08-12T19:46:15.291Z"
+      }
+    },
+    {
+      "id": "oye bro trajiste hoy tu corazon de hierro",
+      "group": "Hockey Interaction",
+      "placement": "Hockey choice: el corazón de hierro",
+      "file": "media/u1-1-pronunciation/hockey/corazon-hierro.m4a",
+      "expectedText": "Oye, bro, ¿trajiste hoy tu corazón de hierro?",
+      "language": "es-MX",
+      "source": "lesson-js",
+      "expectedEnglish": "Hey bro, did you bring your iron heart today?",
+      "reviewPrompt": "Mark Correct only if the audio says the expected Spanish text, belongs in this placement, and is easy enough for a learner to imitate.",
+      "listenFor": [
+        "Spanish h is silent in Spanish words such as hola, hielo, and hierro; hockey is a borrowed word.",
+        "Spanish j/ge/gi should have a breathy h-like sound, not an English j sound.",
+        "rr should be stronger or rolled; a learner may accept approximation, but the model audio should distinguish perro from pero.",
+        "Accent mark means the stressed syllable should be clear.",
+        "Proper names or borrowed words may sound less Spanish; confirm the sentence still matches the written text exactly."
+      ],
+      "reviewPriority": "high",
+      "reviewId": "oye bro trajiste hoy tu corazon de hierro",
+      "primaryId": "u1-1-hockey-corazon",
+      "groups": [
+        "Hockey Interaction"
+      ],
+      "files": [
+        "media/u1-1-pronunciation/hockey/corazon-hierro.m4a"
+      ],
+      "placements": [
+        {
+          "id": "u1-1-hockey-corazon",
+          "group": "Hockey Interaction",
+          "placement": "Hockey choice: el corazón de hierro",
+          "file": "media/u1-1-pronunciation/hockey/corazon-hierro.m4a",
+          "source": "lesson-js"
+        }
+      ],
+      "machineQa": {
+        "id": "u1-1-hockey-corazon",
+        "group": "Hockey Interaction",
+        "file": "media/u1-1-pronunciation/hockey/corazon-hierro.m4a",
+        "placement": "Hockey choice: el corazón de hierro",
+        "expectedText": "Oye, bro, ¿trajiste hoy tu corazón de hierro?",
+        "expectedEnglish": "Hey bro, did you bring your iron heart today?",
+        "reviewPriority": "high",
+        "metadata": {
+          "exists": true,
+          "durationSeconds": 3.225,
+          "mimeType": null,
+          "sizeBytes": 18507,
+          "metadataOk": true,
+          "metadataError": null
+        },
+        "flags": []
+      },
+      "browserAvailability": null,
+      "review": {
+        "status": "correct",
+        "approvedAt": "2026-08-12T19:46:23.941Z"
+      }
+    },
+    {
+      "id": "estas listo para competir",
+      "group": "Hockey Interaction",
+      "placement": "Hockey follow-up after corazón de hierro",
+      "file": "media/u1-1-pronunciation/hockey/listo-competir.m4a",
+      "expectedText": "¿Estás listo para competir?",
+      "language": "es-MX",
+      "source": "lesson-js",
+      "expectedEnglish": "Are you ready to compete?",
+      "reviewPrompt": "Mark Correct only if the audio says the expected Spanish text, belongs in this placement, and is easy enough for a learner to imitate.",
+      "listenFor": [
+        "Accent mark means the stressed syllable should be clear."
+      ],
+      "reviewPriority": "normal",
+      "reviewId": "estas listo para competir",
+      "primaryId": "u1-1-hockey-listo",
+      "groups": [
+        "Hockey Interaction"
+      ],
+      "files": [
+        "media/u1-1-pronunciation/hockey/listo-competir.m4a"
+      ],
+      "placements": [
+        {
+          "id": "u1-1-hockey-listo",
+          "group": "Hockey Interaction",
+          "placement": "Hockey follow-up after corazón de hierro",
+          "file": "media/u1-1-pronunciation/hockey/listo-competir.m4a",
+          "source": "lesson-js"
+        }
+      ],
+      "machineQa": {
+        "id": "u1-1-hockey-listo",
+        "group": "Hockey Interaction",
+        "file": "media/u1-1-pronunciation/hockey/listo-competir.m4a",
+        "placement": "Hockey follow-up after corazón de hierro",
+        "expectedText": "¿Estás listo para competir?",
+        "expectedEnglish": "Are you ready to compete?",
+        "reviewPriority": "normal",
+        "metadata": {
+          "exists": true,
+          "durationSeconds": 1.82,
+          "mimeType": null,
+          "sizeBytes": 12746,
+          "metadataOk": true,
+          "metadataError": null
+        },
+        "flags": []
+      },
+      "browserAvailability": null,
+      "review": {
+        "status": "correct",
+        "approvedAt": "2026-08-12T19:46:30.108Z"
+      }
+    },
+    {
+      "id": "el corazon de hierro significa tener fortaleza mental resiliencia y estar listo para competir",
+      "group": "Hockey Interaction",
+      "placement": "Optional heart definition audio",
+      "file": "media/u1-1-pronunciation/hockey/corazon-definicion.m4a",
+      "expectedText": "El corazón de hierro significa tener fortaleza mental, resiliencia y estar listo para competir.",
+      "language": "es-MX",
+      "source": "curriculum",
+      "expectedEnglish": "The iron heart means having mental toughness, resilience, and being ready to compete.",
+      "reviewPrompt": "Mark Correct only if the audio says the expected Spanish text, belongs in this placement, and is easy enough for a learner to imitate.",
+      "listenFor": [
+        "Spanish h is silent in Spanish words such as hola, hielo, and hierro; hockey is a borrowed word.",
+        "rr should be stronger or rolled; a learner may accept approximation, but the model audio should distinguish perro from pero.",
+        "Accent mark means the stressed syllable should be clear."
+      ],
+      "reviewPriority": "high",
+      "reviewId": "el corazon de hierro significa tener fortaleza mental resiliencia y estar listo para competir",
+      "primaryId": "u1-1-hockey-corazon-def",
+      "groups": [
+        "Hockey Interaction"
+      ],
+      "files": [
+        "media/u1-1-pronunciation/hockey/corazon-definicion.m4a"
+      ],
+      "placements": [
+        {
+          "id": "u1-1-hockey-corazon-def",
+          "group": "Hockey Interaction",
+          "placement": "Optional heart definition audio",
+          "file": "media/u1-1-pronunciation/hockey/corazon-definicion.m4a",
+          "source": "curriculum"
+        }
+      ],
+      "machineQa": {
+        "id": "u1-1-hockey-corazon-def",
+        "group": "Hockey Interaction",
+        "file": "media/u1-1-pronunciation/hockey/corazon-definicion.m4a",
+        "placement": "Optional heart definition audio",
+        "expectedText": "El corazón de hierro significa tener fortaleza mental, resiliencia y estar listo para competir.",
+        "expectedEnglish": "The iron heart means having mental toughness, resilience, and being ready to compete.",
+        "reviewPriority": "high",
+        "metadata": {
+          "exists": true,
+          "durationSeconds": 6.325,
+          "mimeType": null,
+          "sizeBytes": 31348,
+          "metadataOk": true,
+          "metadataError": null
+        },
+        "flags": []
+      },
+      "browserAvailability": null,
+      "review": {
+        "status": "correct",
+        "approvedAt": "2026-08-12T19:46:41.026Z"
+      }
+    },
+    {
+      "id": "el nino juega hockey",
+      "group": "Flashcards",
+      "placement": "Ñ flashcard example sentence",
+      "file": "media/u1-1-pronunciation/flashcards/nino-example.m4a",
+      "expectedText": "El niño juega hockey.",
+      "language": "es-MX",
+      "source": "flashcards",
+      "expectedEnglish": "The boy plays hockey.",
+      "reviewPrompt": "Mark Correct only if the audio says the expected Spanish text, belongs in this placement, and is easy enough for a learner to imitate.",
+      "listenFor": [
+        "Spanish h is silent in Spanish words such as hola, hielo, and hierro; hockey is a borrowed word.",
+        "Listen for ñ as one sound, like the ny in canyon.",
+        "Spanish j/ge/gi should have a breathy h-like sound, not an English j sound.",
+        "Proper names or borrowed words may sound less Spanish; confirm the sentence still matches the written text exactly."
+      ],
+      "reviewPriority": "high",
+      "reviewId": "el nino juega hockey",
+      "primaryId": "u1-1-flash-nino-example",
+      "groups": [
+        "Flashcards"
+      ],
+      "files": [
+        "media/u1-1-pronunciation/flashcards/nino-example.m4a"
+      ],
+      "placements": [
+        {
+          "id": "u1-1-flash-nino-example",
+          "group": "Flashcards",
+          "placement": "Ñ flashcard example sentence",
+          "file": "media/u1-1-pronunciation/flashcards/nino-example.m4a",
+          "source": "flashcards"
+        }
+      ],
+      "machineQa": {
+        "id": "u1-1-flash-nino-example",
+        "group": "Flashcards",
+        "file": "media/u1-1-pronunciation/flashcards/nino-example.m4a",
+        "placement": "Ñ flashcard example sentence",
+        "expectedText": "El niño juega hockey.",
+        "expectedEnglish": "The boy plays hockey.",
+        "reviewPriority": "high",
+        "metadata": {
+          "exists": true,
+          "durationSeconds": 1.379,
+          "mimeType": null,
+          "sizeBytes": 10978,
+          "metadataOk": true,
+          "metadataError": null
+        },
+        "flags": []
+      },
+      "browserAvailability": null,
+      "review": {
+        "status": "correct",
+        "approvedAt": "2026-08-12T19:46:46.812Z"
+      }
+    },
+    {
+      "id": "hola victor",
+      "group": "Flashcards",
+      "placement": "Silent H flashcard example sentence",
+      "file": "media/u1-1-pronunciation/flashcards/hola-victor-example.m4a",
+      "expectedText": "Hola, Victor.",
+      "language": "es-MX",
+      "source": "flashcards",
+      "expectedEnglish": "Hello, Victor.",
+      "reviewPrompt": "Mark Correct only if the audio says the expected Spanish text, belongs in this placement, and is easy enough for a learner to imitate.",
+      "listenFor": [
+        "Spanish h is silent in Spanish words such as hola, hielo, and hierro; hockey is a borrowed word.",
+        "Proper names or borrowed words may sound less Spanish; confirm the sentence still matches the written text exactly."
+      ],
+      "reviewPriority": "high",
+      "reviewId": "hola victor",
+      "primaryId": "u1-1-flash-hola-victor",
+      "groups": [
+        "Flashcards"
+      ],
+      "files": [
+        "media/u1-1-pronunciation/flashcards/hola-victor-example.m4a"
+      ],
+      "placements": [
+        {
+          "id": "u1-1-flash-hola-victor",
+          "group": "Flashcards",
+          "placement": "Silent H flashcard example sentence",
+          "file": "media/u1-1-pronunciation/flashcards/hola-victor-example.m4a",
+          "source": "flashcards"
+        }
+      ],
+      "machineQa": {
+        "id": "u1-1-flash-hola-victor",
+        "group": "Flashcards",
+        "file": "media/u1-1-pronunciation/flashcards/hola-victor-example.m4a",
+        "placement": "Silent H flashcard example sentence",
+        "expectedText": "Hola, Victor.",
+        "expectedEnglish": "Hello, Victor.",
+        "reviewPriority": "high",
+        "metadata": {
+          "exists": true,
+          "durationSeconds": 0.822,
+          "mimeType": null,
+          "sizeBytes": 7980,
+          "metadataOk": true,
+          "metadataError": null
+        },
+        "flags": []
+      },
+      "browserAvailability": null,
+      "review": {
+        "status": "correct",
+        "approvedAt": "2026-08-12T19:46:51.424Z"
+      }
+    },
+    {
+      "id": "jose habla espanol",
+      "group": "Flashcards",
+      "placement": "J flashcard example sentence",
+      "file": "media/u1-1-pronunciation/flashcards/jose-example.m4a",
+      "expectedText": "José habla español.",
+      "language": "es-MX",
+      "source": "flashcards",
+      "expectedEnglish": "José speaks Spanish.",
+      "reviewPrompt": "Mark Correct only if the audio says the expected Spanish text, belongs in this placement, and is easy enough for a learner to imitate.",
+      "listenFor": [
+        "Listen for ñ as one sound, like the ny in canyon.",
+        "Spanish j/ge/gi should have a breathy h-like sound, not an English j sound.",
+        "Accent mark means the stressed syllable should be clear."
+      ],
+      "reviewPriority": "normal",
+      "reviewId": "jose habla espanol",
+      "primaryId": "u1-1-flash-jose-example",
+      "groups": [
+        "Flashcards"
+      ],
+      "files": [
+        "media/u1-1-pronunciation/flashcards/jose-example.m4a"
+      ],
+      "placements": [
+        {
+          "id": "u1-1-flash-jose-example",
+          "group": "Flashcards",
+          "placement": "J flashcard example sentence",
+          "file": "media/u1-1-pronunciation/flashcards/jose-example.m4a",
+          "source": "flashcards"
+        }
+      ],
+      "machineQa": {
+        "id": "u1-1-flash-jose-example",
+        "group": "Flashcards",
+        "file": "media/u1-1-pronunciation/flashcards/jose-example.m4a",
+        "placement": "J flashcard example sentence",
+        "expectedText": "José habla español.",
+        "expectedEnglish": "José speaks Spanish.",
+        "reviewPriority": "normal",
+        "metadata": {
+          "exists": true,
+          "durationSeconds": 1.41,
+          "mimeType": null,
+          "sizeBytes": 10475,
+          "metadataOk": true,
+          "metadataError": null
+        },
+        "flags": []
+      },
+      "browserAvailability": null,
+      "review": {
+        "status": "correct",
+        "approvedAt": "2026-08-12T19:46:57.741Z"
+      }
+    },
+    {
+      "id": "quiero practicar",
+      "group": "Flashcards",
+      "placement": "QU flashcard example sentence",
+      "file": "media/u1-1-pronunciation/flashcards/quiero-practicar-example.m4a",
+      "expectedText": "Quiero practicar.",
+      "language": "es-MX",
+      "source": "flashcards",
+      "expectedEnglish": "I want to practice.",
+      "reviewPrompt": "Mark Correct only if the audio says the expected Spanish text, belongs in this placement, and is easy enough for a learner to imitate.",
+      "listenFor": [
+        "qu before e or i sounds like k, not English kw."
+      ],
+      "reviewPriority": "normal",
+      "reviewId": "quiero practicar",
+      "primaryId": "u1-1-flash-quiero-example",
+      "groups": [
+        "Flashcards"
+      ],
+      "files": [
+        "media/u1-1-pronunciation/flashcards/quiero-practicar-example.m4a"
+      ],
+      "placements": [
+        {
+          "id": "u1-1-flash-quiero-example",
+          "group": "Flashcards",
+          "placement": "QU flashcard example sentence",
+          "file": "media/u1-1-pronunciation/flashcards/quiero-practicar-example.m4a",
+          "source": "flashcards"
+        }
+      ],
+      "machineQa": {
+        "id": "u1-1-flash-quiero-example",
+        "group": "Flashcards",
+        "file": "media/u1-1-pronunciation/flashcards/quiero-practicar-example.m4a",
+        "placement": "QU flashcard example sentence",
+        "expectedText": "Quiero practicar.",
+        "expectedEnglish": "I want to practice.",
+        "reviewPriority": "normal",
+        "metadata": {
+          "exists": true,
+          "durationSeconds": 1.08,
+          "mimeType": null,
+          "sizeBytes": 9075,
+          "metadataOk": true,
+          "metadataError": null
+        },
+        "flags": []
+      },
+      "browserAvailability": null,
+      "review": {
+        "status": "correct",
+        "approvedAt": "2026-08-12T19:47:01.959Z"
+      }
+    },
+    {
+      "id": "como te llamas",
+      "group": "Flashcards",
+      "placement": "Conversation flashcard front",
+      "file": "media/u1-1-pronunciation/flashcards/como-te-llamas.m4a",
+      "expectedText": "¿Cómo te llamas?",
+      "language": "es-MX",
+      "source": "flashcards",
+      "expectedEnglish": "What is your name?",
+      "reviewPrompt": "Mark Correct only if the audio says the expected Spanish text, belongs in this placement, and is easy enough for a learner to imitate.",
+      "listenFor": [
+        "Accent mark means the stressed syllable should be clear."
+      ],
+      "reviewPriority": "normal",
+      "reviewId": "como te llamas",
+      "primaryId": "u1-1-flash-como-te-llamas",
+      "groups": [
+        "Flashcards"
+      ],
+      "files": [
+        "media/u1-1-pronunciation/flashcards/como-te-llamas.m4a"
+      ],
+      "placements": [
+        {
+          "id": "u1-1-flash-como-te-llamas",
+          "group": "Flashcards",
+          "placement": "Conversation flashcard front",
+          "file": "media/u1-1-pronunciation/flashcards/como-te-llamas.m4a",
+          "source": "flashcards"
+        }
+      ],
+      "machineQa": {
+        "id": "u1-1-flash-como-te-llamas",
+        "group": "Flashcards",
+        "file": "media/u1-1-pronunciation/flashcards/como-te-llamas.m4a",
+        "placement": "Conversation flashcard front",
+        "expectedText": "¿Cómo te llamas?",
+        "expectedEnglish": "What is your name?",
+        "reviewPriority": "normal",
+        "metadata": {
+          "exists": true,
+          "durationSeconds": 1.017,
+          "mimeType": null,
+          "sizeBytes": 9474,
+          "metadataOk": true,
+          "metadataError": null
+        },
+        "flags": []
+      },
+      "browserAvailability": null,
+      "review": {
+        "status": "correct",
+        "approvedAt": "2026-08-12T19:47:06.391Z"
+      }
+    },
+    {
+      "id": "como te llamas me llamo spencer",
+      "group": "Flashcards",
+      "placement": "Conversation flashcard example sentence",
+      "file": "media/u1-1-pronunciation/flashcards/como-te-llamas-example.m4a",
+      "expectedText": "¿Cómo te llamas? Me llamo Spencer.",
+      "language": "es-MX",
+      "source": "flashcards",
+      "expectedEnglish": "What is your name? My name is Spencer.",
+      "reviewPrompt": "Mark Correct only if the audio says the expected Spanish text, belongs in this placement, and is easy enough for a learner to imitate.",
+      "listenFor": [
+        "Accent mark means the stressed syllable should be clear.",
+        "Proper names or borrowed words may sound less Spanish; confirm the sentence still matches the written text exactly."
+      ],
+      "reviewPriority": "high",
+      "reviewId": "como te llamas me llamo spencer",
+      "primaryId": "u1-1-flash-como-te-llamas-example",
+      "groups": [
+        "Flashcards"
+      ],
+      "files": [
+        "media/u1-1-pronunciation/flashcards/como-te-llamas-example.m4a"
+      ],
+      "placements": [
+        {
+          "id": "u1-1-flash-como-te-llamas-example",
+          "group": "Flashcards",
+          "placement": "Conversation flashcard example sentence",
+          "file": "media/u1-1-pronunciation/flashcards/como-te-llamas-example.m4a",
+          "source": "flashcards"
+        }
+      ],
+      "machineQa": {
+        "id": "u1-1-flash-como-te-llamas-example",
+        "group": "Flashcards",
+        "file": "media/u1-1-pronunciation/flashcards/como-te-llamas-example.m4a",
+        "placement": "Conversation flashcard example sentence",
+        "expectedText": "¿Cómo te llamas? Me llamo Spencer.",
+        "expectedEnglish": "What is your name? My name is Spencer.",
+        "reviewPriority": "high",
+        "metadata": {
+          "exists": true,
+          "durationSeconds": 2.387,
+          "mimeType": null,
+          "sizeBytes": 15342,
+          "metadataOk": true,
+          "metadataError": null
+        },
+        "flags": []
+      },
+      "browserAvailability": null,
+      "review": {
+        "status": "correct",
+        "approvedAt": "2026-08-12T19:47:12.474Z"
+      }
+    },
+    {
+      "id": "como se escribe",
+      "group": "Flashcards",
+      "placement": "Spelling flashcard front",
+      "file": "media/u1-1-pronunciation/flashcards/como-se-escribe.m4a",
+      "expectedText": "¿Cómo se escribe?",
+      "language": "es-MX",
+      "source": "flashcards",
+      "expectedEnglish": "How do you spell it?",
+      "reviewPrompt": "Mark Correct only if the audio says the expected Spanish text, belongs in this placement, and is easy enough for a learner to imitate.",
+      "listenFor": [
+        "Accent mark means the stressed syllable should be clear."
+      ],
+      "reviewPriority": "normal",
+      "reviewId": "como se escribe",
+      "primaryId": "u1-1-flash-como-se-escribe",
+      "groups": [
+        "Flashcards"
+      ],
+      "files": [
+        "media/u1-1-pronunciation/flashcards/como-se-escribe.m4a"
+      ],
+      "placements": [
+        {
+          "id": "u1-1-flash-como-se-escribe",
+          "group": "Flashcards",
+          "placement": "Spelling flashcard front",
+          "file": "media/u1-1-pronunciation/flashcards/como-se-escribe.m4a",
+          "source": "flashcards"
+        }
+      ],
+      "machineQa": {
+        "id": "u1-1-flash-como-se-escribe",
+        "group": "Flashcards",
+        "file": "media/u1-1-pronunciation/flashcards/como-se-escribe.m4a",
+        "placement": "Spelling flashcard front",
+        "expectedText": "¿Cómo se escribe?",
+        "expectedEnglish": "How do you spell it?",
+        "reviewPriority": "normal",
+        "metadata": {
+          "exists": true,
+          "durationSeconds": 1.099,
+          "mimeType": null,
+          "sizeBytes": 9502,
+          "metadataOk": true,
+          "metadataError": null
+        },
+        "flags": []
+      },
+      "browserAvailability": null,
+      "review": {
+        "status": "correct",
+        "approvedAt": "2026-08-12T19:47:18.224Z"
+      }
+    },
+    {
+      "id": "como se escribe tu nombre",
+      "group": "Flashcards",
+      "placement": "Spelling flashcard example sentence",
+      "file": "media/u1-1-pronunciation/flashcards/como-se-escribe-example.m4a",
+      "expectedText": "¿Cómo se escribe tu nombre?",
+      "language": "es-MX",
+      "source": "flashcards",
+      "expectedEnglish": "How do you spell your name?",
+      "reviewPrompt": "Mark Correct only if the audio says the expected Spanish text, belongs in this placement, and is easy enough for a learner to imitate.",
+      "listenFor": [
+        "Accent mark means the stressed syllable should be clear."
+      ],
+      "reviewPriority": "normal",
+      "reviewId": "como se escribe tu nombre",
+      "primaryId": "u1-1-flash-como-se-escribe-example",
+      "groups": [
+        "Flashcards"
+      ],
+      "files": [
+        "media/u1-1-pronunciation/flashcards/como-se-escribe-example.m4a"
+      ],
+      "placements": [
+        {
+          "id": "u1-1-flash-como-se-escribe-example",
+          "group": "Flashcards",
+          "placement": "Spelling flashcard example sentence",
+          "file": "media/u1-1-pronunciation/flashcards/como-se-escribe-example.m4a",
+          "source": "flashcards"
+        }
+      ],
+      "machineQa": {
+        "id": "u1-1-flash-como-se-escribe-example",
+        "group": "Flashcards",
+        "file": "media/u1-1-pronunciation/flashcards/como-se-escribe-example.m4a",
+        "placement": "Spelling flashcard example sentence",
+        "expectedText": "¿Cómo se escribe tu nombre?",
+        "expectedEnglish": "How do you spell your name?",
+        "reviewPriority": "normal",
+        "metadata": {
+          "exists": true,
+          "durationSeconds": 1.621,
+          "mimeType": null,
+          "sizeBytes": 11730,
+          "metadataOk": true,
+          "metadataError": null
+        },
+        "flags": []
+      },
+      "browserAvailability": null,
+      "review": {
+        "status": "correct",
+        "approvedAt": "2026-08-12T19:47:38.173Z"
+      }
+    },
+    {
+      "id": "me llamo",
+      "group": "Identity Project",
+      "placement": "Project phrase: Me llamo",
+      "file": "media/u1-1-pronunciation/project/me-llamo.m4a",
+      "expectedText": "Me llamo",
+      "language": "es-MX",
+      "source": "project",
+      "expectedEnglish": "My name is / I call myself",
+      "reviewPrompt": "Mark Correct only if the audio says the expected Spanish text, belongs in this placement, and is easy enough for a learner to imitate.",
+      "listenFor": [
+        "Confirm the clip says the expected Spanish text exactly and is placed with the matching lesson item."
+      ],
+      "reviewPriority": "normal",
+      "reviewId": "me llamo",
+      "primaryId": "u1-1-project-me-llamo",
+      "groups": [
+        "Identity Project"
+      ],
+      "files": [
+        "media/u1-1-pronunciation/project/me-llamo.m4a"
+      ],
+      "placements": [
+        {
+          "id": "u1-1-project-me-llamo",
+          "group": "Identity Project",
+          "placement": "Project phrase: Me llamo",
+          "file": "media/u1-1-pronunciation/project/me-llamo.m4a",
+          "source": "project"
+        }
+      ],
+      "machineQa": {
+        "id": "u1-1-project-me-llamo",
+        "group": "Identity Project",
+        "file": "media/u1-1-pronunciation/project/me-llamo.m4a",
+        "placement": "Project phrase: Me llamo",
+        "expectedText": "Me llamo",
+        "expectedEnglish": "My name is / I call myself",
+        "reviewPriority": "normal",
+        "metadata": {
+          "exists": true,
+          "durationSeconds": 0.587,
+          "mimeType": null,
+          "sizeBytes": 7334,
+          "metadataOk": true,
+          "metadataError": null
+        },
+        "flags": []
+      },
+      "browserAvailability": null,
+      "review": {
+        "status": "correct",
+        "approvedAt": "2026-08-12T19:47:45.006Z"
+      }
+    },
+    {
+      "id": "mi nombre se escribe",
+      "group": "Identity Project",
+      "placement": "Project phrase: Mi nombre se escribe",
+      "file": "media/u1-1-pronunciation/project/mi-nombre-se-escribe.m4a",
+      "expectedText": "Mi nombre se escribe",
+      "language": "es-MX",
+      "source": "project",
+      "expectedEnglish": "My name is spelled",
+      "reviewPrompt": "Mark Correct only if the audio says the expected Spanish text, belongs in this placement, and is easy enough for a learner to imitate.",
+      "listenFor": [
+        "Confirm the clip says the expected Spanish text exactly and is placed with the matching lesson item."
+      ],
+      "reviewPriority": "normal",
+      "reviewId": "mi nombre se escribe",
+      "primaryId": "u1-1-project-nombre-escribe",
+      "groups": [
+        "Identity Project"
+      ],
+      "files": [
+        "media/u1-1-pronunciation/project/mi-nombre-se-escribe.m4a"
+      ],
+      "placements": [
+        {
+          "id": "u1-1-project-nombre-escribe",
+          "group": "Identity Project",
+          "placement": "Project phrase: Mi nombre se escribe",
+          "file": "media/u1-1-pronunciation/project/mi-nombre-se-escribe.m4a",
+          "source": "project"
+        }
+      ],
+      "machineQa": {
+        "id": "u1-1-project-nombre-escribe",
+        "group": "Identity Project",
+        "file": "media/u1-1-pronunciation/project/mi-nombre-se-escribe.m4a",
+        "placement": "Project phrase: Mi nombre se escribe",
+        "expectedText": "Mi nombre se escribe",
+        "expectedEnglish": "My name is spelled",
+        "reviewPriority": "normal",
+        "metadata": {
+          "exists": true,
+          "durationSeconds": 1.33,
+          "mimeType": null,
+          "sizeBytes": 10385,
+          "metadataOk": true,
+          "metadataError": null
+        },
+        "flags": []
+      },
+      "browserAvailability": null,
+      "review": {
+        "status": "correct",
+        "approvedAt": "2026-08-12T19:47:51.606Z"
+      }
+    },
+    {
+      "id": "tengo anos",
+      "group": "Identity Project",
+      "placement": "Project phrase: Tengo ... años",
+      "file": "media/u1-1-pronunciation/project/tengo-anos.m4a",
+      "expectedText": "Tengo años",
+      "language": "es-MX",
+      "source": "project",
+      "expectedEnglish": "I am ... years old phrase frame",
+      "reviewPrompt": "Mark Correct only if the audio says the expected Spanish text, belongs in this placement, and is easy enough for a learner to imitate.",
+      "listenFor": [
+        "Listen for ñ as one sound, like the ny in canyon."
+      ],
+      "reviewPriority": "normal",
+      "reviewId": "tengo anos",
+      "primaryId": "u1-1-project-tengo-anos",
+      "groups": [
+        "Identity Project"
+      ],
+      "files": [
+        "media/u1-1-pronunciation/project/tengo-anos.m4a"
+      ],
+      "placements": [
+        {
+          "id": "u1-1-project-tengo-anos",
+          "group": "Identity Project",
+          "placement": "Project phrase: Tengo ... años",
+          "file": "media/u1-1-pronunciation/project/tengo-anos.m4a",
+          "source": "project"
+        }
+      ],
+      "machineQa": {
+        "id": "u1-1-project-tengo-anos",
+        "group": "Identity Project",
+        "file": "media/u1-1-pronunciation/project/tengo-anos.m4a",
+        "placement": "Project phrase: Tengo ... años",
+        "expectedText": "Tengo años",
+        "expectedEnglish": "I am ... years old phrase frame",
+        "reviewPriority": "normal",
+        "metadata": {
+          "exists": true,
+          "durationSeconds": 0.929,
+          "mimeType": null,
+          "sizeBytes": 8508,
+          "metadataOk": true,
+          "metadataError": null
+        },
+        "flags": []
+      },
+      "browserAvailability": null,
+      "review": {
+        "status": "correct",
+        "approvedAt": "2026-08-12T19:48:00.507Z"
+      }
+    },
+    {
+      "id": "vivo en",
+      "group": "Identity Project",
+      "placement": "Project phrase: Vivo en",
+      "file": "media/u1-1-pronunciation/project/vivo-en.m4a",
+      "expectedText": "Vivo en",
+      "language": "es-MX",
+      "source": "project",
+      "expectedEnglish": "I live in",
+      "reviewPrompt": "Mark Correct only if the audio says the expected Spanish text, belongs in this placement, and is easy enough for a learner to imitate.",
+      "listenFor": [
+        "Confirm the clip says the expected Spanish text exactly and is placed with the matching lesson item."
+      ],
+      "reviewPriority": "normal",
+      "reviewId": "vivo en",
+      "primaryId": "u1-1-project-vivo-en",
+      "groups": [
+        "Identity Project"
+      ],
+      "files": [
+        "media/u1-1-pronunciation/project/vivo-en.m4a"
+      ],
+      "placements": [
+        {
+          "id": "u1-1-project-vivo-en",
+          "group": "Identity Project",
+          "placement": "Project phrase: Vivo en",
+          "file": "media/u1-1-pronunciation/project/vivo-en.m4a",
+          "source": "project"
+        }
+      ],
+      "machineQa": {
+        "id": "u1-1-project-vivo-en",
+        "group": "Identity Project",
+        "file": "media/u1-1-pronunciation/project/vivo-en.m4a",
+        "placement": "Project phrase: Vivo en",
+        "expectedText": "Vivo en",
+        "expectedEnglish": "I live in",
+        "reviewPriority": "normal",
+        "metadata": {
+          "exists": true,
+          "durationSeconds": 0.577,
+          "mimeType": null,
+          "sizeBytes": 7024,
+          "metadataOk": true,
+          "metadataError": null
+        },
+        "flags": []
+      },
+      "browserAvailability": null,
+      "review": {
+        "status": "correct",
+        "approvedAt": "2026-08-12T19:48:07.640Z"
+      }
+    },
+    {
+      "id": "me gusta",
+      "group": "Identity Project",
+      "placement": "Project phrase: Me gusta",
+      "file": "media/u1-1-pronunciation/project/me-gusta.m4a",
+      "expectedText": "Me gusta",
+      "language": "es-MX",
+      "source": "project",
+      "expectedEnglish": "I like",
+      "reviewPrompt": "Mark Correct only if the audio says the expected Spanish text, belongs in this placement, and is easy enough for a learner to imitate.",
+      "listenFor": [
+        "Confirm the clip says the expected Spanish text exactly and is placed with the matching lesson item."
+      ],
+      "reviewPriority": "normal",
+      "reviewId": "me gusta",
+      "primaryId": "u1-1-project-me-gusta",
+      "groups": [
+        "Identity Project"
+      ],
+      "files": [
+        "media/u1-1-pronunciation/project/me-gusta.m4a"
+      ],
+      "placements": [
+        {
+          "id": "u1-1-project-me-gusta",
+          "group": "Identity Project",
+          "placement": "Project phrase: Me gusta",
+          "file": "media/u1-1-pronunciation/project/me-gusta.m4a",
+          "source": "project"
+        }
+      ],
+      "machineQa": {
+        "id": "u1-1-project-me-gusta",
+        "group": "Identity Project",
+        "file": "media/u1-1-pronunciation/project/me-gusta.m4a",
+        "placement": "Project phrase: Me gusta",
+        "expectedText": "Me gusta",
+        "expectedEnglish": "I like",
+        "reviewPriority": "normal",
+        "metadata": {
+          "exists": true,
+          "durationSeconds": 0.692,
+          "mimeType": null,
+          "sizeBytes": 8029,
+          "metadataOk": true,
+          "metadataError": null
+        },
+        "flags": []
+      },
+      "browserAvailability": null,
+      "review": {
+        "status": "correct",
+        "approvedAt": "2026-08-12T19:48:13.889Z"
+      }
+    },
+    {
+      "id": "mi numero favorito es",
+      "group": "Identity Project",
+      "placement": "Project phrase: Mi número favorito es",
+      "file": "media/u1-1-pronunciation/project/mi-numero-favorito-es.m4a",
+      "expectedText": "Mi número favorito es",
+      "language": "es-MX",
+      "source": "project",
+      "expectedEnglish": "My favorite number is",
+      "reviewPrompt": "Mark Correct only if the audio says the expected Spanish text, belongs in this placement, and is easy enough for a learner to imitate.",
+      "listenFor": [
+        "Accent mark means the stressed syllable should be clear."
+      ],
+      "reviewPriority": "normal",
+      "reviewId": "mi numero favorito es",
+      "primaryId": "u1-1-project-numero",
+      "groups": [
+        "Identity Project"
+      ],
+      "files": [
+        "media/u1-1-pronunciation/project/mi-numero-favorito-es.m4a"
+      ],
+      "placements": [
+        {
+          "id": "u1-1-project-numero",
+          "group": "Identity Project",
+          "placement": "Project phrase: Mi número favorito es",
+          "file": "media/u1-1-pronunciation/project/mi-numero-favorito-es.m4a",
+          "source": "project"
+        }
+      ],
+      "machineQa": {
+        "id": "u1-1-project-numero",
+        "group": "Identity Project",
+        "file": "media/u1-1-pronunciation/project/mi-numero-favorito-es.m4a",
+        "placement": "Project phrase: Mi número favorito es",
+        "expectedText": "Mi número favorito es",
+        "expectedEnglish": "My favorite number is",
+        "reviewPriority": "normal",
+        "metadata": {
+          "exists": true,
+          "durationSeconds": 1.516,
+          "mimeType": null,
+          "sizeBytes": 11266,
+          "metadataOk": true,
+          "metadataError": null
+        },
+        "flags": []
+      },
+      "browserAvailability": null,
+      "review": {
+        "status": "correct",
+        "approvedAt": "2026-08-12T19:48:25.890Z"
+      }
+    },
+    {
+      "id": "mi deporte favorito es",
+      "group": "Identity Project",
+      "placement": "Project phrase: Mi deporte favorito es",
+      "file": "media/u1-1-pronunciation/project/mi-deporte-favorito-es.m4a",
+      "expectedText": "Mi deporte favorito es",
+      "language": "es-MX",
+      "source": "project",
+      "expectedEnglish": "My favorite sport is",
+      "reviewPrompt": "Mark Correct only if the audio says the expected Spanish text, belongs in this placement, and is easy enough for a learner to imitate.",
+      "listenFor": [
+        "Confirm the clip says the expected Spanish text exactly and is placed with the matching lesson item."
+      ],
+      "reviewPriority": "normal",
+      "reviewId": "mi deporte favorito es",
+      "primaryId": "u1-1-project-deporte",
+      "groups": [
+        "Identity Project"
+      ],
+      "files": [
+        "media/u1-1-pronunciation/project/mi-deporte-favorito-es.m4a"
+      ],
+      "placements": [
+        {
+          "id": "u1-1-project-deporte",
+          "group": "Identity Project",
+          "placement": "Project phrase: Mi deporte favorito es",
+          "file": "media/u1-1-pronunciation/project/mi-deporte-favorito-es.m4a",
+          "source": "project"
+        }
+      ],
+      "machineQa": {
+        "id": "u1-1-project-deporte",
+        "group": "Identity Project",
+        "file": "media/u1-1-pronunciation/project/mi-deporte-favorito-es.m4a",
+        "placement": "Project phrase: Mi deporte favorito es",
+        "expectedText": "Mi deporte favorito es",
+        "expectedEnglish": "My favorite sport is",
+        "reviewPriority": "normal",
+        "metadata": {
+          "exists": true,
+          "durationSeconds": 1.609,
+          "mimeType": null,
+          "sizeBytes": 11489,
+          "metadataOk": true,
+          "metadataError": null
+        },
+        "flags": []
+      },
+      "browserAvailability": null,
+      "review": {
+        "status": "correct",
+        "approvedAt": "2026-08-12T19:48:33.074Z"
+      }
+    }
+  ]
+}

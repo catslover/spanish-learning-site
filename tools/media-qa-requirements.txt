@@ -1,0 +1,5 @@
+faster-whisper==1.2.1
+edge-tts==7.2.8
+mutagen==1.47.0
+pillow==11.3.0
+piper-tts==1.6.0

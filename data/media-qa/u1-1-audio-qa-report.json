@@ -1,7 +1,7 @@
 {
   "summary": {
     "manifestVersion": "2026-08-11.u1-1-audio-review",
-    "checkedAt": "2026-08-13T21:09:05.530986+00:00",
+    "checkedAt": "2026-08-14T05:07:49.175451+00:00",
     "itemsChecked": 95,
     "totalManifestItems": 95,
     "missingFiles": 0,
@@ -380,9 +380,9 @@
       "reviewPriority": "normal",
       "metadata": {
         "exists": true,
-        "durationSeconds": 1.207,
+        "durationSeconds": 1.265,
         "mimeType": null,
-        "sizeBytes": 53292,
+        "sizeBytes": 55852,
         "metadataOk": true,
         "metadataError": null
       },

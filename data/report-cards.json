@@ -3,17 +3,17 @@
     {
       "id": "spencer-current",
       "studentId": "spencer",
-      "studentName": "Spencer Han",
       "label": "Current Report Card",
-      "runDate": "2026-08-07",
-      "startDate": "2026-06-11",
-      "endDate": "2026-08-06",
-      "lessonsCovered": 6,
-      "creditsEarned": "In Progress",
       "file": "reports/spencer/current-report-card.pdf",
+      "studentName": "Spencer Han",
+      "runDate": "2026-09-14",
+      "startDate": "2026-06-11",
+      "endDate": "2026-09-09",
+      "lessonsCovered": 12,
+      "creditsEarned": "In Progress",
       "grades": {
-        "homework": "A (95%)",
-        "quiz": "A (100%)",
+        "homework": "A (98%)",
+        "quiz": "A (99%)",
         "exam": "A (99%)",
         "course": "A (99%)"
       },
@@ -22,57 +22,165 @@
           "date": "2026-07-31",
           "title": "Quiz 1 H1AQ1",
           "grade": "A (100.00%)"
+        },
+        {
+          "date": "2026-08-21",
+          "title": "Quiz 2 H1AQ2",
+          "grade": "A (97.30%)"
         }
       ],
       "homework": [
-        { "date": "2026-06-19", "status": "Complete", "grade": "A (100.00%)", "title": "H1AL1" },
-        { "date": "2026-06-24", "status": "Complete", "grade": "A (95.00%)", "title": "H1AL2" },
-        { "date": "2026-06-24", "status": "Complete", "grade": "A (95.00%)", "title": "H1AL3" },
-        { "date": "2026-08-04", "status": "Complete", "grade": "A (90.00%)", "title": "H1AL4" }
+        {
+          "date": "2026-06-19",
+          "status": "Complete",
+          "grade": "A (100.00%)",
+          "title": "H1AL1"
+        },
+        {
+          "date": "2026-06-24",
+          "status": "Complete",
+          "grade": "A (95.00%)",
+          "title": "H1AL2"
+        },
+        {
+          "date": "2026-06-24",
+          "status": "Complete",
+          "grade": "A (95.00%)",
+          "title": "H1AL3"
+        },
+        {
+          "date": "2026-08-04",
+          "status": "Complete",
+          "grade": "A (90.00%)",
+          "title": "H1AL4"
+        },
+        {
+          "date": "2026-08-18",
+          "status": "Complete",
+          "grade": "A (100.00%)",
+          "title": "H1AL5"
+        },
+        {
+          "date": "2026-08-21",
+          "status": "Complete",
+          "grade": "A (100.00%)",
+          "title": "H1AL6"
+        },
+        {
+          "date": "2026-08-28",
+          "status": "Complete",
+          "grade": "A (100.00%)",
+          "title": "H1AL7"
+        },
+        {
+          "date": "2026-09-04",
+          "status": "Complete",
+          "grade": "A (100.00%)",
+          "title": "H1AL8"
+        }
       ],
       "exams": [
         {
           "date": "2026-08-07",
           "title": "Exam 1 H1AE1",
           "grade": "A (99.20%)"
+        },
+        {
+          "date": "2026-09-08",
+          "title": "Exam 2 H1AE2",
+          "grade": "A (99.50%)"
         }
       ]
     },
     {
       "id": "victor-current",
       "studentId": "victor",
-      "studentName": "Victor Han",
       "label": "Current Report Card",
-      "runDate": "2026-08-07",
-      "startDate": "2026-06-11",
-      "endDate": "2026-08-06",
-      "lessonsCovered": 6,
-      "creditsEarned": "In Progress",
       "file": "reports/victor/current-report-card.pdf",
+      "studentName": "Victor Han",
+      "runDate": "2026-09-14",
+      "startDate": "2026-06-11",
+      "endDate": "2026-09-09",
+      "lessonsCovered": 12,
+      "creditsEarned": "In Progress",
       "grades": {
-        "homework": "A (98%)",
-        "quiz": "A (94%)",
-        "exam": "A (100%)",
-        "course": "A (97%)"
+        "homework": "A (97%)",
+        "quiz": "A (96%)",
+        "exam": "A (99%)",
+        "course": "A (98%)"
       },
       "quizzes": [
         {
           "date": "2026-07-28",
           "title": "Quiz 1 H1AQ1",
           "grade": "A (94.20%)"
+        },
+        {
+          "date": "2026-08-21",
+          "title": "Quiz 2 H1AQ2",
+          "grade": "A (98.40%)"
         }
       ],
       "homework": [
-        { "date": "2026-06-19", "status": "Complete", "grade": "A (100.00%)", "title": "H1AL1" },
-        { "date": "2026-06-24", "status": "Complete", "grade": "A (100.00%)", "title": "H1AL2" },
-        { "date": "2026-06-24", "status": "Complete", "grade": "A (100.00%)", "title": "H1AL3" },
-        { "date": "2026-08-04", "status": "Complete", "grade": "A (90.00%)", "title": "H1AL4" }
+        {
+          "date": "2026-06-19",
+          "status": "Complete",
+          "grade": "A (100.00%)",
+          "title": "H1AL1"
+        },
+        {
+          "date": "2026-06-24",
+          "status": "Complete",
+          "grade": "A (100.00%)",
+          "title": "H1AL2"
+        },
+        {
+          "date": "2026-06-24",
+          "status": "Complete",
+          "grade": "A (100.00%)",
+          "title": "H1AL3"
+        },
+        {
+          "date": "2026-08-04",
+          "status": "Complete",
+          "grade": "A (90.00%)",
+          "title": "H1AL4"
+        },
+        {
+          "date": "2026-08-18",
+          "status": "Complete",
+          "grade": "A (100.00%)",
+          "title": "H1AL5"
+        },
+        {
+          "date": "2026-08-21",
+          "status": "Complete",
+          "grade": "A (95.00%)",
+          "title": "H1AL6"
+        },
+        {
+          "date": "2026-08-28",
+          "status": "Complete",
+          "grade": "A (95.00%)",
+          "title": "H1AL7"
+        },
+        {
+          "date": "2026-09-04",
+          "status": "Complete",
+          "grade": "A (95.00%)",
+          "title": "H1AL8"
+        }
       ],
       "exams": [
         {
           "date": "2026-08-07",
           "title": "Exam 1 H1AE1",
           "grade": "A (99.70%)"
+        },
+        {
+          "date": "2026-09-10",
+          "title": "Exam 2 H1AE2",
+          "grade": "A (98.00%)"
         }
       ]
     }

@@ -1,7 +1,7 @@
 {
   "manifestVersion": "2026-08-11.u1-1-audio-review",
   "status": "regenerated_recheck_required",
-  "updated": "2026-08-13",
+  "updated": "2026-08-14",
   "summary": {
     "totalRecheckItems": 2,
     "wrongPronunciation": 0,
@@ -31,7 +31,7 @@
         }
       ],
       "action": "human_recheck_required",
-      "reason": "Regenerated again on 2026-08-13 with slower timing; review ñ pronunciation in the website audio QA tool."
+      "reason": "Regenerated on 2026-08-14 with an alternate ñ-forcing prompt. Review in the website audio QA tool before marking correct."
     },
     {
       "id": "jose",
